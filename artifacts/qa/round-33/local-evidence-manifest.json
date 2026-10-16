@@ -1,0 +1,2505 @@
+{
+  "policy": "new comparison/QA images retained locally only; do not publish image files",
+  "images": [
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/baseline-engineer-team.png",
+      "sha256": "ca8a7dd57f521d25391c25a40c984061c5b8c5bf6b89cfe96aa63842f7aa6c40",
+      "bytes": 610386
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/baseline-hr-hero.png",
+      "sha256": "15b3ad7313dea1afdcf91c1dd5d19805057e80bfe7dcb396670555038655df72",
+      "bytes": 1656980
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/baseline-overview-learning.png",
+      "sha256": "13702b417d67be203256488db9fd35de97c9545487c8aa5a64b88370d96c35e4",
+      "bytes": 1339594
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/baseline-sales-team.png",
+      "sha256": "9104cc475c87afa036c9006edaa6f910b23e86b44fd628f9c22fd2141dbe0eb0",
+      "bytes": 1556185
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-1066.png",
+      "sha256": "ba1607420a9d7271973bac95235b218bc1c5c97dff04304f8e9801b857ba79ca",
+      "bytes": 2384772
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-1280.png",
+      "sha256": "2ed9457f318a629f4dbc9f8f192b1335d987d02f39b17d9832cd735e7f459d49",
+      "bytes": 2164501
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-1440.png",
+      "sha256": "ea986c95797ef46d5ef11c5db9585707aa1e10beef547bdee0eaa9f47a4fafd0",
+      "bytes": 2716046
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-390.png",
+      "sha256": "d9c0251a16dd10ada0df28ee7fada786bfad9d7036297293e18b492aafd8e7be",
+      "bytes": 887560
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-768.png",
+      "sha256": "a0196a85423a366dfa952fc8c3d14f4db1ab52a69215e5a8186c1d8cddac7bd0",
+      "bytes": 1877136
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-difference.png",
+      "sha256": "eab5c197e55967cb6390e4bb2175c901df7fa87e340f40de16e7d1f27d41c51e",
+      "bytes": 5983420
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-focus-1.jpg",
+      "sha256": "1f50f185c49bf2612a779275d402d9629e15089d47834053a03747d5b069071d",
+      "bytes": 551464
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-focus-2.jpg",
+      "sha256": "514d7b4c631b8407c25397a1be4b0d99ce01f175b8487d21698ff74fe2066293",
+      "bytes": 478207
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-focus-3.jpg",
+      "sha256": "956b9199dd6a6219d9b5ec338d1fef54abac3215883c2ec9572372b115dd94cc",
+      "bytes": 397057
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-focus-4.jpg",
+      "sha256": "9e56f6ea106f4982a09815ca0069acfe1bdf359bf13e7ee9cbe07af61bb4f5e2",
+      "bytes": 237368
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-focus-5.jpg",
+      "sha256": "edc56c3ee6084d8543be3b074223bdc4364878d218177aecb39ad05bae6fe597",
+      "bytes": 104779
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-focus-6.jpg",
+      "sha256": "3194981445d2ed39ebe84599812c3239d3c97bc62d3c3d7b10d53b9a67e45c50",
+      "bytes": 167339
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-focus-7.jpg",
+      "sha256": "7731f08f307a6f0b8b7367ce9a2025605ba910b45ffc537fcf47db073673addf",
+      "bytes": 121003
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-overlay.jpg",
+      "sha256": "2c83d023d3c668a98ab6c33b3b98d7dbc8f0866aee627c0f46d809579b95ade8",
+      "bytes": 1102560
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-section-1.png",
+      "sha256": "a6935c88ae8f596141b81ea6b7bb1342ac99710a3c7211d35b2e00c4f99be6c8",
+      "bytes": 885947
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-section-2.png",
+      "sha256": "0e3a58e661f48d35d5576bf806dcb6a9a9196cd6e2e8aa844ca439dc1e9f441f",
+      "bytes": 592995
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-section-3.png",
+      "sha256": "0daa68d4b9cd63a1dcd6776aa61f5be969201c4b26b8ffa4c5015c10b3e77d61",
+      "bytes": 422037
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-section-4.png",
+      "sha256": "bca96d4ac9c867ad6e912029695dac294d48a31936ee8c7ebcce57fb6d0a9258",
+      "bytes": 424847
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-section-5.png",
+      "sha256": "1c3e0bd2e9d49086352d711f98016cf720cc5d61c99b6a7c51de7268106a67c7",
+      "bytes": 58321
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-section-6.png",
+      "sha256": "74544c64c31ae5248639d312f725d3b89527d99ed51cc17219b6e6fee03fea25",
+      "bytes": 219222
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-section-7.png",
+      "sha256": "8e0586e7e58c187f905a2385272e7b19b2688a1fa38a3c9c277e04548da8d91d",
+      "bytes": 83049
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/engineer-side-by-side.jpg",
+      "sha256": "7d1b567084e7fc74cc04978acb1ae20955e6212d6e4bd51bda5c2e9c5fcba8d3",
+      "bytes": 1963330
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-1066.png",
+      "sha256": "40c6036d8137b85b8f140a391d0b13c840d999cdb95dc891e84a3b1716b404c9",
+      "bytes": 1797373
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-1280.png",
+      "sha256": "f0846bf663b7e88a0938588e6f226df5c0ff30b479735b393f7391db55b07462",
+      "bytes": 2003343
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-1440.png",
+      "sha256": "a88279062a709a09a78f466733f81b0a73684a06cbcb322d99266d988891f3ed",
+      "bytes": 2360920
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-390.png",
+      "sha256": "8bc17691a63b15581db156271934e91d8186ace2df651fe68a527e7469482a64",
+      "bytes": 788730
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-768.png",
+      "sha256": "32a7d2069907efc4a9f2d5ff9435892736492be00e6d25d8d534371a5e7c90e8",
+      "bytes": 1261772
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-difference.png",
+      "sha256": "da7a4766fc825cfb96d8f443c6780658f65d23d8c12c362eeb820dbb41443de5",
+      "bytes": 5384608
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-focus-1.jpg",
+      "sha256": "c0743956b42c95a29011feabac9f32a2f041d439ef336ae6f8e3fa6141982705",
+      "bytes": 370401
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-focus-2.jpg",
+      "sha256": "f11022bba79f04c19e79b31371e06b60a3bc46244a95800eed13366130c507bb",
+      "bytes": 420839
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-focus-3.jpg",
+      "sha256": "fd65f23f9c340997da9b88609bdb9121699fa94b12a24fd01372d25856eea01e",
+      "bytes": 417936
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-focus-4.jpg",
+      "sha256": "43b74e8db331495c08118080c45c8fb1bc224180e20be634af042157feeb7c33",
+      "bytes": 230774
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-focus-5.jpg",
+      "sha256": "f844816a304afe120273c9d8fb615d1e00cece6961163c23f715fd67ca92fe81",
+      "bytes": 142356
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-focus-6.jpg",
+      "sha256": "973b00a9822bd7e8c98ebb47e68a2e0f005285a816c3103c91de80e9c9ccccb9",
+      "bytes": 119149
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-overlay.jpg",
+      "sha256": "9178a3a2c3188bdf0dfe73b6e4d3a517d640060ec042e2d535b27e50b010a799",
+      "bytes": 892265
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-section-1.png",
+      "sha256": "c6a66c0429bc50df13c1023964b6833d2b8eaacd11ebc922247021c19733e63f",
+      "bytes": 644072
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-section-2.png",
+      "sha256": "7f8c5c8e366c966d6593f771a2d6016345fe43d1571efa8846248d44507fd2fa",
+      "bytes": 490790
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-section-3.png",
+      "sha256": "d60165e3035dde871081cf15ea84560cd34e443e5f8ddabdda6e6720b703b7c3",
+      "bytes": 808579
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-section-4.png",
+      "sha256": "3477c4102ad2c44321b6e65f7c0f66cdc0e77823b93ed64443e96e3887ce362b",
+      "bytes": 123183
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-section-5.png",
+      "sha256": "bca88e16af1b463fdf61de93a7dd29141c5b29b253e2f57d6487b82663fc6fdd",
+      "bytes": 189589
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-section-6.png",
+      "sha256": "2055d75d950c270533be887cfeb88071a910ef30b5aa48cca128c3142f6b52a2",
+      "bytes": 71818
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/hr-side-by-side.jpg",
+      "sha256": "4c1bda6aaabb32f646c858f55ffa7231eae30281b69f80ff042848eefba32806",
+      "bytes": 1623442
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-1066.png",
+      "sha256": "715ded240d86e0a65f939692f7dbc77e665e865c6dbc6b81272d01e99dc2f939",
+      "bytes": 2823947
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-1280.png",
+      "sha256": "6513dd1ddd46cb375b3f28850b16e7f4c1a8ce68d72e9724b05c59807d42d30c",
+      "bytes": 1814859
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-1440.png",
+      "sha256": "a4a23e980797a1110a621fa10f8bdb43873effb32be01c46cc3e049fcd4721cb",
+      "bytes": 2039770
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-390.png",
+      "sha256": "d5dd246ce8d3d853152a5d0bb3bdc096b4ecacb6f66e31032d2de060b8c279e1",
+      "bytes": 916024
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-768.png",
+      "sha256": "55842314540bbbece0f6adcd5ba81cea5af967674f7c1a271bea1f0f59eb3486",
+      "bytes": 1805443
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-difference.png",
+      "sha256": "2181bfb66ce6141dcc1ec6850d0c6c21ac0e89e2c550d028b63616c2adcb032f",
+      "bytes": 4908079
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-focus-1.jpg",
+      "sha256": "27711f1e32f38859b2b000a524f1757f29f6e7063474f5bf8cdccb3e4c3d4f51",
+      "bytes": 352696
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-focus-2.jpg",
+      "sha256": "22d980746a4315d0d63635ece94d746b80992968f6afb18134989399f81c5b49",
+      "bytes": 474711
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-focus-3.jpg",
+      "sha256": "649a0243889999091b231ec2023d68618cdacfababc1e2485da6cf4fac9f8517",
+      "bytes": 297048
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-focus-4.jpg",
+      "sha256": "14b91fca7a2bdd9cdaa3a600fdf750ad5bbd93652ebc987fec0edcb02956ea1f",
+      "bytes": 196438
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-focus-5.jpg",
+      "sha256": "5a418dddbf1913e7331d1c5a8e306e147f52ebd530844c24d6e0427c377abe64",
+      "bytes": 233948
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-overlay.jpg",
+      "sha256": "0c3d93d22c69d218c96b3c5f9fa2d6774ca457c96d5c0b5082e256f258163aac",
+      "bytes": 773194
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-section-1.png",
+      "sha256": "102730a9cd0ec0bc398e602a9799128c6780346f90daf47bf932c998bd6a409a",
+      "bytes": 694864
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-section-2.png",
+      "sha256": "87fec0b300178f3977966bf17e4b08d1844884f74ab61644c76ae4e327e91a36",
+      "bytes": 225848
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-section-3.png",
+      "sha256": "71c45bc0164899399e9192256d7744231f13f166244da54dd9eb4868823cc6ac",
+      "bytes": 512786
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-section-4.png",
+      "sha256": "9b4db06c7244ccb5bbf16a5c3444b3ce058f47a7e93ac0bfab27e7d515c09842",
+      "bytes": 333392
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-section-5.png",
+      "sha256": "ca5921a51b3df60fd4e58b6351137a00168c27d5819f6c849d9cdf72bce63ad0",
+      "bytes": 188715
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/overview-side-by-side.jpg",
+      "sha256": "bc04e32543458deeb96a4542d45c52a4b8d72869b90e33843e12d19cfdca2c54",
+      "bytes": 1489041
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-1066.png",
+      "sha256": "fa527e6c83eecfeb9ad305635dd7d47e167dac89f1b0960137c40004e3342229",
+      "bytes": 1463428
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-1280.png",
+      "sha256": "1d7c0d77593c3b3ad3071d87290b3d40ad6d3ef6090c0025c5bae30cb20a3da5",
+      "bytes": 2045648
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-1440.png",
+      "sha256": "193e185a34370c17d2a6e6802d863d614d3288d6f453b614db34b0cdb58f01b7",
+      "bytes": 2366175
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-390.png",
+      "sha256": "56310e6f31db9354412c0539df8472705ce152cef1fee937405a874010940129",
+      "bytes": 819326
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-768.png",
+      "sha256": "57cf9587f55ab42f879a18f9ad8581a8b86001691d69a68a649643a1e78c3fb4",
+      "bytes": 1247033
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-difference.png",
+      "sha256": "0b977c95a4fa58277e64f96e12260586c0a09e5f2ff01a6cb772da67a938190a",
+      "bytes": 5359371
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-focus-1.jpg",
+      "sha256": "58d355b65a146b5398624b67fc603e9b74398ba650ddf8b96e4bc65f48545fb0",
+      "bytes": 339048
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-focus-2.jpg",
+      "sha256": "9617e35973bc9e896ff678a62881c8e924a7f03d5d3a8be002dc702ddb1a47cc",
+      "bytes": 526170
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-focus-3.jpg",
+      "sha256": "31ebd961b5b46120b9260e6a5f5e215fef38f2e9bf197c2a451eea37cea38465",
+      "bytes": 237257
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-focus-4.jpg",
+      "sha256": "e7a0b70e0e77191061b8e43fc771c0b4690df14732265c8ec982bc6d0170a7ad",
+      "bytes": 307781
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-focus-5.jpg",
+      "sha256": "0fa9cfb0e569d4015a037c1caf4547c4bcfbea94b8a48209b63a39f40847d770",
+      "bytes": 150395
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-focus-6.jpg",
+      "sha256": "86eaffb34629df9885eed5b3827beb38967165a47020d740436871a19522896b",
+      "bytes": 177928
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-overlay.jpg",
+      "sha256": "c43b76343732baf842568fc06137816d5baf69086f9ef647e71d7ae81ea0bdcc",
+      "bytes": 900396
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-section-1.png",
+      "sha256": "30ef698664202eec1dfabb5c04ebc87c063e39bf5f4ff36cdedd7ae9e6b84b9a",
+      "bytes": 473897
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-section-2.png",
+      "sha256": "0d3011e9191f86dc3dce9dbc91c5b74fd3cdde7e29be53ac737e6f01a4bd3b9d",
+      "bytes": 741570
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-section-3.png",
+      "sha256": "d55cf28789c0e5be9e398b571c0f9b4ce55fd3b27d29ead7d0c9def1ec5a40a5",
+      "bytes": 122236
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-section-4.png",
+      "sha256": "21da4b499f1beb1569a5b771d9a34661bc65227359e425b9b61eb47de576a472",
+      "bytes": 715578
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-section-5.png",
+      "sha256": "5211dcd16aa7475c6a96b3a077a4bc37297fd3c59879f01f2f86a407a822f919",
+      "bytes": 98393
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-section-6.png",
+      "sha256": "edc3a3c733df0e678b4c013e89a3a6599c6f9a1c6f27f1bfb0a0e55cadc16069",
+      "bytes": 185071
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-31/sales-side-by-side.jpg",
+      "sha256": "5f4cbb6543dff034d671393eec8450dde73c41a29f6d0da9e9b215bf4cec1356",
+      "bytes": 1657057
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-1066.png",
+      "sha256": "ba1607420a9d7271973bac95235b218bc1c5c97dff04304f8e9801b857ba79ca",
+      "bytes": 2384772
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-1280.png",
+      "sha256": "4341c62ce287851c5ef85c63e1219c7739e980cd30fb424fbee2042f13a14d0b",
+      "bytes": 2164767
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-1440.png",
+      "sha256": "5fb816fdebba77bf89bc177326cc8f6cc27ce1746f21f13854a14e68f1da0921",
+      "bytes": 2716221
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-390.png",
+      "sha256": "d9c0251a16dd10ada0df28ee7fada786bfad9d7036297293e18b492aafd8e7be",
+      "bytes": 887560
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-768.png",
+      "sha256": "a0196a85423a366dfa952fc8c3d14f4db1ab52a69215e5a8186c1d8cddac7bd0",
+      "bytes": 1877136
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-difference.png",
+      "sha256": "9a5407bd78a83081faaa26bbed0fbdf97d25e899e14602437739023f061ad420",
+      "bytes": 5983356
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-focus-1.jpg",
+      "sha256": "1f50f185c49bf2612a779275d402d9629e15089d47834053a03747d5b069071d",
+      "bytes": 551464
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-focus-2.jpg",
+      "sha256": "514d7b4c631b8407c25397a1be4b0d99ce01f175b8487d21698ff74fe2066293",
+      "bytes": 478207
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-focus-3.jpg",
+      "sha256": "956b9199dd6a6219d9b5ec338d1fef54abac3215883c2ec9572372b115dd94cc",
+      "bytes": 397057
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-focus-4.jpg",
+      "sha256": "9e56f6ea106f4982a09815ca0069acfe1bdf359bf13e7ee9cbe07af61bb4f5e2",
+      "bytes": 237368
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-focus-5.jpg",
+      "sha256": "edc56c3ee6084d8543be3b074223bdc4364878d218177aecb39ad05bae6fe597",
+      "bytes": 104779
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-focus-6.jpg",
+      "sha256": "4bbff7dd3c072b957c9e9c004b9c765e6e2813c76ec6336c0d6fb3e0654b829a",
+      "bytes": 166977
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-focus-7.jpg",
+      "sha256": "ed0e9cd674f6d24837b4e0f1e5d61ff14971f5b58b5a161d6648fd0a2259f2d1",
+      "bytes": 121394
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-overlay.jpg",
+      "sha256": "577ab7332697987f74314f4ca1285b16cd6c541275891f51a19a94186eea25aa",
+      "bytes": 1102613
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-section-1.png",
+      "sha256": "a6935c88ae8f596141b81ea6b7bb1342ac99710a3c7211d35b2e00c4f99be6c8",
+      "bytes": 885947
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-section-2.png",
+      "sha256": "0e3a58e661f48d35d5576bf806dcb6a9a9196cd6e2e8aa844ca439dc1e9f441f",
+      "bytes": 592995
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-section-3.png",
+      "sha256": "0daa68d4b9cd63a1dcd6776aa61f5be969201c4b26b8ffa4c5015c10b3e77d61",
+      "bytes": 422037
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-section-4.png",
+      "sha256": "bca96d4ac9c867ad6e912029695dac294d48a31936ee8c7ebcce57fb6d0a9258",
+      "bytes": 424847
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-section-5.png",
+      "sha256": "1c3e0bd2e9d49086352d711f98016cf720cc5d61c99b6a7c51de7268106a67c7",
+      "bytes": 58321
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-section-6.png",
+      "sha256": "dbf96ecdf0d301cda9715ef3c6574017b77eaf12d4c1b0cad5fe2dd5bea07a07",
+      "bytes": 219192
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-section-7.png",
+      "sha256": "58e288c62cd1484780bbfa5fed861f2e3b3ac9392339ab4494546454ec7cdcef",
+      "bytes": 83311
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/engineer-side-by-side.jpg",
+      "sha256": "e7833760967e7adeaf2252b992f334f293401ec2f62a69f53d811542dcdc1f3e",
+      "bytes": 1963487
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-1066.png",
+      "sha256": "40c6036d8137b85b8f140a391d0b13c840d999cdb95dc891e84a3b1716b404c9",
+      "bytes": 1797373
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-1280.png",
+      "sha256": "f0846bf663b7e88a0938588e6f226df5c0ff30b479735b393f7391db55b07462",
+      "bytes": 2003343
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-1440.png",
+      "sha256": "a88279062a709a09a78f466733f81b0a73684a06cbcb322d99266d988891f3ed",
+      "bytes": 2360920
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-390.png",
+      "sha256": "8bc17691a63b15581db156271934e91d8186ace2df651fe68a527e7469482a64",
+      "bytes": 788730
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-768.png",
+      "sha256": "32a7d2069907efc4a9f2d5ff9435892736492be00e6d25d8d534371a5e7c90e8",
+      "bytes": 1261772
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-difference.png",
+      "sha256": "da7a4766fc825cfb96d8f443c6780658f65d23d8c12c362eeb820dbb41443de5",
+      "bytes": 5384608
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-focus-1.jpg",
+      "sha256": "c0743956b42c95a29011feabac9f32a2f041d439ef336ae6f8e3fa6141982705",
+      "bytes": 370401
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-focus-2.jpg",
+      "sha256": "f11022bba79f04c19e79b31371e06b60a3bc46244a95800eed13366130c507bb",
+      "bytes": 420839
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-focus-3.jpg",
+      "sha256": "fd65f23f9c340997da9b88609bdb9121699fa94b12a24fd01372d25856eea01e",
+      "bytes": 417936
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-focus-4.jpg",
+      "sha256": "43b74e8db331495c08118080c45c8fb1bc224180e20be634af042157feeb7c33",
+      "bytes": 230774
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-focus-5.jpg",
+      "sha256": "f844816a304afe120273c9d8fb615d1e00cece6961163c23f715fd67ca92fe81",
+      "bytes": 142356
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-focus-6.jpg",
+      "sha256": "973b00a9822bd7e8c98ebb47e68a2e0f005285a816c3103c91de80e9c9ccccb9",
+      "bytes": 119149
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-office-lounge-dpr2.png",
+      "sha256": "c9126be6f944034afd5aaa109049e9152f15405d844a3de17c7f9cc470775b03",
+      "bytes": 2186088
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-overlay.jpg",
+      "sha256": "9178a3a2c3188bdf0dfe73b6e4d3a517d640060ec042e2d535b27e50b010a799",
+      "bytes": 892265
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-section-1.png",
+      "sha256": "c6a66c0429bc50df13c1023964b6833d2b8eaacd11ebc922247021c19733e63f",
+      "bytes": 644072
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-section-2.png",
+      "sha256": "7f8c5c8e366c966d6593f771a2d6016345fe43d1571efa8846248d44507fd2fa",
+      "bytes": 490790
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-section-3.png",
+      "sha256": "d60165e3035dde871081cf15ea84560cd34e443e5f8ddabdda6e6720b703b7c3",
+      "bytes": 808579
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-section-4.png",
+      "sha256": "3477c4102ad2c44321b6e65f7c0f66cdc0e77823b93ed64443e96e3887ce362b",
+      "bytes": 123183
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-section-5.png",
+      "sha256": "bca88e16af1b463fdf61de93a7dd29141c5b29b253e2f57d6487b82663fc6fdd",
+      "bytes": 189589
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-section-6.png",
+      "sha256": "2055d75d950c270533be887cfeb88071a910ef30b5aa48cca128c3142f6b52a2",
+      "bytes": 71818
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/hr-side-by-side.jpg",
+      "sha256": "4c1bda6aaabb32f646c858f55ffa7231eae30281b69f80ff042848eefba32806",
+      "bytes": 1623442
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-1066.png",
+      "sha256": "715ded240d86e0a65f939692f7dbc77e665e865c6dbc6b81272d01e99dc2f939",
+      "bytes": 2823947
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-1280.png",
+      "sha256": "d89610df79291d15fb0bcf6eb805330c23e86d992add91f8caeacdd932fbcd72",
+      "bytes": 1818928
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-1440.png",
+      "sha256": "79a6f1726b1c7cf13838576aa7ff00f0337eb85cfd7f7afdbdbd09b636292b6a",
+      "bytes": 2044924
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-390.png",
+      "sha256": "d5dd246ce8d3d853152a5d0bb3bdc096b4ecacb6f66e31032d2de060b8c279e1",
+      "bytes": 916024
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-768.png",
+      "sha256": "55842314540bbbece0f6adcd5ba81cea5af967674f7c1a271bea1f0f59eb3486",
+      "bytes": 1805443
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-difference.png",
+      "sha256": "4efbaff9209dd932c8046a5d69c591f854923e1f173cda9db1bcbb8ae7e9f357",
+      "bytes": 4909797
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-focus-1.jpg",
+      "sha256": "27711f1e32f38859b2b000a524f1757f29f6e7063474f5bf8cdccb3e4c3d4f51",
+      "bytes": 352696
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-focus-2.jpg",
+      "sha256": "059b8b475a4f8c40e5b1661caee2027781b796460319c7f2cca6fa512146b88c",
+      "bytes": 474773
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-focus-3.jpg",
+      "sha256": "445702d92a9e96f24d15ca15c24554ec87281b0a0c620e3392ba70fd74c46a96",
+      "bytes": 297836
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-focus-4.jpg",
+      "sha256": "2dbcc37fe08deb7830bfdf619a1249a4afe8c508d3b831642b2823678906b225",
+      "bytes": 196975
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-focus-5.jpg",
+      "sha256": "5a418dddbf1913e7331d1c5a8e306e147f52ebd530844c24d6e0427c377abe64",
+      "bytes": 233948
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-overlay.jpg",
+      "sha256": "a4f39b300c43be8bb35d438c12444e96126fc38a734477953c3af8ae809aca23",
+      "bytes": 773246
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-section-1.png",
+      "sha256": "102730a9cd0ec0bc398e602a9799128c6780346f90daf47bf932c998bd6a409a",
+      "bytes": 694864
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-section-2.png",
+      "sha256": "2d56b091b7e6b2d098f40e0186417f296adfa9c0be5c51b4a4c9a330ef5df8cd",
+      "bytes": 226023
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-section-3.png",
+      "sha256": "e88b7c7d8a703f980611616ad3bdc0335d64f612a315de2b80832142806c5784",
+      "bytes": 517433
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-section-4.png",
+      "sha256": "df37472b0b6d77813e246fb57d006bb28ed30294c170554c7ef1c4a670483c9a",
+      "bytes": 333896
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-section-5.png",
+      "sha256": "ca5921a51b3df60fd4e58b6351137a00168c27d5819f6c849d9cdf72bce63ad0",
+      "bytes": 188715
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/overview-side-by-side.jpg",
+      "sha256": "5e8a299a8ce7df229a33ab7fc527cff8f76a00936f886eba6e18c8d6d0b70294",
+      "bytes": 1489628
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-1066-engineer-career.png",
+      "sha256": "ac099ff4fe8fa59d112c6f971b84075adf4ac226c3c9b9427fcfadec62513a96",
+      "bytes": 41182
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-1066-engineer-cta.png",
+      "sha256": "8e5f6404558adb74bf07f9747cf4209c7a4b8a396b4979462d5fd91ffbc81426",
+      "bytes": 69314
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-1066-engineer-learning.png",
+      "sha256": "d23733ccd4e9285189123b0c8c5f8e04d30da68552d61e97203b9293fc59d816",
+      "bytes": 731648
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-1066-engineer-team.png",
+      "sha256": "c8cb63aa243439bf6e186fa7c878fed6b4840bb83d2252e3af9ca37f5093a8d2",
+      "bytes": 213812
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-1066.png",
+      "sha256": "ad9c0c1cabf22492d0eded2803f13b82af5bb527c0fd7d338ef50a55db8f9dea",
+      "bytes": 2378969
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-1280.png",
+      "sha256": "b52b65cc780383ca258b1afff7ef45a47dd356c7b6ca1c2b3d6ef7b20e4c3b6b",
+      "bytes": 2153238
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-1440-engineer-career.png",
+      "sha256": "1c3e0bd2e9d49086352d711f98016cf720cc5d61c99b6a7c51de7268106a67c7",
+      "bytes": 58321
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-1440-engineer-cta.png",
+      "sha256": "58e288c62cd1484780bbfa5fed861f2e3b3ac9392339ab4494546454ec7cdcef",
+      "bytes": 83311
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-1440-engineer-learning.png",
+      "sha256": "bca96d4ac9c867ad6e912029695dac294d48a31936ee8c7ebcce57fb6d0a9258",
+      "bytes": 424847
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-1440-engineer-team.png",
+      "sha256": "dbf96ecdf0d301cda9715ef3c6574017b77eaf12d4c1b0cad5fe2dd5bea07a07",
+      "bytes": 219192
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-1440.png",
+      "sha256": "8a404ad8e0de645209584871dda7051b499eb5015573d28db1d26a09975b968f",
+      "bytes": 2701442
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-390.png",
+      "sha256": "cc50420d307b8ba19985c7cc5f6d151c5220d9d80e6c8a4612608d107b3b7d58",
+      "bytes": 883107
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/engineer-768.png",
+      "sha256": "f26fd351581eb2e16b933a36ad7430cacb6d33789af3aa87d5f8d4cf919be34d",
+      "bytes": 1873927
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-1066-hr-hero.png",
+      "sha256": "57cdfdb0fecee14f3d041b9e68a49c50b73819e9bea34252b5f755d15e32298d",
+      "bytes": 457904
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-1066-hr-planning.png",
+      "sha256": "3608bf36f17db5ef53abb592b32b16065776f6d3df9346480d73b9568dddc9da",
+      "bytes": 153543
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-1066-hr-support.png",
+      "sha256": "f2645cd619f65c282620a56d273b38ffbba585a8f7f657c88a54eccc7d44368f",
+      "bytes": 676099
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-1066-hr-value.png",
+      "sha256": "a0a6d29151dcfd6840010dd72bcb18d02352bc1102886de4ec9386e02a5d1487",
+      "bytes": 84913
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-1066.png",
+      "sha256": "9309d9f45af9f66c223cd9601b96bcb17c27dcf4837404785336a1525e84dec4",
+      "bytes": 1795511
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-1280.png",
+      "sha256": "c0e921ffec3141f774b182785ee9ac990b1c5af4799ad17350b6349d1812d425",
+      "bytes": 2001484
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-1440-hr-hero.png",
+      "sha256": "c6a66c0429bc50df13c1023964b6833d2b8eaacd11ebc922247021c19733e63f",
+      "bytes": 644072
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-1440-hr-planning.png",
+      "sha256": "e9c7157a5dffae6e914dcb971a3474acbcdc473df5af2b72ca9a6ad275acee3b",
+      "bytes": 220582
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-1440-hr-support.png",
+      "sha256": "d60165e3035dde871081cf15ea84560cd34e443e5f8ddabdda6e6720b703b7c3",
+      "bytes": 808579
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-1440-hr-value.png",
+      "sha256": "148ae1d80bae6b0ab46604b45cc1b68bc05a26bbffa9768346200bb6e6f46a64",
+      "bytes": 123198
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-1440.png",
+      "sha256": "9079513a71e54a8a2709c76ac39e63690323897e5406d95f81a4eeb3d1b953fc",
+      "bytes": 2356550
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-390.png",
+      "sha256": "f185caf6e7d95db8c8c8f9712cd9045ed43bd5241db8aa50c7d59fa00a2a5237",
+      "bytes": 786169
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/hr-768.png",
+      "sha256": "66cad6ba0df044308f3327c99d768c1717a0e060711c81bdd40e18f14fa603a1",
+      "bytes": 1259566
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/overview-1066-jobs.png",
+      "sha256": "80605b50fae67463197b244e7b68408825ff535598d4c43a52646d42f1d0b00e",
+      "bytes": 183382
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/overview-1066-overview-hero.png",
+      "sha256": "ed469d59c21f153a846de64e5d8390198df3e47e820a843255c83e1107c45070",
+      "bytes": 818786
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/overview-1066.png",
+      "sha256": "e115e7789efac4cadf4188efbd6be3e337ef2783e8a0003a0f83d32d495978b5",
+      "bytes": 2820559
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/overview-1280.png",
+      "sha256": "ea79f06371237c022793c3e30545dcd4151b4d60d9b0bcb689788b3b9d90c008",
+      "bytes": 1800376
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/overview-1440-jobs.png",
+      "sha256": "ca5921a51b3df60fd4e58b6351137a00168c27d5819f6c849d9cdf72bce63ad0",
+      "bytes": 188715
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/overview-1440-overview-hero.png",
+      "sha256": "102730a9cd0ec0bc398e602a9799128c6780346f90daf47bf932c998bd6a409a",
+      "bytes": 694864
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/overview-1440.png",
+      "sha256": "57730d74c3ccdf13badb3fe2f8b5587a57a7fb1958338898742d8780ad03e286",
+      "bytes": 2025926
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/overview-390.png",
+      "sha256": "7d07bee24a3c10229716c45c556ff6215eb3927d2e5fa9f5519589f7154c173d",
+      "bytes": 902926
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/overview-768.png",
+      "sha256": "a559a2c5ac04a9a931f316d02b2c97260d581afe78f2c28f2bba7898d12830d5",
+      "bytes": 1802033
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/sales-1066-sales-intro.png",
+      "sha256": "8fb6e396c4427a460da2776858bd8191aa125a35b0763b78b530d1ed7001440a",
+      "bytes": 176837
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/sales-1066-sales-value.png",
+      "sha256": "5e0935b04f29b695faf452df7be9a6dfe4489ea578153e525043099f8b0d70ea",
+      "bytes": 76650
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/sales-1066.png",
+      "sha256": "58131c1718b3868236f475e6cc25d21e02b3fad6935083fe41e951bda89d34fe",
+      "bytes": 1457414
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/sales-1280.png",
+      "sha256": "bdaa4053ee5633c1b83a1a192a08ba577cdc7c1f171e8c4212da1771fe502f8d",
+      "bytes": 2031652
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/sales-1440-sales-intro.png",
+      "sha256": "e45da0836931dd5c35190e4fd55f927b8574aeb3d6d693d21310038b7cad1c4c",
+      "bytes": 263866
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/sales-1440-sales-value.png",
+      "sha256": "d55cf28789c0e5be9e398b571c0f9b4ce55fd3b27d29ead7d0c9def1ec5a40a5",
+      "bytes": 122236
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/sales-1440.png",
+      "sha256": "ed9de7f44177c64eeb4eb19e5aa45eeb010901e3958336938ff6258eec9dcff6",
+      "bytes": 2355496
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/sales-390.png",
+      "sha256": "7ccd77f2c19ebd4008e9d782a3005c39354638530e90ef0e18ba8ca73a74de71",
+      "bytes": 810262
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/responsive/sales-768.png",
+      "sha256": "4f1de6f2e10e6212c2ed0ec75bba3e30a2f87554db4f1b56bbe0537d432df222",
+      "bytes": 1239162
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-1066.png",
+      "sha256": "fa527e6c83eecfeb9ad305635dd7d47e167dac89f1b0960137c40004e3342229",
+      "bytes": 1463428
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-1280.png",
+      "sha256": "1d7c0d77593c3b3ad3071d87290b3d40ad6d3ef6090c0025c5bae30cb20a3da5",
+      "bytes": 2045648
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-1440.png",
+      "sha256": "193e185a34370c17d2a6e6802d863d614d3288d6f453b614db34b0cdb58f01b7",
+      "bytes": 2366175
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-390.png",
+      "sha256": "91b19d10eeebb18b993ad54c3e89872b1261074f179d770f4155f1cb6a60df4c",
+      "bytes": 820276
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-768.png",
+      "sha256": "57cf9587f55ab42f879a18f9ad8581a8b86001691d69a68a649643a1e78c3fb4",
+      "bytes": 1247033
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-difference.png",
+      "sha256": "0b977c95a4fa58277e64f96e12260586c0a09e5f2ff01a6cb772da67a938190a",
+      "bytes": 5359371
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-focus-1.jpg",
+      "sha256": "58d355b65a146b5398624b67fc603e9b74398ba650ddf8b96e4bc65f48545fb0",
+      "bytes": 339048
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-focus-2.jpg",
+      "sha256": "9617e35973bc9e896ff678a62881c8e924a7f03d5d3a8be002dc702ddb1a47cc",
+      "bytes": 526170
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-focus-3.jpg",
+      "sha256": "31ebd961b5b46120b9260e6a5f5e215fef38f2e9bf197c2a451eea37cea38465",
+      "bytes": 237257
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-focus-4.jpg",
+      "sha256": "e7a0b70e0e77191061b8e43fc771c0b4690df14732265c8ec982bc6d0170a7ad",
+      "bytes": 307781
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-focus-5.jpg",
+      "sha256": "0fa9cfb0e569d4015a037c1caf4547c4bcfbea94b8a48209b63a39f40847d770",
+      "bytes": 150395
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-focus-6.jpg",
+      "sha256": "86eaffb34629df9885eed5b3827beb38967165a47020d740436871a19522896b",
+      "bytes": 177928
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-office-lounge-dpr2.png",
+      "sha256": "62a9c27bc84f61616cab0a9334fc6cfc2d0557f1fb30f7bc7ae888dd7d676fd2",
+      "bytes": 1936198
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-overlay.jpg",
+      "sha256": "c43b76343732baf842568fc06137816d5baf69086f9ef647e71d7ae81ea0bdcc",
+      "bytes": 900396
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-section-1.png",
+      "sha256": "30ef698664202eec1dfabb5c04ebc87c063e39bf5f4ff36cdedd7ae9e6b84b9a",
+      "bytes": 473897
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-section-2.png",
+      "sha256": "0d3011e9191f86dc3dce9dbc91c5b74fd3cdde7e29be53ac737e6f01a4bd3b9d",
+      "bytes": 741570
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-section-3.png",
+      "sha256": "d55cf28789c0e5be9e398b571c0f9b4ce55fd3b27d29ead7d0c9def1ec5a40a5",
+      "bytes": 122236
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-section-4.png",
+      "sha256": "21da4b499f1beb1569a5b771d9a34661bc65227359e425b9b61eb47de576a472",
+      "bytes": 715578
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-section-5.png",
+      "sha256": "5211dcd16aa7475c6a96b3a077a4bc37297fd3c59879f01f2f86a407a822f919",
+      "bytes": 98393
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-section-6.png",
+      "sha256": "edc3a3c733df0e678b4c013e89a3a6599c6f9a1c6f27f1bfb0a0e55cadc16069",
+      "bytes": 185071
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/sales-side-by-side.jpg",
+      "sha256": "5f4cbb6543dff034d671393eec8450dde73c41a29f6d0da9e9b215bf4cec1356",
+      "bytes": 1657057
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-1066-engineer-hero.png",
+      "sha256": "a8a5d6c914bee9211e98f4334ba718e36913a3b36c6338dc794ea196aed458ae",
+      "bytes": 733189
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-1066-engineer-paths.png",
+      "sha256": "49fa5d02ac0bec01c97d628d4d377c1f25e00e4f2b9d52eb4439d22792d33b33",
+      "bytes": 307939
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-1066-engineer-team.png",
+      "sha256": "92930dbc29908f6dd930f3f0b81de80a666ff6c49c98add4847ef8780d44e159",
+      "bytes": 217374
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-1280-engineer-hero.png",
+      "sha256": "64975e8a7a5cccf9a59a8bce9bed7d0c1c57084175d73f12082a65abed95b6f1",
+      "bytes": 796444
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-1280-engineer-paths.png",
+      "sha256": "91aa8407cc81fa0bbc174afdc1364caf3b376a7b107398568bc24911779477ac",
+      "bytes": 287367
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-1280-engineer-team.png",
+      "sha256": "98231d2e0e751a2ce81d8aa7d7009807dd6d17f5c04bd75a3fad0a77f89f7c13",
+      "bytes": 165349
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-1440-engineer-hero.png",
+      "sha256": "4eb8cebbf63a7946a878c9dbb5ebdbed097c6c8cc69227ebdbe30d5a379735f3",
+      "bytes": 886595
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-1440-engineer-paths.png",
+      "sha256": "3c8597ad0d90fda07927a8347d715ec99aebab4c11387d1534f8e9a294062ef3",
+      "bytes": 429902
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-1440-engineer-team.png",
+      "sha256": "247ca663ca411f5b34599d17c4bc121a687b4058636c3e9e624d62835fff0882",
+      "bytes": 223942
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-390-engineer-hero.png",
+      "sha256": "bd4c1695a5eea8c8b5506b0f395abc3ace3f24877b6458fcbce4eb6ab38dd358",
+      "bytes": 206955
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-390-engineer-paths.png",
+      "sha256": "aebb254647d9ab665c7b5f507e21efcd121aa712a92aa816c51e5569b8ec94e0",
+      "bytes": 236769
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-390-engineer-team.png",
+      "sha256": "3f5dfb699389d67f6fe8fc448493c36d664e1210442cfaea1280dfa431891d3d",
+      "bytes": 92586
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-768-engineer-hero.png",
+      "sha256": "cb7c45eee55d4f8c2ad513c34d206a84d2e39b340c220743d1f3f04ae689f02f",
+      "bytes": 598674
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-768-engineer-paths.png",
+      "sha256": "8343dd4550dda6c72adfac32670b236a7069f9dcf5108c9904d1d4d39c21a56d",
+      "bytes": 301283
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/engineer-768-engineer-team.png",
+      "sha256": "77dfa647ccf879bcf9e20f76dce055b514097d119767b3f8ac5d78df7cb6c0d9",
+      "bytes": 211059
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-1066-hr-cta.png",
+      "sha256": "5b4c2603d69373ac06c55e0ad75de89a543302b83a132c1a32ee9d0f8f08b9e7",
+      "bytes": 38305
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-1066-hr-hero.png",
+      "sha256": "d27a73de4c394f759618a2475338b149782ea5b134c34d172a6716699405809f",
+      "bytes": 458418
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-1066-hr-support.png",
+      "sha256": "21cd91d90cf3ff873ea8e15a9134015f0a56805caecd13e0a55d95a9f46b61b7",
+      "bytes": 659630
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-1066-hr-team.png",
+      "sha256": "38057b75ee89db70ee0f10c2136b19d657301157ff684e2c8a23afef0fc25461",
+      "bytes": 184470
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-1280-hr-cta.png",
+      "sha256": "5a42048683f9379dd09cf8b398cf88ec7099282ab7479e293dc315c9a8524bf1",
+      "bytes": 72120
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-1280-hr-hero.png",
+      "sha256": "015d92b88d1d414fd9045fa579124f2e4db27fd720b7edaf2b011e51dd2af861",
+      "bytes": 470951
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-1280-hr-support.png",
+      "sha256": "8f8217e7d85066503a8b02cd5ddd65a71b5cc31e11e21c1938bad47670a87153",
+      "bytes": 671452
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-1280-hr-team.png",
+      "sha256": "17c0b73a74a5da696d60f1361e43ad2a165aebfb98d362fd1a8eebda81192e20",
+      "bytes": 188687
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-1440-hr-cta.png",
+      "sha256": "b9d57b7d92a1728cca7cc7eee3ddad1b0446ce00a9a344ddbf86d9e5d5be44a5",
+      "bytes": 73098
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-1440-hr-hero.png",
+      "sha256": "cd312c86e0d1eb02dfb4b23e05cacb27af202880edcabaa535c216df4ec546aa",
+      "bytes": 649238
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-1440-hr-support.png",
+      "sha256": "3e49a9e15b7bf15cb3327d2293a31fcef876aac4bf7271dbd0b88f65cdf73bc9",
+      "bytes": 789756
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-1440-hr-team.png",
+      "sha256": "89afd007ac7c9717bb11a9c678fd59f285601464fa0355477ac7e54c951d0665",
+      "bytes": 193577
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-390-hr-cta.png",
+      "sha256": "ce575e086dcaf20a6f217113e72103a41365e057d4cccda105558c7ea7ea49ab",
+      "bytes": 32236
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-390-hr-hero.png",
+      "sha256": "f48bfe7526aae230fe3bb0090250f0e6b3e70d632ed02a56b111d13a6d165342",
+      "bytes": 219477
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-390-hr-support.png",
+      "sha256": "74e47773a3765e218d886973b059317bdc18fe02827ab3dbcb6c4af2b7ffdc9a",
+      "bytes": 187762
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-390-hr-team.png",
+      "sha256": "0e00616738bd261a9be7c249c6cbfa2cb0a1b1ab38386bd85fafb0e1201e205f",
+      "bytes": 88124
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-768-hr-cta.png",
+      "sha256": "c41b1ffafffc63e86f44dc9c993f96d88f1075c8f24b3eaa1d9f1d1799ad4126",
+      "bytes": 35343
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-768-hr-hero.png",
+      "sha256": "c9499bd47b68773ea408b29a00b6007f33759b7625c9b28852b08cdc3c03708d",
+      "bytes": 239978
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-768-hr-support.png",
+      "sha256": "a5d71d9678648c02c0dacb4fc3b04dc4e6063a4cc83e975aa215320ca9da6c93",
+      "bytes": 383382
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/hr-768-hr-team.png",
+      "sha256": "48147303d8f6465bc563d15e07326a42767193d5ccfc06df7f2ff98317930eaa",
+      "bytes": 181552
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-1066-jobs.png",
+      "sha256": "162b23b785871e0c427a4fb4b25e19c9ed2adec882843a0907d36618e263ac6b",
+      "bytes": 186120
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-1066-learning.png",
+      "sha256": "33adfdfbff8e516b16120df5ea6d40f7d233a5c00858675f165e49881469135e",
+      "bytes": 913759
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-1066-overview-hero.png",
+      "sha256": "490bc0b631e7381b61363930b528a627b9d54d912c4958ed4533c44437439bb2",
+      "bytes": 799076
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-1066-overview-support.png",
+      "sha256": "1a00dc81b832d6c69a23065cfc17ee9cb4b60f09e6c120625ea9bae909360b37",
+      "bytes": 694788
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-1280-jobs.png",
+      "sha256": "e2b2c492557285a361d0969337ee7454c522ff49adf5de34c13ea7bdc462c5c6",
+      "bytes": 185304
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-1280-learning.png",
+      "sha256": "adc13405defca17046c1c32f2e25f9fe00daaaba51915bed975cf7706853c8b7",
+      "bytes": 415587
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-1280-overview-hero.png",
+      "sha256": "778f60a225530429fa6b7fd24c00a6ee4f9199008b40beea12dbcf5465e25e49",
+      "bytes": 597988
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-1280-overview-support.png",
+      "sha256": "1176c1d0248873105ecf5003e0e4436a94ff7c5b9f7e6d02f9aefa1ed590ba41",
+      "bytes": 294649
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-1440-jobs.png",
+      "sha256": "98f6dccc5ca72f55f9c1d650bad8f985cf4fc8ca3fd7b51c0028411d423c9e56",
+      "bytes": 191964
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-1440-learning.png",
+      "sha256": "218d954b63ae97b2e8cb97d4738367f50c1b422a2e60303593e3f1ec3613956e",
+      "bytes": 513254
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-1440-overview-hero.png",
+      "sha256": "dd30db7efcd12accdbfb540679bddca31c6713d7bd2af8540a735189d1ddbb91",
+      "bytes": 676381
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-1440-overview-support.png",
+      "sha256": "d90bf0ee9f6c1d9e2bdac349234295baf5b69654cbc371d9b9f2f8fa2fbaf093",
+      "bytes": 325764
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-390-jobs.png",
+      "sha256": "8420fea98a882cb17c6085aeed5495a6010cd4caf0c32c62a4fe5238567c6f45",
+      "bytes": 189283
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-390-learning.png",
+      "sha256": "7dff687ca81f4369e6d04ad97ecf0cf14536f6784e4c66fcd1c344489bb8271b",
+      "bytes": 230870
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-390-overview-hero.png",
+      "sha256": "a78e42ec9caeaca3a181d2ca84baf8db9043d07b3c8980bfd8d07c4ad001a799",
+      "bytes": 159060
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-390-overview-support.png",
+      "sha256": "b94699890f65ba42ad44a4aa1378cf9c57694f816b81ee7f12d36f9a7be61cc9",
+      "bytes": 156789
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-768-jobs.png",
+      "sha256": "63b4e97cc99b75b7461dfd1d6e583916b2510010a71524ef6c43cecc15e83193",
+      "bytes": 198708
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-768-learning.png",
+      "sha256": "37f332ece31c83f49a32fb75e338c30948b0a4e6af671d76931579bf013f596e",
+      "bytes": 563753
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-768-overview-hero.png",
+      "sha256": "fcdf34956a0161950bf62387c65a4abc58c58a0c42e7ad20ce519aafdd8846b7",
+      "bytes": 453422
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/overview-768-overview-support.png",
+      "sha256": "5ccb0515722f4231ea55cdd6542b509a5c72cdbce2e073315248de795660ec77",
+      "bytes": 391824
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-1066-sales-cta.png",
+      "sha256": "9dd4e8946ea3f6be592ed44d0aca2d7fed2e1f6a742490f4b252c67205888f3a",
+      "bytes": 128546
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-1066-sales-hero.png",
+      "sha256": "f80a97ae5ce876515a7ec7fd1c6b395e975982e70ad2271daf50016c1681b58f",
+      "bytes": 216908
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-1066-sales-team.png",
+      "sha256": "3569a1ebdf6d3d0d78d4caaec66baddc36c7ab43984163db41cc46bee5d9040d",
+      "bytes": 463138
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-1280-sales-cta.png",
+      "sha256": "a8262c9e307698a5f87e5d1ad4d49d508de82fd3736238859b15713a3db3afaf",
+      "bytes": 154265
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-1280-sales-hero.png",
+      "sha256": "d612b125c0c54f7c76969156c8182ee270bcb7debeb1e29fc691a0cee387c504",
+      "bytes": 400470
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-1280-sales-team.png",
+      "sha256": "c4d513c18e89388d88d673a6b210030582d4f20c269e268effbbd02897465499",
+      "bytes": 597038
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-1440-sales-cta.png",
+      "sha256": "0278d4732b1d4cbd0870271f25a95ea3e05469e760fbce811b2b0d1ca4824a91",
+      "bytes": 186899
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-1440-sales-hero.png",
+      "sha256": "0c53fea43714a0da150ef035218d5a306fad9e956dd6bd34e7abf5719bd3abf1",
+      "bytes": 476465
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-1440-sales-team.png",
+      "sha256": "1996d2bd11b953c3ff205cb237ece0897a3b8d934fe9f5a0aa518ffc300d0f37",
+      "bytes": 702206
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-390-sales-cta.png",
+      "sha256": "56c22218d3a949592081b9a0f0ad958e4c8f80ea23161b983b88403f53cd3fdc",
+      "bytes": 88918
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-390-sales-hero.png",
+      "sha256": "d84845c7286e031ac498c71cc8cc3bf844adc46773b838e8b968b4a20f025443",
+      "bytes": 112209
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-390-sales-team.png",
+      "sha256": "e30c7c47a25e0056487ad7c45b31039d9c6b76601927f71985ef81800bc65d24",
+      "bytes": 230886
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-768-sales-cta.png",
+      "sha256": "3ab7ed5c1956008697827ac6c43bead07b3ab26aac27db8c4d31d58301c3b341",
+      "bytes": 124316
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-768-sales-hero.png",
+      "sha256": "96913fe7beabf16c35070c961fbf79b01f9b3f11640930bb60e6773cf3e3cff8",
+      "bytes": 208034
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-32/subjects-stable/sales-768-sales-team.png",
+      "sha256": "f50529f0987aad3b819e6299aa375f07c191211068e78d3ee39e90f341c0b7fb",
+      "bytes": 379106
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-1066.png",
+      "sha256": "854d48a2b2438cd627e8e1459c27f7484c8d66a7f052b3ad33db5938bc7fd917",
+      "bytes": 2386284
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-1280.png",
+      "sha256": "011070f23399fe2a05b5c0b6dc9f7f09b2a1a5c43029ee4b93a6a3e8a2abf439",
+      "bytes": 2166432
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-1440.png",
+      "sha256": "c317530bf4ff9a08a7a0296d042b4eb4b6548fa3a7e94889a847cad821a0c908",
+      "bytes": 2717824
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-390.png",
+      "sha256": "7ec8fd979108ae447a9a550c1033f3c1eccafe0905721d03559eb0e67189b725",
+      "bytes": 888635
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-768.png",
+      "sha256": "78eff3af68b5e575e7a52046048ebe9c4d3fca1cee6b148ef3efb1d1d4d94135",
+      "bytes": 1878259
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-difference.png",
+      "sha256": "0993b19c4a583a84b630ea22b0f5774121448a0331cae1960c5035719a7fad69",
+      "bytes": 5984235
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-focus-1.jpg",
+      "sha256": "2e2c07e1bfe950e67cde3b66761897661a2dc579ef758cde53331839838720dd",
+      "bytes": 551432
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-focus-2.jpg",
+      "sha256": "514d7b4c631b8407c25397a1be4b0d99ce01f175b8487d21698ff74fe2066293",
+      "bytes": 478207
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-focus-3.jpg",
+      "sha256": "ae0f9e167c5b5df970acf3f4abcbd73e09a955257bb79315f6271af51a52ab86",
+      "bytes": 397054
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-focus-4.jpg",
+      "sha256": "fa806bdc2f4a3644cca0ad508af2096ad410be2c0a99c4a04403dcdf8e0aed0c",
+      "bytes": 237397
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-focus-5.jpg",
+      "sha256": "edc56c3ee6084d8543be3b074223bdc4364878d218177aecb39ad05bae6fe597",
+      "bytes": 104779
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-focus-6.jpg",
+      "sha256": "23421c1753546eeb0572b9e76a8b060e04e28e9890b8146679d7625e6c1b3f0e",
+      "bytes": 166971
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-focus-7.jpg",
+      "sha256": "bf16729947ee5fd5ad31fcb8b556f5ec503b80389bc88f467f899c5e63e93620",
+      "bytes": 121425
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-overlay.jpg",
+      "sha256": "9cd36c9d0344119c7812a2ed3305db7965a699f9b4a462454816911b514b7170",
+      "bytes": 1102642
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-section-1.png",
+      "sha256": "f14d0b619b5015a81a0295ae30555cf4eb6347427de401cbb2696fcf9c29abf7",
+      "bytes": 886556
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-section-2.png",
+      "sha256": "0e3a58e661f48d35d5576bf806dcb6a9a9196cd6e2e8aa844ca439dc1e9f441f",
+      "bytes": 592995
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-section-3.png",
+      "sha256": "32e5a317721d9eab8f4fbebb73e799b683822b4523cf321115e43237a6e9dd2d",
+      "bytes": 422040
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-section-4.png",
+      "sha256": "19d3c25e07b122bd8438aca82f5e1676912316330b42e1d626b8cc9443383c1c",
+      "bytes": 425224
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-section-5.png",
+      "sha256": "1c3e0bd2e9d49086352d711f98016cf720cc5d61c99b6a7c51de7268106a67c7",
+      "bytes": 58321
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-section-6.png",
+      "sha256": "9613a94644a06aa9461284d3ab47fca4b6ae7e1e0ea3e81d1bee9c94b2ff2b4f",
+      "bytes": 219196
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-section-7.png",
+      "sha256": "74d9c2810b8f76fd66bbf079c77eb3ad709e019ae5460095b873e0d2ac222878",
+      "bytes": 83887
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/engineer-side-by-side.jpg",
+      "sha256": "b7f839d022afd6b0b6b47bab755fb453fa5ba2a8b97196cf0e25a6547891f27e",
+      "bytes": 1963852
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-1066.png",
+      "sha256": "19957649df28603e749139b30433562b1215c65eda340a1fcc1e8bcd090780aa",
+      "bytes": 1798311
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-1280.png",
+      "sha256": "284441406ead03b2ccd8079d5a702c81ccacbc187744b2bbe5b53dcc5bf3c2ce",
+      "bytes": 2004847
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-1440.png",
+      "sha256": "9a2022094e8913bcd3df3181fcc3994945254903407471a9a69280336a85eefa",
+      "bytes": 2361635
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-390.png",
+      "sha256": "2d46b5ca491c19ab88cac36b223040a9dcaaf2e156faf420231a1d1d73f589f5",
+      "bytes": 789392
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-768.png",
+      "sha256": "4ae65336ebb2fe28cecc4d27a5f1cdefddc64a02404ad0f79f710adbc4999456",
+      "bytes": 1262617
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-difference.png",
+      "sha256": "114b1dd5a2e2635f7bc6d86158b2d34aeba41470d12a373e7239dc64ad8d5136",
+      "bytes": 5384755
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-focus-1.jpg",
+      "sha256": "b4a2d6a5221cb752d9f2a2d22685dc7f8690abaf6440a1d384f759d30d771a77",
+      "bytes": 370438
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-focus-2.jpg",
+      "sha256": "dcf171b400122f92df12d536ba01b41722f5d5eb72e8fc9568a334512b3b7e35",
+      "bytes": 420936
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-focus-3.jpg",
+      "sha256": "d25c55a45aae55123a2e819d7698c0433dcda58ef1c9f61f187b2fec2f04ec2e",
+      "bytes": 417930
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-focus-4.jpg",
+      "sha256": "7e58375099407340edbf671d7e87a92640640d44994514424b20954af5de7448",
+      "bytes": 230812
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-focus-5.jpg",
+      "sha256": "f844816a304afe120273c9d8fb615d1e00cece6961163c23f715fd67ca92fe81",
+      "bytes": 142356
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-focus-6.jpg",
+      "sha256": "dfb80d7b99efbbe9af8a64a31b25135c3ebe6bd52b2b4d3a87cb53bd1c7bdb6b",
+      "bytes": 119167
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-office-lounge-dpr2.png",
+      "sha256": "9fa66feed68f1d9e6b7a4e70e6d7cb4bc3fc62773323f77c1955ef401590e9fb",
+      "bytes": 2186088
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-overlay.jpg",
+      "sha256": "530780c60012278a3ef97d7d94bf170cb3f0772851687812abfb627694be5475",
+      "bytes": 892357
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-section-1.png",
+      "sha256": "a5b436f38aa4a058190f6e989860e4d0a9a04462802626160cfa86f2d66be008",
+      "bytes": 644263
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-section-2.png",
+      "sha256": "660c380482b3668c61508d3b77132aab47274dbdea727b64c3e4e3a66fa809b0",
+      "bytes": 490797
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-section-3.png",
+      "sha256": "c46167d7cee90b6cf7f0d3b4b9d71571710552eaf508639a29f642234783082f",
+      "bytes": 808583
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-section-4.png",
+      "sha256": "209a91cd046eacfdae7b7066e0a08267b526428667a73513cd4e821a10c57af4",
+      "bytes": 123185
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-section-5.png",
+      "sha256": "bca88e16af1b463fdf61de93a7dd29141c5b29b253e2f57d6487b82663fc6fdd",
+      "bytes": 189589
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-section-6.png",
+      "sha256": "955c84b27319b26bf31c7768e9e648df4b30c031502372905bef9154233650b2",
+      "bytes": 72106
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/hr-side-by-side.jpg",
+      "sha256": "1e6f2b136f28a22416f7fc9d787ce9afaa9e8fbfc06b49c86b8ab55bb375bc1a",
+      "bytes": 1623418
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-1066.png",
+      "sha256": "96e29aa0c31459cdf313c323ac7cc9f117153df9007d570077fb19e6bf6507b5",
+      "bytes": 2825175
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-1280.png",
+      "sha256": "f26d33fe025e983f9668a56568166d918e374d5093614410be190dc7c890df88",
+      "bytes": 1820613
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-1440.png",
+      "sha256": "f6c9018726d5d9424f4dcd59e8f3d70dbb00ccb366da4391f69aa50ad2b2cfe6",
+      "bytes": 2047100
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-390.png",
+      "sha256": "36e48bd2cb61d591049b28f7020bdecac9509d4569f566907ad8dacaada3bb27",
+      "bytes": 917365
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-768.png",
+      "sha256": "3fb6afe8f173b7ceb7daa7ffca980a83257d65374316a9275aa453ef86c69dab",
+      "bytes": 1806762
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-difference.png",
+      "sha256": "e5284d1813b22ad009b7da730dc627628db26eaa8cc609a65842c0300c04ebb8",
+      "bytes": 4910230
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-focus-1.jpg",
+      "sha256": "42d22bb8e7dae110998bda80987ee76d8699df400d25ede4f8fe2d90ffd6cf60",
+      "bytes": 352718
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-focus-2.jpg",
+      "sha256": "059b8b475a4f8c40e5b1661caee2027781b796460319c7f2cca6fa512146b88c",
+      "bytes": 474773
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-focus-3.jpg",
+      "sha256": "646fe434dd09aa949f44b7384ce269ec37c7a426a02f62d8ce044f0dccb4ce35",
+      "bytes": 297914
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-focus-4.jpg",
+      "sha256": "2dbcc37fe08deb7830bfdf619a1249a4afe8c508d3b831642b2823678906b225",
+      "bytes": 196975
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-focus-5.jpg",
+      "sha256": "0127c68b0083b1061596a25dcc62c05956a2cae539a4c7c60c5b8106d5ea632f",
+      "bytes": 234116
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-overlay.jpg",
+      "sha256": "01ef2a5bd7454482ce523b468843cd4e24db375048e270ad7b9caad0083a2f64",
+      "bytes": 773544
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-section-1.png",
+      "sha256": "a668fe9d967c7ad775e257cfa233c732d4acb02e024d26f7d54ba24812bb6f5a",
+      "bytes": 695402
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-section-2.png",
+      "sha256": "2d56b091b7e6b2d098f40e0186417f296adfa9c0be5c51b4a4c9a330ef5df8cd",
+      "bytes": 226023
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-section-3.png",
+      "sha256": "7904ece2f0955b61ea7869f0e3508abcd63b30916b4a8339b0ab0ae259180672",
+      "bytes": 517829
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-section-4.png",
+      "sha256": "df37472b0b6d77813e246fb57d006bb28ed30294c170554c7ef1c4a670483c9a",
+      "bytes": 333896
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-section-5.png",
+      "sha256": "4ef035b598eff37ffa3f1c98ea298ea950346fad8fc53fec0d4c775b8e607ae9",
+      "bytes": 189687
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/overview-side-by-side.jpg",
+      "sha256": "8ced85cc71169f2c3ca887b23eb3e37e3c61d912042ba2e4cc4a600c8737c465",
+      "bytes": 1490260
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-1066-engineer-career.png",
+      "sha256": "ac099ff4fe8fa59d112c6f971b84075adf4ac226c3c9b9427fcfadec62513a96",
+      "bytes": 41182
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-1066-engineer-cta.png",
+      "sha256": "3abc1db04e8f375f36d21ac3788df34103fb8543f11105b4801985058b52db0a",
+      "bytes": 69737
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-1066-engineer-learning.png",
+      "sha256": "4a7f07add6b668cf52487bf7b5d111fe46611e12d57996108a649072b2374700",
+      "bytes": 731841
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-1066-engineer-team.png",
+      "sha256": "0b6bea0956eef50825ce75f94d788a34608fbe52dbc2266bb8193a0938da31c8",
+      "bytes": 213812
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-1066.png",
+      "sha256": "5bc2c5e90bac9f1e8c9f99f5860514d5c84d8088b98ff82f1c38d66efd8dd2da",
+      "bytes": 2380225
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-1280.png",
+      "sha256": "b94d32ea1e3cffcdd60dd97adf55356f6d7191356177ae2cf899b3a4d079d30e",
+      "bytes": 2154661
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-1440-engineer-career.png",
+      "sha256": "1c3e0bd2e9d49086352d711f98016cf720cc5d61c99b6a7c51de7268106a67c7",
+      "bytes": 58321
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-1440-engineer-cta.png",
+      "sha256": "74d9c2810b8f76fd66bbf079c77eb3ad709e019ae5460095b873e0d2ac222878",
+      "bytes": 83887
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-1440-engineer-learning.png",
+      "sha256": "19d3c25e07b122bd8438aca82f5e1676912316330b42e1d626b8cc9443383c1c",
+      "bytes": 425224
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-1440-engineer-team.png",
+      "sha256": "9613a94644a06aa9461284d3ab47fca4b6ae7e1e0ea3e81d1bee9c94b2ff2b4f",
+      "bytes": 219196
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-1440.png",
+      "sha256": "8043800b0247504c196626ea59d0ed62537653b1436cc2cfa2504e965d77958a",
+      "bytes": 2703239
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-390.png",
+      "sha256": "5714af47c0be444d4c72d9b7e3ccad67c3d63211d47d9b913f775fb38707a139",
+      "bytes": 884149
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/engineer-768.png",
+      "sha256": "45d692345ae28d64460d1190909aac635dc6d0045f0d39cf6daf076c1cd79378",
+      "bytes": 1874922
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-1066-hr-hero.png",
+      "sha256": "d68e433c43f7f41347faf0ba5802c324ad03803a368df2a9f41e27763cb96c00",
+      "bytes": 458383
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-1066-hr-planning.png",
+      "sha256": "3692de35fefc780918b7026f7872c90676aa89b9e388e1b4e4b9fb3b2489b2cc",
+      "bytes": 153546
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-1066-hr-support.png",
+      "sha256": "b5695e76c32cc45515105e4835ca27571d85348983a498266b50e93b8f30aa54",
+      "bytes": 676098
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-1066-hr-value.png",
+      "sha256": "78e9fe6f58156f17323d3e6732202ce37f44d75f0b30132976f9ec0c912954ef",
+      "bytes": 84916
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-1066.png",
+      "sha256": "cb980009be894629e3cc3fb82e5e121bff25ddd5a20e7945ab80a5c15f7ee86e",
+      "bytes": 1796515
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-1280.png",
+      "sha256": "be30b7dbe110dd4a45ca45e1d28bc3e40a2482b8f7136b5bb2b409e5609a1528",
+      "bytes": 2003041
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-1440-hr-hero.png",
+      "sha256": "a5b436f38aa4a058190f6e989860e4d0a9a04462802626160cfa86f2d66be008",
+      "bytes": 644263
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-1440-hr-planning.png",
+      "sha256": "680d4d0ea629dfc396b666a972f5088c7db3b133714250701420f73c61d8a57b",
+      "bytes": 220585
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-1440-hr-support.png",
+      "sha256": "c46167d7cee90b6cf7f0d3b4b9d71571710552eaf508639a29f642234783082f",
+      "bytes": 808583
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-1440-hr-value.png",
+      "sha256": "77dba5630fb390cc28790e0cffab5ed43bd34064d997f41acf9db9f278b0609b",
+      "bytes": 123200
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-1440.png",
+      "sha256": "f693fd9e30733b6cd4d0bb0e0da4af1275c66f09626e2975c3f37530ee920968",
+      "bytes": 2357588
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-390.png",
+      "sha256": "d71ba465b581aad6c50402daa8f424067765462b7b8aa87be01a26d59ba60288",
+      "bytes": 786861
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/hr-768.png",
+      "sha256": "9a03770bdb4d7e0c87c343abe8d9dc0ec14996a2d6d003e2233b1859a9eac7a8",
+      "bytes": 1260543
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/overview-1066-jobs.png",
+      "sha256": "75693f44004c5cb3ff50816d3ce025acfbb4da6d0dfa7b1bd1f51cce01d1a5d8",
+      "bytes": 183935
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/overview-1066-overview-hero.png",
+      "sha256": "6f6613031d3f9d0fa85095e1c96aeab4728b531d06b5476c3c82f743c4047939",
+      "bytes": 819204
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/overview-1066.png",
+      "sha256": "8af2816a29922c161b6429bee133ce96d0fe629e4e88de160eaff39f734ee853",
+      "bytes": 2821763
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/overview-1280.png",
+      "sha256": "b35db1d32e26467467e62806f72d157a29cef7e3c51dc5cd14121788553de635",
+      "bytes": 1802096
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/overview-1440-jobs.png",
+      "sha256": "4ef035b598eff37ffa3f1c98ea298ea950346fad8fc53fec0d4c775b8e607ae9",
+      "bytes": 189687
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/overview-1440-overview-hero.png",
+      "sha256": "a668fe9d967c7ad775e257cfa233c732d4acb02e024d26f7d54ba24812bb6f5a",
+      "bytes": 695402
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/overview-1440.png",
+      "sha256": "dd5a43a3065cf7bdf577f63cc7e4b265e77e14543b01d7ca4d3cb18f724e35b3",
+      "bytes": 2028092
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/overview-390.png",
+      "sha256": "048c4586dd9ab171c1121d22bdfa4514739d7008812ef6dad0d372ebad1f1941",
+      "bytes": 904336
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/overview-768.png",
+      "sha256": "0492adb51f446570214f17f5124c1c12fbc94111bd6cb1b669f0a1aa1da94f59",
+      "bytes": 1803366
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/sales-1066-sales-intro.png",
+      "sha256": "8fb6e396c4427a460da2776858bd8191aa125a35b0763b78b530d1ed7001440a",
+      "bytes": 176837
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/sales-1066-sales-value.png",
+      "sha256": "90328ce64d6e43564bc7f78213872cd6fbd5bc3d8e06ece40ae591ab59e284f8",
+      "bytes": 76650
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/sales-1066.png",
+      "sha256": "25f95eb0b1dd1b2d8cca3302e6d35bd8ff839440d8801398a5aae769eb48f196",
+      "bytes": 1458471
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/sales-1280.png",
+      "sha256": "9bf3d916f0b1e5a08f0f15db6d277185d2f89925fa52f2681d52402755ea0e02",
+      "bytes": 2063067
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/sales-1440-sales-intro.png",
+      "sha256": "e45da0836931dd5c35190e4fd55f927b8574aeb3d6d693d21310038b7cad1c4c",
+      "bytes": 263866
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/sales-1440-sales-value.png",
+      "sha256": "c025a34e247275fdd41036ce534c390742d18e58bb1e2e96ceb48ab74eddfeaf",
+      "bytes": 122236
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/sales-1440.png",
+      "sha256": "47bea62c8ebce8fe183f8ff2bfa3739dda77bad623ef3819fe6217b4a5d1db19",
+      "bytes": 2394262
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/sales-390.png",
+      "sha256": "610ecfd3ff8880172616f8b1854ea5d5360bd2676e8eb32a544a657d6c542ce3",
+      "bytes": 811024
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/responsive/sales-768.png",
+      "sha256": "da568d20af898c3b31f61d7f83567257150bafed81a822a38faa74d9d6d7017a",
+      "bytes": 1240063
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-1066.png",
+      "sha256": "1c41d3175e2f8fa3aaf766d38c7fa8df03a4db23d19ba8ccb4c1ce5e0d4b07f2",
+      "bytes": 1464460
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-1280.png",
+      "sha256": "13a9a26b238850175c8d1d686e7aeb5080eb07b4fe5eb5ceb9912ff5dca5c572",
+      "bytes": 2076908
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-1440.png",
+      "sha256": "920882a98e9b84ba62f454e665f75578491bc3da9abef29d71431b50aa0ac183",
+      "bytes": 2405710
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-390.png",
+      "sha256": "6c28c2f569b0880cbe7d5053792f21ff4624ab9b70eafe65bd0eb4d1e87312c2",
+      "bytes": 820065
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-768.png",
+      "sha256": "b2c84e208ef2c55ef0ad1cefaf9b5977e19561716b33adee49a439df92936cb7",
+      "bytes": 1247861
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-difference.png",
+      "sha256": "7062e311b91a7c2e2e941e5f1c5b92cd92409781073746a7b1b025db765960c5",
+      "bytes": 5375097
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-focus-1.jpg",
+      "sha256": "f2c8413d9d5dc5fd3c8dfbfe0724f4d12eadc777888af45f9a749fc2d75f6dd2",
+      "bytes": 339131
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-focus-2.jpg",
+      "sha256": "5cd45efdca571adeb47007f224e244ce25e1e0007a0879d5877c561844f95dd5",
+      "bytes": 526145
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-focus-3.jpg",
+      "sha256": "ac6c8334a690981cc24b6e552e36581e3046a3372987aaa6df00c51ba4a85247",
+      "bytes": 237253
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-focus-4.jpg",
+      "sha256": "c0c1668d74743a1f39fdee8f5a787dd8201739419eed42b237a79c8cb078c92f",
+      "bytes": 307856
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-focus-5.jpg",
+      "sha256": "21b88a3d8992de69ac128048cc19460d0f5b08953760bd0a0f6a4fecec6c088e",
+      "bytes": 157257
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-focus-6.jpg",
+      "sha256": "47158419bd8e2ba94e7dc0972cef757d2aade224ec3b2fafe987f8a810e5a638",
+      "bytes": 177990
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-office-lounge-dpr2.png",
+      "sha256": "5d07371293e05785579d05738453262747588abbf816aa9428e34e9c60550e23",
+      "bytes": 1937729
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-overlay.jpg",
+      "sha256": "13af387e200293149568cfee836769b6493783489b69754f66b1278e837e3398",
+      "bytes": 902276
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-section-1.png",
+      "sha256": "90719e80d746010ded4415f84295c3875f32efba4623f311245be37cde183d68",
+      "bytes": 474462
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-section-2.png",
+      "sha256": "88cb4e9bb4e8bb6fc747de2a1f4b0afd3cdf4c08d43aad502c85e67781e95f62",
+      "bytes": 741619
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-section-3.png",
+      "sha256": "c025a34e247275fdd41036ce534c390742d18e58bb1e2e96ceb48ab74eddfeaf",
+      "bytes": 122236
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-section-4.png",
+      "sha256": "aeb729109eaa2e9877025f53ae208b4ffebdf68f45c43572feb1e4335b8132b4",
+      "bytes": 716065
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-section-5.png",
+      "sha256": "638bc3ac5e38088c725bb0843bb9ceaaebe87b2c45bf4cdd6a24205c3485f859",
+      "bytes": 135719
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-section-6.png",
+      "sha256": "d6c99a775aa13ead237d585cb8358138075ec2596c53a5e6420f766a19871eb4",
+      "bytes": 185412
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/sales-side-by-side.jpg",
+      "sha256": "935fef104eb8b17a042ab7ca5e16a822ced1cc6679a698851eac78784a0b7c60",
+      "bytes": 1664067
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-1066-engineer-hero.png",
+      "sha256": "a595f37b44c1c217dfbadb83bf1a3bf94fe318fa66f0a24365fc8ad10f65ce56",
+      "bytes": 733459
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-1066-engineer-paths.png",
+      "sha256": "6afb43efff9b3812ced7aaae46f1562ecd65ae49f5cae2dba57c401d65b10caa",
+      "bytes": 307942
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-1066-engineer-team.png",
+      "sha256": "59551f6afcf2806fe91aa3b78d4f12cdc0e3b23183eb322f5cfcb8d9e8ee8e1e",
+      "bytes": 217376
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-1280-engineer-hero.png",
+      "sha256": "47781aa5b74b356b47d82a7b8b4b907adc32b2ef271162899ebf8fce3364a748",
+      "bytes": 796630
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-1280-engineer-paths.png",
+      "sha256": "eb845bc4fc94b14a1f8a10e532c17f9a46da359fc5823dd436296e6d3a0fdbdc",
+      "bytes": 287366
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-1280-engineer-team.png",
+      "sha256": "506becaab007dce96d11c653365edd195bb8fcf2bfa9035f86918db03742394c",
+      "bytes": 165355
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-1440-engineer-hero.png",
+      "sha256": "3604384e5829861fefcd12950ddae0835fd901b1dec909ea2ec0df5be1148f52",
+      "bytes": 886882
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-1440-engineer-paths.png",
+      "sha256": "29d0677fdaa4c0e8676aadc3ca57d2e1325bd6ae52bae3dc1780a5adea72518b",
+      "bytes": 429904
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-1440-engineer-team.png",
+      "sha256": "6c1c6ab2bd66373c8fa30c3031f8a380b50402edd19b4650c518c8bbd08eb1db",
+      "bytes": 223945
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-390-engineer-hero.png",
+      "sha256": "b1ef7b49ad90e252f803cb64b037c6d912315b6cc26486faf11f6604b310c1af",
+      "bytes": 207268
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-390-engineer-paths.png",
+      "sha256": "0109c63620b54857f79643ea8c7ccec717ee13c2c8069ffa9560cd7b264d8502",
+      "bytes": 236770
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-390-engineer-team.png",
+      "sha256": "8a33455061f380ccda3a01fc9e7bccf9b2562c3b9bbcb972a81b020d3b15d88f",
+      "bytes": 92587
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-768-engineer-hero.png",
+      "sha256": "e82ca4f263d7e0b9388692f89c43624bc2c34f34694fc200488902dfbaa5c68f",
+      "bytes": 599048
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-768-engineer-paths.png",
+      "sha256": "56f285453035291c78b801e07cc565399ea145ebfd6f82c7124fdd0739dc1448",
+      "bytes": 301285
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/engineer-768-engineer-team.png",
+      "sha256": "a137c7027e3287ba18430571248ee5d0e3efec144eb239548445b8f31c3aeee3",
+      "bytes": 211060
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-1066-hr-cta.png",
+      "sha256": "528439f40caaf57609164dee090949cda98f9527783f7292cb7ff10d842d034a",
+      "bytes": 38538
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-1066-hr-hero.png",
+      "sha256": "11482e63d2dcb358e4447eecf27b261b8020960a313bc9dcb7d3f6a3c67dfc48",
+      "bytes": 458753
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-1066-hr-support.png",
+      "sha256": "4ad6c25271e87e550c9c4418b0ad65a9bef3bed9ee2ccf1d01e1ee709fd07027",
+      "bytes": 659634
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-1066-hr-team.png",
+      "sha256": "38057b75ee89db70ee0f10c2136b19d657301157ff684e2c8a23afef0fc25461",
+      "bytes": 184470
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-1280-hr-cta.png",
+      "sha256": "7c6c0b480e05e7b7a3ebbb318e11722a188a1d8bce93cacc64c3574e1fefc86d",
+      "bytes": 72355
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-1280-hr-hero.png",
+      "sha256": "a86e8bbcbd38c5d8dd5ae853e2b0a57db9e758ad7c9b7ce3fcb526a0463c0743",
+      "bytes": 471417
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-1280-hr-support.png",
+      "sha256": "a4aba60517c9b1850967a3f895f21173dee06b900c11dded3c7d618208a94bb5",
+      "bytes": 671456
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-1280-hr-team.png",
+      "sha256": "17c0b73a74a5da696d60f1361e43ad2a165aebfb98d362fd1a8eebda81192e20",
+      "bytes": 188687
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-1440-hr-cta.png",
+      "sha256": "08d890652504be5ed370dc4eb4232a95b7b3703aee4269f3a6f3874bd6bfedb2",
+      "bytes": 73328
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-1440-hr-hero.png",
+      "sha256": "e2feed835bb5fbeccc88da2fc47ed2e11b978e8ebe74bacb1af12e24c112f573",
+      "bytes": 649287
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-1440-hr-support.png",
+      "sha256": "812cc3293092feaf95db60a500c0db3ccf40f4e04120a889dc81d6d80fcdaf52",
+      "bytes": 789761
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-1440-hr-team.png",
+      "sha256": "89afd007ac7c9717bb11a9c678fd59f285601464fa0355477ac7e54c951d0665",
+      "bytes": 193577
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-390-hr-cta.png",
+      "sha256": "ca6b44c673092d0898eee6b69fdcbbdc00b7ec45d95bde577fe93c0d8677afa6",
+      "bytes": 32444
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-390-hr-hero.png",
+      "sha256": "f13830576e0810b863d18b56007d5570f0528dfa47148a2d32c6b0f77803593f",
+      "bytes": 219717
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-390-hr-support.png",
+      "sha256": "93675ba9bfc2036f9c8479b29939ea18bfa75425375d33387bf8eadfbed7e4fb",
+      "bytes": 187768
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-390-hr-team.png",
+      "sha256": "0e00616738bd261a9be7c249c6cbfa2cb0a1b1ab38386bd85fafb0e1201e205f",
+      "bytes": 88124
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-768-hr-cta.png",
+      "sha256": "5b52e6cd5bfdd64cfda7357fb90ccc3c4cfc9936905531046c91fd981fa3d7aa",
+      "bytes": 35563
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-768-hr-hero.png",
+      "sha256": "66e9beb4a1b88a4d032bddd1f00838a2c0ea49bca5d7e6e3a401c3c58973c9a2",
+      "bytes": 240297
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-768-hr-support.png",
+      "sha256": "bafc58139b942a231632854cf1b977995c4e753abdd92de5b8254ac6ed7afef4",
+      "bytes": 383387
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/hr-768-hr-team.png",
+      "sha256": "48147303d8f6465bc563d15e07326a42767193d5ccfc06df7f2ff98317930eaa",
+      "bytes": 181552
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-1066-jobs.png",
+      "sha256": "7245a3619cbda0413789fbd5994be9f391b607d95e4a7d7fe5cbcd5ec5282839",
+      "bytes": 186634
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-1066-learning.png",
+      "sha256": "94b6ed25c6900d8f8dda2e70f44692295fb9402c7c7f85243cedb96d77ca1869",
+      "bytes": 913972
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-1066-overview-hero.png",
+      "sha256": "9fa62bda2914c454e00a91a6538628768aed9deed8eecbe0c3df4d97d45c37c1",
+      "bytes": 799405
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-1066-overview-support.png",
+      "sha256": "1a00dc81b832d6c69a23065cfc17ee9cb4b60f09e6c120625ea9bae909360b37",
+      "bytes": 694788
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-1280-jobs.png",
+      "sha256": "e44e3389e9f4974b5e42890bbe5c68b39b5ab1dc1c91a8368b79ab4220cd10ec",
+      "bytes": 185898
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-1280-learning.png",
+      "sha256": "45a7cb5bfd87ff401b3c11f79080f59b98816aa2ab91f264581cf0f72440acd7",
+      "bytes": 415800
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-1280-overview-hero.png",
+      "sha256": "23a2563e5fc27005e3a6010d1be28d089138c8f31a8bf5a14c02f2c70fd15cc5",
+      "bytes": 598295
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-1280-overview-support.png",
+      "sha256": "1176c1d0248873105ecf5003e0e4436a94ff7c5b9f7e6d02f9aefa1ed590ba41",
+      "bytes": 294649
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-1440-jobs.png",
+      "sha256": "8a0a09a8baf92577ab6f3e1ff076df7c26ee24e7e1a4a921233065033745094f",
+      "bytes": 192928
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-1440-learning.png",
+      "sha256": "842c57a11577dfd3d729e1386ee0684df6d593813fdeb2a1d273079aeb304c37",
+      "bytes": 513444
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-1440-overview-hero.png",
+      "sha256": "96544f19eb277b6dd417f3b47f0dde32e53c4f3fb051ad3d881a85dfe2b4641b",
+      "bytes": 676692
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-1440-overview-support.png",
+      "sha256": "d90bf0ee9f6c1d9e2bdac349234295baf5b69654cbc371d9b9f2f8fa2fbaf093",
+      "bytes": 325764
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-390-jobs.png",
+      "sha256": "abe1476987293d935995a75713f2731268964a99d8a59a64725ebc6374f330b1",
+      "bytes": 189754
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-390-learning.png",
+      "sha256": "bf99501bc7ff3f5180727f46a322377fca178952fe3a209ec09f65464c0acd61",
+      "bytes": 230979
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-390-overview-hero.png",
+      "sha256": "2b8e4941b41f35172fab9730743470790949975979b59d8b3c7a22031d26a560",
+      "bytes": 159269
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-390-overview-support.png",
+      "sha256": "b94699890f65ba42ad44a4aa1378cf9c57694f816b81ee7f12d36f9a7be61cc9",
+      "bytes": 156789
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-768-jobs.png",
+      "sha256": "35b7c724309cdf7da0acc99d03ed70c879de942b96d26b4703d8fc8d7e52ef20",
+      "bytes": 199154
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-768-learning.png",
+      "sha256": "9960b2f6cf9189ca81c1909e04df06a70f4870d959d5517abfea6c8bb81b3603",
+      "bytes": 563944
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-768-overview-hero.png",
+      "sha256": "1c3b98462017f377222726491e01ed72287aef06a70b01e2a3948c18650ee3d6",
+      "bytes": 453759
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/overview-768-overview-support.png",
+      "sha256": "5ccb0515722f4231ea55cdd6542b509a5c72cdbce2e073315248de795660ec77",
+      "bytes": 391824
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-1066-sales-cta.png",
+      "sha256": "1da4cb710259b2d58b13c56fad8b6bdd0a92d0f30c8a336b1e2a927c81a9fc93",
+      "bytes": 128717
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-1066-sales-hero.png",
+      "sha256": "c4f518b7f551f18e0d4b6d731996425971a00c7957819ff41318d7a0bf2cb5c9",
+      "bytes": 217358
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-1066-sales-team.png",
+      "sha256": "1ce1ec0f54b2f6a490ec99df0b30b683d440f3fc6060e71985a423fbee5229cc",
+      "bytes": 463139
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-1280-sales-cta.png",
+      "sha256": "52af749ecde402f510425e9dc597201e9bd796e6bcd34ed946740577bf2652f7",
+      "bytes": 154481
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-1280-sales-hero.png",
+      "sha256": "fc6cc309bb1e84862f9744d6d719b6d4af546c5a205f75e0c8e8644462e8ad40",
+      "bytes": 400686
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-1280-sales-team.png",
+      "sha256": "c459eaa26fac5eed688c6ada7862c7480dd28f6427960ce3a4122faf22536a75",
+      "bytes": 596544
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-1440-sales-cta.png",
+      "sha256": "5cbc59a29decd209e1c650f6df85565ff853ecaaedce7cec6163d5ded366e3c5",
+      "bytes": 187067
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-1440-sales-hero.png",
+      "sha256": "19e2309547492f0ac34a3c19cf2abbce6b70e77c07e3a93bf36d37e5c224f367",
+      "bytes": 476860
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-1440-sales-team.png",
+      "sha256": "deaac99dd92ec140ed1e47e76c45efbf8caf2ea6dc7ac62680914a0d9ccbaaf0",
+      "bytes": 702690
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-390-sales-cta.png",
+      "sha256": "a1e9bbce281c60b46db682bacbe84d0fc0a557afcb8d46e46000f7be3a1f517d",
+      "bytes": 89074
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-390-sales-hero.png",
+      "sha256": "4a36f91f4d74180a22281c25864ce14fb3b6d9ec522acb0db3e3d355c0a635a6",
+      "bytes": 112606
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-390-sales-team.png",
+      "sha256": "db187484b93c71cc07bcdcd4bbec1e8d3402e02f33aa6d358badcf0db79b6751",
+      "bytes": 230888
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-768-sales-cta.png",
+      "sha256": "349bc8d7fb28ebfb8d9cf45636f949a0bfac98d9915cc87928b972ba6b62daf1",
+      "bytes": 124474
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-768-sales-hero.png",
+      "sha256": "87239359725a6aed92fbb5c81b60b08352cc5737e35fdd99720dcee678f91e10",
+      "bytes": 208465
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/round-33/subjects-stable/sales-768-sales-team.png",
+      "sha256": "48e8b83c0d7bcdc99e0e5a462ae36cb6c14725916cb149300a28764281ab27b1",
+      "bytes": 379107
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round32-release/engineer-1440.png",
+      "sha256": "5fb816fdebba77bf89bc177326cc8f6cc27ce1746f21f13854a14e68f1da0921",
+      "bytes": 2716221
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round32-release/engineer-390.png",
+      "sha256": "d9c0251a16dd10ada0df28ee7fada786bfad9d7036297293e18b492aafd8e7be",
+      "bytes": 887560
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round32-release/engineer-768.png",
+      "sha256": "a0196a85423a366dfa952fc8c3d14f4db1ab52a69215e5a8186c1d8cddac7bd0",
+      "bytes": 1877136
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round32-release/hr-1440.png",
+      "sha256": "a88279062a709a09a78f466733f81b0a73684a06cbcb322d99266d988891f3ed",
+      "bytes": 2360920
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round32-release/hr-390.png",
+      "sha256": "8bc17691a63b15581db156271934e91d8186ace2df651fe68a527e7469482a64",
+      "bytes": 788730
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round32-release/hr-768.png",
+      "sha256": "32a7d2069907efc4a9f2d5ff9435892736492be00e6d25d8d534371a5e7c90e8",
+      "bytes": 1261772
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round32-release/overview-1440.png",
+      "sha256": "79a6f1726b1c7cf13838576aa7ff00f0337eb85cfd7f7afdbdbd09b636292b6a",
+      "bytes": 2044924
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round32-release/overview-390.png",
+      "sha256": "d5dd246ce8d3d853152a5d0bb3bdc096b4ecacb6f66e31032d2de060b8c279e1",
+      "bytes": 916024
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round32-release/overview-768.png",
+      "sha256": "55842314540bbbece0f6adcd5ba81cea5af967674f7c1a271bea1f0f59eb3486",
+      "bytes": 1805443
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round32-release/sales-1440.png",
+      "sha256": "193e185a34370c17d2a6e6802d863d614d3288d6f453b614db34b0cdb58f01b7",
+      "bytes": 2366175
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round32-release/sales-390.png",
+      "sha256": "56310e6f31db9354412c0539df8472705ce152cef1fee937405a874010940129",
+      "bytes": 819326
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round32-release/sales-768.png",
+      "sha256": "1894fef603d18398c1b9795b01e1fd12269c7c84d21caab5ef4329ded958e1bd",
+      "bytes": 1248474
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round33-release/engineer-1440.png",
+      "sha256": "c317530bf4ff9a08a7a0296d042b4eb4b6548fa3a7e94889a847cad821a0c908",
+      "bytes": 2717824
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round33-release/engineer-390.png",
+      "sha256": "7ec8fd979108ae447a9a550c1033f3c1eccafe0905721d03559eb0e67189b725",
+      "bytes": 888635
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round33-release/engineer-768.png",
+      "sha256": "8fd4c737919af9da35348ecd29ddea88360404129c2e7b9e2f2ebefe3fcd6aa7",
+      "bytes": 1888587
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round33-release/hr-1440.png",
+      "sha256": "9a2022094e8913bcd3df3181fcc3994945254903407471a9a69280336a85eefa",
+      "bytes": 2361635
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round33-release/hr-390.png",
+      "sha256": "2d46b5ca491c19ab88cac36b223040a9dcaaf2e156faf420231a1d1d73f589f5",
+      "bytes": 789392
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round33-release/hr-768.png",
+      "sha256": "4ae65336ebb2fe28cecc4d27a5f1cdefddc64a02404ad0f79f710adbc4999456",
+      "bytes": 1262617
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round33-release/overview-1440.png",
+      "sha256": "f6c9018726d5d9424f4dcd59e8f3d70dbb00ccb366da4391f69aa50ad2b2cfe6",
+      "bytes": 2047100
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round33-release/overview-390.png",
+      "sha256": "36e48bd2cb61d591049b28f7020bdecac9509d4569f566907ad8dacaada3bb27",
+      "bytes": 917365
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round33-release/overview-768.png",
+      "sha256": "3fb6afe8f173b7ceb7daa7ffca980a83257d65374316a9275aa453ef86c69dab",
+      "bytes": 1806762
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round33-release/sales-1440.png",
+      "sha256": "920882a98e9b84ba62f454e665f75578491bc3da9abef29d71431b50aa0ac183",
+      "bytes": 2405710
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round33-release/sales-390.png",
+      "sha256": "fc437fa187674de0e395a8cfbb0564713a29423f3ccd6e0f9f7714f15a067d5c",
+      "bytes": 821020
+    },
+    {
+      "path": "/workspace/baudroieLP_shomei/artifacts/qa/pages/round33-release/sales-768.png",
+      "sha256": "fae94aab7d79fee98af7ae547ea1f8fa874d0776f02698ed21bc3e237f9bcdad",
+      "bytes": 1249308
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "source": "1bb085daea688492e7db3e3c6adbdcd902ca7e4f",
+  "scale": "master width1440 uniform; global origin unchanged",
+  "uncertainty_css_px": 5,
+  "learning_top": {
+    "x": [
+      0,
+      120,
+      240,
+      480,
+      720,
+      960,
+      1200,
+      1439
+    ],
+    "master_y": [
+      1995,
+      2039,
+      2055,
+      2038,
+      2031,
+      2058,
+      2063,
+      2026
+    ],
+    "before_y": [
+      2010,
+      2032,
+      2039,
+      2031,
+      2032,
+      2054,
+      2056,
+      2012
+    ]
+  },
+  "sales_caption_lower": {
+    "y": [
+      2600,
+      2750,
+      2800
+    ],
+    "master_x": [
+      616,
+      671,
+      726
+    ],
+    "before_x": [
+      611,
+      704,
+      765
+    ]
+  },
+  "hr_left_cream": {
+    "y": [
+      160,
+      220
+    ],
+    "master_x": [
+      71,
+      141
+    ],
+    "before_x": [
+      194,
+      254
+    ]
+  },
+  "method": "visual + pale color edge threshold; photo/text occluded points excluded"
+}

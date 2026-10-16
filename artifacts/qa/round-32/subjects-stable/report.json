@@ -1,0 +1,2295 @@
+{
+  "source_commit": "cc00164a05fa3a81188b72ba7111199d9a1a23b5",
+  "utc": "2026-10-16T11:31:13.803799+00:00",
+  "src": {
+    "src/config.ts": "10da1ef5ad0e6ce9de91c53fa38980eea1b92ac6d286bf3b3dbf029a25d9c25a",
+    "src/main.tsx": "35070d2d98c312d725a68deb7106099097039afc61f9575a145cee5eb183756e",
+    "src/master-curves.css": "600e5a563eef3d5f70b35a6fb613b2c77f2e594476d45fd4b655221dc4b61a74",
+    "src/responsive-fixes.css": "b40833439daa25067dcea4f4192138d2a06bb19649a6645a83c76952a14a0012",
+    "src/styles.css": "85ad757f82695e4ecd796ff1a7de871868a4de041d5b97e00e1b96f5f0671f29",
+    "src/vite-env.d.ts": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+  },
+  "checks": [
+    {
+      "page": "overview",
+      "width": 1440,
+      "section": ".overview-hero",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            892.796875,
+            710
+          ],
+          "fit": "cover",
+          "position": "50% 44%",
+          "mask": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M110%200%20L1000%200%20L1000%20850%20C730%201040%20480%201030%20150%20900%20C-60%20810%2090%20580%2035%20360%20C-20%20140%200%2090%20110%200%20Z%22%2F%3E%3C%2Fsvg%3E\")",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 1440,
+      "section": ".learning",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/college_training.jpg",
+          "natural": [
+            1477,
+            1108
+          ],
+          "box": [
+            792,
+            460.453125
+          ],
+          "fit": "cover",
+          "position": "50% 20%",
+          "mask": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cg%20transform%3D%22translate%280%200%29%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20165%20C50%20130%2090%20100%20151%2092%20C245%2075%20360%2048%20455%2040%20C570%2030%20665%20-5%20758%205%20C850%208%20900%2025%20930%2070%20C990%20120%20970%20390%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E\")",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-mentor.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            104,
+            104
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-laptop.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            104,
+            104
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-growth.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            104,
+            104
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 1440,
+      "section": ".overview-support",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            601,
+            340
+          ],
+          "fit": "cover",
+          "position": "50% 40%",
+          "mask": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20590%20C0%20180%20400%2015%201000%200%20L1000%20840%20C770%201030%20410%201010%20120%20950%20C20%20930%200%20800%200%20590%20Z%22%2F%3E%3C%2Fsvg%3E\")",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 1440,
+      "section": ".jobs",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "0% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "100% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 1440,
+      "section": ".sales-hero",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/sales-hero.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            864,
+            600
+          ],
+          "fit": "contain",
+          "position": "100% 100%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 1440,
+      "section": ".sales-team",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/office_lounge.jpg",
+          "natural": [
+            750,
+            500
+          ],
+          "box": [
+            1440,
+            562
+          ],
+          "fit": "cover",
+          "position": "50% 42%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 1440,
+      "section": ".sales-cta",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/sales-phone.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            547.671875,
+            290
+          ],
+          "fit": "cover",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 1440,
+      "section": ".hr-hero",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/recruiting_conversation.jpg",
+          "natural": [
+            3024,
+            2268
+          ],
+          "box": [
+            633.59375,
+            600
+          ],
+          "fit": "cover",
+          "position": "0% 50%",
+          "mask": "none",
+          "clip": "shape(from 0px 0px, line to 17% 0px, curve to 58% 28% with 58% 0px / 58% 10%, line to 58% 48%, curve to 82% 70% with 58% 63% / 72% 65%, curve to 100% 100% with 110% 75% / 100% 100%, line to 0px 100%, close)"
+        },
+        {
+          "src": "/assets/hr-hero.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            662.390625,
+            400
+          ],
+          "fit": "cover",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 1440,
+      "section": ".hr-support",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            1304,
+            395.140625
+          ],
+          "fit": "cover",
+          "position": "50% 42%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 1440,
+      "section": ".hr-team",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/hr-team.png",
+          "natural": [
+            1942,
+            809
+          ],
+          "box": [
+            630.1875,
+            235
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 1440,
+      "section": ".hr-cta",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/hr-notebook.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            200,
+            180
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 1440,
+      "section": ".engineer-hero",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/engineer-network.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            632.953125,
+            440
+          ],
+          "fit": "cover",
+          "position": "100% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/engineer-panorama.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            1440,
+            374
+          ],
+          "fit": "cover",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 1440,
+      "section": ".engineer-paths",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/engineer-beginner-transparent.png",
+          "natural": [
+            1448,
+            1086
+          ],
+          "box": [
+            590,
+            450
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/engineer-experienced.png",
+          "natural": [
+            1448,
+            1086
+          ],
+          "box": [
+            590,
+            400
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 1440,
+      "section": ".engineer-team",
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "src": "/assets/hr-team.png",
+          "natural": [
+            1942,
+            809
+          ],
+          "box": [
+            610.265625,
+            254.21875
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 1280,
+      "section": ".overview-hero",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            793.59375,
+            710
+          ],
+          "fit": "cover",
+          "position": "50% 44%",
+          "mask": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M110%200%20L1000%200%20L1000%20850%20C730%201040%20480%201030%20150%20900%20C-60%20810%2090%20580%2035%20360%20C-20%20140%200%2090%20110%200%20Z%22%2F%3E%3C%2Fsvg%3E\")",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 1280,
+      "section": ".learning",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/college_training.jpg",
+          "natural": [
+            1477,
+            1108
+          ],
+          "box": [
+            704,
+            409.296875
+          ],
+          "fit": "cover",
+          "position": "50% 20%",
+          "mask": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cg%20transform%3D%22translate%280%200%29%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20165%20C50%20130%2090%20100%20151%2092%20C245%2075%20360%2048%20455%2040%20C570%2030%20665%20-5%20758%205%20C850%208%20900%2025%20930%2070%20C990%20120%20970%20390%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E\")",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-mentor.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            104,
+            104
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-laptop.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            104,
+            104
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-growth.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            104,
+            104
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 1280,
+      "section": ".overview-support",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            527.390625,
+            340
+          ],
+          "fit": "cover",
+          "position": "50% 40%",
+          "mask": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20590%20C0%20180%20400%2015%201000%200%20L1000%20840%20C770%201030%20410%201010%20120%20950%20C20%20930%200%20800%200%20590%20Z%22%2F%3E%3C%2Fsvg%3E\")",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 1280,
+      "section": ".jobs",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "0% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "100% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 1280,
+      "section": ".sales-hero",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/sales-hero.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            768,
+            600
+          ],
+          "fit": "contain",
+          "position": "100% 100%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 1280,
+      "section": ".sales-team",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/office_lounge.jpg",
+          "natural": [
+            750,
+            500
+          ],
+          "box": [
+            1280,
+            520
+          ],
+          "fit": "cover",
+          "position": "50% 42%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 1280,
+      "section": ".sales-cta",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/sales-phone.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            487.0625,
+            290
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 1280,
+      "section": ".hr-hero",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/recruiting_conversation.jpg",
+          "natural": [
+            3024,
+            2268
+          ],
+          "box": [
+            640,
+            320
+          ],
+          "fit": "cover",
+          "position": "0% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/hr-hero.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            640,
+            320
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 1280,
+      "section": ".hr-support",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            1159.6875,
+            351.40625
+          ],
+          "fit": "cover",
+          "position": "50% 42%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 1280,
+      "section": ".hr-team",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/hr-team.png",
+          "natural": [
+            1942,
+            809
+          ],
+          "box": [
+            556.59375,
+            235
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 1280,
+      "section": ".hr-cta",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/hr-notebook.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            200,
+            180
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 1280,
+      "section": ".engineer-hero",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/engineer-network.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            559.359375,
+            440
+          ],
+          "fit": "cover",
+          "position": "100% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/engineer-panorama.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            1280,
+            374
+          ],
+          "fit": "cover",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 1280,
+      "section": ".engineer-paths",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/engineer-beginner-transparent.png",
+          "natural": [
+            1448,
+            1086
+          ],
+          "box": [
+            510,
+            280
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/engineer-experienced.png",
+          "natural": [
+            1448,
+            1086
+          ],
+          "box": [
+            510,
+            286.75
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 1280,
+      "section": ".engineer-team",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "/assets/hr-team.png",
+          "natural": [
+            1942,
+            809
+          ],
+          "box": [
+            497.4921875,
+            207.2294921875
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 1066,
+      "section": ".overview-hero",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            1014,
+            676
+          ],
+          "fit": "contain",
+          "position": "50% 44%",
+          "mask": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M110%200%20L1000%200%20L1000%20850%20C730%201040%20480%201030%20150%20900%20C-60%20810%2090%20580%2035%20360%20C-20%20140%200%2090%20110%200%20Z%22%2F%3E%3C%2Fsvg%3E\")",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 1066,
+      "section": ".learning",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/college_training.jpg",
+          "natural": [
+            1477,
+            1108
+          ],
+          "box": [
+            1066,
+            799.671875
+          ],
+          "fit": "contain",
+          "position": "50% 20%",
+          "mask": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20165%20C250%2065%20660%20-20%20875%2040%20C1030%20100%20950%20390%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fsvg%3E\")",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-mentor.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            86,
+            86
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-laptop.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            86,
+            86
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-growth.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            86,
+            86
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 1066,
+      "section": ".overview-support",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            1014,
+            596.46875
+          ],
+          "fit": "cover",
+          "position": "50% 40%",
+          "mask": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20590%20C0%20180%20400%2015%201000%200%20L1000%20840%20C770%201030%20410%201010%20120%20950%20C20%20930%200%20800%200%20590%20Z%22%2F%3E%3C%2Fsvg%3E\")",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 1066,
+      "section": ".jobs",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "0% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "100% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 1066,
+      "section": ".sales-hero",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/sales-hero.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            1014,
+            340
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 1066,
+      "section": ".sales-team",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/office_lounge.jpg",
+          "natural": [
+            750,
+            500
+          ],
+          "box": [
+            1066,
+            330
+          ],
+          "fit": "cover",
+          "position": "50% 42%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 1066,
+      "section": ".sales-cta",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/sales-phone.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            1014,
+            260
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 1066,
+      "section": ".hr-hero",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/recruiting_conversation.jpg",
+          "natural": [
+            3024,
+            2268
+          ],
+          "box": [
+            495,
+            371.25
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/hr-hero.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            495,
+            330
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 1066,
+      "section": ".hr-support",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            1014,
+            440.859375
+          ],
+          "fit": "cover",
+          "position": "50% 42%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 1066,
+      "section": ".hr-team",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/hr-team.png",
+          "natural": [
+            1942,
+            809
+          ],
+          "box": [
+            1014,
+            240
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 1066,
+      "section": ".hr-cta",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/hr-notebook.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            120,
+            100
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 1066,
+      "section": ".engineer-hero",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/engineer-network.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            700,
+            466.65625
+          ],
+          "fit": "contain",
+          "position": "100% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/engineer-panorama.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            1066,
+            355.328125
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 1066,
+      "section": ".engineer-paths",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/engineer-beginner-transparent.png",
+          "natural": [
+            1448,
+            1086
+          ],
+          "box": [
+            1014,
+            300
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/engineer-experienced.png",
+          "natural": [
+            1448,
+            1086
+          ],
+          "box": [
+            1014,
+            300
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 1066,
+      "section": ".engineer-team",
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "images": [
+        {
+          "src": "/assets/hr-team.png",
+          "natural": [
+            1942,
+            809
+          ],
+          "box": [
+            1014,
+            260
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 768,
+      "section": ".overview-hero",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            716,
+            477.328125
+          ],
+          "fit": "contain",
+          "position": "50% 44%",
+          "mask": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M110%200%20L1000%200%20L1000%20850%20C730%201040%20480%201030%20150%20900%20C-60%20810%2090%20580%2035%20360%20C-20%20140%200%2090%20110%200%20Z%22%2F%3E%3C%2Fsvg%3E\")",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 768,
+      "section": ".learning",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/college_training.jpg",
+          "natural": [
+            1477,
+            1108
+          ],
+          "box": [
+            768,
+            576.125
+          ],
+          "fit": "contain",
+          "position": "50% 20%",
+          "mask": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20165%20C250%2065%20660%20-20%20875%2040%20C1030%20100%20950%20390%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fsvg%3E\")",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-mentor.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            86,
+            86
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-laptop.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            86,
+            86
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-growth.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            86,
+            86
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 768,
+      "section": ".overview-support",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            716,
+            421.171875
+          ],
+          "fit": "cover",
+          "position": "50% 40%",
+          "mask": "url(\"data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20590%20C0%20180%20400%2015%201000%200%20L1000%20840%20C770%201030%20410%201010%20120%20950%20C20%20930%200%20800%200%20590%20Z%22%2F%3E%3C%2Fsvg%3E\")",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 768,
+      "section": ".jobs",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "0% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "100% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 768,
+      "section": ".sales-hero",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/sales-hero.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            716,
+            340
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 768,
+      "section": ".sales-team",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/office_lounge.jpg",
+          "natural": [
+            750,
+            500
+          ],
+          "box": [
+            768,
+            330
+          ],
+          "fit": "cover",
+          "position": "50% 42%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 768,
+      "section": ".sales-cta",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/sales-phone.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            716,
+            260
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 768,
+      "section": ".hr-hero",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/recruiting_conversation.jpg",
+          "natural": [
+            3024,
+            2268
+          ],
+          "box": [
+            346,
+            259.5
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/hr-hero.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            346,
+            230.65625
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 768,
+      "section": ".hr-support",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            716,
+            311.296875
+          ],
+          "fit": "cover",
+          "position": "50% 42%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 768,
+      "section": ".hr-team",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/hr-team.png",
+          "natural": [
+            1942,
+            809
+          ],
+          "box": [
+            716,
+            240
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 768,
+      "section": ".hr-cta",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/hr-notebook.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            120,
+            100
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 768,
+      "section": ".engineer-hero",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/engineer-network.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            700,
+            466.65625
+          ],
+          "fit": "contain",
+          "position": "100% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/engineer-panorama.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            768,
+            256
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 768,
+      "section": ".engineer-paths",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/engineer-beginner-transparent.png",
+          "natural": [
+            1448,
+            1086
+          ],
+          "box": [
+            716,
+            300
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/engineer-experienced.png",
+          "natural": [
+            1448,
+            1086
+          ],
+          "box": [
+            716,
+            300
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 768,
+      "section": ".engineer-team",
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "images": [
+        {
+          "src": "/assets/hr-team.png",
+          "natural": [
+            1942,
+            809
+          ],
+          "box": [
+            716,
+            260
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 390,
+      "section": ".overview-hero",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            338,
+            225.328125
+          ],
+          "fit": "contain",
+          "position": "50% 44%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 390,
+      "section": ".learning",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/college_training.jpg",
+          "natural": [
+            1477,
+            1108
+          ],
+          "box": [
+            390,
+            292.5625
+          ],
+          "fit": "contain",
+          "position": "50% 20%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-mentor.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            86,
+            86
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-laptop.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            86,
+            86
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/icon-growth.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            86,
+            86
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 390,
+      "section": ".overview-support",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            338,
+            225.328125
+          ],
+          "fit": "cover",
+          "position": "50% 40%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "overview",
+      "width": 390,
+      "section": ".jobs",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "0% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/overview-role-illustrations.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            660,
+            220
+          ],
+          "fit": "fill",
+          "position": "100% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 390,
+      "section": ".sales-hero",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/sales-hero.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            338,
+            340
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 390,
+      "section": ".sales-team",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/office_lounge.jpg",
+          "natural": [
+            750,
+            500
+          ],
+          "box": [
+            390,
+            330
+          ],
+          "fit": "cover",
+          "position": "50% 42%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "width": 390,
+      "section": ".sales-cta",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/sales-phone.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            338,
+            260
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 390,
+      "section": ".hr-hero",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/recruiting_conversation.jpg",
+          "natural": [
+            3024,
+            2268
+          ],
+          "box": [
+            338,
+            253.5
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/hr-hero.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            338,
+            225.328125
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 390,
+      "section": ".hr-support",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/support-conversation-approved.webp",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            338,
+            225.328125
+          ],
+          "fit": "cover",
+          "position": "50% 42%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 390,
+      "section": ".hr-team",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/hr-team.png",
+          "natural": [
+            1942,
+            809
+          ],
+          "box": [
+            338,
+            240
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "width": 390,
+      "section": ".hr-cta",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/hr-notebook.png",
+          "natural": [
+            1254,
+            1254
+          ],
+          "box": [
+            120,
+            100
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 390,
+      "section": ".engineer-hero",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/engineer-network.png",
+          "natural": [
+            1536,
+            1024
+          ],
+          "box": [
+            338,
+            225.328125
+          ],
+          "fit": "contain",
+          "position": "100% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/engineer-panorama.png",
+          "natural": [
+            2172,
+            724
+          ],
+          "box": [
+            390,
+            130
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 390,
+      "section": ".engineer-paths",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/engineer-beginner-transparent.png",
+          "natural": [
+            1448,
+            1086
+          ],
+          "box": [
+            338,
+            300
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        },
+        {
+          "src": "/assets/engineer-experienced.png",
+          "natural": [
+            1448,
+            1086
+          ],
+          "box": [
+            338,
+            300
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "width": 390,
+      "section": ".engineer-team",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "/assets/hr-team.png",
+          "natural": [
+            1942,
+            809
+          ],
+          "box": [
+            338,
+            260
+          ],
+          "fit": "contain",
+          "position": "50% 50%",
+          "mask": "none",
+          "clip": "none"
+        }
+      ]
+    }
+  ],
+  "browser": "154.0.8037.57"
+}

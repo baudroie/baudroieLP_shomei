@@ -32,7 +32,7 @@ npm run build
 Python 3.12、Pillow、Playwright、`/usr/bin/chromium`が必要です。
 
 ```sh
-python3 scripts/visual_qa.py --round 31
+python3 scripts/visual_qa.py --round 34
 python3 scripts/functional_qa.py
 ```
 
@@ -42,11 +42,11 @@ Viteを起動した状態で実行。1440・390・768 CSS px/DPR1で全ページ
 
 公式写真の出典・AI生成素材は `docs/asset-manifest.json`、原稿補正は `docs/content-corrections.md`。生成素材はマスターとの完全一致ではなく、公式写真との構図差を含めQAで継続確認します。
 
-最新の比較は `artifacts/qa/round-30/`、判定はneeds-fixです。撮影ソースは `1bb085d`。次のQAには未使用のラウンド番号を選び、過去の証拠を上書きしないでください。通常の `npm run dev` も127.0.0.1限定です。
+最新の比較は `artifacts/qa/round-33/`、判定はneeds-fixです。撮影ソースは `87bc39b`。次のQAには未使用のラウンド番号を選び、過去の証拠を上書きしないでください。通常の `npm run dev` も127.0.0.1限定です。
 
 ## GitHub Pages
 
-共有Pagesはround30修正版へ更新。配信元1bb085d、公開SHAとデプロイはdocs/pages-deployment.mdを参照。クラウドから直接実見はプロキシ403のため依頼元で確認。
+共有Pagesはround33修正版へ更新。配信元87bc39b、公開SHAとデプロイはdocs/pages-deployment.mdを参照。クラウドから直接実見はプロキシ403のため依頼元で確認。
 
 現在のPages設定の変更は不要です。詳細はdocs/pages-deployment.mdとdocs/orchestrator-status.md。
 
@@ -56,4 +56,6 @@ Viteを起動した状態で実行。1440・390・768 CSS px/DPR1で全ページ
 
 配信対象はdist内だけです。mainへのマージは不要。更新時は検証後のdistをgh-pagesへ通常pushしてください。詳しくはdocs/pages-deployment.md。
 
-中間幅の検査: `python3 scripts/responsive_qa.py --round 31`、境界検査: `python3 scripts/layout_bounds_qa.py --round 31`。人物見切れ・重なりを含む目視レビューと機械検査を区別します。写真選定待ちはdocs/photo-replacement-pending.md。
+中間幅の検査: `python3 scripts/responsive_qa.py --round 34`、境界検査: `python3 scripts/layout_bounds_qa.py --round 34`。人物見切れ・重なりを含む目視レビューと機械検査を区別します。写真選定待ちはdocs/photo-replacement-pending.md。
+
+round31以降の新規比較・QA画像はユーザー指示によりローカル保持のみ。画像の公開追加は行わず、測定JSONとレビュー記録をPRへ保存します。

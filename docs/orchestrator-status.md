@@ -1,38 +1,38 @@
-# Round30 — 公開・再レビュー・再修正の反映
+# Round33 — 測定したCSS差の修正と公開
 
-プレビュー https://baudroie.github.io/baudroieLP_shomei/
-配信元・撮影・ビルドSHA `1bb085daea688492e7db3e3c6adbdcd902ca7e4f`
-公開コミット `86053f86f6a851d0a624eb46b71668af21d1109e`（親fac562b）
-GitHubデプロイ completed / success
-https://github.com/baudroie/baudroieLP_shomei/actions/runs/38871385741
-成果物 CSS `index-BMxQx0QK.css` / JS `index-CpvK5LyS.js`
-確認JST: 2026-10-16T17:06:52.643316+09:00
+URL https://baudroie.github.io/baudroieLP_shomei/
+撮影・描画・ビルド元 `87bc39bfe771b6ce3b70952a37bd824c501c99e6`
+公開SHA `74665af92049fad229784365e55772562f9dd94e`（親86053f8）
+CSS `index-DilzdAgK.css` / JS `index-DYQvgn6f.js`
+デプロイ completed / success
+https://github.com/baudroie/baudroieLP_shomei/actions/runs/38895081591
+公開更新JST 2026-10-16T20:38:11.951461+09:00
 
-他担当f90cc03を取り込み、並行の5613f33もmerge265654eで統合。round22以降のコード・証拠を保持し、強制pushなし。別担当の同名round23証拠はother-worker-round23/、レビューはdocs/other-worker-independent-review-round-23.mdへ分けて由来を保持。
+既存gh-pagesへ通常push。mainマージ、Pages設定・権限・ネットワーク変更なし。dist以外を公開せず、**新しい比較画像・QA画像を公開していない**。公開treeの全配信ファイルSHA256は検証済distと一致。公開URLはCONNECT proxy403のためクラウドから直接実見不可。依頼元が公開画面を検証する。
 
-承認相談写真をまとめトップへ適用。研修写真の頭、jobs配置、engineerteamサイズ・1280本文改行を修正。round26を公開して再レビューし、HR後続28pxずれを写真下余白で補正。統合後に見つかった営業390役割ラベル侵入とengineer支援ラベル孤立も29で修正、本文の軽微な孤立行を30で修正し再撮影した。
+## 今回の変更
 
-最終30はHEADを固定したまま全4ページ5幅の撮影・部位70・ビルド・Pages12条件を完了。同じsrc/public hashから公開し、remote gh-pages HEADと全配信ファイルhashが検証済distに一致。round27〜29の途中buildは公開せず、26と30だけを既存gh-pagesへ通常push。mainマージ、Pages設定・権限・ネットワーク変更なし。
+390pxまとめの見出しは原稿を保って『中長期の成長に／向けた取り組み』2行へ。learning谷と写真上弧、営業teamくびれ、HRhero左右、engineerteam底辺を同倍率/global原点の実測から局所修正。初回で残った営業/HR右差を独立レビュー後に再修正。共通orangeはマスター4枚12×12中央値を再現して#fd4301へ。営業3アイコンを個別拡大しlabel・罫線を約22〜26px下へ。ロゴ・写真・原線画の画素は未変更。
 
-公開URLへの直接アクセスはCONNECT proxy403。公開画面自体のクラウド実見は未実施で依頼元が確認する。GitHubデプロイと配信tree照合、ローカル静的ブラウザ検査は成功。写真/書体/原線画の最終検収とは別。
+最終33は固定SHAから全4ページ1440/1280/1066/768/390で画像/フォント読込・スクロール停止後撮影。標準20、clientWidth基準20、文字境界36、操作27、Pages静的12条件成功。PC全高3557/3608/3798/3900は30から不変。人物の頭・顔・手、390役割ラベル、1280組みの検収済み箇所に新規P1/P2退行なし。独立補助レビュー docs/independent-review-round-33.md。
 
-## 最新証拠
+## 証拠と測定値
 
-以下はすべてartifacts/qa/round-30/配下。
+新しい画像はローカル限定。下記は /workspace/baudroieLP_shomei/artifacts/qa/round-33/ 配下で保持。PRにはJSONとレビュー文書を保存する。以前の公開round30画像は変更なし。
 
-|ページ|PCマスター横並び|5幅全体|重点部位|
-|---|---|---|---|
-|まとめ|overview-side-by-side.jpg|overview-1440/1280/1066/768/390.png|subjects-stable/overview-*-overview-hero.png、overview-*-learning.png|
-|営業|sales-side-by-side.jpg|sales-1440/1280/1066/768/390.png|subjects-stable/sales-390-sales-team.png|
-|人事|hr-side-by-side.jpg|hr-1440/1280/1066/768/390.png|subjects-stable/hr-*-hr-support.png|
-|エンジニア|engineer-side-by-side.jpg|engineer-1440/1280/1066/768/390.png|subjects-stable/engineer-390-engineer-team.png|
+|ページ|ローカル最新比較|重点部位|
+|---|---|---|
+|まとめ|overview-side-by-side.jpg / overlay / difference|overview-focus-3.jpg、overview-390.png|
+|営業|sales-side-by-side.jpg / overlay / difference|sales-focus-4.jpg / sales-focus-5.jpg、sales-1280/1066/390.png|
+|人事|hr-side-by-side.jpg / overlay / difference|hr-focus-1.jpg、subjects-stable/hr-*-hr-support.png|
+|エンジニア|engineer-side-by-side.jpg / overlay / difference|engineer-focus-6.jpg、subjects-stable/engineer-390-engineer-team.png|
 
-各ページoverlay/difference、全PCsection、before-after/の23→30全体20比較も保存。全体比較はglobal原点・実寸、マスターだけ幅1440へ等比換算。元画像を歪ませず差を隠さない。
+全5幅全体・PCsection・subjects-stable70・responsive20もローカル保持。local-evidence-manifest.jsonに全画像絶対パス/ハッシュ。公開記録 artifacts/qa/pages/round33-release/deployment-status.json、サンプルorange-sampling.json、ソース/素材hash report.json。
 
-標準撮影20条件、clientWidth横溢れ20条件、文字境界36条件、操作27条件、Pages12条件が成功。ブラウザ154/DPR1、画像・font読込とスクロール停止後撮影。最終ソースとsrc/public hashはreport.json、各src hashはsubjects-stable/report.json。Pages証拠 artifacts/qa/pages/round30-release/。独立補助レビュー docs/independent-review-round-30.md。
+測定は固定マスターを幅1440へ等比換算しglobal原点を保持。learning上辺8点残差+1〜+4px、写真上弧7点-3〜+1px、営業くびれ5点-2〜0px、HR右3点-1〜+1px、engineer底5点-1〜+4px。HR左y160は一致、y220には約6pxの精密差あり。測定ぼかし/閾値誤差±3〜5pxを含み、全画素同一の保証ではない。
 
 ## 残課題・次作業
 
-最終判定needs-fix。新たな具体的P1/P2衝突は30レビューで見つからなかったが、原線画/書体同一性、輪郭の精密差は未達。承認写真の変更は意図した例外。写真選定待ちは営業work/teamの2箇所。人事supportは承認写真に更新済みで旧750px課題と区別。未承認写真差替え、新規生成、AIアップスケールなし。スマホは暫定レスポンシブ、正式LINEは設定待ち。
+今回の具体的CSS指摘は修正して独立レビュー・再撮影済み。素材待ちは分離: 原フォント/weight、原分離線画、営業work/team写真の未承認構図・画質、写真identity差。承認済み相談写真の適用は意図した例外。素材の勝手な選択・差替え・生成・アップスケールなし。HR左の精密差、背景色/全曲線の厳密一致と依頼元の最終承認は保留。スマホは暫定、正式LINEは待機表示を維持。
 
-依頼元が公開版のCSS/JSと上記ソースを照合し全4ページを実見する。新規具体P1/P2なら同PRで修正し、次の証拠は31以降。素材・書体の承認待ちは別記してCSS指摘を止めない。常駐監視は新設しておらず、依頼元の既存監視とセッション内PR確認で継続。
+依頼元が公開CSS/JSを照合して再実見する。具体的CSS指摘があれば同PRで修正し、次round34以降で記録。新しい比較画像は引き続きローカル保持し、画像公開は別途ユーザー指示なしに行わない。無人常駐監視は新設していない。
