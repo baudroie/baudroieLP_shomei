@@ -1,0 +1,273 @@
+{
+  "utc": "2026-10-16T02:39:09.103478+00:00",
+  "commit": "d23ee75f9ef23b049f73fa375705ed606ce5b594",
+  "source_sha256": "34d35bbee7bcb6c67b4675034092ddf5e5bcfc7812ff0f11259249e145bb0140",
+  "density": 1,
+  "pages": [
+    {
+      "name": "overview",
+      "route": "/",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 3563,
+          "failures": [
+            "console/page errors: ['Failed to load resource: the server responded with a status of 404 (Not Found)']"
+          ],
+          "font": "LocalNoto, \"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 390,
+          "height": 5719,
+          "failures": [],
+          "font": "LocalNoto, \"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 768,
+          "height": 5112,
+          "failures": [],
+          "font": "LocalNoto, \"Noto Sans CJK JP\", sans-serif"
+        }
+      ],
+      "sections": [
+        {
+          "class": "overview-hero",
+          "top": 102,
+          "height": 616
+        },
+        {
+          "class": "business section-pad",
+          "top": 718,
+          "height": 1290
+        },
+        {
+          "class": "learning cream",
+          "top": 2008,
+          "height": 550
+        },
+        {
+          "class": "overview-support",
+          "top": 2558,
+          "height": 410
+        },
+        {
+          "class": "jobs",
+          "top": 2968,
+          "height": 500
+        }
+      ],
+      "master_dimensions": [
+        1440,
+        3557
+      ],
+      "implementation_dimensions": [
+        1440,
+        3563
+      ]
+    },
+    {
+      "name": "sales",
+      "route": "/sales/",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 3624,
+          "failures": [
+            "horizontal overflow"
+          ],
+          "font": "LocalNoto, \"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 390,
+          "height": 4931,
+          "failures": [],
+          "font": "LocalNoto, \"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 768,
+          "height": 4580,
+          "failures": [],
+          "font": "LocalNoto, \"Noto Sans CJK JP\", sans-serif"
+        }
+      ],
+      "sections": [
+        {
+          "class": "sales-hero",
+          "top": 102,
+          "height": 604
+        },
+        {
+          "class": "sales-work section-pad",
+          "top": 706,
+          "height": 1020
+        },
+        {
+          "class": "sales-value charcoal",
+          "top": 1726,
+          "height": 516
+        },
+        {
+          "class": "sales-team",
+          "top": 2242,
+          "height": 562
+        },
+        {
+          "class": "sales-training section-pad",
+          "top": 2804,
+          "height": 375
+        },
+        {
+          "class": "sales-cta cream section-pad",
+          "top": 3179,
+          "height": 350
+        }
+      ],
+      "master_dimensions": [
+        1440,
+        3601
+      ],
+      "implementation_dimensions": [
+        1465,
+        3624
+      ]
+    },
+    {
+      "name": "hr",
+      "route": "/hr/",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 3801,
+          "failures": [],
+          "font": "LocalNoto, \"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 390,
+          "height": 4915,
+          "failures": [],
+          "font": "LocalNoto, \"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 768,
+          "height": 4456,
+          "failures": [],
+          "font": "LocalNoto, \"Noto Sans CJK JP\", sans-serif"
+        }
+      ],
+      "sections": [
+        {
+          "class": "hr-hero cream",
+          "top": 102,
+          "height": 746
+        },
+        {
+          "class": "hr-work section-pad",
+          "top": 848,
+          "height": 980
+        },
+        {
+          "class": "hr-support cream section-pad",
+          "top": 1828,
+          "height": 830
+        },
+        {
+          "class": "hr-value section-pad",
+          "top": 2658,
+          "height": 486
+        },
+        {
+          "class": "hr-team cream",
+          "top": 3144,
+          "height": 242
+        },
+        {
+          "class": "hr-cta cream",
+          "top": 3386,
+          "height": 320
+        }
+      ],
+      "master_dimensions": [
+        1440,
+        3798
+      ],
+      "implementation_dimensions": [
+        1440,
+        3801
+      ]
+    },
+    {
+      "name": "engineer",
+      "route": "/engineer/",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 3956,
+          "failures": [],
+          "font": "LocalNoto, \"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 390,
+          "height": 6048,
+          "failures": [],
+          "font": "LocalNoto, \"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 768,
+          "height": 5304,
+          "failures": [],
+          "font": "LocalNoto, \"Noto Sans CJK JP\", sans-serif"
+        }
+      ],
+      "sections": [
+        {
+          "class": "engineer-hero",
+          "top": 102,
+          "height": 930
+        },
+        {
+          "class": "engineer-work section-pad",
+          "top": 1032,
+          "height": 790
+        },
+        {
+          "class": "engineer-paths cream",
+          "top": 1822,
+          "height": 795
+        },
+        {
+          "class": "engineer-learning section-pad",
+          "top": 2617,
+          "height": 430
+        },
+        {
+          "class": "engineer-career section-pad",
+          "top": 3047,
+          "height": 232
+        },
+        {
+          "class": "engineer-team cream section-pad",
+          "top": 3279,
+          "height": 302
+        },
+        {
+          "class": "engineer-cta section-pad",
+          "top": 3581,
+          "height": 280
+        }
+      ],
+      "master_dimensions": [
+        1440,
+        3900
+      ],
+      "implementation_dimensions": [
+        1440,
+        3956
+      ]
+    }
+  ],
+  "failures": [
+    "overview/1440: console/page errors: ['Failed to load resource: the server responded with a status of 404 (Not Found)']",
+    "sales/1440: horizontal overflow"
+  ],
+  "browser": "154.0.8037.57"
+}

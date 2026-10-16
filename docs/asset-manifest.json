@@ -1,0 +1,130 @@
+[
+  {
+    "file": "public/assets/baudroie_logo.svg",
+    "kind": "official",
+    "source": "original-assets/assets/baudroie_logo.svg",
+    "sha256": "8d0f8ef33d200618fc3ceca70c206e81fc8f30729ff9b374f807900706bcb729",
+    "limitations": "公式ロゴ。"
+  },
+  {
+    "file": "public/assets/college_training.jpg",
+    "kind": "official",
+    "source": "original-assets/assets/college_training.jpg",
+    "sha256": "1e7d9ae988aafb4f67d036b8d6a24cd60e9d345b1af3b25f6856d3610dfa4ecf",
+    "dimensions": [
+      1477,
+      1108
+    ],
+    "limitations": "公式写真は生成マスター写真と構図が異なります。"
+  },
+  {
+    "file": "public/assets/engineer-infrastructure.png",
+    "kind": "AI-generated",
+    "source": "approved master (individual text-free asset recreation)",
+    "sha256": "56312a7d16ebdac110af5ba61b4c4a7c0951e69a938d3acf18874de40072b460",
+    "dimensions": [
+      2172,
+      724
+    ],
+    "limitations": "生成された近似素材。実在社員の写真ではありません。マスターとの細部差あり。"
+  },
+  {
+    "file": "public/assets/engineer-network.png",
+    "kind": "AI-generated",
+    "source": "approved master (individual text-free asset recreation)",
+    "sha256": "eddddb75b14670c8f2d393dd8804fca192cdfb8d6533934c22fc33f250b5b040",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "limitations": "生成された近似素材。実在社員の写真ではありません。マスターとの細部差あり。"
+  },
+  {
+    "file": "public/assets/engineer-panorama.png",
+    "kind": "AI-generated",
+    "source": "approved master (individual text-free asset recreation)",
+    "sha256": "e4400c286d5e13f9cbfd0172fefe6e7ae9c2883bda3ce56acdfc4b3770db48e2",
+    "dimensions": [
+      2172,
+      724
+    ],
+    "limitations": "生成された近似素材。実在社員の写真ではありません。マスターとの細部差あり。"
+  },
+  {
+    "file": "public/assets/engineer-training.png",
+    "kind": "AI-generated",
+    "source": "approved master (individual text-free asset recreation)",
+    "sha256": "b2da08e9975bab7a1e7eec1e7d0fa3b7e5324e68e187a75c7cc8bad0a7d05c68",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "limitations": "生成された近似素材。実在社員の写真ではありません。マスターとの細部差あり。"
+  },
+  {
+    "file": "public/assets/hr-hero.png",
+    "kind": "AI-generated",
+    "source": "approved master (individual text-free asset recreation)",
+    "sha256": "a9f56d693e055724a0ba7e06c32e4fcf57e0a7ce0f7ad88d9f529bbf304bcccc",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "limitations": "生成された近似素材。実在社員の写真ではありません。マスターとの細部差あり。"
+  },
+  {
+    "file": "public/assets/office_lounge.jpg",
+    "kind": "official",
+    "source": "original-assets/assets/office_lounge.jpg",
+    "sha256": "24cbee3f2640b2c6cae742fb87393423e16aeca506efd06996779ae6a41a4245",
+    "dimensions": [
+      750,
+      500
+    ],
+    "limitations": "公式写真は生成マスター写真と構図が異なります。"
+  },
+  {
+    "file": "public/assets/overview-role-illustrations.png",
+    "kind": "AI-generated",
+    "source": "approved master (individual text-free asset recreation)",
+    "sha256": "c3309bafee35eb7dc786a45757fb653a438841158ec46aa4b56f0f99a1175ebc",
+    "dimensions": [
+      2172,
+      724
+    ],
+    "limitations": "生成された近似素材。実在社員の写真ではありません。マスターとの細部差あり。"
+  },
+  {
+    "file": "public/assets/recruiting_conversation.jpg",
+    "kind": "official",
+    "source": "original-assets/assets/recruiting_conversation.jpg",
+    "sha256": "ed80d67c7680957758abcaf5073d403174a66452b5df80081feda72e9f17d155",
+    "dimensions": [
+      3024,
+      2268
+    ],
+    "limitations": "公式写真は生成マスター写真と構図が異なります。"
+  },
+  {
+    "file": "public/assets/sales-hero.png",
+    "kind": "AI-generated",
+    "source": "approved master (individual text-free asset recreation)",
+    "sha256": "94f32e2535a0d185bcabcaec89fa40315128f3e464fd5e71bbbcff7aa33326e5",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "limitations": "生成された近似素材。実在社員の写真ではありません。マスターとの細部差あり。"
+  },
+  {
+    "file": "public/assets/welcome_team.jpg",
+    "kind": "official",
+    "source": "original-assets/assets/welcome_team.jpg",
+    "sha256": "892e2d6c62f7ce45ed92adff908b8713ded5365e463b1ceb426b30e719309e4d",
+    "dimensions": [
+      1477,
+      1108
+    ],
+    "limitations": "公式写真は生成マスター写真と構図が異なります。"
+  }
+]
