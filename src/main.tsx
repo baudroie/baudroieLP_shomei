@@ -192,8 +192,8 @@ function Overview() {
           </div>
           <figure className="welcome">
             <Photo
-              name="welcome_team.jpg"
-              alt="公式写真：オフィスで迎えるボードルアのメンバー"
+              name="support-conversation-approved.webp"
+              alt="相談風景の承認済みAIイメージ：机を囲んで話す4人（実社員ではありません）"
             />
             
           </figure>

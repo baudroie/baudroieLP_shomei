@@ -42,3 +42,17 @@
 /* Anchor the backing shape to the photograph at every breakpoint. */
 .overview-support figure { position: relative; }
 @media(max-width:1199px) { .overview-support figure { height: auto; top: auto; } }
+
+/* Round 24: approved hero photograph and uncropped training subjects. */
+.welcome img { object-position: 50% 44%; }
+.learning figure img { height: auto; aspect-ratio: 1477 / 1108; object-fit: contain; }
+@media(min-width:1200px) {
+  .learning figure { height: auto; align-self: center; }
+  .job-grid .role-illustration { height: 165px; }
+}
+@media(max-width:1199px) {
+  .learning figure { height: auto; }
+  .learning figure img { max-height: 520px; }
+  .welcome { height: auto; }
+  .welcome img { height: auto; aspect-ratio: 3 / 2; object-fit: contain; }
+}
