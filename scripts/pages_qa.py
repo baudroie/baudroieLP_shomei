@@ -27,7 +27,7 @@ with sync_playwright() as p:
             assert not errors,errors
             assert page.locator('h1').count()==1
             assert 'ページが見つかりません' not in page.locator('h1').inner_text()
-            assert not page.evaluate('document.documentElement.scrollWidth>innerWidth')
+            assert not page.evaluate('document.documentElement.scrollWidth>document.documentElement.clientWidth')
             assert page.locator('img').evaluate_all('(xs)=>xs.every(i=>i.complete&&i.naturalWidth>0)')
             assert page.evaluate('document.fonts.check(\'700 20px "Noto Sans CJK JP"\')')
             assert page.locator('.logo').first.get_attribute('href')=='/baudroieLP_shomei/'

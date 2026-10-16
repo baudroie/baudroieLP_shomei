@@ -15,8 +15,8 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
 .hr-hero { background: #fff; isolation: isolate; }
 .hr-hero::before { content: ''; position: absolute; inset: 0; z-index: -1;
   background: #fff6e9; clip-path: polygon(0 5%, 10% 9%, 24% 26%, 38% 48%, 55% 70%, 81% 76%, 100% 98%, 100% 100%, 0 100%); }
-.hr-hero::after { content: ''; position: absolute; width: 42%; height: 92%; right: -12%; top: 3%; z-index: -1;
-  background: #fff6e9; border-radius: 60% 0 0 45%; transform: rotate(30deg); }
+.hr-hero::after { content: ''; position: absolute; width: 32%; height: 92%; right: 0; top: 3%; z-index: -1;
+  background: #fff6e9; border-radius: 90% 0 0 20%; clip-path: polygon(100% 0, 100% 100%, 0 100%, 12% 48%); }
 
 @media (min-width: 1000px) {
   .header:has(+ .overview) nav { background: rgb(255 255 255 / 95%); padding: 0 12px; border-radius: 4px; }
@@ -30,7 +30,7 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
   .sales-intro p { white-space: normal; }
   .sales-career { width: 47%; }
   .sales-value { grid-template-columns: minmax(0, 57fr) minmax(0, 43fr); height: auto; min-height: 516px; }
-  .sales-value h2 { font-size: min(99px, 6.875vw); white-space: normal; }
+  .sales-value h2 { font-size: min(94px, 6.52vw); white-space: normal; }
   .sales-value h2 span { font-size: min(70px, 4.861vw); }
   .value-notes article:first-child h3 { font-size: min(42px, 2.916vw); white-space: normal; }
   .value-notes article + article h3 { font-size: min(39px, 2.708vw); white-space: normal; }
@@ -81,7 +81,7 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
   .engineer-career p { font-size: 1.458vw; }
   .engineer-career ul { flex-wrap: wrap; font-size: 1.458vw; }
   .engineer-career li { white-space: normal; }
-  .engineer-team h2 { font-size: 3.95vw; white-space: normal; }
+  .engineer-team h2 { font-size: 3.5vw; white-space: normal; }
   .engineer-team p, .engineer-team ul { font-size: 1.458vw; }
   .engineer-cta h2 { font-size: 3.33vw; white-space: normal; }
   .engineer-cta p { font-size: 1.528vw; }

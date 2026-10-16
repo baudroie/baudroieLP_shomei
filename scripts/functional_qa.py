@@ -31,7 +31,7 @@ with sync_playwright() as p:
             assert dialog.evaluate('(d)=>d.contains(document.activeElement)')
             page.keyboard.press('Escape')
             assert cta.evaluate('(e)=>e===document.activeElement')
-            assert not page.evaluate('document.documentElement.scrollWidth>innerWidth')
+            assert not page.evaluate('document.documentElement.scrollWidth>document.documentElement.clientWidth')
             if width==1440 and role=='hr':
                 title=page.locator('.hr-support h2')
                 assert title.evaluate('(e)=>e.getBoundingClientRect().height < parseFloat(getComputedStyle(e).fontSize)*1.6')
