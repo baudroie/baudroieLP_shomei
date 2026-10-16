@@ -58,9 +58,12 @@
 }
 
 /* Round25: measured arcs and natural reading space; decoration never clips text. */
+.hr-support figure img { aspect-ratio: 3.3; object-position: 50% 42%; }
 .learning::before { background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%200%20C150%20120%20330%200%20510%2045%20S820%20140%201000%205%20L1000%20950%20C740%201040%20300%20825%200%20980%20Z%22%2F%3E%3C%2Fsvg%3E"); }
 .learning figure img { mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20165%20C250%2065%20660%20-20%20875%2040%20C1030%20100%20950%20390%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fsvg%3E"); -webkit-mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20165%20C250%2065%20660%20-20%20875%2040%20C1030%20100%20950%20390%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fsvg%3E"); }
 .engineer-team::before { background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%2065%20C230%20-55%20320%2090%20530%2030%20S800%2015%201000%2080%20L1000%20960%20C780%201080%20400%20830%20180%20950%20S50%201020%200%20980%20Z%22%2F%3E%3C%2Fsvg%3E"); }
 @media(min-width:1400px) { .engineer-team > .art { width:120%; max-width:none; margin-left:-20%; position:relative; top:15px; } }
 @media(min-width:1200px) and (max-width:1399px) { #experienced p { font-size:clamp(18px,1.5vw,21px); text-wrap:pretty; } }
 @media(max-width:599px) { .learning figure img { mask-image:none; -webkit-mask-image:none; } }
+@media(max-width:1199px) { .hr-support figure img { aspect-ratio:2.3; } }
+@media(max-width:599px) { .hr-support figure img { aspect-ratio:1.5; } }
