@@ -124,3 +124,10 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
   .value-notes article:last-child p { margin-bottom: 0; }
   .value-notes article+article { margin-top: 35px; }
 }
+/* The HR hero needs its own transition before its three-part desktop composition fits. */
+@media(min-width:1200px) and (max-width:1299px){
+  .hr-hero { height: auto; display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
+  .hr-hero-copy { position: relative; top: auto; left: auto; width: 100%; grid-column: 1 / -1; padding: 30px 26px; }
+  .hr-hero > .photo { position: static; width: 100%; height: 320px; clip-path: none; border-radius: 0 50% 8% 0; }
+  .hr-hero > .art { position: static; width: 100%; height: 320px; object-fit: contain; }
+}
