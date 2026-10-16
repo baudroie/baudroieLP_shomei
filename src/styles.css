@@ -2565,3 +2565,6 @@ dialog .button {
 .service-symbol.cloud img{width:160px;height:160px}.service-symbol.security img{width:128px;height:128px}.service-symbol.wireless img{width:168px;height:168px}.learning-icon{width:100px;height:90px}.learning-icon .art{width:104px;height:104px}
 @media(max-width:999px){.service-symbol.cloud img{width:140px;height:140px}.service-symbol.security img{width:112px;height:112px}.service-symbol.wireless img{width:148px;height:148px}.learning-icon{width:78px;height:72px}.learning-icon .art{width:86px;height:86px}}
 @media(min-width:1000px){.learning>div{position:relative;top:25px}}
+
+/* Match the independent orange rules in the PC value sections. */
+@media(min-width:1000px){.sales-value .orange-rule{width:100px}.hr-value .orange-rule{width:94px}}

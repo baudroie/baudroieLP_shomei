@@ -550,7 +550,7 @@ function Sales() {
               業界研究・各種研修
             </div>
             <div>
-              <Art name="icon-cloud.png" alt="" />
+              <Art name="icon-sales-cloud.png" alt="" />
               研修費全額補助
             </div>
             <div>

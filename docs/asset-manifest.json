@@ -258,9 +258,10 @@
       1254,
       1254
     ],
-    "sha256": "15494a599b96e52a65aa7790e14994d509977a3f63ee9d8a16f5785964e2bd4c",
+    "sha256": "259710d1c78c3ba6c6fe024059ac9e1a180dacd3968ccf91dc05c79d3d1bd596",
     "usage": "master-referenced black main outline with localized orange accent; no generic icon library",
-    "limitations": "Individual raster approximation; exact source icon was not supplied."
+    "limitations": "Individual raster approximation; exact source icon was not supplied.",
+    "revision": "Round 9: stronger opaque black strokes and localized orange accent."
   },
   {
     "file": "public/assets/icon-growth.png",
@@ -270,9 +271,10 @@
       1254,
       1254
     ],
-    "sha256": "d0cca162962b0620583e3e8061567f7801f9ec75e761c47013a50e17933dd47f",
+    "sha256": "33366da6989bdd2cf91a5dd3b14fbfd6c3850fafd9c6fadc72f35b4e68ed351c",
     "usage": "master-referenced black main outline with localized orange accent; no generic icon library",
-    "limitations": "Individual raster approximation; exact source icon was not supplied."
+    "limitations": "Individual raster approximation; exact source icon was not supplied.",
+    "revision": "Round 9: stronger opaque black strokes and localized orange accent."
   },
   {
     "file": "public/assets/icon-laptop.png",
@@ -282,9 +284,10 @@
       1254,
       1254
     ],
-    "sha256": "fb812b223da462ae0497e07a872d86e60a84df65214cb7f29c99434a256776ab",
+    "sha256": "ad4b6ed039fc5ef5170aaea4d4b2be6ab24b67b4046b045a2c91cceb933b0f1e",
     "usage": "master-referenced black main outline with localized orange accent; no generic icon library",
-    "limitations": "Individual raster approximation; exact source icon was not supplied."
+    "limitations": "Individual raster approximation; exact source icon was not supplied.",
+    "revision": "Round 9: stronger opaque black strokes and localized orange accent."
   },
   {
     "file": "public/assets/icon-mentor.png",
@@ -294,9 +297,10 @@
       1254,
       1254
     ],
-    "sha256": "35cee8218cfdb3ad148ec6d9d72cfc9778b70828183294cbe46e1a65e15117bb",
+    "sha256": "3a3b94682e30e230761dfd49572ec55b9464440a7c583a642f4134900429777e",
     "usage": "master-referenced black main outline with localized orange accent; no generic icon library",
-    "limitations": "Individual raster approximation; exact source icon was not supplied."
+    "limitations": "Individual raster approximation; exact source icon was not supplied.",
+    "revision": "Round 9: stronger opaque black strokes and localized orange accent."
   },
   {
     "file": "public/assets/icon-network.png",
@@ -318,9 +322,10 @@
       1254,
       1254
     ],
-    "sha256": "492b422652e3aa73a1ad2966f4d34febc2842071595c87eb74ba55e469c889f1",
+    "sha256": "357bc63505192725c13e3c4c8da8ca7f8d2ffb86ca42f1e751d201a015a08393",
     "usage": "master-referenced black main outline with localized orange accent; no generic icon library",
-    "limitations": "Individual raster approximation; exact source icon was not supplied."
+    "limitations": "Individual raster approximation; exact source icon was not supplied.",
+    "revision": "Round 9: stronger opaque black strokes and localized orange accent."
   },
   {
     "file": "public/assets/icon-wireless.png",
@@ -330,8 +335,21 @@
       1254,
       1254
     ],
-    "sha256": "b1ddf25152a7486669e778e21cb6dd17782a179d78e307c1245925cae693822c",
+    "sha256": "883cec7b93ff6d9ceab0153fc4c50a98ff77a7071b97a14f42b85f1eab3727c3",
     "usage": "master-referenced black main outline with localized orange accent; no generic icon library",
-    "limitations": "Individual raster approximation; exact source icon was not supplied."
+    "limitations": "Individual raster approximation; exact source icon was not supplied.",
+    "revision": "Round 9: stronger opaque black strokes and localized orange accent."
+  },
+  {
+    "file": "public/assets/icon-sales-cloud.png",
+    "kind": "AI-generated",
+    "source": "reference/exec-66b91c86-ae30-4bf2-9ef0-8ff0c4625a35.png; separate cloud and dashed orange connector, no text",
+    "usage": "Sales training cloud with down-left orange dashed connector",
+    "limitations": "Individual raster approximation; exact source vector was not supplied.",
+    "sha256": "e5cf958759e8e396cf7d4dfe514fd16d90809e9aa2357ca1d92a69c0d769b967",
+    "dimensions": [
+      1254,
+      1254
+    ]
   }
 ]
