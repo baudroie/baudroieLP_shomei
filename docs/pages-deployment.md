@@ -1,27 +1,16 @@
-> 更新: 依頼元が2026-10-16 04:51 UTCに共有URL到達を確認済み（PR6208344208）。Pagesは配信中の旧6995de1/313e9d0。以下のAPI403/設定待ちは当時の履歴です。現在設定変更は不要。最新CSSはround17/PRにあり、今回配信ブランチは更新していません。
+# GitHub Pages閲覧用修正反映
 
-# GitHub Pages公開準備
+- URL: https://baudroie.github.io/baudroieLP_shomei/
+- 配信元ソースSHA: `fa4bc3d3f1074e0a98454ec1541a9d93fc4f907a`
+- 対応するround17描画ソース: `e17e5d68d2019b3f12314fb503c203e8ec4c2163`
+- 公開用コミット: `54d0d7c7fd51e1002617c362a39fcf7eb1d62588`
+- GitHubデプロイ: completed / success、https://github.com/baudroie/baudroieLP_shomei/actions/runs/38856709282
+- 確認UTC: 2026-10-16T05:38:36.508180+00:00
 
-2026-10-16のユーザー依頼「githubpagesで閲覧できるようにしておいて」により、以前の公開禁止指示に代わってPages公開が許可された。mainマージは行わない。
+ユーザーの今回指示により既存gh-pagesへ通常push。旧6995de1を親として履歴を保持し、mainマージ・Pages設定・権限変更を行っていない。素材差替え・生成・アップスケールなし。
 
-- 状態: **成果物保存済み / Pages有効化は権限不足で未完了**。
-- 予定公開URL: https://baudroie.github.io/baudroieLP_shomei/
-- 元ソース: `313e9d09a15d9ab4ce33df67e1353efef5a8c2f2`
-- 配信用gh-pagesコミット: `6995de1d36f2b70488d2159e604a8a623b0a00ec`
-- ビルド内deployment.jsonも元ソースを記録。ソース・QA画像・referenceは配信ブランチに含めず、ビルド成果物のみ。
+fa4bc3dのsrc/publicハッシュはround17と一致。npm run build:pagesでproject baseを指定し、4ページのindex.html、404.html、.nojekyll、deployment.jsonを生成。配信対象はdistのみ。reference・ソース・QA画像は公開ブランチに含めない。
 
-## 検証済み
+12条件のローカル静的ブラウザ検査（1440/390/768×4ページ）が成功。ページ直アクセスHTTP200、画像・フォント・職種リンク・ロゴ復帰・LINE設定待ちとキーボード動作を確認。artifacts/qa/pages/round17-release/に撮影/report/全配信ファイルSHA256/デプロイ状態を保存。CSS index-B7UDXxZH.css、JS index-qJ4PQdBD.js。
 
-npm run build:pages成功。project base `/baudroieLP_shomei/`、各職種index.html、404.html、.nojekyllを生成。型チェック成功。ローカルの静的HTTPサーバーで4ページ×1440/390/768pxの12条件を確認。直接アクセスHTTP200、画像/フォントロード、横溢れなし、職種リンクとまとめへ戻る、LINE設定待ちEnter/Escape/フォーカス復帰が成功。`artifacts/qa/pages/local/` にreportと12枚の実ブラウザ撮影あり。デザイン変更はなく公開パス対応のみ。視覚比較の基準版はround11（0ab1177）、完全再現判定needs-fixは変わらない。
-
-## 配信有効化の不足権限
-
-GitHubのリポジトリ情報ではadmin:trueだが、現在のGitHub App連携でPOST /repos/baudroie/baudroieLP_shomei/pagesはHTTP403 `Resource not accessible by integration`。Actions設定読取も同じ403。利用可能な正規ツールに別のGitHub管理接続はない。秘密値の読取や非正規認証は行っていない。APIの権限不足は自動承認レビュー拒否とは別。
-
-ユーザーによる最後の設定: https://github.com/baudroie/baudroieLP_shomei/settings/pages を開き、Build and deploymentのSourceを **Deploy from a branch**、Branchを **gh-pages** / **/ (root)** にしてSave。配置済みの成果物がGitHub側で配信される。
-
-このクラウドからbaudroie.github.ioへのHTTP確認も接続プロキシの403で制限されている。ネットワーク全許可にしていない。配信有効化後にクラウドから実公開確認する場合、必要な追加接続先は **baudroie.github.io:443** のみ。現在は実公開サイトの到達性・GitHub側ビルド成功を未確認とし、公開済みとは報告しない。
-
-## 更新
-
-`npm run build:pages` → `python3 scripts/pages_qa.py` → distだけをgh-pagesへ通常push。既存ブランチは履歴を保持し、force pushしない。LINEは正式URL提供まで設定待ち。
+公開URLへのクラウド直接アクセスはCONNECT proxy 403。設定変更せず、公開HTTP/画面の実見は未確認として依頼元へ引継ぎ。GitHub Actionsのデプロイ成功は確認済み。今回の閲覧用反映は写真画質・マスター同一性の最終検収完了を意味しない。office_lounge.jpg 750×500等の課題はdocs/photo-replacement-pending.mdに残す。

@@ -36,16 +36,24 @@ round12修正前→round13〜16修正と再発見→round17最新を保存。横
 
 ## 共有URLと配信版
 
-共有Pages URL: https://baudroie.github.io/baudroieLP_shomei/ 。依頼元コメント6208344208が2026-10-16 04:51 UTCに4ページ到達/実操作を確認済み。本環境でPages設定を変更したという意味ではない。前回の「配信未開始」はこの観測により更新。
+共有Pages URL: https://baudroie.github.io/baudroieLP_shomei/ 。今回のユーザー指示で、既存gh-pagesへ修正版を反映しました。
 
-**Pagesは旧gh-pages/6995de1（元ソース313e9d0）**。今回の修正はレビュー用PRへ保存し、配信ブランチは更新していない。共有URLの旧画面を最新round17の画面と混同しない。最新は上記証拠とクラウド内127.0.0.1:4173で確認可能。クラウドからbaudroie.github.ioへの直接確認はプロキシ403のため未実施。必要時の接続先は当該hostのみ、制限全許可にしていない。
+- 配信元ソースSHA: `fa4bc3d3f1074e0a98454ec1541a9d93fc4f907a`（PR head fa4bc3d）。
+- round17描画コード: `e17e5d68d2019b3f12314fb503c203e8ec4c2163`。fa4bc3dのsrc/public hashがround17と一致することをビルド前に照合。
+- 公開用コミット: `54d0d7c7fd51e1002617c362a39fcf7eb1d62588`（旧6995de1を親に通常push、履歴保持）。
+- GitHub側デプロイ: **completed / success**。https://github.com/baudroie/baudroieLP_shomei/actions/runs/38856709282 （確認UTC 2026-10-16T05:38:36.508180+00:00）。
+- 公開入口: /baudroieLP_shomei/、sales/、hr/、engineer/。各index.html、画像・フォント・ナビ/ロゴをproject baseで検証。12ローカル静的ブラウザ条件成功。
+- CSS: index-B7UDXxZH.css、JS: index-qJ4PQdBD.js。deployment.jsonに配信元ソースとビルド日時を記録。
+- 証拠/全配信ファイルSHA256: artifacts/qa/pages/round17-release/deployment-status.json、report.json、12画面撮影。
+
+クラウドからbaudroie.github.ioの直接アクセスはCONNECT proxy 403。ネットワーク/Pages設定/権限を変更せず、公開HTTPと画面の最終実見は依頼元へ。GitHubデプロイ成功と公開画面の実見済みは区別します。素材差替え/生成/アップスケール、mainマージは行っていません。今回反映は閲覧用であり、画質/マスター同一性の最終検収完了ではありません。
 
 ## 残課題と次作業
 
 1. office_lounge.jpg（750×500）の画質不足は素材承認待ち。docs/photo-replacement-pending.mdに全写真枠・必要構図・DPR2目安を掲載。依頼元でユーザーと写真候補を選定する。元画像は不変。
 2. 写真/線画の構図・人物同一性、原書体、contain表示による余白などの最終差分は承認待ち。今回のCSS不良の解消とは分ける。
 3. LINE URLはsrc/config.tsでnull、設定待ちダイアログ。正式URL受領後に実遷移確認。
-4. 次は依頼元の最新PR証拠確認と写真/構図の決定を反映。今回の修正を本番公開済み/完全再現済みとは扱わない。スマホ/中間幅は暫定レスポンシブ。
+4. 次は依頼元の最新PR証拠確認と写真/構図の決定を反映。今回のPages閲覧反映を完全再現・最終検収済みとは扱わない。スマホ/中間幅は暫定レスポンシブ。
 
 ## 再開
 

@@ -46,7 +46,7 @@ Viteを起動した状態で実行。1440・390・768 CSS px/DPR1で全ページ
 
 ## GitHub Pages
 
-共有Pages URLは依頼元が2026-10-16 04:51 UTCに到達確認済み。配信版は旧gh-pages/6995de1（313e9d0）。今回のCSS修正はPRとround17証拠へ保存し、配信ブランチは更新していません。
+共有Pagesはround17対応の修正版へ更新済み。配信元fa4bc3d、公開用gh-pages/54d0d7c、GitHubデプロイ成功。クラウドから公開URLの直接実見はプロキシ403のため未実施。
 
 現在のPages設定の変更は不要です。詳細はdocs/pages-deployment.mdとdocs/orchestrator-status.md。
 

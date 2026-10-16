@@ -1,0 +1,82 @@
+{
+  "url": "http://127.0.0.1:41921/baudroieLP_shomei/",
+  "deployment": {
+    "source_commit": "fa4bc3d3f1074e0a98454ec1541a9d93fc4f907a",
+    "base": "/baudroieLP_shomei/",
+    "built_at": "2026-10-16T05:36:00.358Z"
+  },
+  "checks": [
+    {
+      "page": "overview",
+      "width": 1440,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "page": "sales",
+      "width": 1440,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "page": "hr",
+      "width": 1440,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "page": "engineer",
+      "width": 1440,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "page": "overview",
+      "width": 390,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "page": "sales",
+      "width": 390,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "page": "hr",
+      "width": 390,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "page": "engineer",
+      "width": 390,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "page": "overview",
+      "width": 768,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "page": "sales",
+      "width": 768,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "page": "hr",
+      "width": 768,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "page": "engineer",
+      "width": 768,
+      "status": 200,
+      "passed": true
+    }
+  ]
+}
