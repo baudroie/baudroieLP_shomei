@@ -105,6 +105,6 @@
 @media(max-width:599px) {
   .engineer-team ul { gap:24px; padding-left:22px; font-size:15px; }
   .engineer-team li { padding-left:4px; }
-  .engineer-team > div p { text-wrap:pretty; }
+  .engineer-team > div p { text-wrap:balance; }
   .engineer-team > div p br { display:none; }
 }
