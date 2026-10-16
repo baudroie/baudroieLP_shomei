@@ -108,3 +108,16 @@
   .engineer-team > div p { text-wrap:balance; }
   .engineer-team > div p br { display:none; }
 }
+
+/* Keep the original heading text, breaking only between its two phrases. */
+@media(max-width:599px) {
+  .growth h4 { font-size:24px; line-height:1.45; }
+  .growth h4 span { display:block; white-space:nowrap; }
+}
+
+/* Round31: contours measured against the fixed master at a global 1440px origin. */
+@media(min-width:1200px) {
+.learning::before { inset:0; overflow:visible; background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201440%20550%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%20-13%20C80%2025%20150%2051%20240%2047%20C340%2047%20390%2038%20480%2030%20C570%2019%20650%2012%20720%2023%20C820%2035%20880%2049%20960%2050%20C1070%2063%201170%2066%201260%2051%20C1340%2038%201390%2026%201440%2018%20L1440%20527%20C1320%20527%201250%20542%201100%20552%20C900%20566%20640%20535%20400%20538%20C260%20532%20100%20545%200%20585%20Z%22%2F%3E%3C%2Fsvg%3E"); }
+.team-caption::before { background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%200%20L240%200%20C470%200%20440%20130%20660%20220%20C805%20282%20790%20760%20950%201000%20L0%201000%20Z%22%2F%3E%3C%2Fsvg%3E"); }
+.hr-hero::before { background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%200%20C25%200%2045%2090%20110%20180%20C160%20250%20160%20350%20240%20430%20C360%20560%20360%20650%20480%20700%20C650%20780%20850%20810%201000%20980%20L1000%201000%20L0%201000%20Z%22%2F%3E%3C%2Fsvg%3E"); }
+}

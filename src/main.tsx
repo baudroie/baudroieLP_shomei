@@ -283,7 +283,7 @@ function Overview() {
           </dl>
           <div className="growth">
             <div>
-              <h4>中長期の成長に向けた取り組み</h4>
+              <h4><span>中長期の成長に</span><span>向けた取り組み</span></h4>
               <p>
                 ベインキャピタルの支援を活用し、M&Aや顧客基盤の拡充、
                 <br />
