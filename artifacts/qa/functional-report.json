@@ -1,5 +1,5 @@
 {
-  "utc": "2026-10-16T03:46:37.142341+00:00",
+  "utc": "2026-10-16T05:17:14.892775+00:00",
   "checks": [
     {
       "width": 1440,
@@ -59,6 +59,132 @@
     },
     {
       "width": 768,
+      "role": "engineer",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 999,
+      "role": "sales",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 999,
+      "role": "hr",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 999,
+      "role": "engineer",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1000,
+      "role": "sales",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1000,
+      "role": "hr",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1000,
+      "role": "engineer",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1024,
+      "role": "sales",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1024,
+      "role": "hr",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1024,
+      "role": "engineer",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1066,
+      "role": "sales",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1066,
+      "role": "hr",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1066,
+      "role": "engineer",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1280,
+      "role": "sales",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1280,
+      "role": "hr",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1280,
+      "role": "engineer",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1363,
+      "role": "sales",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1363,
+      "role": "hr",
+      "navigation": "passed",
+      "keyboard_modal": "passed",
+      "bounds": "passed"
+    },
+    {
+      "width": 1363,
       "role": "engineer",
       "navigation": "passed",
       "keyboard_modal": "passed",

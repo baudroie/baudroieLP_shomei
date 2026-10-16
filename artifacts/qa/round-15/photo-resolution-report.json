@@ -1,0 +1,56 @@
+[
+  {
+    "page": "hr",
+    "section": "hr-support cream section-pad",
+    "asset": "office_lounge.jpg",
+    "original": [
+      750,
+      500
+    ],
+    "largest_measured_frame": [
+      1289,
+      365
+    ],
+    "minimum_source_at_DPR2_preserving_3_to_2": [
+      2578,
+      1719
+    ],
+    "status": "awaiting user selection; original unchanged"
+  },
+  {
+    "page": "sales",
+    "section": "sales-team",
+    "asset": "office_lounge.jpg",
+    "original": [
+      750,
+      500
+    ],
+    "largest_measured_frame": [
+      1425,
+      562
+    ],
+    "minimum_source_at_DPR2_preserving_3_to_2": [
+      2850,
+      1900
+    ],
+    "status": "awaiting user selection; original unchanged"
+  },
+  {
+    "page": "sales",
+    "section": "sales-work section-pad",
+    "asset": "office_lounge.jpg",
+    "original": [
+      750,
+      500
+    ],
+    "largest_measured_frame": [
+      932,
+      230
+    ],
+    "minimum_source_at_DPR2_preserving_3_to_2": [
+      1864,
+      1243
+    ],
+    "status": "awaiting user selection; original unchanged"
+  }
+]
