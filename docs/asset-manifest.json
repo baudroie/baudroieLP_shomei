@@ -26,7 +26,8 @@
       1448,
       1086
     ],
-    "limitations": "個別の生成近似素材。実在社員の写真ではなく、マスターと原画の同一性は未達。"
+    "limitations": "個別の生成近似素材。実在社員の写真ではなく、マスターと原画の同一性は未達。",
+    "usage": "beginner card; individual image_gen background-removal edit"
   },
   {
     "file": "public/assets/engineer-beginner.png",
@@ -49,7 +50,7 @@
       1086
     ],
     "limitations": "個別の生成近似素材。実在社員の写真ではなく、マスターと原画の同一性は未達。",
-    "usage": "not used; alpha fringe from image generation; original dark version retained"
+    "usage": "not used; alpha edge artifact; original dark raster retained"
   },
   {
     "file": "public/assets/engineer-experienced.png",

@@ -1,0 +1,84 @@
+{
+  "visual_capture_commit": "3df59a5f8a16bf5a7e1637632b427372df25bcd9",
+  "source_sha256": "a367ac2e7d77ecfb27d4439a197454e749b68799038498423f7c68da18b35b8a",
+  "visual_pages": 4,
+  "viewport_checks": 12,
+  "browser": "154.0.8037.57",
+  "failures": [],
+  "functional": {
+    "utc": "2026-10-16T03:15:51.529783+00:00",
+    "checks": [
+      {
+        "width": 1440,
+        "role": "sales",
+        "navigation": "passed",
+        "keyboard_modal": "passed",
+        "bounds": "passed"
+      },
+      {
+        "width": 1440,
+        "role": "hr",
+        "navigation": "passed",
+        "keyboard_modal": "passed",
+        "bounds": "passed"
+      },
+      {
+        "width": 1440,
+        "role": "engineer",
+        "navigation": "passed",
+        "keyboard_modal": "passed",
+        "bounds": "passed"
+      },
+      {
+        "width": 390,
+        "role": "sales",
+        "navigation": "passed",
+        "keyboard_modal": "passed",
+        "bounds": "passed"
+      },
+      {
+        "width": 390,
+        "role": "hr",
+        "navigation": "passed",
+        "keyboard_modal": "passed",
+        "bounds": "passed"
+      },
+      {
+        "width": 390,
+        "role": "engineer",
+        "navigation": "passed",
+        "keyboard_modal": "passed",
+        "bounds": "passed"
+      },
+      {
+        "width": 768,
+        "role": "sales",
+        "navigation": "passed",
+        "keyboard_modal": "passed",
+        "bounds": "passed"
+      },
+      {
+        "width": 768,
+        "role": "hr",
+        "navigation": "passed",
+        "keyboard_modal": "passed",
+        "bounds": "passed"
+      },
+      {
+        "width": 768,
+        "role": "engineer",
+        "navigation": "passed",
+        "keyboard_modal": "passed",
+        "bounds": "passed"
+      }
+    ]
+  },
+  "default_startup": {
+    "command": "npm run dev -- --port 4181 --strictPort (no host override)",
+    "http_status": 200,
+    "listen": [
+      "LISTEN 0      0          127.0.0.1:4181      0.0.0.0:*   "
+    ],
+    "result": "passed"
+  }
+}
