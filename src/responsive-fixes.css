@@ -18,7 +18,7 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
 .hr-hero::after { content: ''; position: absolute; width: 32%; height: 92%; right: 0; top: 3%; z-index: -1;
   background: #fff6e9; border-radius: 90% 0 0 20%; clip-path: polygon(100% 0, 100% 100%, 0 100%, 12% 48%); }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .header:has(+ .overview) nav { background: rgb(255 255 255 / 95%); padding: 0 12px; border-radius: 4px; }
   .overview-hero { padding-inline: min(68px, 4.722vw); }
   .hero-copy { width: calc(38% - 20px); }
@@ -46,7 +46,7 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
 }
 
 /* Intermediate desktop widths must reflow, rather than inherit the fixed 1440px type. */
-@media (min-width: 1000px) and (max-width: 1399px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
   .business { height: auto; min-height: 1290px; padding-bottom: 30px; }
   .jobs { padding-inline: 4.7vw; }
   .job-grid article { padding-inline: 16px; }
@@ -88,7 +88,7 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
   .engineer-cta p { font-size: 1.528vw; }
   .engineer-cta .button { font-size: 1.458vw; white-space: normal; }
 }
-@media (max-width: 999px) {
+@media (max-width: 1199px) {
   .job-grid { grid-template-columns: minmax(0, 1fr); }
   .jobs { min-height: 0; }
   .hr-hero::before { opacity: .6; }
@@ -96,8 +96,31 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
 
 /* Keep the original 1440px rhythm; smaller layouts retain natural section heights. */
 .engineer-cta .art { object-fit: contain; object-position: center; }
-@media(min-width:1000px){.engineer-team > .art { height: auto; aspect-ratio: 1942 / 809; }}
+@media(min-width:1200px){.engineer-team > .art { height: auto; aspect-ratio: 1942 / 809; }}
 @media(min-width:1400px){
   .engineer-learning { height: 440px; min-height: 0; padding-bottom: 0; }
   .engineer-career { height: 227px; min-height: 0; padding-block: 0; }
+}
+
+@media(min-width:1000px) and (max-width:1199px){
+  .job-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .job-grid article, .job-grid article:first-child, .job-grid article:last-child { padding: 12px; border-right: 1px solid #c7cbd0; border-bottom: 0; }
+  .job-grid article:last-child { border-right: 0; }
+  .job-grid .button { font-size: 16px!important; padding-inline: 8px; }
+}
+@media(min-width:1200px) and (max-width:1399px){
+  .sales-hero h1 { font-size: 5vw; }
+  .sales-team { height: auto; display: grid; grid-template-columns: 1fr 1fr; }
+  .sales-team > .photo { grid-column: 2; grid-row: 1; height: 420px; }
+  .team-caption { position: static; grid-column: 1; grid-row: 1; width: auto; padding: 32px; border-radius: 0; }
+  .team-caption h2 { font-size: 3.26vw; white-space: normal; }
+  .team-caption p { white-space: normal; font-size: 1.6vw; }
+  .sales-cta h2 { font-size: 4.3vw; white-space: normal; }
+  .sales-cta .art { object-fit: contain; }
+  .path-grid .path-illustration .art, .path-grid #experienced .path-illustration .art { height: 100%; bottom: 0; object-fit: contain; }
+  .infrastructure > .art { object-fit: contain; }
+}
+@media(min-width:1400px){
+  .value-notes article:last-child p { margin-bottom: 0; }
+  .value-notes article+article { margin-top: 35px; }
 }

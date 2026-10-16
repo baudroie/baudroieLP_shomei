@@ -11,8 +11,8 @@ with sync_playwright() as p:
   for role in ('overview','sales','hr','engineer'):
    page.goto('http://127.0.0.1:4173/'+('' if role=='overview' else role+'/'),wait_until='networkidle');page.evaluate('document.fonts.ready');page.evaluate('Promise.all([...document.images].map(i=>i.decode()))')
    metrics=page.evaluate('''()=>{const box=s=>{let r=document.querySelector(s).getBoundingClientRect();return {left:r.left,right:r.right,top:r.top,bottom:r.bottom,height:r.height}};const text=s=>{let e=document.querySelector(s),w=document.createTreeWalker(e,NodeFilter.SHOW_TEXT),a=[],n;while(n=w.nextNode()){if(!n.textContent.trim())continue;let r=new Range();r.selectNode(n);a.push(...r.getClientRects())}return {right:Math.max(...a.map(r=>r.right)),bottom:Math.max(...a.map(r=>r.bottom))}};let r={};if(document.querySelector('.overview-hero')){r.copy=text('.hero-copy');r.photo=box('.welcome')}if(document.querySelector('.sales-value')){r.left=text('.sales-value>div:first-child');r.right=box('.value-notes')}if(document.querySelector('.engineer-learning')){r.learning=text('.engineer-learning>div');r.caption=text('.engineer-learning figcaption');r.career=box('.engineer-career h2');r.careerLabel=box('.engineer-career>div:last-child small');r.cta=box('.engineer-cta .button')}return r}''')
-   if width>=1000 and role=='overview': assert metrics['copy']['right'] <= metrics['photo']['left']+1,(width,role,metrics)
-   if width>=1000 and role=='sales': assert metrics['left']['right'] <= metrics['right']['left']-5,(width,role,metrics)
+   if width>=1200 and role=='overview': assert metrics['copy']['right'] <= metrics['photo']['left']+1,(width,role,metrics)
+   if width>=1200 and role=='sales': assert metrics['left']['right'] <= metrics['right']['left']-5,(width,role,metrics)
    if role=='engineer':
     assert metrics['learning']['bottom'] <= metrics['career']['top'],(width,'learning/career',metrics)
     assert metrics['caption']['bottom'] <= metrics['careerLabel']['top'],(width,'caption/career',metrics)
