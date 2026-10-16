@@ -2554,3 +2554,7 @@ dialog .button {
 .engineer-learning{grid-template-columns:45.4% 56.14%}.engineer-learning figure{height:410px}.engineer-learning figure img{height:370px}.engineer-learning h2{font-size:64px;line-height:1.35}
 }
 .service-symbol svg{color:#15181b}.service-symbol.network svg,.service-symbol.wireless svg{color:var(--orange)}.learning-points svg{color:#15181b}.learning-points>div:nth-child(2) svg{color:var(--orange)}
+@media(min-width:1000px){
+.hr-meeting>.art{top:0}.hr-value h2{font-size:65px;line-height:1.35}
+.value-notes article:first-child h3{font-size:42px}.value-notes article+article h3{font-size:39px}.value-notes article+article{padding-top:36px}.value-notes article+article p{margin-top:20px}
+}
