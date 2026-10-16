@@ -8,7 +8,7 @@ root=Path(__file__).resolve().parents[1]
 results=[]
 with sync_playwright() as p:
     browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
-    for width in (1440,390,768):
+    for width in (1440,390,768,999,1000,1024,1066,1280,1363):
         page=browser.new_page(viewport={'width':width,'height':1000},device_scale_factor=1)
         page.emulate_media(reduced_motion='reduce')
         for role in ('sales','hr','engineer'):

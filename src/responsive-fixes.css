@@ -36,7 +36,7 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
   .value-notes article + article h3 { font-size: min(39px, 2.708vw); white-space: normal; }
   .hr-planning { grid-template-columns: minmax(0, 52fr) minmax(0, 48fr); }
   .hr-value { grid-template-columns: minmax(0, 52fr) minmax(0, 48fr); }
-  .engineer-learning { grid-template-columns: minmax(0, 45.4fr) minmax(0, 56.14fr); height: auto; min-height: 440px; padding-bottom: 25px; }
+  .engineer-learning { grid-template-columns: minmax(0, 46.25fr) minmax(0, 53.75fr); height: auto; min-height: 440px; padding-bottom: 25px; }
   .engineer-learning figure { height: auto; }
   .engineer-career { grid-template-columns: minmax(0, 54fr) minmax(0, 46fr); height: auto; min-height: 227px; padding-block: 28px; }
   .engineer-career ul { gap: 10px; }
@@ -79,11 +79,11 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
   .engineer-learning figure img { height: auto; aspect-ratio: 1.86; }
   .engineer-career h2 { font-size: 3.68vw; white-space: normal; }
   .engineer-career p { font-size: 1.458vw; }
-  .engineer-career ul { flex-wrap: wrap; font-size: 1.458vw; }
-  .engineer-career li { white-space: normal; }
+  .engineer-career ul { flex-wrap: wrap; font-size: 1.32vw; }
+  .engineer-career li { white-space: normal; padding-inline: 5px; }
   .engineer-team h2 { font-size: 3.5vw; white-space: normal; }
   .engineer-team p, .engineer-team ul { font-size: 1.458vw; }
-  .engineer-cta h2 { font-size: 3.33vw; white-space: normal; }
+  .engineer-cta h2 { font-size: 3vw; white-space: normal; }
   .engineer-cta p { font-size: 1.528vw; }
   .engineer-cta .button { font-size: 1.458vw; white-space: normal; }
 }
@@ -91,4 +91,12 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
   .job-grid { grid-template-columns: minmax(0, 1fr); }
   .jobs { min-height: 0; }
   .hr-hero::before { opacity: .6; }
+}
+
+/* Keep the original 1440px rhythm; smaller layouts retain natural section heights. */
+.engineer-cta .art { object-fit: contain; object-position: center; }
+@media(min-width:1000px){.engineer-team > .art { height: auto; aspect-ratio: 1942 / 809; }}
+@media(min-width:1400px){
+  .engineer-learning { height: 440px; min-height: 0; padding-bottom: 0; }
+  .engineer-career { height: 227px; min-height: 0; padding-block: 0; }
 }
