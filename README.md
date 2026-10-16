@@ -43,3 +43,15 @@ Viteを起動した状態で実行。1440・390・768 CSS px/DPR1で全ページ
 公式写真の出典・AI生成素材は `docs/asset-manifest.json`、原稿補正は `docs/content-corrections.md`。生成素材はマスターとの完全一致ではなく、公式写真との構図差を含めQAで継続確認します。
 
 最新の比較は `artifacts/qa/round-11/`、判定はneeds-fixです。撮影ソースは `0ab1177`。次のQAには未使用のラウンド番号を選び、過去の証拠を上書きしないでください。通常の `npm run dev` も127.0.0.1限定です。
+
+## GitHub Pages
+
+公開用成果物は `gh-pages` ブランチへ配置済み。現在の連携はPages設定APIが403のため、配信有効化は未完了です。
+
+リポジトリの **Settings → Pages → Build and deployment** で **Deploy from a branch**、ブランチ **gh-pages**、フォルダ **/ (root)** を選んでSaveしてください。
+
+予定URL: https://baudroie.github.io/baudroieLP_shomei/
+
+公開用ビルド: `npm ci && npm run build:pages`。4ページの入口HTMLを生成し、サブディレクトリに画像・フォント・リンクを合わせます。ローカル検証: `python3 scripts/pages_qa.py`。公開後の確認: `python3 scripts/pages_qa.py --url https://baudroie.github.io/baudroieLP_shomei/ --output artifacts/qa/pages/live`。
+
+配信対象はdist内だけです。mainへのマージは不要。更新時は検証後のdistをgh-pagesへ通常pushしてください。詳しくはdocs/pages-deployment.md。

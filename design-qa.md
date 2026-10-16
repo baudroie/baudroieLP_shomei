@@ -10,7 +10,7 @@ final result: blocked
 - 撮影コミット: `0ab11772598287adbb072f45f39e90b3eef2ff76`
 - 全public素材/フォントSHA256一覧: report.jsonのassets（36件）。asset_tree_sha256: `f669420d5272fa85368efa98286b3b974e8f0f63ac54ca9e812028de2eb8fddc`。
 - 描画ソースSHA256: `ec30b48fa44aa2db93d03bb2128a27cc06b40f3f9d21f0db7a4a59a5f88b7204`
-- 撮影後に描画ソースを変更していないことをハッシュ照合済み。後続の証拠・文書コミットと区別。
+- round11直後は描画ソース一致を照合済み。その後313e9d0でPages用URL解決を変更（デザイン変更なし）。公開用静的ビルドの検査はartifacts/qa/pages/local/、詳細docs/pages-deployment.md。
 - ブラウザ: Chromium 154.0.8037.57、viewport 1440×1000 CSS px / DPR1 / 100%。通常状態（ダイアログ閉・フォーカス装飾なし）を比較。390×1000、768×1000も撮影。
 - フォントready・全img.decode完了後に撮影。UTC時刻・各sectionのtop/height・コンソール/画像検査結果は `artifacts/qa/round-11/report.json`。
 

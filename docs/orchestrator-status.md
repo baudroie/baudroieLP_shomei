@@ -8,7 +8,7 @@
 - 最新撮影ソースコミット: `0ab11772598287adbb072f45f39e90b3eef2ff76`
 - 描画ソースSHA256: `ec30b48fa44aa2db93d03bb2128a27cc06b40f3f9d21f0db7a4a59a5f88b7204`
 - public素材/フォント一式SHA256: `f669420d5272fa85368efa98286b3b974e8f0f63ac54ca9e812028de2eb8fddc`。全36ファイルの個別SHA256は最新report.jsonのassets。
-- 最新完了: **round 11**。撮影後の描画ソース・素材・フォント変更なしを照合済み。後続の証拠/文書コミットは撮影版とは区別。
+- 最新完了: **round 11**。round11直後の描画ソース・素材・フォント一致を照合済み。その後、Pages対応313e9d0でURL解決のみ変更。後続の証拠/文書コミットは撮影版とは区別。
 - 判定: **needs-fix / final result: blocked**。4ページ実装・機能検査は完了。写真/線画/原フォント同一性の最終検収は未達。
 
 ## 最新証拠
@@ -34,7 +34,7 @@
 
 ## プレビューと接続
 
-共有プレビューURLは未発行。クラウド内部確認のみ `http://127.0.0.1:4173/`（利用者PCのlocalhostではない）。`npm run dev` のデフォルトも127.0.0.1限定。host上書きなしの起動・listen・HTTP200検証は `artifacts/qa/default-startup-report.json`。
+Pages公開依頼を受領。成果物gh-pages配置済みだがPages有効化APIが403で配信未開始。予定URL https://baudroie.github.io/baudroieLP_shomei/ 。手順・証拠はdocs/pages-deployment.md。Pages用静的ビルド12条件検査成功（artifacts/qa/pages/local/）。共有プレビューURLは未発行。クラウド内部確認のみ `http://127.0.0.1:4173/`（利用者PCのlocalhostではない）。`npm run dev` のデフォルトも127.0.0.1限定。host上書きなしの起動・listen・HTTP200検証は `artifacts/qa/default-startup-report.json`。
 
 0.0.0.0起動は、自動承認レビューが非公開ソース/素材の露出リスクとして拒否したため採用していない。ループバックによる代替で制作・検査を完了。ネットワークは必要な個別ドメイン（api.github.com / www.baudroie.jp / media.baudroie.jp）を所定レビューで追加。全許可にしていない。mainマージ・本番公開なし。
 
@@ -63,3 +63,7 @@
 ## 再開手順
 
 `npm run dev`、`npm run build`。次の未使用ラウンドは `python3 scripts/visual_qa.py --round 12`、操作検査 `python3 scripts/functional_qa.py`。環境install_script/start_skillは実装後の再開手順へ保存済み。
+
+## Pages公開依頼の対応
+
+ユーザーの新規依頼によりPages公開を許可。ソース313e9d0、配信ブランチgh-pages/6995de1。mainは無変更。設定APIの403で有効化だけが未完了。Settings→Pagesでgh-pages / rootを選んでSaveする必要あり。元の視覚比較round11とPagesパス修正後の静的ビルド検証を区別する。詳細docs/pages-deployment.md。
