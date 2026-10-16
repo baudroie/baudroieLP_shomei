@@ -97,3 +97,14 @@
 
 /* Remote 5613f33 already scales laptop art; larger PC uses measured width once. */
 @media(min-width:1400px) { .engineer-team > .art { transform:none; } }
+/* Phone copy must reserve its own height, including the role label. */
+@media(max-width:1199px) {
+  .sales-team { height:auto; }
+  .sales-team .team-caption { position:static; height:auto; }
+}
+@media(max-width:599px) {
+  .engineer-team ul { gap:24px; padding-left:22px; font-size:15px; }
+  .engineer-team li { padding-left:4px; }
+  .engineer-team > div p { text-wrap:pretty; }
+  .engineer-team > div p br { display:none; }
+}
