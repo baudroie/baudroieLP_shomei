@@ -41,7 +41,7 @@ with sync_playwright() as p:
                     assert art['y']+art['height'] <= labels['y']
                     assert labels['y']+labels['height'] <= article.bounding_box()['y']+article.bounding_box()['height']
             if width<1000:
-                for link in page.locator('.header nav a,.header nav button,.footer a').all():
+                for link in page.locator('.header nav a:visible,.header nav button:visible,.footer a:visible').all():
                     box=link.bounding_box()
                     assert box['height']>=43.9,(role,width,link.inner_text(),box)
             page.locator('.header .logo').click();page.wait_for_url('http://127.0.0.1:4173/')

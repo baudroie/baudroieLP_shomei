@@ -1,0 +1,8 @@
+{
+  "command": "npm run dev -- --port 4181 --strictPort (no host override)",
+  "http_status": 200,
+  "listen": [
+    "LISTEN 0      0          127.0.0.1:4181      0.0.0.0:*   "
+  ],
+  "result": "passed"
+}

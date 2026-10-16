@@ -2544,3 +2544,13 @@ dialog .button {
 }
 @media(max-width:999px){.path-illustration{height:300px}.path-grid .path-illustration .art{height:100%;margin:0}}
 .service-symbol svg{color:var(--orange)}.learning-points svg{color:var(--orange)}
+/* Round 5 uses measured glyph rows in the normalized master, not total-height scores. */
+@media(min-width:1000px){
+.overview-support{grid-template-columns:54% 46%}
+.sales-value>div:first-child{padding-top:17px}.sales-value h2{font-size:99px}.sales-value h2 span{font-size:70px;margin-top:8px}.sales-value>div:first-child .orange-rule{margin-bottom:40px}.value-notes article+article{padding-top:55px}
+.hr-value>div:first-child{top:0}.hr-value .charcoal article+article{margin-top:40px;padding-top:35px}
+.hr-meeting{grid-template-rows:minmax(0,1fr)}.hr-meeting>.art{height:365px;align-self:end;position:relative;top:-20px;transform:scaleX(-1)}
+.engineer-paths>h2{font-size:34px;padding:50px 10px 17.5px;line-height:1.25}.path-grid{height:678px}
+.engineer-learning{grid-template-columns:45.4% 56.14%}.engineer-learning figure{height:410px}.engineer-learning figure img{height:370px}.engineer-learning h2{font-size:64px;line-height:1.35}
+}
+.service-symbol svg{color:#15181b}.service-symbol.network svg,.service-symbol.wireless svg{color:var(--orange)}.learning-points svg{color:#15181b}.learning-points>div:nth-child(2) svg{color:var(--orange)}
