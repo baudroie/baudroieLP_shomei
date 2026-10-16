@@ -67,3 +67,5 @@
 @media(max-width:599px) { .learning figure img { mask-image:none; -webkit-mask-image:none; } }
 @media(max-width:1199px) { .hr-support figure img { aspect-ratio:2.3; } }
 @media(max-width:599px) { .hr-support figure img { aspect-ratio:1.5; } }
+/* Keep the deeper approved photograph without moving the following PC sections. */
+@media(min-width:1200px) { .hr-support .support-pair { margin-top:4px; } }
