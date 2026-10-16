@@ -21,10 +21,10 @@ with sync_playwright() as p:
                 link.click()
                 top=page.locator(target).evaluate('(e)=>e.getBoundingClientRect().top')
                 assert top >= -1,(role,width,target,top)
-            cta=page.locator('main button.button').last
+            cta=page.locator('main button.button:visible').last
             cta.focus();cta.press('Enter')
             dialog=page.locator('dialog[open]')
-            assert dialog.is_visible()
+            dialog.wait_for(state='visible')
             assert 'LINEリンクは設定待ちです' in dialog.inner_text()
             # Focus must stay inside the native modal while tabbing.
             page.keyboard.press('Tab')
@@ -37,7 +37,7 @@ with sync_playwright() as p:
                 assert title.evaluate('(e)=>e.getBoundingClientRect().height < parseFloat(getComputedStyle(e).fontSize)*1.6')
             if width==1440 and role=='engineer':
                 for article in page.locator('.path-grid>article').all():
-                    art=article.locator('.art').bounding_box();labels=article.locator('.path-skills').bounding_box()
+                    art=article.locator('.path-illustration').bounding_box();labels=article.locator('.path-skills').bounding_box()
                     assert art['y']+art['height'] <= labels['y']
                     assert labels['y']+labels['height'] <= article.bounding_box()['y']+article.bounding_box()['height']
             if width<1000:

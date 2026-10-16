@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useId, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { lineUrls, roleNames, type Role } from "./config";
 import "./styles.css";
@@ -43,6 +43,7 @@ function LineButton({
   compact?: boolean;
 }) {
   const [open, setOpen] = useState(false);
+  const titleId = useId();
   const dialog = useRef<HTMLDialogElement>(null);
   const button = useRef<HTMLButtonElement>(null);
   useEffect(() => {
@@ -71,7 +72,8 @@ function LineButton({
       )}
       <dialog
         ref={dialog}
-        aria-labelledby={`line-title-${role}-${compact}`}
+        aria-labelledby={titleId}
+        onKeyDown={(event) => { if (event.key === "Tab") { event.preventDefault(); dialog.current?.querySelector<HTMLButtonElement>("button")?.focus(); } }}
         onClose={() => {
           setOpen(false);
           button.current?.focus();
@@ -80,7 +82,7 @@ function LineButton({
           if (e.target === dialog.current) dialog.current?.close();
         }}
       >
-        <h2 id={`line-title-${role}-${compact}`}>LINEリンクは設定待ちです</h2>
+        <h2 id={titleId}>LINEリンクは設定待ちです</h2>
         <p>
           {roleNames[role]}の正式な相談先URLは、準備ができ次第ご案内します。
         </p>
@@ -496,7 +498,6 @@ function Sales() {
           <div>
             <h2 className="serif">
               大手を任される。
-              <br />
               <span>経営に近い距離で働く。</span>
             </h2>
             <i className="orange-rule" />
@@ -862,10 +863,12 @@ function Engineer() {
                 <br />
                 仕事につながる理解を深めていきます。
               </p>
+              <div className="path-illustration">
               <Art
-                name="engineer-beginner.png"
+                name="engineer-beginner-transparent.png"
                 alt="先輩とネットワーク機器の演習をする線画"
               />
+              </div>
               <div className="path-skills">
                 <span>基礎学習</span>
                 <span>資格取得支援</span>
@@ -886,10 +889,12 @@ function Engineer() {
                 <br />
                 次のキャリアを一緒に考えてみませんか。
               </p>
+              <div className="path-illustration">
               <Art
                 name="engineer-experienced.png"
                 alt="クラウドや設計・構築の専門性を深める線画"
               />
+              </div>
               <div className="path-skills">
                 <span>先端技術</span>
                 <span>設計・構築</span>
