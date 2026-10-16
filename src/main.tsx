@@ -192,8 +192,8 @@ function Overview() {
           </div>
           <figure className="welcome">
             <Photo
-              name="welcome_team.jpg"
-              alt="公式写真：オフィスで迎えるボードルアのメンバー"
+              name="support-conversation-approved.webp"
+              alt="オフィスで相談する4人のチームのイメージ（AI生成）"
             />
             
           </figure>
@@ -1023,3 +1023,4 @@ createRoot(document.getElementById("root")!).render(
     </div>
   </React.StrictMode>,
 );
+
