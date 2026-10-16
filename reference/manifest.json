@@ -1,0 +1,38 @@
+[
+  {
+    "page": "overview",
+    "file": "reference/exec-a47d87c7-e924-4285-b247-3729bae5b90e.png",
+    "dimensions": [
+      798,
+      1971
+    ],
+    "sha256": "96ce4e46a70c9cda321f374971c8f6fd5e839e21226b627e5c4ea959f7022c82"
+  },
+  {
+    "page": "sales",
+    "file": "reference/exec-66b91c86-ae30-4bf2-9ef0-8ff0c4625a35.png",
+    "dimensions": [
+      793,
+      1983
+    ],
+    "sha256": "022b15350da5f90e5b22d2f503f72760c1b47215cb5fe22e115097299db11c07"
+  },
+  {
+    "page": "hr",
+    "file": "reference/exec-7441e39e-8565-4c20-b372-33e65a49463b.png",
+    "dimensions": [
+      772,
+      2036
+    ],
+    "sha256": "24962738d2e47dd6e3b2315c48495c9a9cafffacfe44bf3d1369c7e4186503d8"
+  },
+  {
+    "page": "engineer",
+    "file": "reference/exec-15e06a2b-5eec-4107-8c6e-b5fc1209d7b5.png",
+    "dimensions": [
+      762,
+      2064
+    ],
+    "sha256": "1982dee1b9ed3c02bc0cc1f87ce192a1341276154b85241667b588896a489ce8"
+  }
+]
