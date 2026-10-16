@@ -21,7 +21,7 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
 @media (min-width: 1000px) {
   .header:has(+ .overview) nav { background: rgb(255 255 255 / 95%); padding: 0 12px; border-radius: 4px; }
   .overview-hero { padding-inline: min(68px, 4.722vw); }
-  .hero-copy { width: 40%; }
+  .hero-copy { width: calc(38% - 20px); }
   .hero-copy h1 { font-size: min(79px, 5.486vw); white-space: nowrap; }
   .hero-copy p { font-size: clamp(17px, 1.458vw, 21px); }
   .hero-copy .button { min-width: 0; width: min(418px, 100%); }
