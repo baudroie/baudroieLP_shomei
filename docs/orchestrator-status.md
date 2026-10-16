@@ -1,3 +1,7 @@
+# 最新: Round 22
+
+画像差し替え・出典整理・曲線修正済み。20条件の表示検査成功。詳細: docs/round22-review.md。最終完全再現判定はneeds-fix（営業写真・素材差・LINE待ち）。
+
 # Round 21 — 閲覧用Pages修正反映
 
 URL: https://baudroie.github.io/baudroieLP_shomei/

@@ -1,0 +1,21 @@
+{
+  "source_base": "812f28881f1ad651d0fc53c96de0cd5e224571ba",
+  "utc": "2026-10-16T07:06:01.314693+00:00",
+  "browser": "Chromium 153 (Sparticuz)",
+  "dpr": 1,
+  "widths": [
+    1440,
+    390,
+    768,
+    1066,
+    1280
+  ],
+  "source_sha256": {
+    "src/config.ts": "10da1ef5ad0e6ce9de91c53fa38980eea1b92ac6d286bf3b3dbf029a25d9c25a",
+    "src/main.tsx": "71c3ae7265b47b22b2090279dcff4449583cd36e1d729d24eb3b98ddfb8e4a36",
+    "src/master-curves.css": "e262aed45700dd582dc91ae322fe5c3e54e90ae04730288ed1761fc718cf5cc8",
+    "src/responsive-fixes.css": "b40833439daa25067dcea4f4192138d2a06bb19649a6645a83c76952a14a0012",
+    "src/styles.css": "85ad757f82695e4ecd796ff1a7de871868a4de041d5b97e00e1b96f5f0671f29",
+    "src/vite-env.d.ts": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+  }
+}

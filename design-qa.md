@@ -1,3 +1,7 @@
+# 最新: Round 22
+
+画像差し替え・出典整理・曲線修正済み。20条件の表示検査成功。詳細: docs/round22-review.md。最終完全再現判定はneeds-fix（営業写真・素材差・LINE待ち）。
+
 # Round 21 デザインQA — needs-fix継続
 
 配信・撮影ソース `8290d27c7033be728aef1a8febcd18122e459500`。基準資料 d23ee75f9ef23b049f73fa375705ed606ce5b594、承認済みreferenceマスター4枚は変更なし。src SHA256 `f98ebbff8a15016331e136c2ca1ce291df6f99e52b2e17eb00c370e490082d5f`。

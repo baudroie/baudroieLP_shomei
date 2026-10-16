@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { lineUrls, roleNames, type Role } from "./config";
 import "./styles.css";
 import "./responsive-fixes.css";
+import "./master-curves.css";
 
 
 const baseUrl = import.meta.env.BASE_URL;
@@ -194,7 +195,7 @@ function Overview() {
               name="welcome_team.jpg"
               alt="公式写真：オフィスで迎えるボードルアのメンバー"
             />
-            <figcaption>写真：公式メディアを参照</figcaption>
+            
           </figure>
         </section>
         <section className="business section-pad" id="business">
@@ -305,7 +306,7 @@ function Overview() {
               name="college_training.jpg"
               alt="公式写真：先輩と学ぶボードルアカレッジの研修風景"
             />
-            <figcaption>研修写真：公式資料を参照</figcaption>
+            
           </figure>
           <div>
             <h2>
@@ -350,10 +351,10 @@ function Overview() {
           </div>
           <figure>
             <Photo
-              name="recruiting_conversation.jpg"
-              alt="公式写真：入社前後の相談を支える対話の場"
+              name="support-conversation-approved.webp"
+              alt="入社前後の相談を支えるチームのイメージ（AI生成）"
             />
-            <figcaption>写真：公式メディアを参照</figcaption>
+            
           </figure>
         </section>
         <section className="jobs" id="jobs">
@@ -657,8 +658,8 @@ function HR() {
           </p>
           <figure>
             <Photo
-              name="office_lounge.jpg"
-              alt="公式写真：仲間と仕事や学びを相談する場"
+              name="support-conversation-approved.webp"
+              alt="人事・営業・先輩が相談するイメージ（AI生成）"
             />
             <figcaption>人事 × 営業 × 先輩エンジニア</figcaption>
           </figure>
@@ -769,7 +770,7 @@ function Engineer() {
                 name="engineer-network.png"
                 alt="ネットワーク機器にケーブルを接続する手元のイメージ（AI生成）"
               />
-              <figcaption>写真はイメージです（AI生成）</figcaption>
+              
             </figure>
           </div>
           <Art
@@ -910,8 +911,7 @@ function Engineer() {
             />
             <figcaption>
               実機に触れる。先輩と考える。理解を深める。
-              <br />
-              写真はイメージです（AI生成）
+
             </figcaption>
           </figure>
         </section>
