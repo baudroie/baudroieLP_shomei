@@ -1,0 +1,14 @@
+{
+  "source_commit": "1bb085daea688492e7db3e3c6adbdcd902ca7e4f",
+  "published_commit": "86053f86f6a851d0a624eb46b71668af21d1109e",
+  "previous_published_commit": "fac562bc069750016f9622c0c2d1ab08f77d47d8",
+  "utc": "2026-10-16T08:05:34.351087+00:00",
+  "css": "index-BMxQx0QK.css",
+  "js": "index-CpvK5LyS.js",
+  "status": "completed",
+  "conclusion": "success",
+  "run_url": "https://github.com/baudroie/baudroieLP_shomei/actions/runs/38871385741",
+  "external_check": "CONNECT proxy403; no policy changes; orchestrator will inspect",
+  "verified_jst": "2026-10-16T17:06:52.643316+09:00",
+  "deployed_tree_matches_tested_dist": true
+}

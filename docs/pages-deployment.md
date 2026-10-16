@@ -1,14 +1,17 @@
-# Round26公開済み / Round27再修正検証中
+# Round30 — 公開・再レビュー・再修正の反映
 
-配信元 f0bd0bd053a8ed981e2bf4a61e9f7f5b7c1f2bfd、公開 fac562bc069750016f9622c0c2d1ab08f77d47d8。
-URL https://baudroie.github.io/baudroieLP_shomei/
-CSS index-BI7pgqUM.css、JS index-Bkdiq879.js。
-デプロイ completed/success: https://github.com/baudroie/baudroieLP_shomei/actions/runs/38869905534
+プレビュー https://baudroie.github.io/baudroieLP_shomei/
+配信元・撮影・ビルドSHA `1bb085daea688492e7db3e3c6adbdcd902ca7e4f`
+公開コミット `86053f86f6a851d0a624eb46b71668af21d1109e`（親fac562b）
+GitHubデプロイ completed / success
+https://github.com/baudroie/baudroieLP_shomei/actions/runs/38871385741
+成果物 CSS `index-BMxQx0QK.css` / JS `index-CpvK5LyS.js`
+確認JST: 2026-10-16T17:06:52.643316+09:00
 
-他担当f90cc03とgh-pages cbe53cbを保持し、その後の修正を通常pushで反映。未承認写真の変更・生成・アップスケール、mainマージ、Pages設定・権限・ネットワーク変更なし。
+他担当f90cc03を取り込み、並行の5613f33もmerge265654eで統合。round22以降のコード・証拠を保持し、強制pushなし。別担当の同名round23証拠はother-worker-round23/、レビューはdocs/other-worker-independent-review-round-23.mdへ分けて由来を保持。
 
-証拠はartifacts/qa/round-23〜26、配信12条件はartifacts/qa/pages/round26-release/。全体・各section・3比較形式・5幅撮影をコードの事前コミットから保存。版不一致の旧round22証拠を修正して新版扱いにしていない。
+承認相談写真をまとめトップへ適用。研修写真の頭、jobs配置、engineerteamサイズ・1280本文改行を修正。round26を公開して再レビューし、HR後続28pxずれを写真下余白で補正。統合後に見つかった営業390役割ラベル侵入とengineer支援ラベル孤立も29で修正、本文の軽微な孤立行を30で修正し再撮影した。
 
-承認写真hero、learning頭切れ、jobs約35px下ずれ、engineerteamサイズと経験者1280の『か。』孤立を修正。26公開後の独立再レビューでHR写真高さ増加により後続約28px下がるP2を検出したため、27で写真下余白を詰めて修正・再撮影中。26を最終合格としない。
+最終30はHEADを固定したまま全4ページ5幅の撮影・部位70・ビルド・Pages12条件を完了。同じsrc/public hashから公開し、remote gh-pages HEADと全配信ファイルhashが検証済distに一致。round27〜29の途中buildは公開せず、26と30だけを既存gh-pagesへ通常push。mainマージ、Pages設定・権限・ネットワーク変更なし。
 
-公開URL直接実見は既知のCONNECT proxy403。依頼元で公開検証。残課題:営業work/teamの未承認写真・画質構図、原線画/書体同一性、輪郭の微差、暫定スマホとLINE URL待ち。人事supportは承認済写真へ変更済みで旧750px画質待ちの一覧から区別。
+公開URLへの直接アクセスはCONNECT proxy403。公開画面自体のクラウド実見は未実施で依頼元が確認する。GitHubデプロイと配信tree照合、ローカル静的ブラウザ検査は成功。写真/書体/原線画の最終検収とは別。

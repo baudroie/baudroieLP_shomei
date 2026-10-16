@@ -1,4 +1,4 @@
-# 最新: Round26 写真選定の状態
+# 最新: Round30 写真選定の状態
 
 以前の優先3箇所（営業work/team・人事support）のうち、人事supportは承認済 `support-conversation-approved.webp` 1536×1024へ他担当round22で反映済み。今回ユーザーの追加承認により、まとめheroにも同画像を使用。まとめsupportも同画像。未承認の別候補、新規生成、アップスケールは行っていない。
 
@@ -6,7 +6,7 @@
 
 その他の任意画質改善候補: college_training.jpg1477×1108、engineer-training.png1774×887。承認済相談写真は大判/DPR2での実見を継続するが、元750pxの画質課題とは区別。HR hero3024×2268は現素材保持。新しい写真が必要な場合も依頼元でユーザーが選定する。
 
-最新構図証拠: artifacts/qa/round-26/subjects-stable/、表示枠とDPR2はlayout-bounds-report.json。
+最新構図証拠: artifacts/qa/round-30/subjects-stable/、表示枠とDPR2はlayout-bounds-report.json。
 
 ---
 以下はround21時点の履歴で、現在の選定状態ではない。
