@@ -171,3 +171,8 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
   .welcome img { height: auto; aspect-ratio: 1477 / 1108; object-fit: contain; }
   .sales-hero p { text-wrap: pretty; }
 }
+@media(max-width:1199px){
+  .engineer-hero-top { padding-bottom: 16px; }
+  .engineer-hero-top figure { height: auto; width: 100%; max-width: 700px; margin-inline: auto; }
+  .engineer-hero-top figure img { height: auto; aspect-ratio: 3 / 2; object-fit: contain; }
+}
