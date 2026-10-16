@@ -1,13 +1,14 @@
-# Round 21 — 閲覧用Pages修正反映
+# Round26公開済み / Round27再修正検証中
 
-URL: https://baudroie.github.io/baudroieLP_shomei/
+配信元 f0bd0bd053a8ed981e2bf4a61e9f7f5b7c1f2bfd、公開 fac562bc069750016f9622c0c2d1ab08f77d47d8。
+URL https://baudroie.github.io/baudroieLP_shomei/
+CSS index-BI7pgqUM.css、JS index-Bkdiq879.js。
+デプロイ completed/success: https://github.com/baudroie/baudroieLP_shomei/actions/runs/38869905534
 
-配信元・撮影ソース: `8290d27c7033be728aef1a8febcd18122e459500`
-公開コミット: `82cea63dcf27debeebc801f99fb4e630794db015`
-GitHubデプロイ: completed / success
-https://github.com/baudroie/baudroieLP_shomei/actions/runs/38859519238
-CSS: index-B6WLWNlQ.css、JS: index-BAgdPVBr.js。
+他担当f90cc03とgh-pages cbe53cbを保持し、その後の修正を通常pushで反映。未承認写真の変更・生成・アップスケール、mainマージ、Pages設定・権限・ネットワーク変更なし。
 
-既存gh-pagesを54d0d7cから通常push。mainマージ、設定・権限・ネットワーク変更なし。sourceとQAを同一ソースで保存。distだけを公開、4ページの直アクセス・画像・フォント・project base・リンクを12条件で静的実ブラウザ検証。証拠 artifacts/qa/pages/round21-release/。Git pushは.gitなしURLで認証に失敗し、既存origin同一の.git付きURLで正常保存した。秘密値の読出し・認証変更なし。
+証拠はartifacts/qa/round-23〜26、配信12条件はartifacts/qa/pages/round26-release/。全体・各section・3比較形式・5幅撮影をコードの事前コミットから保存。版不一致の旧round22証拠を修正して新版扱いにしていない。
 
-クラウドから公開URLはCONNECT proxy 403のため実見不可。依頼元が公開画面を実見する。写真画質・マスター同一性の最終検収は未完了。
+承認写真hero、learning頭切れ、jobs約35px下ずれ、engineerteamサイズと経験者1280の『か。』孤立を修正。26公開後の独立再レビューでHR写真高さ増加により後続約28px下がるP2を検出したため、27で写真下余白を詰めて修正・再撮影中。26を最終合格としない。
+
+公開URL直接実見は既知のCONNECT proxy403。依頼元で公開検証。残課題:営業work/teamの未承認写真・画質構図、原線画/書体同一性、輪郭の微差、暫定スマホとLINE URL待ち。人事supportは承認済写真へ変更済みで旧750px画質待ちの一覧から区別。

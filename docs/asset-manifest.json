@@ -351,5 +351,17 @@
       1254,
       1254
     ]
+  },
+  {
+    "file": "public/assets/support-conversation-approved.webp",
+    "kind": "AI-generated; user-approved existing asset",
+    "source": "f90cc03; user-approved consultation photograph supplied by orchestrator",
+    "sha256": "f7f051f94c71e0230c26d9a3ae2e5b5649753a7dfab70ff0db41f44fe4c1691f",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "usage": "overview hero (explicit approval 2026-10-16), overview support, HR support",
+    "limitations": "Approved replacement exception; fictional people, not actual employees. No new generation, replacement candidate, or upscale this round."
   }
 ]

@@ -1,9 +1,9 @@
 {
-  "round": 21,
-  "source_commit": "8290d27c7033be728aef1a8febcd18122e459500",
-  "source_sha256": "f98ebbff8a15016331e136c2ca1ce291df6f99e52b2e17eb00c370e490082d5f",
-  "status": "needs-fix: photo quality/composition and master identity",
-  "evidence": "artifacts/qa/round-21",
-  "functional": "artifacts/qa/functional-report.json",
-  "pages": "artifacts/qa/pages/round21-release"
+  "round": 26,
+  "source_commit": "f0bd0bd053a8ed981e2bf4a61e9f7f5b7c1f2bfd",
+  "source_sha256": "55f8c11507ed426d6f9c7637b9641c2c99a9fca8535c334b6220ceb883b7cb61",
+  "asset_tree_sha256": "0db0948325acac42acee025fd9c2c693e7ca9d11822cf61fa893df86f44bd524",
+  "status": "needs-fix; final master identity review pending",
+  "evidence": "artifacts/qa/round-26",
+  "pages": "artifacts/qa/pages/round26-release"
 }
