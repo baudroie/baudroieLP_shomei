@@ -16,3 +16,22 @@
 .job-grid .role-art{width:170px;height:170px;object-fit:cover;margin:0 auto}.role-sales{object-position:left center}.role-hr{object-position:center}.role-engineer{object-position:right center}
 .logo img{width:245px;height:auto}.footer .logo img{width:180px}.sales-map>.sales-map-art{position:absolute;left:0;bottom:85px;width:100%;height:430px;object-fit:contain}.sales-map .sales-career{bottom:0}.hr-cta{position:relative}.hr-cta>.art{position:absolute;right:10%;bottom:15px;width:200px;height:180px;object-fit:contain}.path-grid .charcoal .art{filter:none;mix-blend-mode:normal}.training-trio svg{height:150px;width:100%;display:block;padding:40px;margin-bottom:10px;color:#15181b}.service-symbol svg{fill:none;color:#111;stroke:none}.learning-points svg{color:#15181b}
 @media(max-width:999px){.logo img{width:200px}.footer .logo img{width:160px}.sales-map>.sales-map-art{position:relative;bottom:auto;height:auto;object-fit:contain;margin:20px 0}.sales-map .sales-career{bottom:auto}.hr-cta>.art{position:relative;right:auto;bottom:auto;margin:0 auto 20px;width:120px;height:100px}.training-trio svg{height:100px;padding:22px}}
+/* Round 3: restore filled-path library icons; independent image and label rows. */
+.service-symbol svg{fill:currentColor;stroke:none;color:#15181b}
+.role-illustration{position:relative;width:310px;max-width:100%;height:170px;overflow:hidden;margin:0 auto}
+.job-grid .role-illustration .role-art{position:absolute;top:50%;width:300%;max-width:none;height:auto;transform:translateY(-50%);object-fit:initial;margin:0}
+.role-illustration .role-sales{left:0}.role-illustration .role-hr{left:-100%}.role-illustration .role-engineer{left:-200%}
+@media(min-width:1000px){
+.service-grid>div{padding:0 18px}.service-grid>div:first-child{padding-left:20px}.service-grid{margin-bottom:25px}.service-flow{margin-bottom:30px}
+.hr-hero>.photo{border-radius:0;clip-path:shape(from 0 0,line to 17% 0,curve to 58% 28% with 58% 0 / 58% 10%,line to 58% 48%,curve to 82% 70% with 58% 63% / 72% 65%,curve to 100% 100% with 110% 75% / 100% 100%,line to 0 100%,close)}
+.path-grid>article{display:flex;flex-direction:column;padding-bottom:30px}.path-grid .art{height:310px;min-height:0;flex:1;object-fit:contain;object-position:center bottom;margin:10px 0 15px}.path-grid .path-skills{position:static;flex-shrink:0;margin-top:auto;font-size:20px;min-height:30px}.path-grid .path-skills span+span{padding-left:20px}
+.hr-planning .art{height:340px;object-fit:cover;object-position:center}.hr-planning{overflow:hidden}
+.sales-value{grid-template-columns:minmax(0,57fr) minmax(0,43fr);height:516px}.value-notes{padding-left:42px}.value-notes h3{font-size:40px;white-space:nowrap}.value-notes p{font-size:20px}
+.engineer-career{height:212px}.engineer-hero-top{padding-top:30px}.engineer-hero h1{margin-bottom:22px}.engineer-hero-top figure{height:424px}.engineer-paths{height:779px}.path-grid{height:696px}.engineer-cta{height:260px}
+}
+@media(max-width:999px){.role-illustration{width:280px;height:170px}.hr-hero>.photo{clip-path:none}.hr-hero>.art{object-fit:contain}.path-grid .art{object-fit:contain;height:300px}.path-skills{font-size:15px}.header nav{font-size:14px}.header nav>a:not(.line-outline){padding:10px 0}.hr-planning .art{object-fit:contain}}
+@media(min-width:1000px){
+.business .section-label{margin-bottom:35px}.business>p{margin-bottom:26px}.company-facts{margin-bottom:12px}.growth{padding-top:26px;padding-bottom:26px}
+.path-grid{grid-template-rows:minmax(0,1fr)}.path-grid>article{min-height:0}.path-grid .eyebrow{margin-bottom:16px}.path-grid h3{font-size:52px;line-height:1.25}.path-grid p{font-size:21px;line-height:1.55;margin:16px 0 0}.path-grid .art{flex:1 1 0;min-height:0;width:100%;object-fit:contain}.path-grid .path-skills{font-size:19px}
+.sales-hero{padding-top:110px}.sales-hero>.art{position:absolute;right:0;bottom:0;width:60%;height:600px;object-fit:contain;object-position:right bottom}.sales-value h2{font-size:96px}.sales-value h2 span{font-size:62px}.value-notes h3{font-size:36px}
+}
