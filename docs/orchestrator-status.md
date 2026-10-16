@@ -1,59 +1,65 @@
 # オーケストレーター向け実装進捗
 
-更新: 2026-10-16 12:15 JST。再現用のUTC実施時刻は各report.jsonに記録。
+更新UTC: 2026-10-16T03:47:49.361270+00:00
 
-- PR: https://github.com/baudroie/baudroieLP_shomei/pull/1 （Draft）
+- Draft PR: https://github.com/baudroie/baudroieLP_shomei/pull/1
 - 作業ブランチ: `feat/four-role-landing-pages`
-- 資料基準: `d23ee75f9ef23b049f73fa375705ed606ce5b594`
-- 最新描画ソースのコミット: `3df59a5f8a16bf5a7e1637632b427372df25bcd9`
-- 撮影ソースSHA256: `a367ac2e7d77ecfb27d4439a197454e749b68799038498423f7c68da18b35b8a`
-- 最新完了ラウンド: **round 6**。撮影後のアプリ描画ソース変更なし。後続コミットは証拠・文書の保存用。別版の画像を最新実装の証拠として扱わない。
-- 判定: **needs-fix / 完全再現・最終検収未達**。主要機能と狭幅検査は成功。写真・線画・原フォントの同一性には残差分あり。
+- 資料基準コミット: `d23ee75f9ef23b049f73fa375705ed606ce5b594`
+- 最新撮影ソースコミット: `0ab11772598287adbb072f45f39e90b3eef2ff76`
+- 描画ソースSHA256: `ec30b48fa44aa2db93d03bb2128a27cc06b40f3f9d21f0db7a4a59a5f88b7204`
+- public素材/フォント一式SHA256: `f669420d5272fa85368efa98286b3b974e8f0f63ac54ca9e812028de2eb8fddc`。全36ファイルの個別SHA256は最新report.jsonのassets。
+- 最新完了: **round 11**。撮影後の描画ソース・素材・フォント変更なしを照合済み。後続の証拠/文書コミットは撮影版とは区別。
+- 判定: **needs-fix / final result: blocked**。4ページ実装・機能検査は完了。写真/線画/原フォント同一性の最終検収は未達。
 
-## 最新検証
+## 最新証拠
 
-- TypeScript型チェック + Vite本番ビルド成功。
-- 実アプリのlockfileで `npm ci --offline` を再実行しビルド成功。
-- Chromium 154.0.8037.57、1440/390/768 CSS px、DPR1。画像decode・document.fonts.ready完了後に4ページを撮影、12画面条件failures=[]。
-- `scripts/functional_qa.py`：9通りの実クリック職種遷移、戻り、ページ内ナビ、Enter/Tab/Escape・フォーカス復帰、スマホ44px操作領域、人事PC支援見出し1行、成長パネルの収まり、図/ラベル非重なりのシナリオ成功。
-- デフォルト `npm run dev -- --port 4181 --strictPort` （host上書きなし）を起動し、127.0.0.1のみのlisten + HTTP 200を確認。`artifacts/qa/default-startup-report.json`。
-- `reference/` と `original-assets/` の追跡変更なし。4マスターSHA256一致。
+親ディレクトリ `artifacts/qa/round-11/`。各ページの1440/390/768px全体、1440px各section、横並び、50%overlay、difference、同じglobal yのfocusを保存。基準4マスターを実見し、全体と重点部を反復比較。画像の縦横倍率を変えたり、セクションごとに位置をずらしていない。高さ一致は視覚合格を意味しない。
 
-|ページ|マスター等比換算高|実装高|最新の全体比較|
+|ページ/ルート|マスター等比換算高|実装高|最新比較|
 |---|---:|---:|---|
-|overview|3557px|3557px|`artifacts/qa/round-6/overview-side-by-side.jpg`|
-|sales|3601px|3603px|`artifacts/qa/round-6/sales-side-by-side.jpg`|
-|hr|3798px|3798px|`artifacts/qa/round-6/hr-side-by-side.jpg`|
-|engineer|3900px|3900px|`artifacts/qa/round-6/engineer-side-by-side.jpg`|
+|まとめ `/`|3557|3557|`artifacts/qa/round-11/overview-side-by-side.jpg`|
+|営業 `/sales/`|3601|3603|`artifacts/qa/round-11/sales-side-by-side.jpg`|
+|人事 `/hr/`|3798|3798|`artifacts/qa/round-11/hr-side-by-side.jpg`|
+|エンジニア `/engineer/`|3900|3900|`artifacts/qa/round-11/engineer-side-by-side.jpg`|
 
-高さ一致を視覚合格の根拠にしない。全体・各セクション・同じページy座標のfocus比較を実見。縦伸縮やセクション別の位置合わせはしていない。
+全ページの同名 `-overlay.jpg` / `-difference.png` / `-focus-N.jpg` / `-section-N.png` / `-390.png` / `-768.png` も最新証拠。過去ラウンドは上書き禁止（スクリプトガードとevidence-protection-reportあり）。
 
-## 各ページとプレビュー
+## 検証
 
-クラウド内部で `127.0.0.1:4173` のViteを起動中。内部確認対象パスは `/`、`/sales/`、`/hr/`、`/engineer/`。共有プレビューURLは未発行。利用者のPCからlocalhostで閲覧できるとは案内しない。
+- Node/npm、Python/Pillow/Playwright、Chromiumが利用可能。React・TypeScript・Vite実装。型チェック+本番ビルド成功。lockfileのnpm ci --offlineも確認済み。
+- Chromium 154.0.8037.57、DPR1、1440/390/768 CSS px。document.fonts.readyと全img.decode待機。全12画面条件failures=[]。
+- 実クリック職種遷移/戻り/ナビanchor、LINE待機Enter/Tab/Escape・フォーカス復帰、横溢れ、スマホ44px操作領域等の9シナリオ成功。
+- 人事PC「入社前も、その先も。」1行、成長パネル収まり、図/ラベル独立領域、営業狭幅の見出し別行を確認。
+- 最新概要 `artifacts/qa/latest-verification.json`、詳細 `functional-report.json`。参考資料reference/とoriginal-assets/は無変更、マスターSHA一致。
 
-0.0.0.0待ち受けは自動承認レビューが非公開ソース/素材露出リスクとして拒否。ループバックを維持し、`vite.config.ts` のデフォルトも127.0.0.1へ修正済み。権限・ネットワーク制限は緩和していない。本番公開・mainマージは未実施。
+## プレビューと接続
 
-## レビュー指示と反映
+共有プレビューURLは未発行。クラウド内部確認のみ `http://127.0.0.1:4173/`（利用者PCのlocalhostではない）。`npm run dev` のデフォルトも127.0.0.1限定。host上書きなしの起動・listen・HTTP200検証は `artifacts/qa/default-startup-report.json`。
 
-オーケストレーターコメント: https://github.com/baudroie/baudroieLP_shomei/pull/1#issuecomment-6207055226
+0.0.0.0起動は、自動承認レビューが非公開ソース/素材の露出リスクとして拒否したため採用していない。ループバックによる代替で制作・検査を完了。ネットワークは必要な個別ドメイン（api.github.com / www.baudroie.jp / media.baudroie.jp）を所定レビューで追加。全許可にしていない。mainマージ・本番公開なし。
 
-1. デフォルト待ち受け修正：対応済み。上記実起動検証あり。
-2. 最新ラウンド・撮影コミット・ハッシュ・文書/PR本文整合：本書、design-qa.md、PR本文をround 6基準へ更新。
-3. P1四件の修正前後：`artifacts/qa/resolved-findings/` にround 2とround 6を同じページ座標で並べて保存。人事ヒーロー、サービス/成長パネル、エンジニア図/ラベル。対応manifest.json参照。
+## レビュー対応
 
-各ラウンドのPRコメント・レビュー・行コメントは `artifacts/qa/round-N/reviews-start.json` / `reviews-end.json` に保存。最初のPR作成前はAPI接続を切り分け、限定した必要ドメイン追加後に復旧。レビュー受信時刻より前の「空」と、その後の指示受信を区別。
+依頼元コメント6207055226: デフォルト127.0.0.1、撮影版/文書整合、P1修正前後証拠を反映。`artifacts/qa/resolved-findings/` はround2→6を同一座標で保存。
 
-独立レビューは `docs/independent-review-round-2.md`、`round-3.md`、`round-4.md` に保存。round 3で初期P1四件の解消を確認。round 4以降はP2位置・画像サイズ等を実測補正。round 6の補助的な別エージェントレビューは `docs/independent-review-round-6.md` に保存。大きな配置不良の再発は指摘されず、素材同一性の差によるneeds-fixを維持。依頼元レビュワーの最終検収とは区別する。監視設定の存在は依頼元コメントの申告として記録し、本チャットが1時間ごとの常時監視を運用しているとは主張しない。
+依頼元 https://github.com/baudroie/baudroieLP_shomei/pull/1#issuecomment-6207313122 に対応:
 
-## 残差分・必要物・次作業
+1. 最新ソース固定で全4ページ/各section/global focus/overlay/differenceと390/768を再撮影。撮影コミット・source SHA・全素材/フォントSHAをreportに明記。
+2. 支援写真幅/位置を補正。既製アイコンを個別黒主線+橙アクセントPNGへ置換し、薄線と営業の雲の破線欠落も補正。最新overview-focus-2/3/4、sales-focus-5参照。
+3. 営業濃色の書体サイズ/基線、人事価値見出し/対話線画、エンジニア育成枠を補正し再撮影。最新sales-focus-3、hr-focus-2/4、engineer-focus-4参照。
+4. README、design-qa.md、本書、PR本文を最新ラウンドへ同期。高さ一致や機械検査を完全一致/最終検収として扱わない。
 
-- 公式写真は必須の元写真を保持。歓迎・対話・チームの人数/構図が生成マスターと異なる。個人を切り抜いて生成写真へ置き換えたり、実社員と称していない。
-- 分離線画・写真・原フォントは提供されていない。個別Image Gen素材とNoto書体で近似したが、線幅・顔・細部・画像の輪郭・字形の同一性は未達。完全一致には承認マスターに使用した文字なし分離素材とフォント情報が必要。
-- LINE職種別正式URLは未提供。`src/config.ts` でnull管理、待機ダイアログを実装。設定後に実遷移確認が必要。
-- スマホは暫定レスポンシブ。独自スマホデザインの承認済みとはしない。
-- 次作業：依頼元のround 6証拠確認と具体的な修正指示を反映。素材同一性は元レイヤー/分離素材で差し替えて再比較。公開買付け時点情報は最新一次情報の確認待ちで原稿補正記録へ分離。視覚needs-fixを維持し、自動マージしない。
+各QA開始/終了のPRコメント・レビュー・行コメントはround-N/reviews-start/end.json。補助独立レビューはdocs/independent-review-round-{2,3,4,6,8,9,10,11}.md。旧P1の再発なし、round8薄線/破線、round9学習列/狭幅見出しを反映。依頼元の最終承認とは区別する。依頼元の1時間監視設定の申告は受領したが、本環境が常時監視を運用しているとは主張しない。
 
-## 再開
+## 未解決と次作業
 
-`npm run dev`、`npm run build`。撮影は `python3 scripts/visual_qa.py --round N`、実操作検査は `python3 scripts/functional_qa.py`。環境のinstall_script/start_skillも実装後の起動手順へ更新保存済み（環境設定の公開とサイト公開は別）。
+- **写真/線画の同一性**: 公式元写真を優先する資料指示を守るため、生成マスターと人数/構図が異なる。線画は個別再生成で近似し、顔/姿勢/細部/線質は同一原画ではない。完全再現にはマスターで使った文字なし分離写真・線画が必要。資料から人物を切り抜き実在社員と偽る置換はしていない。
+- **原フォント**: 元書体情報なし。ライセンス付きNoto Sans/Serif JPを同梱し表示固定したが字形/字間/ウェイトの厳密一致は未達。元フォント名/ウェイトまたは分離デザイン仕様が必要。
+- **LINE**: 正式URL未提供。src/config.tsでnull管理、「LINEリンクは設定待ちです」を明示。URL受領後の実遷移確認が次作業。
+- **コピー時点情報**: 未確認の公開買付け日付の断定は避け、docs/content-corrections.mdに補正理由を記録。
+- **スマホ**: 390/768pxは暫定レスポンシブ。スマホ専用マスターの承認とは区別。
+- 次は依頼元の最新証拠に対する具体指示を反映。完全同一素材/フォントが入手できたら差し替えて再比較。現時点で視覚合格とはせずDraft/needs-fixを維持。
+
+## 再開手順
+
+`npm run dev`、`npm run build`。次の未使用ラウンドは `python3 scripts/visual_qa.py --round 12`、操作検査 `python3 scripts/functional_qa.py`。環境install_script/start_skillは実装後の再開手順へ保存済み。

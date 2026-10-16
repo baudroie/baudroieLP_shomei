@@ -1,12 +1,15 @@
 {
-  "visual_capture_commit": "3df59a5f8a16bf5a7e1637632b427372df25bcd9",
-  "source_sha256": "a367ac2e7d77ecfb27d4439a197454e749b68799038498423f7c68da18b35b8a",
+  "round": 11,
+  "visual_capture_commit": "0ab11772598287adbb072f45f39e90b3eef2ff76",
+  "source_sha256": "ec30b48fa44aa2db93d03bb2128a27cc06b40f3f9d21f0db7a4a59a5f88b7204",
+  "asset_tree_sha256": "f669420d5272fa85368efa98286b3b974e8f0f63ac54ca9e812028de2eb8fddc",
+  "assets_count": 36,
   "visual_pages": 4,
   "viewport_checks": 12,
   "browser": "154.0.8037.57",
   "failures": [],
   "functional": {
-    "utc": "2026-10-16T03:15:51.529783+00:00",
+    "utc": "2026-10-16T03:46:37.142341+00:00",
     "checks": [
       {
         "width": 1440,
@@ -79,6 +82,12 @@
     "listen": [
       "LISTEN 0      0          127.0.0.1:4181      0.0.0.0:*   "
     ],
+    "result": "passed"
+  },
+  "evidence_protection": {
+    "existing_round": 6,
+    "guard_exit": 1,
+    "existing_report_unchanged": true,
     "result": "passed"
   }
 }

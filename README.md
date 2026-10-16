@@ -32,7 +32,7 @@ npm run build
 Python 3.12、Pillow、Playwright、`/usr/bin/chromium`が必要です。
 
 ```sh
-python3 scripts/visual_qa.py --round 7
+python3 scripts/visual_qa.py --round 12
 python3 scripts/functional_qa.py
 ```
 
@@ -42,4 +42,4 @@ Viteを起動した状態で実行。1440・390・768 CSS px/DPR1で全ページ
 
 公式写真の出典・AI生成素材は `docs/asset-manifest.json`、原稿補正は `docs/content-corrections.md`。生成素材はマスターとの完全一致ではなく、公式写真との構図差を含めQAで継続確認します。
 
-最新の比較は `artifacts/qa/round-6/`、判定はneeds-fixです。撮影ソースは `3df59a5`。次のQAには未使用のラウンド番号を選び、過去の証拠を上書きしないでください。通常の `npm run dev` も127.0.0.1限定です。
+最新の比較は `artifacts/qa/round-11/`、判定はneeds-fixです。撮影ソースは `0ab1177`。次のQAには未使用のラウンド番号を選び、過去の証拠を上書きしないでください。通常の `npm run dev` も127.0.0.1限定です。
