@@ -3,18 +3,18 @@ import argparse,hashlib,json,subprocess
 from datetime import datetime,timezone
 from pathlib import Path
 from playwright.sync_api import sync_playwright
-parser=argparse.ArgumentParser();parser.add_argument('--round',type=int,required=True);parser.add_argument('--widths',default='1440,390,768,999,1000,1024,1066,1280,1363');parser.add_argument('--baseline',action='store_true');args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--round',type=int,required=True);parser.add_argument('--widths',default='1440,390,768,999,1000,1024,1066,1280,1363');parser.add_argument('--baseline',action='store_true');parser.add_argument('--height',type=int,default=800);args=parser.parse_args()
 root=Path(__file__).resolve().parents[1];out=root/f'artifacts/qa/round-{args.round}/responsive';out.mkdir(parents=True,exist_ok=True)
 if (out/'report.json').exists():raise SystemExit('Recorded round exists: choose a fresh round.')
 assets=[{'file':str(p.relative_to(root)),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted((root/'public').rglob('*')) if p.is_file()]
 report={'utc':datetime.now(timezone.utc).isoformat(),'commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'source_sha256':hashlib.sha256(b''.join(p.read_bytes() for p in sorted((root/'src').glob('*')))).hexdigest(),'asset_tree_sha256':hashlib.sha256(json.dumps(assets,sort_keys=True).encode()).hexdigest(),'scrollbars':'classic: ignore --hide-scrollbars','dpr':1,'checks':[],'failures':[]}
-focus={'overview':['.overview-hero','.jobs'],'sales':['.sales-intro','.sales-value'],'hr':['.hr-hero','.hr-planning','.hr-value'],'engineer':['.engineer-learning','.engineer-career','.engineer-team','.engineer-cta']}
+focus={'overview':['.overview-hero','.jobs'],'sales':['.sales-intro','.sales-value'],'hr':['.hr-hero','.hr-planning','.hr-support','.hr-value'],'engineer':['.engineer-learning','.engineer-career','.engineer-team','.engineer-cta']}
 with sync_playwright() as p:
  b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'],ignore_default_args=['--hide-scrollbars'])
  report['browser']=b.version
  for width in map(int,args.widths.split(',')):
   for role in focus:
-   page=b.new_page(viewport={'width':width,'height':936},device_scale_factor=1);page.emulate_media(reduced_motion='reduce')
+   page=b.new_page(viewport={'width':width,'height':args.height},device_scale_factor=1);page.emulate_media(reduced_motion='reduce')
    errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
    response=page.goto('http://127.0.0.1:4173/'+('' if role=='overview' else role+'/'),wait_until='networkidle')
    page.evaluate("document.documentElement.style.scrollBehavior='auto'");page.evaluate('document.fonts.ready');page.evaluate('Promise.all([...document.images].map(i=>i.decode()))')

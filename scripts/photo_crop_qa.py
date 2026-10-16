@@ -1,0 +1,21 @@
+"""Record exact requested viewports and source-space bounds of the support photo crop."""
+import argparse,json,hashlib,subprocess
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+p=argparse.ArgumentParser();p.add_argument('--round',type=int,required=True);p.add_argument('--baseline',action='store_true');args=p.parse_args();root=Path(__file__).resolve().parents[1];out=root/f'artifacts/qa/round-{args.round}/photo-crops';out.mkdir(parents=True,exist_ok=True)
+if (out/'report.json').exists():raise SystemExit('Evidence already exists')
+rows=[];failures=[]
+with sync_playwright() as p:
+ b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
+ for role,selector in [('overview','.overview-hero'),('sales','.sales-hero'),('hr','.hr-hero'),('engineer','.engineer-hero')]:
+  page=b.new_page(viewport={'width':390,'height':844},device_scale_factor=1);page.goto('http://127.0.0.1:4173/'+('' if role=='overview' else role+'/'),wait_until='networkidle');page.evaluate('document.fonts.ready');page.evaluate('Promise.all([...document.images].map(i=>i.decode()))');page.evaluate("document.documentElement.style.scrollBehavior='auto';window.scrollTo({top:0,behavior:'instant'})");page.wait_for_timeout(150);page.locator(selector).screenshot(path=str(out/f'{role}-hero-390x844.png'));rows.append({'page':role,'viewport':[390,844],'clientWidth':page.evaluate('document.documentElement.clientWidth'),'images':page.locator(selector+' img').evaluate_all('(xs)=>xs.map(i=>({src:i.getAttribute("src"),width:i.clientWidth,height:i.clientHeight,fit:getComputedStyle(i).objectFit,position:getComputedStyle(i).objectPosition}))')});page.close()
+ for width in (1440,390,768,1066,1280,1363):
+  page=b.new_page(viewport={'width':width,'height':800},device_scale_factor=1);page.goto('http://127.0.0.1:4173/hr/#hr-support',wait_until='networkidle');page.evaluate('document.fonts.ready');page.evaluate('Promise.all([...document.images].map(i=>i.decode()))');page.evaluate("document.documentElement.style.scrollBehavior='auto';document.querySelector('#hr-support').scrollIntoView({behavior:'instant'})");page.wait_for_timeout(150);page.locator('.hr-support').screenshot(path=str(out/f'hr-support-{width}x800.png'))
+  m=page.locator('.hr-support figure img').evaluate('''i=>{const r=i.getBoundingClientRect(),s=getComputedStyle(i);return {width:r.width,height:r.height,naturalWidth:i.naturalWidth,naturalHeight:i.naturalHeight,fit:s.objectFit,position:s.objectPosition}}''');scale=max(m['width']/m['naturalWidth'],m['height']/m['naturalHeight']) if m['fit']=='cover' else min(m['width']/m['naturalWidth'],m['height']/m['naturalHeight']);pos=[float(x.strip('%'))/100 for x in m['position'].split()];left=max(0,(m['naturalWidth']*scale-m['width'])*pos[0]/scale);top=max(0,(m['naturalHeight']*scale-m['height'])*pos[1]/scale);crop=[left,top,min(m['naturalWidth'],left+m['width']/scale),min(m['naturalHeight'],top+m['height']/scale)];m['visible_source_bounds']=crop
+  # Conservative source-space envelope for four visible heads and the visible hands.
+  protected=[75,120,500,390];safe=crop[0]<=protected[0] and crop[1]<=protected[1] and crop[2]>=protected[2] and crop[3]>=protected[3]
+  rows.append({'page':'hr-support','viewport':[width,800],'clientWidth':page.evaluate('document.documentElement.clientWidth'),'scrollWidth':page.evaluate('document.documentElement.scrollWidth'),'image':m,'protected_source_envelope':protected,'protected_envelope_visible':safe})
+  if not safe:failures.append(f'hr-support/{width}: protected heads/hands source envelope cropped')
+  page.close()
+ b.close()
+report={'commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'source_sha256':hashlib.sha256(b''.join(p.read_bytes() for p in sorted((root/'src').glob('*')))).hexdigest(),'note':'Envelope is manually inspected source-space coverage, not automatic face recognition. Original photograph already omits some hands outside its native camera frame; no reconstruction.','checks':rows,'failures':failures};(out/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'checks':len(rows),'failures':failures}));raise SystemExit(0 if args.baseline else bool(failures))

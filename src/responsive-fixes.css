@@ -141,3 +141,25 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
   .hr-hero > .photo { grid-column: 1; grid-row: 2; }
   .hr-hero > .art { grid-column: 2; grid-row: 2; }
 }
+/* Round19: keep the heads and visible hands within this existing 750x500 photograph. */
+.hr-support { height: auto; }
+.hr-support figure { height: auto; max-width: 900px; margin-inline: auto; }
+.hr-support figure img { height: auto; aspect-ratio: 12 / 5; object-fit: cover; object-position: 50% 45%; }
+@media(min-width:1200px){ .hr-support { min-height: 830px; } }
+@media(max-width:599px){ .hr-support figure img { aspect-ratio: 3 / 2; } }
+@media(min-width:1400px){
+  .hr-value > div:first-child { top: -16px; }
+  .hr-value > div:first-child p { line-height: 1.78; }
+}
+
+/* A single-column phone hero must not retain the desktop half-width images. */
+@media(max-width:1199px){
+  .hr-hero { display: grid; grid-template-columns: minmax(0,1fr); gap: 24px; padding: 25px 26px 30px; }
+  .hr-hero-copy { position: static; grid-row: 1; grid-column: 1 / -1; width: 100%; padding: 0; }
+  .hr-hero > .photo { position: static; grid-row: 2; grid-column: 1; width: 100%; max-width: 640px; height: auto; aspect-ratio: 4 / 3; margin: 0 auto; object-fit: contain; object-position: center; border-radius: 18px; clip-path: none; }
+  .hr-hero > .art { position: static; grid-row: 3; grid-column: 1; width: 100%; max-width: 600px; height: auto; margin: 0 auto; object-fit: contain; }
+}
+@media(min-width:600px) and (max-width:1199px){
+  .hr-hero { grid-template-columns: minmax(0,1fr) minmax(0,1fr); align-items: center; }
+  .hr-hero > .art { grid-row: 2; grid-column: 2; }
+}
