@@ -10,7 +10,6 @@
     "qa": "python3 scripts/visual_qa.py"
   },
   "dependencies": {
-    "@phosphor-icons/react": "2.1.10",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "react": "19.3.1",

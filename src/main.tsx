@@ -2,15 +2,7 @@ import React, { useEffect, useId, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { lineUrls, roleNames, type Role } from "./config";
 import "./styles.css";
-import {
-  Cloud,
-  ShieldCheck,
-  WifiHigh,
-  Graph,
-  UsersThree,
-  Laptop,
-  ChartBar,
-} from "@phosphor-icons/react";
+
 
 const asset = (name: string) => `/assets/${name}`;
 function Photo({
@@ -261,15 +253,7 @@ function Overview() {
             ].map(([key, title, a, b]) => (
               <div key={key}>
                 <span className={`service-symbol ${key}`} aria-hidden="true">
-                  {key === "network" ? (
-                    <Graph />
-                  ) : key === "cloud" ? (
-                    <Cloud />
-                  ) : key === "security" ? (
-                    <ShieldCheck />
-                  ) : (
-                    <WifiHigh />
-                  )}
+                  <img src={asset(`icon-${key}.png`)} alt="" />
                 </span>
                 <h5>{title}</h5>
                 <p>
@@ -334,17 +318,17 @@ function Overview() {
             </p>
             <div className="learning-points">
               <div>
-                <UsersThree aria-hidden="true" />
+                <span className="learning-icon" aria-hidden="true"><Art name="icon-mentor.png" alt="" /></span>
                 先輩から学ぶ
               </div>
               <div>
-                <Laptop aria-hidden="true" />
+                <span className="learning-icon" aria-hidden="true"><Art name="icon-laptop.png" alt="" /></span>
                 実務につながる
                 <br />
                 教材
               </div>
               <div>
-                <ChartBar aria-hidden="true" />
+                <span className="learning-icon" aria-hidden="true"><Art name="icon-growth.png" alt="" /></span>
                 段階的に力を
                 <br />
                 つける
@@ -566,7 +550,7 @@ function Sales() {
               業界研究・各種研修
             </div>
             <div>
-              <Cloud aria-hidden="true" />
+              <Art name="icon-cloud.png" alt="" />
               研修費全額補助
             </div>
             <div>

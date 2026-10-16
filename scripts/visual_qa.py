@@ -6,6 +6,7 @@ Requires the Vite server on port 4173, Python Playwright, Pillow and Chromium.
 import argparse
 import hashlib
 import json
+import math
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
@@ -19,12 +20,21 @@ args = parser.parse_args()
 root = Path(__file__).resolve().parents[1]
 out = root / f'artifacts/qa/round-{args.round}'
 out.mkdir(parents=True, exist_ok=True)
+if (out/'report.json').exists():
+    raise SystemExit('This round already has recorded evidence; choose a new round number.')
 masters = json.loads((root/'reference/manifest.json').read_text())
 commit = subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True).strip()
 source_files = sorted((root/'src').glob('*'))
 source_digest = hashlib.sha256(b''.join(p.read_bytes() for p in source_files)).hexdigest()
 report = {'utc':datetime.now(timezone.utc).isoformat(), 'commit':commit,
           'source_sha256':source_digest, 'density':1, 'pages':[], 'failures':[]}
+asset_versions=[]
+for path in sorted((root/'public').rglob('*')):
+    if path.is_file():
+        asset_versions.append({'file':str(path.relative_to(root)),
+                               'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
+report['assets']=asset_versions
+report['asset_tree_sha256']=hashlib.sha256(json.dumps(asset_versions,sort_keys=True).encode()).hexdigest()
 
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
@@ -94,6 +104,11 @@ with sync_playwright() as p:
         b=Image.new('RGB',(1440,height),'#e8e8e8');b.paste(impl,(0,0))
         pair=Image.new('RGB',(2880,height),'white');pair.paste(a,(0,0));pair.paste(b,(1440,0))
         pair.save(out/f'{name}-side-by-side.jpg',quality=90)
+        for index,box in enumerate(page_report['sections']):
+            # Same global page coordinates on both sides, never local realignment.
+            pair.crop((0,max(0,math.floor(box['top'])),2880,
+                       min(height,math.ceil(box['top']+box['height'])))).save(
+                out/f'{name}-focus-{index+1}.jpg',quality=92)
         Image.blend(a,b,.5).save(out/f'{name}-overlay.jpg',quality=90)
         ImageChops.difference(a,b).save(out/f'{name}-difference.png')
         page_report['master_dimensions']=[master.width,master.height]

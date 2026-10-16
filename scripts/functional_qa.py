@@ -40,6 +40,9 @@ with sync_playwright() as p:
                     art=article.locator('.path-illustration').bounding_box();labels=article.locator('.path-skills').bounding_box()
                     assert art['y']+art['height'] <= labels['y']
                     assert labels['y']+labels['height'] <= article.bounding_box()['y']+article.bounding_box()['height']
+                caption=page.locator('.engineer-learning figcaption').bounding_box()
+                career_label=page.locator('.engineer-career>div:last-child small').bounding_box()
+                assert caption['y']+caption['height'] <= career_label['y']
             if width<1000:
                 for link in page.locator('.header nav a:visible,.header nav button:visible,.footer a:visible').all():
                     box=link.bounding_box()
@@ -48,9 +51,9 @@ with sync_playwright() as p:
             assert page.locator('#overview-title').is_visible()
             growth=page.locator('.growth').bounding_box();business=page.locator('.business').bounding_box()
             assert growth['y']+growth['height'] <= business['y']+business['height']+1
-            assert page.locator('.service-symbol svg').count()==4
-            for svg in page.locator('.service-symbol svg').all():
-                assert svg.evaluate('(s)=>getComputedStyle(s).fill!="none"')
+            assert page.locator('.service-symbol img').count()==4
+            for icon in page.locator('.service-symbol img').all():
+                assert icon.evaluate('(i)=>i.complete && i.naturalWidth>0')
             results.append({'width':width,'role':role,'navigation':'passed','keyboard_modal':'passed','bounds':'passed'})
         page.close()
     browser.close()

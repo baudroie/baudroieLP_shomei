@@ -2558,3 +2558,9 @@ dialog .button {
 .hr-meeting>.art{top:0}.hr-value h2{font-size:65px;line-height:1.35}
 .value-notes article:first-child h3{font-size:42px}.value-notes article+article h3{font-size:39px}.value-notes article+article{padding-top:36px}.value-notes article+article p{margin-top:20px}
 }
+/* Individual master-referenced icon rasters; black main lines, localized orange. */
+.service-symbol{position:relative;width:80px;height:72px;overflow:hidden}.service-symbol img{position:absolute;width:112px;height:112px;max-width:none;left:50%;top:50%;transform:translate(-50%,-50%);object-fit:contain}.service-symbol.cloud img{width:128px;height:128px}
+.learning-icon{display:block;position:relative;overflow:hidden;width:90px;height:76px;margin:0 auto 10px}.learning-icon .art{position:absolute;width:112px;height:112px;max-width:none;left:50%;top:50%;transform:translate(-50%,-50%);object-fit:contain}.training-trio .art{object-fit:contain}
+@media(max-width:999px){.service-symbol{height:64px}.service-symbol img{width:100px;height:100px}.service-symbol.cloud img{width:112px;height:112px}.learning-icon{width:75px;height:68px}.learning-icon .art{width:100px;height:100px}}
+.service-symbol.cloud img{width:160px;height:160px}.service-symbol.security img{width:128px;height:128px}.service-symbol.wireless img{width:168px;height:168px}.learning-icon{width:100px;height:90px}.learning-icon .art{width:104px;height:104px}
+@media(max-width:999px){.service-symbol.cloud img{width:140px;height:140px}.service-symbol.security img{width:112px;height:112px}.service-symbol.wireless img{width:148px;height:148px}.learning-icon{width:78px;height:72px}.learning-icon .art{width:86px;height:86px}}
