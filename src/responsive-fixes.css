@@ -47,6 +47,7 @@ main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
 
 /* Intermediate desktop widths must reflow, rather than inherit the fixed 1440px type. */
 @media (min-width: 1000px) and (max-width: 1399px) {
+  .business { height: auto; min-height: 1290px; padding-bottom: 30px; }
   .jobs { padding-inline: 4.7vw; }
   .job-grid article { padding-inline: 16px; }
   .job-grid .button { font-size: 18px; white-space: normal; padding-inline: 10px; }
