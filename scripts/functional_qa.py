@@ -43,6 +43,10 @@ with sync_playwright() as p:
                 caption=page.locator('.engineer-learning figcaption').bounding_box()
                 career_label=page.locator('.engineer-career>div:last-child small').bounding_box()
                 assert caption['y']+caption['height'] <= career_label['y']
+            if width<1000 and role=='sales':
+                headline=page.locator('.sales-value h2')
+                second=headline.locator('span')
+                assert second.bounding_box()['y'] >= headline.bounding_box()['y'] + 40
             if width<1000:
                 for link in page.locator('.header nav a:visible,.header nav button:visible,.footer a:visible').all():
                     box=link.bounding_box()

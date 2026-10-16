@@ -2570,3 +2570,5 @@ dialog .button {
 @media(min-width:1000px){.sales-value .orange-rule{width:100px}.hr-value .orange-rule{width:94px}}
 
 @media(max-width:999px){.sales-value h2 span{display:block;margin-top:10px;text-wrap:balance}}
+
+@media(max-width:500px){.sales-value h2{font-size:40px!important}}
