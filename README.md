@@ -32,7 +32,7 @@ npm run build
 Python 3.12、Pillow、Playwright、`/usr/bin/chromium`が必要です。
 
 ```sh
-python3 scripts/visual_qa.py --round 12
+python3 scripts/visual_qa.py --round 18
 python3 scripts/functional_qa.py
 ```
 
@@ -42,16 +42,18 @@ Viteを起動した状態で実行。1440・390・768 CSS px/DPR1で全ページ
 
 公式写真の出典・AI生成素材は `docs/asset-manifest.json`、原稿補正は `docs/content-corrections.md`。生成素材はマスターとの完全一致ではなく、公式写真との構図差を含めQAで継続確認します。
 
-最新の比較は `artifacts/qa/round-11/`、判定はneeds-fixです。撮影ソースは `0ab1177`。次のQAには未使用のラウンド番号を選び、過去の証拠を上書きしないでください。通常の `npm run dev` も127.0.0.1限定です。
+最新の比較は `artifacts/qa/round-17/`、判定はneeds-fixです。撮影ソースは `e17e5d6`。次のQAには未使用のラウンド番号を選び、過去の証拠を上書きしないでください。通常の `npm run dev` も127.0.0.1限定です。
 
 ## GitHub Pages
 
-公開用成果物は `gh-pages` ブランチへ配置済み。現在の連携はPages設定APIが403のため、配信有効化は未完了です。
+共有Pages URLは依頼元が2026-10-16 04:51 UTCに到達確認済み。配信版は旧gh-pages/6995de1（313e9d0）。今回のCSS修正はPRとround17証拠へ保存し、配信ブランチは更新していません。
 
-リポジトリの **Settings → Pages → Build and deployment** で **Deploy from a branch**、ブランチ **gh-pages**、フォルダ **/ (root)** を選んでSaveしてください。
+現在のPages設定の変更は不要です。詳細はdocs/pages-deployment.mdとdocs/orchestrator-status.md。
 
-予定URL: https://baudroie.github.io/baudroieLP_shomei/
+共有URL: https://baudroie.github.io/baudroieLP_shomei/
 
 公開用ビルド: `npm ci && npm run build:pages`。4ページの入口HTMLを生成し、サブディレクトリに画像・フォント・リンクを合わせます。ローカル検証: `python3 scripts/pages_qa.py`。公開後の確認: `python3 scripts/pages_qa.py --url https://baudroie.github.io/baudroieLP_shomei/ --output artifacts/qa/pages/live`。
 
 配信対象はdist内だけです。mainへのマージは不要。更新時は検証後のdistをgh-pagesへ通常pushしてください。詳しくはdocs/pages-deployment.md。
+
+中間幅の検査: `python3 scripts/responsive_qa.py --round 18`、境界検査: `python3 scripts/layout_bounds_qa.py --round 18`。人物見切れ・重なりを含む目視レビューと機械検査を区別します。写真選定待ちはdocs/photo-replacement-pending.md。

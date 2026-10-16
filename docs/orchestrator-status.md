@@ -1,71 +1,52 @@
-> 2026-10-16 制作再開: PR6208344208/6208400965を全文確認。素材を固定してCSSを修正中。round12は修正前、round13–15は途中の比較。round15には1000px/1280pxの目視P1が残ったため合格扱いしていない。最新d259e84でPC切替1200px・1280px固有修正を反映し、round16を検証中。以下は前回終了時点の記録で、最新合格を意味しない。
-
 # オーケストレーター向け実装進捗
 
-更新UTC: 2026-10-16T03:47:49.361270+00:00
+更新UTC: 2026-10-16T05:27:19.261389+00:00
 
-- Draft PR: https://github.com/baudroie/baudroieLP_shomei/pull/1
-- 作業ブランチ: `feat/four-role-landing-pages`
-- 資料基準コミット: `d23ee75f9ef23b049f73fa375705ed606ce5b594`
-- 最新撮影ソースコミット: `0ab11772598287adbb072f45f39e90b3eef2ff76`
-- 描画ソースSHA256: `ec30b48fa44aa2db93d03bb2128a27cc06b40f3f9d21f0db7a4a59a5f88b7204`
-- public素材/フォント一式SHA256: `f669420d5272fa85368efa98286b3b974e8f0f63ac54ca9e812028de2eb8fddc`。全36ファイルの個別SHA256は最新report.jsonのassets。
-- 最新完了: **round 11**。round11直後の描画ソース・素材・フォント一致を照合済み。その後、Pages対応313e9d0でURL解決のみ変更。後続の証拠/文書コミットは撮影版とは区別。
-- 判定: **needs-fix / final result: blocked**。4ページ実装・機能検査は完了。写真/線画/原フォント同一性の最終検収は未達。
+- PR: https://github.com/baudroie/baudroieLP_shomei/pull/1 （Draft）
+- ブランチ: feat/four-role-landing-pages
+- 資料基準: d23ee75f9ef23b049f73fa375705ed606ce5b594
+- 最新撮影ソース: `e17e5d68d2019b3f12314fb503c203e8ec4c2163`
+- source_sha256: `ba47d6eb1ec3de82e0f69e5affbbcf3bcd5e0a1dd40887ba3a6ce5f42e428f44`
+- 全素材/フォントSHA256: `f669420d5272fa85368efa98286b3b974e8f0f63ac54ca9e812028de2eb8fddc`、36ファイル。旧5d13cdd以降不変。
+- 最新QA: **round17**。今回指摘のCSS問題は補助レビューで解消確認。全体は**needs-fix / 最終検収保留**（画質/構図/素材同一性/書体の承認待ち）。
 
-## 最新証拠
+## 対応したレビュー
 
-親ディレクトリ `artifacts/qa/round-11/`。各ページの1440/390/768px全体、1440px各section、横並び、50%overlay、difference、同じglobal yのfocusを保存。基準4マスターを実見し、全体と重点部を反復比較。画像の縦横倍率を変えたり、セクションごとに位置をずらしていない。高さ一致は視覚合格を意味しない。
+6208344208と6208400965を全文読了。指定事項と追加で発見した中間幅不良を既存素材のまま修正。詳細の原因・修正・証拠表はdesign-qa.md。1200未満を縦組みの基本へ変更、1000〜1199のまとめ職種は3列。1280人事heroは専用grid。1440の4ページ構成を保持。
 
-|ページ/ルート|マスター等比換算高|実装高|最新比較|
-|---|---:|---:|---|
-|まとめ `/`|3557|3557|`artifacts/qa/round-11/overview-side-by-side.jpg`|
-|営業 `/sales/`|3601|3603|`artifacts/qa/round-11/sales-side-by-side.jpg`|
-|人事 `/hr/`|3798|3798|`artifacts/qa/round-11/hr-side-by-side.jpg`|
-|エンジニア `/engineer/`|3900|3900|`artifacts/qa/round-11/engineer-side-by-side.jpg`|
+round12修正前→round13〜16修正と再発見→round17最新を保存。横溢れゼロだけでは合格にせず、目視で残P1を見つけて修正した。写真・線画の差し替え/新規生成/AIアップスケール、mainマージ、権限/ネットワーク設定変更なし。
 
-全ページの同名 `-overlay.jpg` / `-difference.png` / `-focus-N.jpg` / `-section-N.png` / `-390.png` / `-768.png` も最新証拠。過去ラウンドは上書き禁止（スクリプトガードとevidence-protection-reportあり）。
+## 最新証拠と検証
 
-## 検証
+- artifacts/qa/round-17/report.json：1440/390/768の4ページ・12条件failures=[]。各ページ全体/section/global focus/50%overlay/difference。
+- artifacts/qa/round-17/responsive/report.json：1440/390/768/999/1000/1024/1066/1280/1363 × 4ページ36条件、通常縦バーあり。clientWidthとscrollWidth一致、全画像/フォントロード完了後撮影。
+- artifacts/qa/round-17/before-after/：修正前round12と最新17、20組。無伸縮・先頭/global y整列、元の横溢れ領域を隠さない。
+- artifacts/qa/functional-report.json：27実リンク/キーボード/表示領域シナリオ成功。
+- artifacts/qa/round-17/layout-bounds-report.json：36実文字境界検査成功。DPR2のsales/hr写真証拠も同じディレクトリ。
+- artifacts/qa/latest-verification.json：版・hash・検証件数一覧。
+- docs/independent-review-round-17.md：最新補助目視レビュー。依頼元の最終承認とは区別。
+- 通常/Pages用ビルド成功。参考資料と素材ファイルは無変更。撮影後の描画ソース/hashを照合済み。
 
-- Node/npm、Python/Pillow/Playwright、Chromiumが利用可能。React・TypeScript・Vite実装。型チェック+本番ビルド成功。lockfileのnpm ci --offlineも確認済み。
-- Chromium 154.0.8037.57、DPR1、1440/390/768 CSS px。document.fonts.readyと全img.decode待機。全12画面条件failures=[]。
-- 実クリック職種遷移/戻り/ナビanchor、LINE待機Enter/Tab/Escape・フォーカス復帰、横溢れ、スマホ44px操作領域等の9シナリオ成功。
-- 人事PC「入社前も、その先も。」1行、成長パネル収まり、図/ラベル独立領域、営業狭幅の見出し別行を確認。
-- 最新概要 `artifacts/qa/latest-verification.json`、詳細 `functional-report.json`。参考資料reference/とoriginal-assets/は無変更、マスターSHA一致。
+|ページ|最新1440比較|
+|---|---|
+|まとめ `/`|artifacts/qa/round-17/overview-side-by-side.jpg|
+|営業 `/sales/`|artifacts/qa/round-17/sales-side-by-side.jpg|
+|人事 `/hr/`|artifacts/qa/round-17/hr-side-by-side.jpg|
+|エンジニア `/engineer/`|artifacts/qa/round-17/engineer-side-by-side.jpg|
 
-## プレビューと接続
+## 共有URLと配信版
 
-Pages公開依頼を受領。成果物gh-pages配置済みだがPages有効化APIが403で配信未開始。予定URL https://baudroie.github.io/baudroieLP_shomei/ 。手順・証拠はdocs/pages-deployment.md。Pages用静的ビルド12条件検査成功（artifacts/qa/pages/local/）。共有プレビューURLは未発行。クラウド内部確認のみ `http://127.0.0.1:4173/`（利用者PCのlocalhostではない）。`npm run dev` のデフォルトも127.0.0.1限定。host上書きなしの起動・listen・HTTP200検証は `artifacts/qa/default-startup-report.json`。
+共有Pages URL: https://baudroie.github.io/baudroieLP_shomei/ 。依頼元コメント6208344208が2026-10-16 04:51 UTCに4ページ到達/実操作を確認済み。本環境でPages設定を変更したという意味ではない。前回の「配信未開始」はこの観測により更新。
 
-0.0.0.0起動は、自動承認レビューが非公開ソース/素材の露出リスクとして拒否したため採用していない。ループバックによる代替で制作・検査を完了。ネットワークは必要な個別ドメイン（api.github.com / www.baudroie.jp / media.baudroie.jp）を所定レビューで追加。全許可にしていない。mainマージ・本番公開なし。
+**Pagesは旧gh-pages/6995de1（元ソース313e9d0）**。今回の修正はレビュー用PRへ保存し、配信ブランチは更新していない。共有URLの旧画面を最新round17の画面と混同しない。最新は上記証拠とクラウド内127.0.0.1:4173で確認可能。クラウドからbaudroie.github.ioへの直接確認はプロキシ403のため未実施。必要時の接続先は当該hostのみ、制限全許可にしていない。
 
-## レビュー対応
+## 残課題と次作業
 
-依頼元コメント6207055226: デフォルト127.0.0.1、撮影版/文書整合、P1修正前後証拠を反映。`artifacts/qa/resolved-findings/` はround2→6を同一座標で保存。
+1. office_lounge.jpg（750×500）の画質不足は素材承認待ち。docs/photo-replacement-pending.mdに全写真枠・必要構図・DPR2目安を掲載。依頼元でユーザーと写真候補を選定する。元画像は不変。
+2. 写真/線画の構図・人物同一性、原書体、contain表示による余白などの最終差分は承認待ち。今回のCSS不良の解消とは分ける。
+3. LINE URLはsrc/config.tsでnull、設定待ちダイアログ。正式URL受領後に実遷移確認。
+4. 次は依頼元の最新PR証拠確認と写真/構図の決定を反映。今回の修正を本番公開済み/完全再現済みとは扱わない。スマホ/中間幅は暫定レスポンシブ。
 
-依頼元 https://github.com/baudroie/baudroieLP_shomei/pull/1#issuecomment-6207313122 に対応:
+## 再開
 
-1. 最新ソース固定で全4ページ/各section/global focus/overlay/differenceと390/768を再撮影。撮影コミット・source SHA・全素材/フォントSHAをreportに明記。
-2. 支援写真幅/位置を補正。既製アイコンを個別黒主線+橙アクセントPNGへ置換し、薄線と営業の雲の破線欠落も補正。最新overview-focus-2/3/4、sales-focus-5参照。
-3. 営業濃色の書体サイズ/基線、人事価値見出し/対話線画、エンジニア育成枠を補正し再撮影。最新sales-focus-3、hr-focus-2/4、engineer-focus-4参照。
-4. README、design-qa.md、本書、PR本文を最新ラウンドへ同期。高さ一致や機械検査を完全一致/最終検収として扱わない。
-
-各QA開始/終了のPRコメント・レビュー・行コメントはround-N/reviews-start/end.json。補助独立レビューはdocs/independent-review-round-{2,3,4,6,8,9,10,11}.md。旧P1の再発なし、round8薄線/破線、round9学習列/狭幅見出しを反映。依頼元の最終承認とは区別する。依頼元の1時間監視設定の申告は受領したが、本環境が常時監視を運用しているとは主張しない。
-
-## 未解決と次作業
-
-- **写真/線画の同一性**: 公式元写真を優先する資料指示を守るため、生成マスターと人数/構図が異なる。線画は個別再生成で近似し、顔/姿勢/細部/線質は同一原画ではない。完全再現にはマスターで使った文字なし分離写真・線画が必要。資料から人物を切り抜き実在社員と偽る置換はしていない。
-- **原フォント**: 元書体情報なし。ライセンス付きNoto Sans/Serif JPを同梱し表示固定したが字形/字間/ウェイトの厳密一致は未達。元フォント名/ウェイトまたは分離デザイン仕様が必要。
-- **LINE**: 正式URL未提供。src/config.tsでnull管理、「LINEリンクは設定待ちです」を明示。URL受領後の実遷移確認が次作業。
-- **コピー時点情報**: 未確認の公開買付け日付の断定は避け、docs/content-corrections.mdに補正理由を記録。
-- **スマホ**: 390/768pxは暫定レスポンシブ。スマホ専用マスターの承認とは区別。
-- 次は依頼元の最新証拠に対する具体指示を反映。完全同一素材/フォントが入手できたら差し替えて再比較。現時点で視覚合格とはせずDraft/needs-fixを維持。
-
-## 再開手順
-
-`npm run dev`、`npm run build`。次の未使用ラウンドは `python3 scripts/visual_qa.py --round 12`、操作検査 `python3 scripts/functional_qa.py`。環境install_script/start_skillは実装後の再開手順へ保存済み。
-
-## Pages公開依頼の対応
-
-ユーザーの新規依頼によりPages公開を許可。ソース313e9d0、配信ブランチgh-pages/6995de1。mainは無変更。設定APIの403で有効化だけが未完了。Settings→Pagesでgh-pages / rootを選んでSaveする必要あり。元の視覚比較round11とPagesパス修正後の静的ビルド検証を区別する。詳細docs/pages-deployment.md。
+npm run dev（127.0.0.1限定）、npm run build。次の未使用ラウンドは18。python3 scripts/visual_qa.py --round 18 と python3 scripts/responsive_qa.py --round 18、python3 scripts/functional_qa.py、python3 scripts/layout_bounds_qa.py --round 18。過去の撮影は上書きしない。

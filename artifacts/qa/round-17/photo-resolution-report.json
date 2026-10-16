@@ -1,0 +1,200 @@
+[
+  {
+    "page": "engineer",
+    "section": "engineer-hero",
+    "file": "/assets/engineer-network.png",
+    "original": [
+      1536,
+      1024
+    ],
+    "max_width_frame": [
+      999,
+      300
+    ],
+    "max_height_frame": [
+      626,
+      440
+    ],
+    "recommended_source_DPR2": [
+      1998,
+      1332
+    ],
+    "note": "Frame dimensions measured with classic scrollbar. Recommendation fills the frame at DPR2, retaining source aspect; contain paints a smaller image."
+  },
+  {
+    "page": "engineer",
+    "section": "engineer-learning section-pad",
+    "file": "/assets/engineer-training.png",
+    "original": [
+      1774,
+      887
+    ],
+    "max_width_frame": [
+      999,
+      500
+    ],
+    "max_height_frame": [
+      999,
+      500
+    ],
+    "recommended_source_DPR2": [
+      1998,
+      999
+    ],
+    "note": "Frame dimensions measured with classic scrollbar. Recommendation fills the frame at DPR2, retaining source aspect; contain paints a smaller image."
+  },
+  {
+    "page": "hr",
+    "section": "hr-hero cream",
+    "file": "/assets/recruiting_conversation.jpg",
+    "original": [
+      3024,
+      2268
+    ],
+    "max_width_frame": [
+      632,
+      320
+    ],
+    "max_height_frame": [
+      627,
+      600
+    ],
+    "recommended_source_DPR2": [
+      1600,
+      1200
+    ],
+    "note": "Frame dimensions measured with classic scrollbar. Recommendation fills the frame at DPR2, retaining source aspect; contain paints a smaller image."
+  },
+  {
+    "page": "hr",
+    "section": "hr-support cream section-pad",
+    "file": "/assets/office_lounge.jpg",
+    "original": [
+      750,
+      500
+    ],
+    "max_width_frame": [
+      1289,
+      365
+    ],
+    "max_height_frame": [
+      1289,
+      365
+    ],
+    "recommended_source_DPR2": [
+      2578,
+      1719
+    ],
+    "note": "Frame dimensions measured with classic scrollbar. Recommendation fills the frame at DPR2, retaining source aspect; contain paints a smaller image."
+  },
+  {
+    "page": "overview",
+    "section": "learning cream",
+    "file": "/assets/college_training.jpg",
+    "original": [
+      1477,
+      1108
+    ],
+    "max_width_frame": [
+      1051,
+      330
+    ],
+    "max_height_frame": [
+      784,
+      460
+    ],
+    "recommended_source_DPR2": [
+      2102,
+      1577
+    ],
+    "note": "Frame dimensions measured with classic scrollbar. Recommendation fills the frame at DPR2, retaining source aspect; contain paints a smaller image."
+  },
+  {
+    "page": "overview",
+    "section": "overview-hero",
+    "file": "/assets/welcome_team.jpg",
+    "original": [
+      1477,
+      1108
+    ],
+    "max_width_frame": [
+      999,
+      350
+    ],
+    "max_height_frame": [
+      884,
+      710
+    ],
+    "recommended_source_DPR2": [
+      1998,
+      1499
+    ],
+    "note": "Frame dimensions measured with classic scrollbar. Recommendation fills the frame at DPR2, retaining source aspect; contain paints a smaller image."
+  },
+  {
+    "page": "overview",
+    "section": "overview-support",
+    "file": "/assets/recruiting_conversation.jpg",
+    "original": [
+      3024,
+      2268
+    ],
+    "max_width_frame": [
+      999,
+      300
+    ],
+    "max_height_frame": [
+      594,
+      340
+    ],
+    "recommended_source_DPR2": [
+      1998,
+      1499
+    ],
+    "note": "Frame dimensions measured with classic scrollbar. Recommendation fills the frame at DPR2, retaining source aspect; contain paints a smaller image."
+  },
+  {
+    "page": "sales",
+    "section": "sales-team",
+    "file": "/assets/office_lounge.jpg",
+    "original": [
+      750,
+      500
+    ],
+    "max_width_frame": [
+      1425,
+      562
+    ],
+    "max_height_frame": [
+      1425,
+      562
+    ],
+    "recommended_source_DPR2": [
+      2850,
+      1900
+    ],
+    "note": "Frame dimensions measured with classic scrollbar. Recommendation fills the frame at DPR2, retaining source aspect; contain paints a smaller image."
+  },
+  {
+    "page": "sales",
+    "section": "sales-work section-pad",
+    "file": "/assets/office_lounge.jpg",
+    "original": [
+      750,
+      500
+    ],
+    "max_width_frame": [
+      999,
+      230
+    ],
+    "max_height_frame": [
+      533,
+      278
+    ],
+    "recommended_source_DPR2": [
+      1998,
+      1332
+    ],
+    "note": "Frame dimensions measured with classic scrollbar. Recommendation fills the frame at DPR2, retaining source aspect; contain paints a smaller image."
+  }
+]

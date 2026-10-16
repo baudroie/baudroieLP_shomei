@@ -1,0 +1,437 @@
+{
+  "utc": "2026-10-16T05:21:22.230292+00:00",
+  "commit": "e17e5d68d2019b3f12314fb503c203e8ec4c2163",
+  "source_sha256": "ba47d6eb1ec3de82e0f69e5affbbcf3bcd5e0a1dd40887ba3a6ce5f42e428f44",
+  "density": 1,
+  "pages": [
+    {
+      "name": "overview",
+      "route": "/",
+      "viewports": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "height": 3577,
+          "failures": [],
+          "font": "\"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "height": 5950,
+          "failures": [],
+          "font": "\"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 768,
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "height": 5268,
+          "failures": [],
+          "font": "\"Noto Sans CJK JP\", sans-serif"
+        }
+      ],
+      "sections": [
+        {
+          "class": "overview-hero",
+          "top": 102,
+          "height": 616
+        },
+        {
+          "class": "business section-pad",
+          "top": 718,
+          "height": 1290
+        },
+        {
+          "class": "learning cream",
+          "top": 2008,
+          "height": 550
+        },
+        {
+          "class": "overview-support",
+          "top": 2558,
+          "height": 410
+        },
+        {
+          "class": "jobs",
+          "top": 2968,
+          "height": 516.578125
+        }
+      ],
+      "master_dimensions": [
+        1440,
+        3557
+      ],
+      "implementation_dimensions": [
+        1440,
+        3577
+      ]
+    },
+    {
+      "name": "sales",
+      "route": "/sales/",
+      "viewports": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "height": 3608,
+          "failures": [],
+          "font": "\"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "height": 4468,
+          "failures": [],
+          "font": "\"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 768,
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "height": 4288,
+          "failures": [],
+          "font": "\"Noto Sans CJK JP\", sans-serif"
+        }
+      ],
+      "sections": [
+        {
+          "class": "sales-hero",
+          "top": 102,
+          "height": 604
+        },
+        {
+          "class": "sales-work section-pad",
+          "top": 706,
+          "height": 1020
+        },
+        {
+          "class": "sales-value charcoal",
+          "top": 1726,
+          "height": 520.84375
+        },
+        {
+          "class": "sales-team",
+          "top": 2246.84375,
+          "height": 562
+        },
+        {
+          "class": "sales-training section-pad",
+          "top": 2808.84375,
+          "height": 375
+        },
+        {
+          "class": "sales-cta cream section-pad",
+          "top": 3183.84375,
+          "height": 350
+        }
+      ],
+      "master_dimensions": [
+        1440,
+        3601
+      ],
+      "implementation_dimensions": [
+        1440,
+        3608
+      ]
+    },
+    {
+      "name": "hr",
+      "route": "/hr/",
+      "viewports": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "height": 3798,
+          "failures": [],
+          "font": "\"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "height": 5077,
+          "failures": [],
+          "font": "\"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 768,
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "height": 4594,
+          "failures": [],
+          "font": "\"Noto Sans CJK JP\", sans-serif"
+        }
+      ],
+      "sections": [
+        {
+          "class": "hr-hero cream",
+          "top": 102,
+          "height": 746
+        },
+        {
+          "class": "hr-work section-pad",
+          "top": 848,
+          "height": 980
+        },
+        {
+          "class": "hr-support cream section-pad",
+          "top": 1828,
+          "height": 830
+        },
+        {
+          "class": "hr-value section-pad",
+          "top": 2658,
+          "height": 486
+        },
+        {
+          "class": "hr-team cream",
+          "top": 3144,
+          "height": 242
+        },
+        {
+          "class": "hr-cta cream",
+          "top": 3386,
+          "height": 320
+        }
+      ],
+      "master_dimensions": [
+        1440,
+        3798
+      ],
+      "implementation_dimensions": [
+        1440,
+        3798
+      ]
+    },
+    {
+      "name": "engineer",
+      "route": "/engineer/",
+      "viewports": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "height": 3900,
+          "failures": [],
+          "font": "\"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "height": 6042,
+          "failures": [],
+          "font": "\"Noto Sans CJK JP\", sans-serif"
+        },
+        {
+          "width": 768,
+          "clientWidth": 768,
+          "scrollWidth": 768,
+          "height": 5468,
+          "failures": [],
+          "font": "\"Noto Sans CJK JP\", sans-serif"
+        }
+      ],
+      "sections": [
+        {
+          "class": "engineer-hero",
+          "top": 102,
+          "height": 920
+        },
+        {
+          "class": "engineer-work section-pad",
+          "top": 1022,
+          "height": 777
+        },
+        {
+          "class": "engineer-paths cream",
+          "top": 1799,
+          "height": 788
+        },
+        {
+          "class": "engineer-learning section-pad",
+          "top": 2587,
+          "height": 440
+        },
+        {
+          "class": "engineer-career section-pad",
+          "top": 3027,
+          "height": 227
+        },
+        {
+          "class": "engineer-team cream section-pad",
+          "top": 3254,
+          "height": 297
+        },
+        {
+          "class": "engineer-cta section-pad",
+          "top": 3551,
+          "height": 251
+        }
+      ],
+      "master_dimensions": [
+        1440,
+        3900
+      ],
+      "implementation_dimensions": [
+        1440,
+        3900
+      ]
+    }
+  ],
+  "failures": [],
+  "assets": [
+    {
+      "file": "public/assets/baudroie_logo.svg",
+      "sha256": "a48c9d915bd45b59ec0adf9c95f8e8a785e710d864460db1160e6c2bd2fe95a9"
+    },
+    {
+      "file": "public/assets/college_training.jpg",
+      "sha256": "1e7d9ae988aafb4f67d036b8d6a24cd60e9d345b1af3b25f6856d3610dfa4ecf"
+    },
+    {
+      "file": "public/assets/engineer-beginner-transparent.png",
+      "sha256": "933ad78fb78958ae519db37d543ad91fb277ad1c88e95d1d626f39d009e637f6"
+    },
+    {
+      "file": "public/assets/engineer-beginner.png",
+      "sha256": "3b125154b6998e0b2e76471c272292c24ffbc1c7bef622398e83bcf9b292f5db"
+    },
+    {
+      "file": "public/assets/engineer-experienced-transparent.png",
+      "sha256": "4d59a58cdc30a70efa1c4b12c02bd2fb066122b6bf3573db81798e91efd4cb43"
+    },
+    {
+      "file": "public/assets/engineer-experienced.png",
+      "sha256": "ed85577cb8068e5bc62d68887e596191ee2402d6ff96bfb8781cd3493ca5d0dd"
+    },
+    {
+      "file": "public/assets/engineer-infrastructure.png",
+      "sha256": "56312a7d16ebdac110af5ba61b4c4a7c0951e69a938d3acf18874de40072b460"
+    },
+    {
+      "file": "public/assets/engineer-laptop.png",
+      "sha256": "3a704b5d13ca5f02576e55b0c3f8428e9b939d7b70ca50028761b72c29740f52"
+    },
+    {
+      "file": "public/assets/engineer-network.png",
+      "sha256": "eddddb75b14670c8f2d393dd8804fca192cdfb8d6533934c22fc33f250b5b040"
+    },
+    {
+      "file": "public/assets/engineer-panorama.png",
+      "sha256": "e4400c286d5e13f9cbfd0172fefe6e7ae9c2883bda3ce56acdfc4b3770db48e2"
+    },
+    {
+      "file": "public/assets/engineer-training.png",
+      "sha256": "b2da08e9975bab7a1e7eec1e7d0fa3b7e5324e68e187a75c7cc8bad0a7d05c68"
+    },
+    {
+      "file": "public/assets/hr-hero.png",
+      "sha256": "a9f56d693e055724a0ba7e06c32e4fcf57e0a7ce0f7ad88d9f529bbf304bcccc"
+    },
+    {
+      "file": "public/assets/hr-notebook.png",
+      "sha256": "973a288635d36077da76dcc923b100ed11b1157e41a8289cfe880d63359dd112"
+    },
+    {
+      "file": "public/assets/hr-planning.png",
+      "sha256": "c417fb0223a9ae0df195faf2acbf08e822a87e46509722996eed672b5e2d307f"
+    },
+    {
+      "file": "public/assets/hr-team.png",
+      "sha256": "db696315ed5df1d6dbf0450498c5e250eb932feaa1347e86cc6d6f65e94b8aec"
+    },
+    {
+      "file": "public/assets/icon-cloud.png",
+      "sha256": "259710d1c78c3ba6c6fe024059ac9e1a180dacd3968ccf91dc05c79d3d1bd596"
+    },
+    {
+      "file": "public/assets/icon-growth.png",
+      "sha256": "33366da6989bdd2cf91a5dd3b14fbfd6c3850fafd9c6fadc72f35b4e68ed351c"
+    },
+    {
+      "file": "public/assets/icon-laptop.png",
+      "sha256": "ad4b6ed039fc5ef5170aaea4d4b2be6ab24b67b4046b045a2c91cceb933b0f1e"
+    },
+    {
+      "file": "public/assets/icon-mentor.png",
+      "sha256": "3a3b94682e30e230761dfd49572ec55b9464440a7c583a642f4134900429777e"
+    },
+    {
+      "file": "public/assets/icon-network.png",
+      "sha256": "9dc2952298d3ccd3ea445bf1d456b0227383af8e6534398d3f1ff0844ff2c32b"
+    },
+    {
+      "file": "public/assets/icon-sales-cloud.png",
+      "sha256": "e5cf958759e8e396cf7d4dfe514fd16d90809e9aa2357ca1d92a69c0d769b967"
+    },
+    {
+      "file": "public/assets/icon-security.png",
+      "sha256": "357bc63505192725c13e3c4c8da8ca7f8d2ffb86ca42f1e751d201a015a08393"
+    },
+    {
+      "file": "public/assets/icon-wireless.png",
+      "sha256": "883cec7b93ff6d9ceab0153fc4c50a98ff77a7071b97a14f42b85f1eab3727c3"
+    },
+    {
+      "file": "public/assets/office_lounge.jpg",
+      "sha256": "24cbee3f2640b2c6cae742fb87393423e16aeca506efd06996779ae6a41a4245"
+    },
+    {
+      "file": "public/assets/overview-role-illustrations.png",
+      "sha256": "c3309bafee35eb7dc786a45757fb653a438841158ec46aa4b56f0f99a1175ebc"
+    },
+    {
+      "file": "public/assets/recruiting_conversation.jpg",
+      "sha256": "ed80d67c7680957758abcaf5073d403174a66452b5df80081feda72e9f17d155"
+    },
+    {
+      "file": "public/assets/sales-hero.png",
+      "sha256": "94f32e2535a0d185bcabcaec89fa40315128f3e464fd5e71bbbcff7aa33326e5"
+    },
+    {
+      "file": "public/assets/sales-map.png",
+      "sha256": "5055cb169795095b3beacc124f0679b3631622e4ffc3164e4cd3153fc76c7af0"
+    },
+    {
+      "file": "public/assets/sales-phone.png",
+      "sha256": "3b236799adc28fc50233ffe0f51750e9aa83200f5f0ce65ac9a9ef310cc24ea3"
+    },
+    {
+      "file": "public/assets/sales-research.png",
+      "sha256": "a4e18538e1521195b228aa02527960c6e62850603224a6a0c634177905fc8221"
+    },
+    {
+      "file": "public/assets/welcome_team.jpg",
+      "sha256": "892e2d6c62f7ce45ed92adff908b8713ded5365e463b1ceb426b30e719309e4d"
+    },
+    {
+      "file": "public/fonts/LICENSE.txt",
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "file": "public/fonts/noto-sans-bold.woff",
+      "sha256": "77ab4bbfd7a477c8b5bd8941cc55728d15f93d2ea074b07e3eedfb45b0de2caf"
+    },
+    {
+      "file": "public/fonts/noto-sans-regular.woff",
+      "sha256": "9c1fe66bcc7fb56634e5ddb99ad7d3d349c0852d7e4bfe089f3d8572cfed6463"
+    },
+    {
+      "file": "public/fonts/noto-serif-bold.woff",
+      "sha256": "2162cddb2b4f622536fc59a8fa16ee7dcabf44a186e34c15c57ceb1ebe15c17c"
+    },
+    {
+      "file": "public/fonts/noto-serif-regular.woff",
+      "sha256": "4878fbac3edfc64ad30c0e930717250cbae00e3f0bcf500be4c44ac593a0d3b1"
+    }
+  ],
+  "asset_tree_sha256": "f669420d5272fa85368efa98286b3b974e8f0f63ac54ca9e812028de2eb8fddc",
+  "browser": "154.0.8037.57"
+}

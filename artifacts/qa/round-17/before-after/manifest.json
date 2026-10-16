@@ -1,0 +1,267 @@
+{
+  "method": "No rescaling. Page top/global y aligned. Pad to maximum original canvas size. Baseline overflow is retained, never cropped away. Left before, right after.",
+  "before": "5d13cdd356d1d5bbf76f31f028565adfbd93a443",
+  "after": "e17e5d68d2019b3f12314fb503c203e8ec4c2163",
+  "files": [
+    {
+      "file": "overview-1000.jpg",
+      "viewport": 1000,
+      "before_dimensions": [
+        1120,
+        3557
+      ],
+      "after_dimensions": [
+        985,
+        4420
+      ],
+      "pane_width": 1120
+    },
+    {
+      "file": "sales-1000.jpg",
+      "viewport": 1000,
+      "before_dimensions": [
+        1078,
+        3629
+      ],
+      "after_dimensions": [
+        985,
+        4449
+      ],
+      "pane_width": 1078
+    },
+    {
+      "file": "hr-1000.jpg",
+      "viewport": 1000,
+      "before_dimensions": [
+        1082,
+        3806
+      ],
+      "after_dimensions": [
+        985,
+        4681
+      ],
+      "pane_width": 1082
+    },
+    {
+      "file": "engineer-1000.jpg",
+      "viewport": 1000,
+      "before_dimensions": [
+        1119,
+        3900
+      ],
+      "after_dimensions": [
+        985,
+        5664
+      ],
+      "pane_width": 1119
+    },
+    {
+      "file": "overview-1066.jpg",
+      "viewport": 1066,
+      "before_dimensions": [
+        1120,
+        3557
+      ],
+      "after_dimensions": [
+        1051,
+        4389
+      ],
+      "pane_width": 1120
+    },
+    {
+      "file": "sales-1066.jpg",
+      "viewport": 1066,
+      "before_dimensions": [
+        1116,
+        3603
+      ],
+      "after_dimensions": [
+        1051,
+        4471
+      ],
+      "pane_width": 1116
+    },
+    {
+      "file": "hr-1066.jpg",
+      "viewport": 1066,
+      "before_dimensions": [
+        1116,
+        3806
+      ],
+      "after_dimensions": [
+        1051,
+        4681
+      ],
+      "pane_width": 1116
+    },
+    {
+      "file": "engineer-1066.jpg",
+      "viewport": 1066,
+      "before_dimensions": [
+        1154,
+        3900
+      ],
+      "after_dimensions": [
+        1051,
+        5697
+      ],
+      "pane_width": 1154
+    },
+    {
+      "file": "overview-1280.jpg",
+      "viewport": 1280,
+      "before_dimensions": [
+        1265,
+        3557
+      ],
+      "after_dimensions": [
+        1265,
+        3669
+      ],
+      "pane_width": 1265
+    },
+    {
+      "file": "sales-1280.jpg",
+      "viewport": 1280,
+      "before_dimensions": [
+        1273,
+        3603
+      ],
+      "after_dimensions": [
+        1265,
+        3494
+      ],
+      "pane_width": 1273
+    },
+    {
+      "file": "hr-1280.jpg",
+      "viewport": 1280,
+      "before_dimensions": [
+        1265,
+        3806
+      ],
+      "after_dimensions": [
+        1265,
+        3882
+      ],
+      "pane_width": 1265
+    },
+    {
+      "file": "engineer-1280.jpg",
+      "viewport": 1280,
+      "before_dimensions": [
+        1269,
+        3900
+      ],
+      "after_dimensions": [
+        1265,
+        3900
+      ],
+      "pane_width": 1269
+    },
+    {
+      "file": "overview-1363.jpg",
+      "viewport": 1363,
+      "before_dimensions": [
+        1348,
+        3557
+      ],
+      "after_dimensions": [
+        1348,
+        3600
+      ],
+      "pane_width": 1348
+    },
+    {
+      "file": "sales-1363.jpg",
+      "viewport": 1363,
+      "before_dimensions": [
+        1352,
+        3603
+      ],
+      "after_dimensions": [
+        1348,
+        3511
+      ],
+      "pane_width": 1352
+    },
+    {
+      "file": "hr-1363.jpg",
+      "viewport": 1363,
+      "before_dimensions": [
+        1348,
+        3798
+      ],
+      "after_dimensions": [
+        1348,
+        3822
+      ],
+      "pane_width": 1348
+    },
+    {
+      "file": "engineer-1363.jpg",
+      "viewport": 1363,
+      "before_dimensions": [
+        1348,
+        3900
+      ],
+      "after_dimensions": [
+        1348,
+        3909
+      ],
+      "pane_width": 1348
+    },
+    {
+      "file": "overview-1440.jpg",
+      "viewport": 1440,
+      "before_dimensions": [
+        1425,
+        3557
+      ],
+      "after_dimensions": [
+        1425,
+        3577
+      ],
+      "pane_width": 1425
+    },
+    {
+      "file": "sales-1440.jpg",
+      "viewport": 1440,
+      "before_dimensions": [
+        1425,
+        3603
+      ],
+      "after_dimensions": [
+        1425,
+        3608
+      ],
+      "pane_width": 1425
+    },
+    {
+      "file": "hr-1440.jpg",
+      "viewport": 1440,
+      "before_dimensions": [
+        1425,
+        3798
+      ],
+      "after_dimensions": [
+        1425,
+        3798
+      ],
+      "pane_width": 1425
+    },
+    {
+      "file": "engineer-1440.jpg",
+      "viewport": 1440,
+      "before_dimensions": [
+        1425,
+        3900
+      ],
+      "after_dimensions": [
+        1425,
+        3900
+      ],
+      "pane_width": 1425
+    }
+  ]
+}
