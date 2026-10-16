@@ -23,7 +23,7 @@
 .welcome img { border-radius: 0; -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M110%200%20L1000%200%20L1000%20850%20C730%201040%20480%201030%20150%20900%20C-60%20810%2090%20580%2035%20360%20C-20%20140%200%2090%20110%200%20Z%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M110%200%20L1000%200%20L1000%20850%20C730%201040%20480%201030%20150%20900%20C-60%20810%2090%20580%2035%20360%20C-20%20140%200%2090%20110%200%20Z%22%2F%3E%3C%2Fsvg%3E"); mask-size: 100% 100%; -webkit-mask-size: 100% 100%; mask-repeat: no-repeat; }
 .learning figure img { border-radius: 0; -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20180%20C260%2050%20700%20-60%20880%2060%20C1040%20150%20940%20410%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20180%20C260%2050%20700%20-60%20880%2060%20C1040%20150%20940%20410%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fsvg%3E"); mask-size: 100% 100%; -webkit-mask-size: 100% 100%; mask-repeat: no-repeat; }
 .overview-support img { border-radius: 0; -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20590%20C0%20180%20400%2015%201000%200%20L1000%20840%20C770%201030%20410%201010%20120%20950%20C20%20930%200%20800%200%20590%20Z%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20590%20C0%20180%20400%2015%201000%200%20L1000%20840%20C770%201030%20410%201010%20120%20950%20C20%20930%200%20800%200%20590%20Z%22%2F%3E%3C%2Fsvg%3E"); mask-size: 100% 100%; -webkit-mask-size: 100% 100%; mask-repeat: no-repeat; }
-@media(min-width:1400px) { .team-caption { background: transparent; border-radius: 0; isolation: isolate; } .team-caption::before { content: ""; position: absolute; inset: 0 -20px 0 0; z-index: -1; background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%200%20L240%200%20C470%200%20440%20130%20660%20220%20C840%20295%20800%20780%201000%201000%20L0%201000%20Z%22%2F%3E%3C%2Fsvg%3E") center / 100% 100% no-repeat; } }
+@media(min-width:1200px) { .team-caption { background: transparent; border-radius: 0; isolation: isolate; } .team-caption::before { content: ""; position: absolute; inset: 0 -20px 0 0; z-index: -1; background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%200%20L240%200%20C470%200%20440%20130%20660%20220%20C840%20295%20800%20780%201000%201000%20L0%201000%20Z%22%2F%3E%3C%2Fsvg%3E") center / 100% 100% no-repeat; } }
 
 @media(max-width:1199px) {
   .learning { padding-block: 40px; }
@@ -42,6 +42,31 @@
 /* Anchor the backing shape to the photograph at every breakpoint. */
 .overview-support figure { position: relative; }
 @media(max-width:1199px) { .overview-support figure { height: auto; top: auto; } }
+
+/* Round 23: keep faces inside the photograph and its curved mask. */
+.welcome img { object-position: 50% 40%; }
+.learning figure img { object-position: 50% 15%; }
+@media (max-width: 1199px) {
+  .welcome { height: auto; }
+  .welcome img { height: auto; aspect-ratio: 3 / 2; object-fit: contain; }
+  .learning figure { height: auto; }
+  .learning figure img { height: auto; aspect-ratio: 1477 / 1108; object-fit: contain; }
+}
+
+
+/* Keep the desktop photograph/curved caption composition at laptop widths. */
+@media (max-width: 599px) {
+  .learning-points > div { font-size: 14px; padding-inline: 4px; }
+}
+@media (min-width: 1200px) {
+  .hr-planning > .art { transform: translateX(-20px) scale(1.15); transform-origin: center bottom; }
+  .engineer-team > .art { transform: translateX(-40px) scale(1.1); transform-origin: center; }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .sales-team { height: 520px; display: block; }
+  .sales-team > .photo { width: 100%; height: 100%; }
+  .team-caption { position: absolute; bottom: 0; left: 0; width: 58%; padding: 32px 4.7vw 36px; }
+}
 
 /* Round 24: approved hero photograph and uncropped training subjects. */
 .welcome img { object-position: 50% 44%; }
@@ -69,3 +94,6 @@
 @media(max-width:599px) { .hr-support figure img { aspect-ratio:1.5; } }
 /* Keep the deeper approved photograph without moving the following PC sections. */
 @media(min-width:1200px) { .hr-support .support-pair { margin-top:4px; } }
+
+/* Remote 5613f33 already scales laptop art; larger PC uses measured width once. */
+@media(min-width:1400px) { .engineer-team > .art { transform:none; } }

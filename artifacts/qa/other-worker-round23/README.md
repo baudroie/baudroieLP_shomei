@@ -1,0 +1,1 @@
+Preserved metadata from remote 5613f33, captured by another worker. Its images were not in that Git tree. This metadata does not describe our round-23 screenshots, which use f90cc03 and their own report.json. Remote review preserved in docs/other-worker-independent-review-round-23.md.
