@@ -2,6 +2,7 @@ import React, { useEffect, useId, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { lineUrls, roleNames, type Role } from "./config";
 import "./styles.css";
+import "./responsive-fixes.css";
 
 
 const baseUrl = import.meta.env.BASE_URL;

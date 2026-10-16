@@ -1,0 +1,94 @@
+/* Review 6208344208 / 6208400965: preserve assets; size the layout to its content. */
+main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
+.hr-planning > *, .hr-value > *, .engineer-learning > *, .engineer-career > *,
+.engineer-team > *, .engineer-cta > * { min-width: 0; }
+
+/* One cell of the existing three-cell strip, with room above each person's head. */
+.role-illustration { width: 220px; height: 200px; max-width: 100%; }
+.job-grid .role-illustration .role-art { width: 300%; height: auto; top: 50%; }
+.job-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.jobs { height: auto; min-height: 497px; }
+.hr-planning .art, .hr-team > .art, .engineer-team > .art { object-fit: contain; }
+.hr-value > div:first-child p { font-weight: 700; color: #607087; line-height: 1.6; }
+
+/* The pale field curves around the central white reading area, rather than a flat fill. */
+.hr-hero { background: #fff; isolation: isolate; }
+.hr-hero::before { content: ''; position: absolute; inset: 0; z-index: -1;
+  background: #fff6e9; clip-path: polygon(0 5%, 10% 9%, 24% 26%, 38% 48%, 55% 70%, 81% 76%, 100% 98%, 100% 100%, 0 100%); }
+.hr-hero::after { content: ''; position: absolute; width: 42%; height: 92%; right: -12%; top: 3%; z-index: -1;
+  background: #fff6e9; border-radius: 60% 0 0 45%; transform: rotate(30deg); }
+
+@media (min-width: 1000px) {
+  .header:has(+ .overview) nav { background: rgb(255 255 255 / 95%); padding: 0 12px; border-radius: 4px; }
+  .overview-hero { padding-inline: min(68px, 4.722vw); }
+  .hero-copy { width: 40%; }
+  .hero-copy h1 { font-size: min(79px, 5.486vw); white-space: nowrap; }
+  .hero-copy p { font-size: clamp(17px, 1.458vw, 21px); }
+  .hero-copy .button { min-width: 0; width: min(418px, 100%); }
+  .welcome { width: 62%; }
+  .sales-intro { margin-right: calc(-1 * min(68px, 4.7vw)); grid-template-columns: minmax(0, 60fr) minmax(0, 40fr); }
+  .sales-intro p { white-space: normal; }
+  .sales-career { width: 47%; }
+  .sales-value { grid-template-columns: minmax(0, 57fr) minmax(0, 43fr); height: auto; min-height: 516px; }
+  .sales-value h2 { font-size: min(99px, 6.875vw); white-space: normal; }
+  .sales-value h2 span { font-size: min(70px, 4.861vw); }
+  .value-notes article:first-child h3 { font-size: min(42px, 2.916vw); white-space: normal; }
+  .value-notes article + article h3 { font-size: min(39px, 2.708vw); white-space: normal; }
+  .hr-planning { grid-template-columns: minmax(0, 52fr) minmax(0, 48fr); }
+  .hr-value { grid-template-columns: minmax(0, 52fr) minmax(0, 48fr); }
+  .engineer-learning { grid-template-columns: minmax(0, 45.4fr) minmax(0, 56.14fr); height: auto; min-height: 440px; padding-bottom: 25px; }
+  .engineer-learning figure { height: auto; }
+  .engineer-career { grid-template-columns: minmax(0, 54fr) minmax(0, 46fr); height: auto; min-height: 227px; padding-block: 28px; }
+  .engineer-career ul { gap: 10px; }
+  .engineer-career li { padding-inline: 10px; }
+  .engineer-team { grid-template-columns: minmax(0, 40fr) minmax(0, 39fr) minmax(0, 21fr); height: auto; min-height: 297px; }
+  .engineer-cta { grid-template-columns: minmax(0, 26fr) minmax(0, 43fr) minmax(0, 31fr); height: auto; min-height: 251px; }
+}
+
+/* Intermediate desktop widths must reflow, rather than inherit the fixed 1440px type. */
+@media (min-width: 1000px) and (max-width: 1399px) {
+  .jobs { padding-inline: 4.7vw; }
+  .job-grid article { padding-inline: 16px; }
+  .job-grid .button { font-size: 18px; white-space: normal; padding-inline: 10px; }
+  .sales-work { height: auto; padding-bottom: 30px; }
+  .sales-intro h2 { font-size: 4.16vw; }
+  .sales-intro p { font-size: 1.67vw; }
+  .sales-map h3 { font-size: 2.57vw; }
+  .sales-map p { font-size: 1.6vw; }
+  .sales-value { padding-inline: 4.7vw; min-height: 0; }
+  .sales-value p { font-size: 1.944vw; }
+  .value-notes { padding-left: 24px; }
+  .value-notes p { font-size: 1.39vw; }
+  .sales-training { grid-template-columns: minmax(0, 51fr) minmax(0, 49fr); }
+  .sales-training h2 { font-size: 3.54vw; }
+  .sales-training p { font-size: 1.53vw; }
+  .training-trio > div { font-size: 1.32vw; padding-inline: 8px; }
+  .hr-work { height: auto; padding-bottom: 30px; }
+  .hr-work h3 { white-space: normal; font-size: 2.64vw; }
+  .hr-work article p { font-size: 1.81vw; }
+  .hr-planning { margin-top: 0; padding-left: 45px; }
+  .hr-value { height: auto; min-height: 486px; }
+  .hr-value h2 { font-size: 4.51vw; }
+  .hr-value p { font-size: 1.736vw; }
+  .hr-value .charcoal { padding-inline: 28px; }
+  .hr-value .charcoal h3 { font-size: 2.916vw; white-space: normal; }
+  .hr-value .charcoal p { font-size: 1.458vw; }
+  .hr-team h2 { white-space: normal; }
+  .engineer-learning h2 { font-size: 4.44vw; }
+  .engineer-learning p { font-size: 1.389vw; }
+  .engineer-learning figure img { height: auto; aspect-ratio: 1.86; }
+  .engineer-career h2 { font-size: 3.68vw; white-space: normal; }
+  .engineer-career p { font-size: 1.458vw; }
+  .engineer-career ul { flex-wrap: wrap; font-size: 1.458vw; }
+  .engineer-career li { white-space: normal; }
+  .engineer-team h2 { font-size: 3.95vw; white-space: normal; }
+  .engineer-team p, .engineer-team ul { font-size: 1.458vw; }
+  .engineer-cta h2 { font-size: 3.33vw; white-space: normal; }
+  .engineer-cta p { font-size: 1.528vw; }
+  .engineer-cta .button { font-size: 1.458vw; white-space: normal; }
+}
+@media (max-width: 999px) {
+  .job-grid { grid-template-columns: minmax(0, 1fr); }
+  .jobs { min-height: 0; }
+  .hr-hero::before { opacity: .6; }
+}

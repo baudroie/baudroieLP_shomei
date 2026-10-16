@@ -16,6 +16,7 @@ from playwright.sync_api import sync_playwright
 parser = argparse.ArgumentParser()
 parser.add_argument('--round', type=int, required=True)
 parser.add_argument('--url', default='http://127.0.0.1:4173')
+parser.add_argument('--widths',default='1440,390,768')
 args = parser.parse_args()
 root = Path(__file__).resolve().parents[1]
 out = root / f'artifacts/qa/round-{args.round}'
@@ -45,7 +46,7 @@ with sync_playwright() as p:
         source = root / entry['file']
         assert hashlib.sha256(source.read_bytes()).hexdigest() == entry['sha256']
         page_report = {'name':name, 'route':route, 'viewports':[]}
-        for width in (1440,390,768):
+        for width in map(int,args.widths.split(',')):
             page = browser.new_page(viewport={'width':width,'height':1000},device_scale_factor=1)
             errors = []
             page.on('pageerror',lambda error: errors.append(str(error)))
@@ -56,7 +57,7 @@ with sync_playwright() as p:
             page.evaluate('Promise.all([...document.images].map(i=>i.decode()))')
             assert page.evaluate('devicePixelRatio') == 1
             failures = []
-            overflow = page.evaluate('document.documentElement.scrollWidth > innerWidth')
+            overflow = page.evaluate('document.documentElement.scrollWidth > document.documentElement.clientWidth')
             if overflow: failures.append('horizontal overflow')
             bad_images = page.locator('img').evaluate_all('(imgs)=>imgs.filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src)')
             if bad_images: failures.append('broken images')
@@ -83,14 +84,15 @@ with sync_playwright() as p:
                     if not cta.evaluate('(e)=>document.activeElement===e'): failures.append('focus not restored')
                 if page.locator('.header .logo').get_attribute('href')!='/': failures.append('missing return route')
             page.locator('h1').click()
-            page.evaluate("document.documentElement.style.scrollBehavior='auto';window.scrollTo(0,0)")
+            page.evaluate("document.documentElement.style.scrollBehavior='auto';window.scrollTo({top:0,behavior:'instant'})")
+            page.wait_for_function('scrollY === 0');page.wait_for_timeout(120)
             page.screenshot(path=str(out/f'{name}-{width}.png'),full_page=True)
             if width==1440:
                 for index,section in enumerate(page.locator('main>section').all()):
                     section.screenshot(path=str(out/f'{name}-section-{index+1}.png'))
                 boxes=page.locator('main>section').evaluate_all('(xs)=>xs.map(x=>({class:x.className,top:x.getBoundingClientRect().top+scrollY,height:x.getBoundingClientRect().height}))')
                 page_report['sections']=boxes
-            viewport_result={'width':width,'height':page.evaluate('document.documentElement.scrollHeight'),
+            viewport_result={'width':width,'clientWidth':page.evaluate('document.documentElement.clientWidth'),'scrollWidth':page.evaluate('document.documentElement.scrollWidth'),'height':page.evaluate('document.documentElement.scrollHeight'),
                              'failures':failures, 'font':page.locator('h1').evaluate('(e)=>getComputedStyle(e).fontFamily')}
             page_report['viewports'].append(viewport_result)
             report['failures'].extend([f'{name}/{width}: {f}' for f in failures])
