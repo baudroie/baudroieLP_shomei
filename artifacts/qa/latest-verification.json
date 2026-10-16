@@ -1,18 +1,9 @@
 {
-  "round": 17,
-  "capture_commit": "e17e5d68d2019b3f12314fb503c203e8ec4c2163",
-  "source_sha256": "ba47d6eb1ec3de82e0f69e5affbbcf3bcd5e0a1dd40887ba3a6ce5f42e428f44",
-  "asset_tree_sha256": "f669420d5272fa85368efa98286b3b974e8f0f63ac54ca9e812028de2eb8fddc",
-  "asset_files": 36,
-  "classic_scrollbar_checks": 36,
-  "classic_failures": [],
-  "standard_capture_checks": 12,
-  "standard_failures": [],
-  "functional_scenarios": 27,
-  "text_bounds_scenarios": 36,
-  "materials_unchanged_from": "5d13cdd",
-  "notes": [
-    "Independent visual review is separate; passing geometry alone does not prove visual correctness.",
-    "office_lounge.jpg 750x500 remains awaiting user-approved photo selection."
-  ]
+  "round": 21,
+  "source_commit": "8290d27c7033be728aef1a8febcd18122e459500",
+  "source_sha256": "f98ebbff8a15016331e136c2ca1ce291df6f99e52b2e17eb00c370e490082d5f",
+  "status": "needs-fix: photo quality/composition and master identity",
+  "evidence": "artifacts/qa/round-21",
+  "functional": "artifacts/qa/functional-report.json",
+  "pages": "artifacts/qa/pages/round21-release"
 }

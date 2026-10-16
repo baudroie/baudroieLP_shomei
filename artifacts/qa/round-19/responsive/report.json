@@ -1,0 +1,1434 @@
+{
+  "utc": "2026-10-16T05:53:18.196467+00:00",
+  "commit": "43b66cd43d3194e8681852cf2dd82b050cc2c966",
+  "source_sha256": "d4f44e9d2409a4a002726121c52f9b632e419359cebeada20f9225ce51b63505",
+  "asset_tree_sha256": "f669420d5272fa85368efa98286b3b974e8f0f63ac54ca9e812028de2eb8fddc",
+  "scrollbars": "classic: ignore --hide-scrollbars",
+  "dpr": 1,
+  "checks": [
+    {
+      "page": "overview",
+      "width": 1440,
+      "innerWidth": 1440,
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".overview-hero": {
+          "x": 0,
+          "y": 102,
+          "width": 1425,
+          "height": 616,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/welcome_team.jpg",
+              "width": 883.5,
+              "height": 710,
+              "naturalWidth": 1477,
+              "naturalHeight": 1108,
+              "objectFit": "cover"
+            }
+          ]
+        },
+        ".jobs": {
+          "x": 0,
+          "y": 2968,
+          "width": 1425,
+          "height": 516.578125,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            },
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            },
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 1440,
+      "innerWidth": 1440,
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".sales-intro": {
+          "x": 68,
+          "y": 760,
+          "width": 1356.671875,
+          "height": 278,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/office_lounge.jpg",
+              "width": 532.671875,
+              "height": 278,
+              "naturalWidth": 750,
+              "naturalHeight": 500,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".sales-value": {
+          "x": 0,
+          "y": 1726,
+          "width": 1425,
+          "height": 520.84375,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(255, 255, 255)",
+          "lineHeight": "normal",
+          "images": []
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 1440,
+      "innerWidth": 1440,
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".hr-hero": {
+          "x": 0,
+          "y": 102,
+          "width": 1425,
+          "height": 746,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/recruiting_conversation.jpg",
+              "width": 627,
+              "height": 600,
+              "naturalWidth": 3024,
+              "naturalHeight": 2268,
+              "objectFit": "cover"
+            },
+            {
+              "src": "/assets/hr-hero.png",
+              "width": 655.5,
+              "height": 400,
+              "naturalWidth": 1536,
+              "naturalHeight": 1024,
+              "objectFit": "cover"
+            }
+          ]
+        },
+        ".hr-planning": {
+          "x": 68,
+          "y": 1426.265625,
+          "width": 1289,
+          "height": 355,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/hr-planning.png",
+              "width": 564.96875,
+              "height": 340,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".hr-support": {
+          "x": 0,
+          "y": 1828,
+          "width": 1425,
+          "height": 837.96875,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/office_lounge.jpg",
+              "width": 900,
+              "height": 375,
+              "naturalWidth": 750,
+              "naturalHeight": 500,
+              "objectFit": "cover"
+            }
+          ]
+        },
+        ".hr-value": {
+          "x": 0,
+          "y": 2665.96875,
+          "width": 1425,
+          "height": 486,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": []
+        }
+      }
+    },
+    {
+      "page": "engineer",
+      "width": 1440,
+      "innerWidth": 1440,
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".engineer-learning": {
+          "x": 0,
+          "y": 2587,
+          "width": 1425,
+          "height": 440,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/engineer-training.png",
+              "width": 679.9375,
+              "height": 370,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "cover"
+            }
+          ]
+        },
+        ".engineer-career": {
+          "x": 0,
+          "y": 3027,
+          "width": 1425,
+          "height": 227,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": []
+        },
+        ".engineer-team": {
+          "x": 0,
+          "y": 3254,
+          "width": 1425,
+          "height": 297,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/hr-team.png",
+              "width": 502.703125,
+              "height": 209.40625,
+              "naturalWidth": 1942,
+              "naturalHeight": 809,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".engineer-cta": {
+          "x": 0,
+          "y": 3551,
+          "width": 1425,
+          "height": 251,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/engineer-laptop.png",
+              "width": 324.734375,
+              "height": 200,
+              "naturalWidth": 1536,
+              "naturalHeight": 1024,
+              "objectFit": "contain"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "overview",
+      "width": 390,
+      "innerWidth": 390,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "offenders": [
+        {
+          "tag": "IMG",
+          "class": "art role-art role-sales",
+          "right": 737.5
+        },
+        {
+          "tag": "IMG",
+          "class": "art role-art role-hr",
+          "right": 517.5
+        }
+      ],
+      "errors": [],
+      "sections": {
+        ".overview-hero": {
+          "x": 0,
+          "y": 185.953125,
+          "width": 375,
+          "height": 757.484375,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/welcome_team.jpg",
+              "width": 323,
+              "height": 350,
+              "naturalWidth": 1477,
+              "naturalHeight": 1108,
+              "objectFit": "cover"
+            }
+          ]
+        },
+        ".jobs": {
+          "x": 0,
+          "y": 4292.03125,
+          "width": 375,
+          "height": 1521.28125,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            },
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            },
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 390,
+      "innerWidth": 390,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".sales-intro": {
+          "x": 26,
+          "y": 925.46875,
+          "width": 323,
+          "height": 503.75,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/office_lounge.jpg",
+              "width": 323,
+              "height": 230,
+              "naturalWidth": 750,
+              "naturalHeight": 500,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".sales-value": {
+          "x": 0,
+          "y": 2155.96875,
+          "width": 375,
+          "height": 682.90625,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(255, 255, 255)",
+          "lineHeight": "normal",
+          "images": []
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 390,
+      "innerWidth": 390,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".hr-hero": {
+          "x": 0,
+          "y": 185.953125,
+          "width": 375,
+          "height": 877.5,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/recruiting_conversation.jpg",
+              "width": 323,
+              "height": 242.25,
+              "naturalWidth": 3024,
+              "naturalHeight": 2268,
+              "objectFit": "contain"
+            },
+            {
+              "src": "/assets/hr-hero.png",
+              "width": 323,
+              "height": 215.328125,
+              "naturalWidth": 1536,
+              "naturalHeight": 1024,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".hr-planning": {
+          "x": 26,
+          "y": 1790.203125,
+          "width": 323,
+          "height": 551.46875,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/hr-planning.png",
+              "width": 256,
+              "height": 270,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".hr-support": {
+          "x": 0,
+          "y": 2376.671875,
+          "width": 375,
+          "height": 731.796875,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/office_lounge.jpg",
+              "width": 323,
+              "height": 215.328125,
+              "naturalWidth": 750,
+              "naturalHeight": 500,
+              "objectFit": "cover"
+            }
+          ]
+        },
+        ".hr-value": {
+          "x": 0,
+          "y": 3108.46875,
+          "width": 375,
+          "height": 859.09375,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": []
+        }
+      }
+    },
+    {
+      "page": "engineer",
+      "width": 390,
+      "innerWidth": 390,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".engineer-learning": {
+          "x": 0,
+          "y": 3853.546875,
+          "width": 375,
+          "height": 550.625,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/engineer-training.png",
+              "width": 323,
+              "height": 161.5,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".engineer-career": {
+          "x": 0,
+          "y": 4404.171875,
+          "width": 375,
+          "height": 395.65625,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": []
+        },
+        ".engineer-team": {
+          "x": 0,
+          "y": 4799.828125,
+          "width": 375,
+          "height": 577.484375,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/hr-team.png",
+              "width": 323,
+              "height": 260,
+              "naturalWidth": 1942,
+              "naturalHeight": 809,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".engineer-cta": {
+          "x": 0,
+          "y": 5377.3125,
+          "width": 375,
+          "height": 564.5,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/engineer-laptop.png",
+              "width": 323,
+              "height": 180,
+              "naturalWidth": 1536,
+              "naturalHeight": 1024,
+              "objectFit": "contain"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "overview",
+      "width": 768,
+      "innerWidth": 768,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "offenders": [
+        {
+          "tag": "IMG",
+          "class": "art role-art role-sales",
+          "right": 926.5
+        }
+      ],
+      "errors": [],
+      "sections": {
+        ".overview-hero": {
+          "x": 0,
+          "y": 86,
+          "width": 753,
+          "height": 784.3125,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/welcome_team.jpg",
+              "width": 701,
+              "height": 350,
+              "naturalWidth": 1477,
+              "naturalHeight": 1108,
+              "objectFit": "cover"
+            }
+          ]
+        },
+        ".jobs": {
+          "x": 0,
+          "y": 3672.75,
+          "width": 753,
+          "height": 1460.09375,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            },
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            },
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 768,
+      "innerWidth": 768,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".sales-intro": {
+          "x": 26,
+          "y": 837.265625,
+          "width": 701,
+          "height": 411.96875,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/office_lounge.jpg",
+              "width": 701,
+              "height": 230,
+              "naturalWidth": 750,
+              "naturalHeight": 500,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".sales-value": {
+          "x": 0,
+          "y": 1973.296875,
+          "width": 753,
+          "height": 660.40625,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(255, 255, 255)",
+          "lineHeight": "normal",
+          "images": []
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 768,
+      "innerWidth": 768,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".hr-hero": {
+          "x": 0,
+          "y": 86,
+          "width": 753,
+          "height": 658.421875,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/recruiting_conversation.jpg",
+              "width": 338.5,
+              "height": 253.875,
+              "naturalWidth": 3024,
+              "naturalHeight": 2268,
+              "objectFit": "contain"
+            },
+            {
+              "src": "/assets/hr-hero.png",
+              "width": 338.5,
+              "height": 225.65625,
+              "naturalWidth": 1536,
+              "naturalHeight": 1024,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".hr-planning": {
+          "x": 26,
+          "y": 1406.828125,
+          "width": 701,
+          "height": 456.53125,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/hr-planning.png",
+              "width": 634,
+              "height": 270,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".hr-support": {
+          "x": 0,
+          "y": 1898.359375,
+          "width": 753,
+          "height": 786.5,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/office_lounge.jpg",
+              "width": 701,
+              "height": 292.078125,
+              "naturalWidth": 750,
+              "naturalHeight": 500,
+              "objectFit": "cover"
+            }
+          ]
+        },
+        ".hr-value": {
+          "x": 0,
+          "y": 2684.859375,
+          "width": 753,
+          "height": 684.25,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": []
+        }
+      }
+    },
+    {
+      "page": "engineer",
+      "width": 768,
+      "innerWidth": 768,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".engineer-learning": {
+          "x": 0,
+          "y": 3303.796875,
+          "width": 753,
+          "height": 694.90625,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/engineer-training.png",
+              "width": 701,
+              "height": 350.5,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".engineer-career": {
+          "x": 0,
+          "y": 3998.703125,
+          "width": 753,
+          "height": 303.875,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": []
+        },
+        ".engineer-team": {
+          "x": 0,
+          "y": 4302.578125,
+          "width": 753,
+          "height": 528.25,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/hr-team.png",
+              "width": 701,
+              "height": 260,
+              "naturalWidth": 1942,
+              "naturalHeight": 809,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".engineer-cta": {
+          "x": 0,
+          "y": 4830.828125,
+          "width": 753,
+          "height": 494.765625,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/engineer-laptop.png",
+              "width": 701,
+              "height": 180,
+              "naturalWidth": 1536,
+              "naturalHeight": 1024,
+              "objectFit": "contain"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "overview",
+      "width": 1066,
+      "innerWidth": 1066,
+      "clientWidth": 1051,
+      "scrollWidth": 1051,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".overview-hero": {
+          "x": 0,
+          "y": 86,
+          "width": 1051,
+          "height": 795.109375,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/welcome_team.jpg",
+              "width": 999,
+              "height": 350,
+              "naturalWidth": 1477,
+              "naturalHeight": 1108,
+              "objectFit": "cover"
+            }
+          ]
+        },
+        ".jobs": {
+          "x": 0,
+          "y": 3657.46875,
+          "width": 1051,
+          "height": 596.921875,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            },
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            },
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 1066,
+      "innerWidth": 1066,
+      "clientWidth": 1051,
+      "scrollWidth": 1051,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".sales-intro": {
+          "x": 26,
+          "y": 867.796875,
+          "width": 999,
+          "height": 435.375,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/office_lounge.jpg",
+              "width": 999,
+              "height": 230,
+              "naturalWidth": 750,
+              "naturalHeight": 500,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".sales-value": {
+          "x": 0,
+          "y": 2126.578125,
+          "width": 1051,
+          "height": 660.40625,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(255, 255, 255)",
+          "lineHeight": "normal",
+          "images": []
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 1066,
+      "innerWidth": 1066,
+      "clientWidth": 1051,
+      "scrollWidth": 1051,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".hr-hero": {
+          "x": 0,
+          "y": 86,
+          "width": 1051,
+          "height": 798.453125,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/recruiting_conversation.jpg",
+              "width": 487.5,
+              "height": 365.625,
+              "naturalWidth": 3024,
+              "naturalHeight": 2268,
+              "objectFit": "contain"
+            },
+            {
+              "src": "/assets/hr-hero.png",
+              "width": 487.5,
+              "height": 325,
+              "naturalWidth": 1536,
+              "naturalHeight": 1024,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".hr-planning": {
+          "x": 26,
+          "y": 1558.5625,
+          "width": 999,
+          "height": 456.53125,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/hr-planning.png",
+              "width": 932,
+              "height": 270,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".hr-support": {
+          "x": 0,
+          "y": 2050.09375,
+          "width": 1051,
+          "height": 881.125,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/office_lounge.jpg",
+              "width": 900,
+              "height": 375,
+              "naturalWidth": 750,
+              "naturalHeight": 500,
+              "objectFit": "cover"
+            }
+          ]
+        },
+        ".hr-value": {
+          "x": 0,
+          "y": 2931.21875,
+          "width": 1051,
+          "height": 708.53125,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": []
+        }
+      }
+    },
+    {
+      "page": "engineer",
+      "width": 1066,
+      "innerWidth": 1066,
+      "clientWidth": 1051,
+      "scrollWidth": 1051,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".engineer-learning": {
+          "x": 0,
+          "y": 3344.90625,
+          "width": 1051,
+          "height": 866.4375,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/engineer-training.png",
+              "width": 999,
+              "height": 499.5,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".engineer-career": {
+          "x": 0,
+          "y": 4211.34375,
+          "width": 1051,
+          "height": 315.578125,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": []
+        },
+        ".engineer-team": {
+          "x": 0,
+          "y": 4526.921875,
+          "width": 1051,
+          "height": 539.953125,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/hr-team.png",
+              "width": 999,
+              "height": 260,
+              "naturalWidth": 1942,
+              "naturalHeight": 809,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".engineer-cta": {
+          "x": 0,
+          "y": 5066.875,
+          "width": 1051,
+          "height": 494.765625,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/engineer-laptop.png",
+              "width": 999,
+              "height": 180,
+              "naturalWidth": 1536,
+              "naturalHeight": 1024,
+              "objectFit": "contain"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "overview",
+      "width": 1280,
+      "innerWidth": 1280,
+      "clientWidth": 1265,
+      "scrollWidth": 1265,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".overview-hero": {
+          "x": 0,
+          "y": 102,
+          "width": 1265,
+          "height": 616,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/welcome_team.jpg",
+              "width": 784.296875,
+              "height": 710,
+              "naturalWidth": 1477,
+              "naturalHeight": 1108,
+              "objectFit": "cover"
+            }
+          ]
+        },
+        ".jobs": {
+          "x": 0,
+          "y": 3060.875,
+          "width": 1265,
+          "height": 516.53125,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            },
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            },
+            {
+              "src": "/assets/overview-role-illustrations.png",
+              "width": 660,
+              "height": 220,
+              "naturalWidth": 2172,
+              "naturalHeight": 724,
+              "objectFit": "fill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 1280,
+      "innerWidth": 1280,
+      "clientWidth": 1265,
+      "scrollWidth": 1265,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".sales-intro": {
+          "x": 60.15625,
+          "y": 760,
+          "width": 1204.84375,
+          "height": 278,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/office_lounge.jpg",
+              "width": 471.9375,
+              "height": 278,
+              "naturalWidth": 750,
+              "naturalHeight": 500,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".sales-value": {
+          "x": 0,
+          "y": 1764,
+          "width": 1265,
+          "height": 510.5625,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(255, 255, 255)",
+          "lineHeight": "normal",
+          "images": []
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 1280,
+      "innerWidth": 1280,
+      "clientWidth": 1265,
+      "scrollWidth": 1265,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".hr-hero": {
+          "x": 0,
+          "y": 102,
+          "width": 1265,
+          "height": 815.421875,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/recruiting_conversation.jpg",
+              "width": 632.5,
+              "height": 320,
+              "naturalWidth": 3024,
+              "naturalHeight": 2268,
+              "objectFit": "cover"
+            },
+            {
+              "src": "/assets/hr-hero.png",
+              "width": 632.5,
+              "height": 320,
+              "naturalWidth": 1536,
+              "naturalHeight": 1024,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".hr-planning": {
+          "x": 60.15625,
+          "y": 1518.921875,
+          "width": 1144.6875,
+          "height": 355,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/hr-planning.png",
+              "width": 517.28125,
+              "height": 340,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".hr-support": {
+          "x": 0,
+          "y": 1903.921875,
+          "width": 1265,
+          "height": 837.96875,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/office_lounge.jpg",
+              "width": 900,
+              "height": 375,
+              "naturalWidth": 750,
+              "naturalHeight": 500,
+              "objectFit": "cover"
+            }
+          ]
+        },
+        ".hr-value": {
+          "x": 0,
+          "y": 2741.890625,
+          "width": 1265,
+          "height": 486,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": []
+        }
+      }
+    },
+    {
+      "page": "engineer",
+      "width": 1280,
+      "innerWidth": 1280,
+      "clientWidth": 1265,
+      "scrollWidth": 1265,
+      "offenders": [],
+      "errors": [],
+      "sections": {
+        ".engineer-learning": {
+          "x": 0,
+          "y": 2587,
+          "width": 1265,
+          "height": 440,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/engineer-training.png",
+              "width": 602.359375,
+              "height": 301.171875,
+              "naturalWidth": 1774,
+              "naturalHeight": 887,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".engineer-career": {
+          "x": 0,
+          "y": 3027,
+          "width": 1265,
+          "height": 227,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": []
+        },
+        ".engineer-team": {
+          "x": 0,
+          "y": 3254,
+          "width": 1265,
+          "height": 297,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/hr-team.png",
+              "width": 446.421875,
+              "height": 185.96875,
+              "naturalWidth": 1942,
+              "naturalHeight": 809,
+              "objectFit": "contain"
+            }
+          ]
+        },
+        ".engineer-cta": {
+          "x": 0,
+          "y": 3551,
+          "width": 1265,
+          "height": 251,
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "color": "rgb(12, 16, 21)",
+          "lineHeight": "normal",
+          "images": [
+            {
+              "src": "/assets/engineer-laptop.png",
+              "width": 287.21875,
+              "height": 200,
+              "naturalWidth": 1536,
+              "naturalHeight": 1024,
+              "objectFit": "contain"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "failures": [],
+  "browser": "154.0.8037.57"
+}

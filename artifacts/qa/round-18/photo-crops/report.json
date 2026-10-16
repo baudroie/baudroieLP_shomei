@@ -1,0 +1,276 @@
+{
+  "commit": "9584652371bfa6223061d480e553d2ea1396fdc9",
+  "source_sha256": "ba47d6eb1ec3de82e0f69e5affbbcf3bcd5e0a1dd40887ba3a6ce5f42e428f44",
+  "note": "Envelope is manually inspected source-space coverage, not automatic face recognition. Original photograph already omits some hands outside its native camera frame; no reconstruction.",
+  "checks": [
+    {
+      "page": "overview",
+      "viewport": [
+        390,
+        844
+      ],
+      "clientWidth": 390,
+      "images": [
+        {
+          "src": "/assets/welcome_team.jpg",
+          "width": 338,
+          "height": 350,
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      ]
+    },
+    {
+      "page": "sales",
+      "viewport": [
+        390,
+        844
+      ],
+      "clientWidth": 390,
+      "images": [
+        {
+          "src": "/assets/sales-hero.png",
+          "width": 338,
+          "height": 340,
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      ]
+    },
+    {
+      "page": "hr",
+      "viewport": [
+        390,
+        844
+      ],
+      "clientWidth": 390,
+      "images": [
+        {
+          "src": "/assets/recruiting_conversation.jpg",
+          "width": 195,
+          "height": 280,
+          "fit": "cover",
+          "position": "20% 50%"
+        },
+        {
+          "src": "/assets/hr-hero.png",
+          "width": 195,
+          "height": 280,
+          "fit": "contain",
+          "position": "50% 50%"
+        }
+      ]
+    },
+    {
+      "page": "engineer",
+      "viewport": [
+        390,
+        844
+      ],
+      "clientWidth": 390,
+      "images": [
+        {
+          "src": "/assets/engineer-network.png",
+          "width": 338,
+          "height": 300,
+          "fit": "cover",
+          "position": "100% 50%"
+        },
+        {
+          "src": "/assets/engineer-panorama.png",
+          "width": 390,
+          "height": 260,
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      ]
+    },
+    {
+      "page": "hr-support",
+      "viewport": [
+        1440,
+        800
+      ],
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "image": {
+        "width": 1304,
+        "height": 365,
+        "naturalWidth": 750,
+        "naturalHeight": 500,
+        "fit": "cover",
+        "position": "50% 55%",
+        "visible_source_bounds": [
+          0,
+          159.5379601226994,
+          750,
+          369.4689417177914
+        ]
+      },
+      "protected_source_envelope": [
+        75,
+        120,
+        500,
+        390
+      ],
+      "protected_envelope_visible": false
+    },
+    {
+      "page": "hr-support",
+      "viewport": [
+        390,
+        800
+      ],
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "image": {
+        "width": 338,
+        "height": 300,
+        "naturalWidth": 750,
+        "naturalHeight": 500,
+        "fit": "cover",
+        "position": "50% 55%",
+        "visible_source_bounds": [
+          93.33333333333334,
+          0,
+          656.6666666666667,
+          500
+        ]
+      },
+      "protected_source_envelope": [
+        75,
+        120,
+        500,
+        390
+      ],
+      "protected_envelope_visible": false
+    },
+    {
+      "page": "hr-support",
+      "viewport": [
+        768,
+        800
+      ],
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "image": {
+        "width": 716,
+        "height": 300,
+        "naturalWidth": 750,
+        "naturalHeight": 500,
+        "fit": "cover",
+        "position": "50% 55%",
+        "visible_source_bounds": [
+          0,
+          102.16480446927375,
+          750,
+          416.4106145251397
+        ]
+      },
+      "protected_source_envelope": [
+        75,
+        120,
+        500,
+        390
+      ],
+      "protected_envelope_visible": true
+    },
+    {
+      "page": "hr-support",
+      "viewport": [
+        1066,
+        800
+      ],
+      "clientWidth": 1066,
+      "scrollWidth": 1066,
+      "image": {
+        "width": 1014,
+        "height": 300,
+        "naturalWidth": 750,
+        "naturalHeight": 500,
+        "fit": "cover",
+        "position": "50% 55%",
+        "visible_source_bounds": [
+          4.204394886154439e-14,
+          152.9585798816568,
+          750,
+          374.85207100591714
+        ]
+      },
+      "protected_source_envelope": [
+        75,
+        120,
+        500,
+        390
+      ],
+      "protected_envelope_visible": false
+    },
+    {
+      "page": "hr-support",
+      "viewport": [
+        1280,
+        800
+      ],
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "image": {
+        "width": 1159.6875,
+        "height": 365,
+        "naturalWidth": 750,
+        "naturalHeight": 500,
+        "fit": "cover",
+        "position": "50% 55%",
+        "visible_source_bounds": [
+          0,
+          145.1697655618432,
+          750,
+          381.2247372675829
+        ]
+      },
+      "protected_source_envelope": [
+        75,
+        120,
+        500,
+        390
+      ],
+      "protected_envelope_visible": false
+    },
+    {
+      "page": "hr-support",
+      "viewport": [
+        1363,
+        800
+      ],
+      "clientWidth": 1363,
+      "scrollWidth": 1363,
+      "image": {
+        "width": 1234.90625,
+        "height": 365,
+        "naturalWidth": 750,
+        "naturalHeight": 500,
+        "fit": "cover",
+        "position": "50% 55%",
+        "visible_source_bounds": [
+          0,
+          153.07778930586835,
+          750,
+          374.75453602247137
+        ]
+      },
+      "protected_source_envelope": [
+        75,
+        120,
+        500,
+        390
+      ],
+      "protected_envelope_visible": false
+    }
+  ],
+  "failures": [
+    "hr-support/1440: protected heads/hands source envelope cropped",
+    "hr-support/390: protected heads/hands source envelope cropped",
+    "hr-support/1066: protected heads/hands source envelope cropped",
+    "hr-support/1280: protected heads/hands source envelope cropped",
+    "hr-support/1363: protected heads/hands source envelope cropped"
+  ]
+}

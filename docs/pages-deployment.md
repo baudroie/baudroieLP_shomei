@@ -1,16 +1,13 @@
-# GitHub Pages閲覧用修正反映
+# Round 21 — 閲覧用Pages修正反映
 
-- URL: https://baudroie.github.io/baudroieLP_shomei/
-- 配信元ソースSHA: `fa4bc3d3f1074e0a98454ec1541a9d93fc4f907a`
-- 対応するround17描画ソース: `e17e5d68d2019b3f12314fb503c203e8ec4c2163`
-- 公開用コミット: `54d0d7c7fd51e1002617c362a39fcf7eb1d62588`
-- GitHubデプロイ: completed / success、https://github.com/baudroie/baudroieLP_shomei/actions/runs/38856709282
-- 確認UTC: 2026-10-16T05:38:36.508180+00:00
+URL: https://baudroie.github.io/baudroieLP_shomei/
 
-ユーザーの今回指示により既存gh-pagesへ通常push。旧6995de1を親として履歴を保持し、mainマージ・Pages設定・権限変更を行っていない。素材差替え・生成・アップスケールなし。
+配信元・撮影ソース: `8290d27c7033be728aef1a8febcd18122e459500`
+公開コミット: `82cea63dcf27debeebc801f99fb4e630794db015`
+GitHubデプロイ: completed / success
+https://github.com/baudroie/baudroieLP_shomei/actions/runs/38859519238
+CSS: index-B6WLWNlQ.css、JS: index-BAgdPVBr.js。
 
-fa4bc3dのsrc/publicハッシュはround17と一致。npm run build:pagesでproject baseを指定し、4ページのindex.html、404.html、.nojekyll、deployment.jsonを生成。配信対象はdistのみ。reference・ソース・QA画像は公開ブランチに含めない。
+既存gh-pagesを54d0d7cから通常push。mainマージ、設定・権限・ネットワーク変更なし。sourceとQAを同一ソースで保存。distだけを公開、4ページの直アクセス・画像・フォント・project base・リンクを12条件で静的実ブラウザ検証。証拠 artifacts/qa/pages/round21-release/。Git pushは.gitなしURLで認証に失敗し、既存origin同一の.git付きURLで正常保存した。秘密値の読出し・認証変更なし。
 
-12条件のローカル静的ブラウザ検査（1440/390/768×4ページ）が成功。ページ直アクセスHTTP200、画像・フォント・職種リンク・ロゴ復帰・LINE設定待ちとキーボード動作を確認。artifacts/qa/pages/round17-release/に撮影/report/全配信ファイルSHA256/デプロイ状態を保存。CSS index-B7UDXxZH.css、JS index-qJ4PQdBD.js。
-
-公開URLへのクラウド直接アクセスはCONNECT proxy 403。設定変更せず、公開HTTP/画面の実見は未確認として依頼元へ引継ぎ。GitHub Actionsのデプロイ成功は確認済み。今回の閲覧用反映は写真画質・マスター同一性の最終検収完了を意味しない。office_lounge.jpg 750×500等の課題はdocs/photo-replacement-pending.mdに残す。
+クラウドから公開URLはCONNECT proxy 403のため実見不可。依頼元が公開画面を実見する。写真画質・マスター同一性の最終検収は未完了。
