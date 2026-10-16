@@ -72,7 +72,8 @@ with sync_playwright() as p:
                     if page.locator('dialog[open]').count(): failures.append('Escape failed')
                     if not cta.evaluate('(e)=>document.activeElement===e'): failures.append('focus not restored')
                 if page.locator('.header .logo').get_attribute('href')!='/': failures.append('missing return route')
-            page.evaluate('window.scrollTo(0,0)')
+            page.locator('h1').click()
+            page.evaluate("document.documentElement.style.scrollBehavior='auto';window.scrollTo(0,0)")
             page.screenshot(path=str(out/f'{name}-{width}.png'),full_page=True)
             if width==1440:
                 for index,section in enumerate(page.locator('main>section').all()):
