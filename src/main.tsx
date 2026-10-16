@@ -4,7 +4,8 @@ import { lineUrls, roleNames, type Role } from "./config";
 import "./styles.css";
 
 
-const asset = (name: string) => `/assets/${name}`;
+const baseUrl = import.meta.env.BASE_URL;
+const asset = (name: string) => `${baseUrl}assets/${name}`;
 function Photo({
   name,
   alt,
@@ -112,7 +113,7 @@ function Header({ role }: { role?: Role }) {
             ];
   return (
     <header className="header">
-      <a className="logo" href="/" aria-label="ボードルア まとめページ">
+      <a className="logo" href={baseUrl} aria-label="ボードルア まとめページ">
         <img src={asset("baudroie_logo.svg")} alt="" />
       </a>
       <nav aria-label="メインナビゲーション">
@@ -135,7 +136,7 @@ function Header({ role }: { role?: Role }) {
 function Footer({ role }: { role?: Role }) {
   return (
     <footer className="footer">
-      <a href="/" className="logo">
+      <a href={baseUrl} className="logo">
         <img src={asset("baudroie_logo.svg")} alt="baudroie inc." />
       </a>
       <a href="https://www.baudroie.jp/" target="_blank" rel="noreferrer">
@@ -389,7 +390,7 @@ function Overview() {
                     </>
                   )}
                 </p>
-                <a href={`/${role}/`} className="button">
+                <a href={`${baseUrl}${role}/`} className="button">
                   {role === "hr" ? "人事採用" : roleNames[role]}の仕事を見る{" "}
                   <span aria-hidden="true">→</span>
                 </a>
@@ -983,7 +984,10 @@ function Engineer() {
   );
 }
 
-const path = window.location.pathname.replace(/\/$/, "") || "/";
+const relativePath = window.location.pathname.startsWith(baseUrl)
+  ? window.location.pathname.slice(baseUrl.length)
+  : window.location.pathname;
+const path = "/" + relativePath.replace(/^\/+|\/+$/g, "");
 const Page =
   path === "/sales"
     ? Sales
@@ -1008,7 +1012,7 @@ createRoot(document.getElementById("root")!).render(
           <Header />
           <main className="not-found">
             <h1>ページが見つかりません</h1>
-            <a className="button" href="/">
+            <a className="button" href={baseUrl}>
               まとめページへ戻る
             </a>
           </main>
