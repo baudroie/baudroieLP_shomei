@@ -1,0 +1,1519 @@
+{
+  "checks": [
+    {
+      "page": "overview",
+      "width": 1440,
+      "passed": true,
+      "bounds": {
+        "copy": {
+          "right": 523.390625,
+          "bottom": 639.625
+        },
+        "photo": {
+          "left": 541.5,
+          "right": 1425,
+          "top": 0,
+          "bottom": 710,
+          "height": 710
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 1440,
+      "passed": true,
+      "bounds": {
+        "left": {
+          "right": 776.1875,
+          "bottom": 2174.25
+        },
+        "right": {
+          "left": 812.625,
+          "right": 1351,
+          "top": 1786,
+          "bottom": 2219.984375,
+          "height": 433.984375
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 1440,
+      "passed": true,
+      "bounds": {}
+    },
+    {
+      "page": "engineer",
+      "width": 1440,
+      "passed": true,
+      "bounds": {
+        "learning": {
+          "right": 616.828125,
+          "bottom": 2955.78125
+        },
+        "caption": {
+          "right": 1184.796875,
+          "bottom": 3060.390625
+        },
+        "career": {
+          "left": 68,
+          "right": 753.25,
+          "top": 3052.078125,
+          "bottom": 3123.625,
+          "height": 71.546875
+        },
+        "careerLabel": {
+          "left": 773.25,
+          "right": 888.8125,
+          "top": 3070.5,
+          "bottom": 3096.5,
+          "height": 26
+        },
+        "cta": {
+          "left": 969.796875,
+          "right": 1357,
+          "top": 3642.328125,
+          "bottom": 3710.671875,
+          "height": 68.34375
+        }
+      }
+    },
+    {
+      "page": "overview",
+      "width": 390,
+      "passed": true,
+      "bounds": {
+        "copy": {
+          "right": 349,
+          "bottom": 553.796875
+        },
+        "photo": {
+          "left": 26,
+          "right": 349,
+          "top": 593.4375,
+          "bottom": 943.4375,
+          "height": 350
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 390,
+      "passed": true,
+      "bounds": {
+        "left": {
+          "right": 329.625,
+          "bottom": 2416.0625
+        },
+        "right": {
+          "left": 26,
+          "right": 349,
+          "top": 2462.65625,
+          "bottom": 2803.875,
+          "height": 341.21875
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 390,
+      "passed": true,
+      "bounds": {}
+    },
+    {
+      "page": "engineer",
+      "width": 390,
+      "passed": true,
+      "bounds": {
+        "learning": {
+          "right": 349,
+          "bottom": 4145.296875
+        },
+        "caption": {
+          "right": 323.8125,
+          "bottom": 4497.484375
+        },
+        "career": {
+          "left": 26,
+          "right": 349,
+          "top": 4532.671875,
+          "bottom": 4610.953125,
+          "height": 78.28125
+        },
+        "careerLabel": {
+          "left": 26,
+          "right": 141.5625,
+          "top": 4779.328125,
+          "bottom": 4805.328125,
+          "height": 26
+        },
+        "cta": {
+          "left": 26,
+          "right": 349,
+          "top": 5966.015625,
+          "bottom": 6030.3125,
+          "height": 64.296875
+        }
+      }
+    },
+    {
+      "page": "overview",
+      "width": 768,
+      "passed": true,
+      "bounds": {
+        "copy": {
+          "right": 718.796875,
+          "bottom": 480.671875
+        },
+        "photo": {
+          "left": 26,
+          "right": 727,
+          "top": 520.3125,
+          "bottom": 870.3125,
+          "height": 350
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 768,
+      "passed": true,
+      "bounds": {
+        "left": {
+          "right": 370.09375,
+          "bottom": 2241.484375
+        },
+        "right": {
+          "left": 26,
+          "right": 727,
+          "top": 2288.078125,
+          "bottom": 2598.703125,
+          "height": 310.625
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 768,
+      "passed": true,
+      "bounds": {}
+    },
+    {
+      "page": "engineer",
+      "width": 768,
+      "passed": true,
+      "bounds": {
+        "learning": {
+          "right": 500.46875,
+          "bottom": 3550.828125
+        },
+        "caption": {
+          "right": 512.8125,
+          "bottom": 3903.015625
+        },
+        "career": {
+          "left": 26,
+          "right": 727,
+          "top": 3938.203125,
+          "bottom": 3985.890625,
+          "height": 47.6875
+        },
+        "careerLabel": {
+          "left": 26,
+          "right": 141.5625,
+          "top": 4093.078125,
+          "bottom": 4119.078125,
+          "height": 26
+        },
+        "cta": {
+          "left": 26,
+          "right": 727,
+          "top": 5160.796875,
+          "bottom": 5225.09375,
+          "height": 64.296875
+        }
+      }
+    },
+    {
+      "page": "overview",
+      "width": 999,
+      "passed": true,
+      "bounds": {
+        "copy": {
+          "right": 751.09375,
+          "bottom": 491.46875
+        },
+        "photo": {
+          "left": 26,
+          "right": 958,
+          "top": 531.109375,
+          "bottom": 881.109375,
+          "height": 350
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 999,
+      "passed": true,
+      "bounds": {
+        "left": {
+          "right": 370.09375,
+          "bottom": 2372.421875
+        },
+        "right": {
+          "left": 26,
+          "right": 958,
+          "top": 2419.015625,
+          "bottom": 2729.640625,
+          "height": 310.625
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 999,
+      "passed": true,
+      "bounds": {}
+    },
+    {
+      "page": "engineer",
+      "width": 999,
+      "passed": true,
+      "bounds": {
+        "learning": {
+          "right": 500.46875,
+          "bottom": 3614.46875
+        },
+        "caption": {
+          "right": 628.3125,
+          "bottom": 3966.65625
+        },
+        "career": {
+          "left": 26,
+          "right": 958,
+          "top": 4001.84375,
+          "bottom": 4061.234375,
+          "height": 59.390625
+        },
+        "careerLabel": {
+          "left": 26,
+          "right": 141.5625,
+          "top": 4168.421875,
+          "bottom": 4194.421875,
+          "height": 26
+        },
+        "cta": {
+          "left": 26,
+          "right": 958,
+          "top": 5247.84375,
+          "bottom": 5312.140625,
+          "height": 64.296875
+        }
+      }
+    },
+    {
+      "page": "overview",
+      "width": 1000,
+      "passed": true,
+      "bounds": {
+        "copy": {
+          "right": 359.921875,
+          "bottom": 622.765625
+        },
+        "photo": {
+          "left": 374.3125,
+          "right": 985,
+          "top": 0,
+          "bottom": 710,
+          "height": 710
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 1000,
+      "passed": true,
+      "bounds": {
+        "left": {
+          "right": 534.609375,
+          "bottom": 2124.65625
+        },
+        "right": {
+          "left": 565.609375,
+          "right": 938,
+          "top": 1824,
+          "bottom": 2165.828125,
+          "height": 341.828125
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 1000,
+      "passed": true,
+      "bounds": {}
+    },
+    {
+      "page": "engineer",
+      "width": 1000,
+      "passed": true,
+      "bounds": {
+        "learning": {
+          "right": 427.671875,
+          "bottom": 2882.6875
+        },
+        "caption": {
+          "right": 872.75,
+          "bottom": 2940.921875
+        },
+        "career": {
+          "left": 47,
+          "right": 517.328125,
+          "top": 3073.609375,
+          "bottom": 3123.28125,
+          "height": 49.671875
+        },
+        "careerLabel": {
+          "left": 537.328125,
+          "right": 652.890625,
+          "top": 3085.40625,
+          "bottom": 3111.40625,
+          "height": 26
+        },
+        "cta": {
+          "left": 674.1875,
+          "right": 938,
+          "top": 3642.5,
+          "bottom": 3710.5,
+          "height": 68
+        }
+      }
+    },
+    {
+      "page": "overview",
+      "width": 1024,
+      "passed": true,
+      "bounds": {
+        "copy": {
+          "right": 371.34375,
+          "bottom": 627.546875
+        },
+        "photo": {
+          "left": 383.421875,
+          "right": 1009,
+          "top": 0,
+          "bottom": 710,
+          "height": 710
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 1024,
+      "passed": true,
+      "bounds": {
+        "left": {
+          "right": 547.421875,
+          "bottom": 2128.796875
+        },
+        "right": {
+          "left": 579.140625,
+          "right": 960.859375,
+          "top": 1824,
+          "bottom": 2170.78125,
+          "height": 346.78125
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 1024,
+      "passed": true,
+      "bounds": {}
+    },
+    {
+      "page": "engineer",
+      "width": 1024,
+      "passed": true,
+      "bounds": {
+        "learning": {
+          "right": 437.921875,
+          "bottom": 2886.65625
+        },
+        "caption": {
+          "right": 889.78125,
+          "bottom": 2947.21875
+        },
+        "career": {
+          "left": 48.125,
+          "right": 530.203125,
+          "top": 3072.421875,
+          "bottom": 3123.296875,
+          "height": 50.875
+        },
+        "careerLabel": {
+          "left": 550.203125,
+          "right": 665.765625,
+          "top": 3084.234375,
+          "bottom": 3110.234375,
+          "height": 26
+        },
+        "cta": {
+          "left": 690.3125,
+          "right": 960.875,
+          "top": 3642.5,
+          "bottom": 3710.5,
+          "height": 68
+        }
+      }
+    },
+    {
+      "page": "overview",
+      "width": 1066,
+      "passed": true,
+      "bounds": {
+        "copy": {
+          "right": 386.96875,
+          "bottom": 610.03125
+        },
+        "photo": {
+          "left": 399.390625,
+          "right": 1051,
+          "top": 0,
+          "bottom": 710,
+          "height": 710
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 1066,
+      "passed": true,
+      "bounds": {
+        "left": {
+          "right": 569.953125,
+          "bottom": 2136.984375
+        },
+        "right": {
+          "left": 602.796875,
+          "right": 1000.90625,
+          "top": 1824,
+          "bottom": 2179.5625,
+          "height": 355.5625
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 1066,
+      "passed": true,
+      "bounds": {}
+    },
+    {
+      "page": "engineer",
+      "width": 1066,
+      "passed": true,
+      "bounds": {
+        "learning": {
+          "right": 455.96875,
+          "bottom": 2893.65625
+        },
+        "caption": {
+          "right": 919.578125,
+          "bottom": 2958.203125
+        },
+        "career": {
+          "left": 50.09375,
+          "right": 552.71875,
+          "top": 3070.375,
+          "bottom": 3123.328125,
+          "height": 52.953125
+        },
+        "careerLabel": {
+          "left": 572.71875,
+          "right": 688.28125,
+          "top": 3083.96875,
+          "bottom": 3109.96875,
+          "height": 26
+        },
+        "cta": {
+          "left": 718.546875,
+          "right": 1000.890625,
+          "top": 3642.5,
+          "bottom": 3710.5,
+          "height": 68
+        }
+      }
+    },
+    {
+      "page": "overview",
+      "width": 1280,
+      "passed": true,
+      "bounds": {
+        "copy": {
+          "right": 465.328125,
+          "bottom": 599.25
+        },
+        "photo": {
+          "left": 480.703125,
+          "right": 1265,
+          "top": 0,
+          "bottom": 710,
+          "height": 710
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 1280,
+      "passed": true,
+      "bounds": {
+        "left": {
+          "right": 684.265625,
+          "bottom": 2180.75
+        },
+        "right": {
+          "left": 723.375,
+          "right": 1204.828125,
+          "top": 1824,
+          "bottom": 2224.5625,
+          "height": 400.5625
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 1280,
+      "passed": true,
+      "bounds": {}
+    },
+    {
+      "page": "engineer",
+      "width": 1280,
+      "passed": true,
+      "bounds": {
+        "learning": {
+          "right": 547.46875,
+          "bottom": 2929.0625
+        },
+        "caption": {
+          "right": 1071.40625,
+          "bottom": 3014.234375
+        },
+        "career": {
+          "left": 60.15625,
+          "right": 667.484375,
+          "top": 3071.546875,
+          "bottom": 3135.140625,
+          "height": 63.59375
+        },
+        "careerLabel": {
+          "left": 687.484375,
+          "right": 803.046875,
+          "top": 3089.171875,
+          "bottom": 3115.171875,
+          "height": 26
+        },
+        "cta": {
+          "left": 862.390625,
+          "right": 1204.84375,
+          "top": 3654.125,
+          "bottom": 3722.125,
+          "height": 68
+        }
+      }
+    },
+    {
+      "page": "overview",
+      "width": 1363,
+      "passed": true,
+      "bounds": {
+        "copy": {
+          "right": 495.359375,
+          "bottom": 620.21875
+        },
+        "photo": {
+          "left": 512.25,
+          "right": 1348,
+          "top": 0,
+          "bottom": 710,
+          "height": 710
+        }
+      }
+    },
+    {
+      "page": "sales",
+      "width": 1363,
+      "passed": true,
+      "bounds": {
+        "left": {
+          "right": 728.71875,
+          "bottom": 2198.015625
+        },
+        "right": {
+          "left": 770.140625,
+          "right": 1283.953125,
+          "top": 1824,
+          "bottom": 2242,
+          "height": 418
+        }
+      }
+    },
+    {
+      "page": "hr",
+      "width": 1363,
+      "passed": true,
+      "bounds": {}
+    },
+    {
+      "page": "engineer",
+      "width": 1363,
+      "passed": true,
+      "bounds": {
+        "learning": {
+          "right": 582.859375,
+          "bottom": 2942.84375
+        },
+        "caption": {
+          "right": 1130.3125,
+          "bottom": 3035.984375
+        },
+        "career": {
+          "left": 64.046875,
+          "right": 711.984375,
+          "top": 3089.234375,
+          "bottom": 3156.9375,
+          "height": 67.703125
+        },
+        "careerLabel": {
+          "left": 731.984375,
+          "right": 847.546875,
+          "top": 3109.375,
+          "bottom": 3135.375,
+          "height": 26
+        },
+        "cta": {
+          "left": 918.171875,
+          "right": 1283.953125,
+          "top": 3675.875,
+          "bottom": 3743.875,
+          "height": 68
+        }
+      }
+    }
+  ],
+  "photo_frames": [
+    {
+      "page": "overview",
+      "viewport": 1440,
+      "file": "/assets/welcome_team.jpg",
+      "section": "overview-hero",
+      "width": 883.5,
+      "height": 710,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 1440,
+      "file": "/assets/college_training.jpg",
+      "section": "learning cream",
+      "width": 783.75,
+      "height": 460,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 1440,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "overview-support",
+      "width": 594.09375,
+      "height": 340,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "sales",
+      "viewport": 1440,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-work section-pad",
+      "width": 532.671875,
+      "height": 278,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "sales",
+      "viewport": 1440,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-team",
+      "width": 1425,
+      "height": 562,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "hr",
+      "viewport": 1440,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "hr-hero cream",
+      "width": 627,
+      "height": 600,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "hr",
+      "viewport": 1440,
+      "file": "/assets/office_lounge.jpg",
+      "section": "hr-support cream section-pad",
+      "width": 1289,
+      "height": 365,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "engineer",
+      "viewport": 1440,
+      "file": "/assets/engineer-network.png",
+      "section": "engineer-hero",
+      "width": 626.046875,
+      "height": 440,
+      "naturalWidth": 1536,
+      "naturalHeight": 1024
+    },
+    {
+      "page": "engineer",
+      "viewport": 1440,
+      "file": "/assets/engineer-training.png",
+      "section": "engineer-learning section-pad",
+      "width": 679.9375,
+      "height": 370,
+      "naturalWidth": 1774,
+      "naturalHeight": 887
+    },
+    {
+      "page": "overview",
+      "viewport": 390,
+      "file": "/assets/welcome_team.jpg",
+      "section": "overview-hero",
+      "width": 323,
+      "height": 350,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 390,
+      "file": "/assets/college_training.jpg",
+      "section": "learning cream",
+      "width": 375,
+      "height": 330,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 390,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "overview-support",
+      "width": 323,
+      "height": 300,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "sales",
+      "viewport": 390,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-work section-pad",
+      "width": 323,
+      "height": 230,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "sales",
+      "viewport": 390,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-team",
+      "width": 375,
+      "height": 330,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "hr",
+      "viewport": 390,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "hr-hero cream",
+      "width": 187.5,
+      "height": 280,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "hr",
+      "viewport": 390,
+      "file": "/assets/office_lounge.jpg",
+      "section": "hr-support cream section-pad",
+      "width": 323,
+      "height": 300,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "engineer",
+      "viewport": 390,
+      "file": "/assets/engineer-network.png",
+      "section": "engineer-hero",
+      "width": 323,
+      "height": 300,
+      "naturalWidth": 1536,
+      "naturalHeight": 1024
+    },
+    {
+      "page": "engineer",
+      "viewport": 390,
+      "file": "/assets/engineer-training.png",
+      "section": "engineer-learning section-pad",
+      "width": 323,
+      "height": 280,
+      "naturalWidth": 1774,
+      "naturalHeight": 887
+    },
+    {
+      "page": "overview",
+      "viewport": 768,
+      "file": "/assets/welcome_team.jpg",
+      "section": "overview-hero",
+      "width": 701,
+      "height": 350,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 768,
+      "file": "/assets/college_training.jpg",
+      "section": "learning cream",
+      "width": 753,
+      "height": 330,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 768,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "overview-support",
+      "width": 701,
+      "height": 300,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "sales",
+      "viewport": 768,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-work section-pad",
+      "width": 701,
+      "height": 230,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "sales",
+      "viewport": 768,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-team",
+      "width": 753,
+      "height": 330,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "hr",
+      "viewport": 768,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "hr-hero cream",
+      "width": 376.5,
+      "height": 280,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "hr",
+      "viewport": 768,
+      "file": "/assets/office_lounge.jpg",
+      "section": "hr-support cream section-pad",
+      "width": 701,
+      "height": 300,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "engineer",
+      "viewport": 768,
+      "file": "/assets/engineer-network.png",
+      "section": "engineer-hero",
+      "width": 701,
+      "height": 300,
+      "naturalWidth": 1536,
+      "naturalHeight": 1024
+    },
+    {
+      "page": "engineer",
+      "viewport": 768,
+      "file": "/assets/engineer-training.png",
+      "section": "engineer-learning section-pad",
+      "width": 701,
+      "height": 280,
+      "naturalWidth": 1774,
+      "naturalHeight": 887
+    },
+    {
+      "page": "overview",
+      "viewport": 999,
+      "file": "/assets/welcome_team.jpg",
+      "section": "overview-hero",
+      "width": 932,
+      "height": 350,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 999,
+      "file": "/assets/college_training.jpg",
+      "section": "learning cream",
+      "width": 984,
+      "height": 330,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 999,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "overview-support",
+      "width": 932,
+      "height": 300,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "sales",
+      "viewport": 999,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-work section-pad",
+      "width": 932,
+      "height": 230,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "sales",
+      "viewport": 999,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-team",
+      "width": 984,
+      "height": 330,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "hr",
+      "viewport": 999,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "hr-hero cream",
+      "width": 492,
+      "height": 280,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "hr",
+      "viewport": 999,
+      "file": "/assets/office_lounge.jpg",
+      "section": "hr-support cream section-pad",
+      "width": 932,
+      "height": 300,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "engineer",
+      "viewport": 999,
+      "file": "/assets/engineer-network.png",
+      "section": "engineer-hero",
+      "width": 932,
+      "height": 300,
+      "naturalWidth": 1536,
+      "naturalHeight": 1024
+    },
+    {
+      "page": "engineer",
+      "viewport": 999,
+      "file": "/assets/engineer-training.png",
+      "section": "engineer-learning section-pad",
+      "width": 932,
+      "height": 280,
+      "naturalWidth": 1774,
+      "naturalHeight": 887
+    },
+    {
+      "page": "overview",
+      "viewport": 1000,
+      "file": "/assets/welcome_team.jpg",
+      "section": "overview-hero",
+      "width": 610.6875,
+      "height": 710,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 1000,
+      "file": "/assets/college_training.jpg",
+      "section": "learning cream",
+      "width": 541.75,
+      "height": 460,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 1000,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "overview-support",
+      "width": 391.6875,
+      "height": 340,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "sales",
+      "viewport": 1000,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-work section-pad",
+      "width": 365.203125,
+      "height": 278,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "sales",
+      "viewport": 1000,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-team",
+      "width": 985,
+      "height": 562,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "hr",
+      "viewport": 1000,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "hr-hero cream",
+      "width": 433.390625,
+      "height": 600,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "hr",
+      "viewport": 1000,
+      "file": "/assets/office_lounge.jpg",
+      "section": "hr-support cream section-pad",
+      "width": 891,
+      "height": 365,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "engineer",
+      "viewport": 1000,
+      "file": "/assets/engineer-network.png",
+      "section": "engineer-hero",
+      "width": 423.65625,
+      "height": 440,
+      "naturalWidth": 1536,
+      "naturalHeight": 1024
+    },
+    {
+      "page": "engineer",
+      "viewport": 1000,
+      "file": "/assets/engineer-training.png",
+      "section": "engineer-learning section-pad",
+      "width": 466.015625,
+      "height": 250.53125,
+      "naturalWidth": 1774,
+      "naturalHeight": 887
+    },
+    {
+      "page": "overview",
+      "viewport": 1024,
+      "file": "/assets/welcome_team.jpg",
+      "section": "overview-hero",
+      "width": 625.578125,
+      "height": 710,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 1024,
+      "file": "/assets/college_training.jpg",
+      "section": "learning cream",
+      "width": 554.9375,
+      "height": 460,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 1024,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "overview-support",
+      "width": 402.734375,
+      "height": 340,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "sales",
+      "viewport": 1024,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-work section-pad",
+      "width": 374.359375,
+      "height": 278,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "sales",
+      "viewport": 1024,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-team",
+      "width": 1009,
+      "height": 562,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "hr",
+      "viewport": 1024,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "hr-hero cream",
+      "width": 443.953125,
+      "height": 600,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "hr",
+      "viewport": 1024,
+      "file": "/assets/office_lounge.jpg",
+      "section": "hr-support cream section-pad",
+      "width": 912.75,
+      "height": 365,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "engineer",
+      "viewport": 1024,
+      "file": "/assets/engineer-network.png",
+      "section": "engineer-hero",
+      "width": 434.6875,
+      "height": 440,
+      "naturalWidth": 1536,
+      "naturalHeight": 1024
+    },
+    {
+      "page": "engineer",
+      "viewport": 1024,
+      "file": "/assets/engineer-training.png",
+      "section": "engineer-learning section-pad",
+      "width": 477.703125,
+      "height": 256.828125,
+      "naturalWidth": 1774,
+      "naturalHeight": 887
+    },
+    {
+      "page": "overview",
+      "viewport": 1066,
+      "file": "/assets/welcome_team.jpg",
+      "section": "overview-hero",
+      "width": 651.609375,
+      "height": 710,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 1066,
+      "file": "/assets/college_training.jpg",
+      "section": "learning cream",
+      "width": 578.046875,
+      "height": 460,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 1066,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "overview-support",
+      "width": 422.046875,
+      "height": 340,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "sales",
+      "viewport": 1066,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-work section-pad",
+      "width": 390.375,
+      "height": 278,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "sales",
+      "viewport": 1066,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-team",
+      "width": 1051,
+      "height": 562,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "hr",
+      "viewport": 1066,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "hr-hero cream",
+      "width": 462.4375,
+      "height": 600,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "hr",
+      "viewport": 1066,
+      "file": "/assets/office_lounge.jpg",
+      "section": "hr-support cream section-pad",
+      "width": 950.8125,
+      "height": 365,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "engineer",
+      "viewport": 1066,
+      "file": "/assets/engineer-network.png",
+      "section": "engineer-hero",
+      "width": 454.015625,
+      "height": 440,
+      "naturalWidth": 1536,
+      "naturalHeight": 1024
+    },
+    {
+      "page": "engineer",
+      "viewport": 1066,
+      "file": "/assets/engineer-training.png",
+      "section": "engineer-learning section-pad",
+      "width": 498.15625,
+      "height": 267.8125,
+      "naturalWidth": 1774,
+      "naturalHeight": 887
+    },
+    {
+      "page": "overview",
+      "viewport": 1280,
+      "file": "/assets/welcome_team.jpg",
+      "section": "overview-hero",
+      "width": 784.296875,
+      "height": 710,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 1280,
+      "file": "/assets/college_training.jpg",
+      "section": "learning cream",
+      "width": 695.75,
+      "height": 460,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 1280,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "overview-support",
+      "width": 520.5,
+      "height": 340,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "sales",
+      "viewport": 1280,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-work section-pad",
+      "width": 471.9375,
+      "height": 278,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "sales",
+      "viewport": 1280,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-team",
+      "width": 1265,
+      "height": 562,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "hr",
+      "viewport": 1280,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "hr-hero cream",
+      "width": 556.59375,
+      "height": 600,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "hr",
+      "viewport": 1280,
+      "file": "/assets/office_lounge.jpg",
+      "section": "hr-support cream section-pad",
+      "width": 1144.6875,
+      "height": 365,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "engineer",
+      "viewport": 1280,
+      "file": "/assets/engineer-network.png",
+      "section": "engineer-hero",
+      "width": 552.453125,
+      "height": 440,
+      "naturalWidth": 1536,
+      "naturalHeight": 1024
+    },
+    {
+      "page": "engineer",
+      "viewport": 1280,
+      "file": "/assets/engineer-training.png",
+      "section": "engineer-learning section-pad",
+      "width": 602.359375,
+      "height": 323.84375,
+      "naturalWidth": 1774,
+      "naturalHeight": 887
+    },
+    {
+      "page": "overview",
+      "viewport": 1363,
+      "file": "/assets/welcome_team.jpg",
+      "section": "overview-hero",
+      "width": 835.75,
+      "height": 710,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 1363,
+      "file": "/assets/college_training.jpg",
+      "section": "learning cream",
+      "width": 741.390625,
+      "height": 460,
+      "naturalWidth": 1477,
+      "naturalHeight": 1108
+    },
+    {
+      "page": "overview",
+      "viewport": 1363,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "overview-support",
+      "width": 558.671875,
+      "height": 340,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "sales",
+      "viewport": 1363,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-work section-pad",
+      "width": 503.578125,
+      "height": 278,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "sales",
+      "viewport": 1363,
+      "file": "/assets/office_lounge.jpg",
+      "section": "sales-team",
+      "width": 1348,
+      "height": 562,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "hr",
+      "viewport": 1363,
+      "file": "/assets/recruiting_conversation.jpg",
+      "section": "hr-hero cream",
+      "width": 593.109375,
+      "height": 600,
+      "naturalWidth": 3024,
+      "naturalHeight": 2268
+    },
+    {
+      "page": "hr",
+      "viewport": 1363,
+      "file": "/assets/office_lounge.jpg",
+      "section": "hr-support cream section-pad",
+      "width": 1219.90625,
+      "height": 365,
+      "naturalWidth": 750,
+      "naturalHeight": 500
+    },
+    {
+      "page": "engineer",
+      "viewport": 1363,
+      "file": "/assets/engineer-network.png",
+      "section": "engineer-hero",
+      "width": 590.625,
+      "height": 440,
+      "naturalWidth": 1536,
+      "naturalHeight": 1024
+    },
+    {
+      "page": "engineer",
+      "viewport": 1363,
+      "file": "/assets/engineer-training.png",
+      "section": "engineer-learning section-pad",
+      "width": 642.8125,
+      "height": 345.59375,
+      "naturalWidth": 1774,
+      "naturalHeight": 887
+    }
+  ],
+  "dpr2_note": "Existing 750x500 office_lounge.jpg captured at DPR2; no AI upscaling or asset modification."
+}

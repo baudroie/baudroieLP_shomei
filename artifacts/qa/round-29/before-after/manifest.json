@@ -1,0 +1,242 @@
+[
+  {
+    "page": "overview",
+    "width": 1440,
+    "before_dimensions": [
+      1440,
+      3577
+    ],
+    "after_dimensions": [
+      1440,
+      3557
+    ]
+  },
+  {
+    "page": "overview",
+    "width": 1280,
+    "before_dimensions": [
+      1280,
+      3669
+    ],
+    "after_dimensions": [
+      1280,
+      3650
+    ]
+  },
+  {
+    "page": "overview",
+    "width": 1066,
+    "before_dimensions": [
+      1066,
+      4706
+    ],
+    "after_dimensions": [
+      1066,
+      5502
+    ]
+  },
+  {
+    "page": "overview",
+    "width": 768,
+    "before_dimensions": [
+      768,
+      5409
+    ],
+    "after_dimensions": [
+      768,
+      5782
+    ]
+  },
+  {
+    "page": "overview",
+    "width": 390,
+    "before_dimensions": [
+      390,
+      5799
+    ],
+    "after_dimensions": [
+      390,
+      5703
+    ]
+  },
+  {
+    "page": "sales",
+    "width": 1440,
+    "before_dimensions": [
+      1440,
+      3608
+    ],
+    "after_dimensions": [
+      1440,
+      3608
+    ]
+  },
+  {
+    "page": "sales",
+    "width": 1280,
+    "before_dimensions": [
+      1280,
+      3494
+    ],
+    "after_dimensions": [
+      1280,
+      3594
+    ]
+  },
+  {
+    "page": "sales",
+    "width": 1066,
+    "before_dimensions": [
+      1066,
+      4476
+    ],
+    "after_dimensions": [
+      1066,
+      4517
+    ]
+  },
+  {
+    "page": "sales",
+    "width": 768,
+    "before_dimensions": [
+      768,
+      4288
+    ],
+    "after_dimensions": [
+      768,
+      4318
+    ]
+  },
+  {
+    "page": "sales",
+    "width": 390,
+    "before_dimensions": [
+      390,
+      4468
+    ],
+    "after_dimensions": [
+      390,
+      4550
+    ]
+  },
+  {
+    "page": "hr",
+    "width": 1440,
+    "before_dimensions": [
+      1440,
+      3798
+    ],
+    "after_dimensions": [
+      1440,
+      3798
+    ]
+  },
+  {
+    "page": "hr",
+    "width": 1280,
+    "before_dimensions": [
+      1280,
+      3882
+    ],
+    "after_dimensions": [
+      1280,
+      3882
+    ]
+  },
+  {
+    "page": "hr",
+    "width": 1066,
+    "before_dimensions": [
+      1066,
+      4637
+    ],
+    "after_dimensions": [
+      1066,
+      4637
+    ]
+  },
+  {
+    "page": "hr",
+    "width": 768,
+    "before_dimensions": [
+      768,
+      4308
+    ],
+    "after_dimensions": [
+      768,
+      4308
+    ]
+  },
+  {
+    "page": "hr",
+    "width": 390,
+    "before_dimensions": [
+      390,
+      4949
+    ],
+    "after_dimensions": [
+      390,
+      4949
+    ]
+  },
+  {
+    "page": "engineer",
+    "width": 1440,
+    "before_dimensions": [
+      1440,
+      3900
+    ],
+    "after_dimensions": [
+      1440,
+      3900
+    ]
+  },
+  {
+    "page": "engineer",
+    "width": 1280,
+    "before_dimensions": [
+      1280,
+      3900
+    ],
+    "after_dimensions": [
+      1280,
+      3900
+    ]
+  },
+  {
+    "page": "engineer",
+    "width": 1066,
+    "before_dimensions": [
+      1066,
+      5990
+    ],
+    "after_dimensions": [
+      1066,
+      5990
+    ]
+  },
+  {
+    "page": "engineer",
+    "width": 768,
+    "before_dimensions": [
+      768,
+      5655
+    ],
+    "after_dimensions": [
+      768,
+      5655
+    ]
+  },
+  {
+    "page": "engineer",
+    "width": 390,
+    "before_dimensions": [
+      390,
+      5862
+    ],
+    "after_dimensions": [
+      390,
+      5831
+    ]
+  }
+]

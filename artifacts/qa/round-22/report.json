@@ -1,0 +1,292 @@
+[
+  {
+    "route": "overview",
+    "width": 1440,
+    "overflow": false,
+    "broken": [],
+    "sources": [],
+    "photos": [
+      {
+        "src": "http://127.0.0.1:4173/assets/support-conversation-approved.webp",
+        "width": 601,
+        "height": 340,
+        "position": "50% 40%"
+      }
+    ],
+    "height": 3577,
+    "errors": []
+  },
+  {
+    "route": "sales",
+    "width": 1440,
+    "overflow": false,
+    "broken": [],
+    "sources": [],
+    "photos": [],
+    "height": 3608,
+    "errors": []
+  },
+  {
+    "route": "hr",
+    "width": 1440,
+    "overflow": false,
+    "broken": [],
+    "sources": [
+      "人事 × 営業 × 先輩エンジニア"
+    ],
+    "photos": [
+      {
+        "src": "http://127.0.0.1:4173/assets/support-conversation-approved.webp",
+        "width": 1304,
+        "height": 367,
+        "position": "50% 35%"
+      }
+    ],
+    "height": 3798,
+    "errors": []
+  },
+  {
+    "route": "engineer",
+    "width": 1440,
+    "overflow": false,
+    "broken": [],
+    "sources": [
+      "実機に触れる。先輩と考える。理解を深める。"
+    ],
+    "photos": [],
+    "height": 3900,
+    "errors": []
+  },
+  {
+    "route": "overview",
+    "width": 390,
+    "overflow": false,
+    "broken": [],
+    "sources": [],
+    "photos": [
+      {
+        "src": "http://127.0.0.1:4173/assets/support-conversation-approved.webp",
+        "width": 338,
+        "height": 225,
+        "position": "50% 40%"
+      }
+    ],
+    "height": 5743,
+    "errors": []
+  },
+  {
+    "route": "sales",
+    "width": 390,
+    "overflow": false,
+    "broken": [],
+    "sources": [],
+    "photos": [],
+    "height": 4468,
+    "errors": []
+  },
+  {
+    "route": "hr",
+    "width": 390,
+    "overflow": false,
+    "broken": [],
+    "sources": [
+      "人事 × 営業 × 先輩エンジニア"
+    ],
+    "photos": [
+      {
+        "src": "http://127.0.0.1:4173/assets/support-conversation-approved.webp",
+        "width": 338,
+        "height": 225,
+        "position": "50% 35%"
+      }
+    ],
+    "height": 4949,
+    "errors": []
+  },
+  {
+    "route": "engineer",
+    "width": 390,
+    "overflow": false,
+    "broken": [],
+    "sources": [
+      "実機に触れる。先輩と考える。理解を深める。"
+    ],
+    "photos": [],
+    "height": 5862,
+    "errors": []
+  },
+  {
+    "route": "overview",
+    "width": 768,
+    "overflow": false,
+    "broken": [],
+    "sources": [],
+    "photos": [
+      {
+        "src": "http://127.0.0.1:4173/assets/support-conversation-approved.webp",
+        "width": 716,
+        "height": 421,
+        "position": "50% 40%"
+      }
+    ],
+    "height": 5409,
+    "errors": []
+  },
+  {
+    "route": "sales",
+    "width": 768,
+    "overflow": false,
+    "broken": [],
+    "sources": [],
+    "photos": [],
+    "height": 4288,
+    "errors": []
+  },
+  {
+    "route": "hr",
+    "width": 768,
+    "overflow": false,
+    "broken": [],
+    "sources": [
+      "人事 × 営業 × 先輩エンジニア"
+    ],
+    "photos": [
+      {
+        "src": "http://127.0.0.1:4173/assets/support-conversation-approved.webp",
+        "width": 716,
+        "height": 311,
+        "position": "50% 35%"
+      }
+    ],
+    "height": 4308,
+    "errors": []
+  },
+  {
+    "route": "engineer",
+    "width": 768,
+    "overflow": false,
+    "broken": [],
+    "sources": [
+      "実機に触れる。先輩と考える。理解を深める。"
+    ],
+    "photos": [],
+    "height": 5655,
+    "errors": []
+  },
+  {
+    "route": "overview",
+    "width": 1066,
+    "overflow": false,
+    "broken": [],
+    "sources": [],
+    "photos": [
+      {
+        "src": "http://127.0.0.1:4173/assets/support-conversation-approved.webp",
+        "width": 1014,
+        "height": 596,
+        "position": "50% 40%"
+      }
+    ],
+    "height": 4706,
+    "errors": []
+  },
+  {
+    "route": "sales",
+    "width": 1066,
+    "overflow": false,
+    "broken": [],
+    "sources": [],
+    "photos": [],
+    "height": 4476,
+    "errors": []
+  },
+  {
+    "route": "hr",
+    "width": 1066,
+    "overflow": false,
+    "broken": [],
+    "sources": [
+      "人事 × 営業 × 先輩エンジニア"
+    ],
+    "photos": [
+      {
+        "src": "http://127.0.0.1:4173/assets/support-conversation-approved.webp",
+        "width": 1014,
+        "height": 441,
+        "position": "50% 35%"
+      }
+    ],
+    "height": 4637,
+    "errors": []
+  },
+  {
+    "route": "engineer",
+    "width": 1066,
+    "overflow": false,
+    "broken": [],
+    "sources": [
+      "実機に触れる。先輩と考える。理解を深める。"
+    ],
+    "photos": [],
+    "height": 5990,
+    "errors": []
+  },
+  {
+    "route": "overview",
+    "width": 1280,
+    "overflow": false,
+    "broken": [],
+    "sources": [],
+    "photos": [
+      {
+        "src": "http://127.0.0.1:4173/assets/support-conversation-approved.webp",
+        "width": 527,
+        "height": 340,
+        "position": "50% 40%"
+      }
+    ],
+    "height": 3669,
+    "errors": []
+  },
+  {
+    "route": "sales",
+    "width": 1280,
+    "overflow": false,
+    "broken": [],
+    "sources": [],
+    "photos": [],
+    "height": 3494,
+    "errors": []
+  },
+  {
+    "route": "hr",
+    "width": 1280,
+    "overflow": false,
+    "broken": [],
+    "sources": [
+      "人事 × 営業 × 先輩エンジニア"
+    ],
+    "photos": [
+      {
+        "src": "http://127.0.0.1:4173/assets/support-conversation-approved.webp",
+        "width": 1160,
+        "height": 327,
+        "position": "50% 35%"
+      }
+    ],
+    "height": 3882,
+    "errors": []
+  },
+  {
+    "route": "engineer",
+    "width": 1280,
+    "overflow": false,
+    "broken": [],
+    "sources": [
+      "実機に触れる。先輩と考える。理解を深める。"
+    ],
+    "photos": [],
+    "height": 3900,
+    "errors": []
+  }
+]

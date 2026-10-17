@@ -1,0 +1,32 @@
+[
+  {
+    "finding": "hr-hero",
+    "before": "round-2/hr-1440.png",
+    "after": "round-6/hr-1440.png",
+    "shared_global_y": [
+      102,
+      848
+    ],
+    "note": "Same page coordinates; no vertical scaling or local section alignment"
+  },
+  {
+    "finding": "overview-service-and-growth",
+    "before": "round-2/overview-1440.png",
+    "after": "round-6/overview-1440.png",
+    "shared_global_y": [
+      1250,
+      2030
+    ],
+    "note": "Same page coordinates; no vertical scaling or local section alignment"
+  },
+  {
+    "finding": "engineer-image-labels",
+    "before": "round-2/engineer-1440.png",
+    "after": "round-6/engineer-1440.png",
+    "shared_global_y": [
+      1799,
+      2617
+    ],
+    "note": "Same page coordinates; no vertical scaling or local section alignment"
+  }
+]

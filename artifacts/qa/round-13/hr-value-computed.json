@@ -1,0 +1,17 @@
+{
+  "after": {
+    "font": "\"Noto Sans CJK JP\", sans-serif",
+    "fontSize": "25px",
+    "fontWeight": "700",
+    "color": "rgb(96, 112, 135)",
+    "lineHeight": "40px"
+  },
+  "before_stylesheet_reconstruction": {
+    "font": "\"Noto Sans CJK JP\", sans-serif",
+    "fontSize": "25px",
+    "fontWeight": "500",
+    "color": "rgb(96, 112, 135)",
+    "lineHeight": "43.75px"
+  },
+  "note": "Before computed by removing only responsive-fixes.css in isolated browser, reproducing 5d13cdd styles; report is not a new historical source capture."
+}

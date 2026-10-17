@@ -1,0 +1,106 @@
+{
+  "method": "Section views aligned at section top without resizing. Full-page global-origin comparisons are stored alongside these views.",
+  "before": "round18/photo-crops",
+  "after": "round20/photo-crops",
+  "files": [
+    {
+      "file": "focused-hr-hero-390x844.jpg",
+      "before_dimensions": [
+        390,
+        953
+      ],
+      "after_dimensions": [
+        390,
+        900
+      ]
+    },
+    {
+      "file": "focused-overview-hero-390x844.jpg",
+      "before_dimensions": [
+        390,
+        759
+      ],
+      "after_dimensions": [
+        390,
+        690
+      ]
+    },
+    {
+      "file": "focused-engineer-hero-390x844.jpg",
+      "before_dimensions": [
+        390,
+        1056
+      ],
+      "after_dimensions": [
+        390,
+        926
+      ]
+    },
+    {
+      "file": "focused-hr-support-1440x800.jpg",
+      "before_dimensions": [
+        1440,
+        830
+      ],
+      "after_dimensions": [
+        1440,
+        838
+      ]
+    },
+    {
+      "file": "focused-hr-support-390x800.jpg",
+      "before_dimensions": [
+        390,
+        817
+      ],
+      "after_dimensions": [
+        390,
+        742
+      ]
+    },
+    {
+      "file": "focused-hr-support-768x800.jpg",
+      "before_dimensions": [
+        768,
+        795
+      ],
+      "after_dimensions": [
+        768,
+        794
+      ]
+    },
+    {
+      "file": "focused-hr-support-1066x800.jpg",
+      "before_dimensions": [
+        1066,
+        807
+      ],
+      "after_dimensions": [
+        1066,
+        882
+      ]
+    },
+    {
+      "file": "focused-hr-support-1280x800.jpg",
+      "before_dimensions": [
+        1280,
+        831
+      ],
+      "after_dimensions": [
+        1280,
+        839
+      ]
+    },
+    {
+      "file": "focused-hr-support-1363x800.jpg",
+      "before_dimensions": [
+        1363,
+        831
+      ],
+      "after_dimensions": [
+        1363,
+        839
+      ]
+    }
+  ]
+}

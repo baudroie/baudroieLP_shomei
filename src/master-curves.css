@@ -1,0 +1,159 @@
+/* Approved master contour restoration. Decorative backgrounds never clip copy. */
+.learning { position: relative; isolation: isolate; background: transparent; border-radius: 0; }
+.learning::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%200%20C190%20190%20340%2015%20510%2070%20S810%20160%201000%2045%20L1000%20950%20C740%201030%20310%20870%200%201000%20Z%22%2F%3E%3C%2Fsvg%3E") center / 100% 100% no-repeat; }
+.jobs { position: relative; isolation: isolate; background: transparent; border-radius: 0; }
+.jobs::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fcfaf6%22%20d%3D%22M0%200%20C100%20180%20260%2050%20450%2040%20S800%20130%201000%2015%20L1000%201000%20L0%201000%20Z%22%2F%3E%3C%2Fsvg%3E") center / 100% 100% no-repeat; }
+.sales-cta { position: relative; isolation: isolate; background: transparent; border-radius: 0; }
+.sales-cta::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%2085%20C260%20-55%20470%2060%20640%2035%20S870%20130%201000%2060%20L1000%20920%20C770%20820%20420%201040%200%20970%20Z%22%2F%3E%3C%2Fsvg%3E") center / 100% 100% no-repeat; }
+.engineer-team { position: relative; isolation: isolate; background: transparent; border-radius: 0; }
+.engineer-team::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%2065%20C230%20-55%20320%2090%20530%2030%20S800%2015%201000%2080%20L1000%20950%20C820%201040%20600%20900%20380%20970%20S130%201020%200%20960%20Z%22%2F%3E%3C%2Fsvg%3E") center / 100% 100% no-repeat; }
+.hr-team { position: relative; isolation: isolate; background: transparent; border-radius: 0; }
+.hr-team::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fffaf2%22%20d%3D%22M0%20110%20C250%20-20%20410%2025%20660%2065%20S890%2080%201000%200%20L1000%20950%20C730%201030%20440%20950%200%201000%20Z%22%2F%3E%3C%2Fsvg%3E") center / 100% 100% no-repeat; }
+.hr-cta { position: relative; isolation: isolate; background: transparent; border-radius: 0; }
+.hr-cta::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%2085%20C260%20-55%20470%2060%20640%2035%20S870%20130%201000%2060%20L1000%20920%20C770%20820%20420%201040%200%20970%20Z%22%2F%3E%3C%2Fsvg%3E") center / 100% 100% no-repeat; }
+
+.overview-support figure { isolation: isolate; padding-left: 20px; }
+.overview-support figure::before { content: ""; position: absolute; inset: 0 18px 0 0; z-index: -1; background: #fff1de; transform: rotate(-5deg) translateX(-14px); border-radius: 48% 37% 48% 24%; }
+.overview-support img { object-position: 50% 40%; }
+.hr-support figure { max-width: none; width: 100%; }
+.hr-support figure img { height: auto; aspect-ratio: 3.55; object-position: 50% 35%; }
+.hr-hero::before, .hr-hero::after { clip-path: none; border-radius: 0; opacity: 1; }
+.hr-hero::before { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%200%20C180%2010%20140%20190%20300%20340%20C400%20450%20460%20440%20510%20580%20C590%20800%20770%20740%201000%20980%20L1000%201000%20L0%201000%20Z%22%2F%3E%3C%2Fsvg%3E") center / 100% 100% no-repeat; }
+.hr-hero::after { width: 42%; height: 100%; top: 0; background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M1000%200%20C990%20180%20620%20230%20550%20470%20C420%20700%20520%20830%200%201000%20L1000%201000%20Z%22%2F%3E%3C%2Fsvg%3E") center / 100% 100% no-repeat; }
+.welcome img { border-radius: 0; -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M110%200%20L1000%200%20L1000%20850%20C730%201040%20480%201030%20150%20900%20C-60%20810%2090%20580%2035%20360%20C-20%20140%200%2090%20110%200%20Z%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M110%200%20L1000%200%20L1000%20850%20C730%201040%20480%201030%20150%20900%20C-60%20810%2090%20580%2035%20360%20C-20%20140%200%2090%20110%200%20Z%22%2F%3E%3C%2Fsvg%3E"); mask-size: 100% 100%; -webkit-mask-size: 100% 100%; mask-repeat: no-repeat; }
+.learning figure img { border-radius: 0; -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20180%20C260%2050%20700%20-60%20880%2060%20C1040%20150%20940%20410%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20180%20C260%2050%20700%20-60%20880%2060%20C1040%20150%20940%20410%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fsvg%3E"); mask-size: 100% 100%; -webkit-mask-size: 100% 100%; mask-repeat: no-repeat; }
+.overview-support img { border-radius: 0; -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20590%20C0%20180%20400%2015%201000%200%20L1000%20840%20C770%201030%20410%201010%20120%20950%20C20%20930%200%20800%200%20590%20Z%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20590%20C0%20180%20400%2015%201000%200%20L1000%20840%20C770%201030%20410%201010%20120%20950%20C20%20930%200%20800%200%20590%20Z%22%2F%3E%3C%2Fsvg%3E"); mask-size: 100% 100%; -webkit-mask-size: 100% 100%; mask-repeat: no-repeat; }
+@media(min-width:1200px) { .team-caption { background: transparent; border-radius: 0; isolation: isolate; } .team-caption::before { content: ""; position: absolute; inset: 0 -20px 0 0; z-index: -1; background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%200%20L240%200%20C470%200%20440%20130%20660%20220%20C840%20295%20800%20780%201000%201000%20L0%201000%20Z%22%2F%3E%3C%2Fsvg%3E") center / 100% 100% no-repeat; } }
+
+@media(max-width:1199px) {
+  .learning { padding-block: 40px; }
+  .overview-support figure { padding-left: 0; }
+  .overview-support img { height: auto; aspect-ratio: 1.7; object-fit: cover; }
+  .hr-support figure img { aspect-ratio: 2.3; }
+  .engineer-team { padding-block: 40px; }
+}
+@media(max-width:599px) {
+  .welcome img { mask-image: none; -webkit-mask-image: none; border-radius: 30px 0 38px 0; }
+  .learning figure img { mask-image: none; -webkit-mask-image: none; border-radius: 0 40px 28px 0; }
+  .overview-support img { mask-image: none; -webkit-mask-image: none; border-radius: 42px 8px 42px 8px; aspect-ratio: 1.5; }
+  .hr-support figure img { aspect-ratio: 1.5; }
+  .hr-cta { padding-bottom: 35px; }
+}
+/* Anchor the backing shape to the photograph at every breakpoint. */
+.overview-support figure { position: relative; }
+@media(max-width:1199px) { .overview-support figure { height: auto; top: auto; } }
+
+/* Round 23: keep faces inside the photograph and its curved mask. */
+.welcome img { object-position: 50% 40%; }
+.learning figure img { object-position: 50% 15%; }
+@media (max-width: 1199px) {
+  .welcome { height: auto; }
+  .welcome img { height: auto; aspect-ratio: 3 / 2; object-fit: contain; }
+  .learning figure { height: auto; }
+  .learning figure img { height: auto; aspect-ratio: 1477 / 1108; object-fit: contain; }
+}
+
+
+/* Keep the desktop photograph/curved caption composition at laptop widths. */
+@media (max-width: 599px) {
+  .learning-points > div { font-size: 14px; padding-inline: 4px; }
+}
+@media (min-width: 1200px) {
+  .hr-planning > .art { transform: translateX(-20px) scale(1.15); transform-origin: center bottom; }
+  .engineer-team > .art { transform: translateX(-40px) scale(1.1); transform-origin: center; }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .sales-team { height: 520px; display: block; }
+  .sales-team > .photo { width: 100%; height: 100%; }
+  .team-caption { position: absolute; bottom: 0; left: 0; width: 58%; padding: 32px 4.7vw 36px; }
+}
+
+/* Round 24: approved hero photograph and uncropped training subjects. */
+.welcome img { object-position: 50% 44%; }
+.learning figure img { height: auto; aspect-ratio: 1.72; object-fit: cover; object-position: 50% 20%; }
+@media(min-width:1200px) {
+  .learning figure { height: auto; align-self: center; }
+  .job-grid .role-illustration { height: 165px; }
+}
+@media(max-width:1199px) {
+  .learning figure { height: auto; }
+  .learning figure img { aspect-ratio: 1477 / 1108; object-fit: contain; }
+  .welcome { height: auto; }
+  .welcome img { height: auto; aspect-ratio: 3 / 2; object-fit: contain; }
+}
+
+/* Round25: measured arcs and natural reading space; decoration never clips text. */
+.hr-support figure img { aspect-ratio: 3.3; object-position: 50% 42%; }
+.learning::before { background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%200%20C150%20120%20330%200%20510%2045%20S820%20140%201000%205%20L1000%20950%20C740%201040%20300%20825%200%20980%20Z%22%2F%3E%3C%2Fsvg%3E"); }
+.learning figure img { mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20165%20C250%2065%20660%20-20%20875%2040%20C1030%20100%20950%20390%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fsvg%3E"); -webkit-mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20165%20C250%2065%20660%20-20%20875%2040%20C1030%20100%20950%20390%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fsvg%3E"); }
+.engineer-team::before { background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%2065%20C230%20-55%20320%2090%20530%2030%20S800%2015%201000%2080%20L1000%20960%20C780%201080%20400%20830%20180%20950%20S50%201020%200%20980%20Z%22%2F%3E%3C%2Fsvg%3E"); }
+@media(min-width:1400px) { .engineer-team > .art { width:120%; max-width:none; margin-left:-20%; position:relative; top:15px; } }
+@media(min-width:1200px) and (max-width:1399px) { #experienced p { font-size:clamp(18px,1.5vw,21px); text-wrap:pretty; } }
+@media(max-width:599px) { .learning figure img { mask-image:none; -webkit-mask-image:none; } }
+@media(max-width:1199px) { .hr-support figure img { aspect-ratio:2.3; } }
+@media(max-width:599px) { .hr-support figure img { aspect-ratio:1.5; } }
+/* Keep the deeper approved photograph without moving the following PC sections. */
+@media(min-width:1200px) { .hr-support .support-pair { margin-top:4px; } }
+
+/* Remote 5613f33 already scales laptop art; larger PC uses measured width once. */
+@media(min-width:1400px) { .engineer-team > .art { transform:none; } }
+/* Phone copy must reserve its own height, including the role label. */
+@media(max-width:1199px) {
+  .sales-team { height:auto; }
+  .sales-team .team-caption { position:static; height:auto; }
+}
+@media(max-width:599px) {
+  .engineer-team ul { gap:24px; padding-left:22px; font-size:15px; }
+  .engineer-team li { padding-left:4px; }
+  .engineer-team > div p { text-wrap:balance; }
+  .engineer-team > div p br { display:none; }
+}
+
+/* Keep the original heading text, breaking only between its two phrases. */
+@media(max-width:599px) {
+  .growth h4 { font-size:24px; line-height:1.45; }
+  .growth h4 span { display:block; white-space:nowrap; }
+}
+
+/* Round31: contours measured against the fixed master at a global 1440px origin. */
+@media(min-width:1200px) {
+.learning::before { inset:0; overflow:visible; background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201440%20550%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%20-13%20C80%2025%20150%2051%20240%2047%20C340%2047%20390%2038%20480%2030%20C570%2019%20650%2012%20720%2023%20C820%2035%20880%2049%20960%2050%20C1070%2063%201170%2066%201260%2051%20C1340%2038%201390%2026%201440%2018%20L1440%20527%20C1320%20527%201250%20542%201100%20552%20C900%20566%20640%20535%20400%20538%20C260%20532%20100%20545%200%20585%20Z%22%2F%3E%3C%2Fsvg%3E"); }
+.team-caption::before { background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%200%20L240%200%20C470%200%20440%20130%20660%20220%20C805%20282%20790%20760%20950%201000%20L0%201000%20Z%22%2F%3E%3C%2Fsvg%3E"); }
+.hr-hero::before { background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%200%20C25%200%2045%2090%20110%20180%20C160%20250%20160%20350%20240%20430%20C360%20560%20360%20650%20480%20700%20C650%20780%20850%20810%201000%20980%20L1000%201000%20L0%201000%20Z%22%2F%3E%3C%2Fsvg%3E"); }
+}
+
+/* Round32: allow only the decorative wave to cross the section edge; keep flow stable. */
+@media(min-width:1200px) {
+.learning::before { inset:-20px 0 auto; height:610px; background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201440%20610%22%20preserveAspectRatio%3D%22none%22%3E%3Cg%20transform%3D%22translate%280%2020%29%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%20-13%20C80%2025%20150%2051%20240%2047%20C340%2047%20390%2038%20480%2030%20C570%2019%20650%2012%20720%2023%20C820%2035%20880%2049%20960%2050%20C1070%2063%201170%2066%201260%2051%20C1340%2038%201390%2026%201440%2018%20L1440%20527%20C1320%20527%201250%20542%201100%20552%20C900%20566%20640%20535%20400%20538%20C260%20532%20100%20545%200%20585%20Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"); }
+.learning figure img { mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cg%20transform%3D%22translate%280%200%29%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20165%20C50%20130%2090%20100%20151%2092%20C245%2075%20360%2048%20455%2040%20C570%2030%20665%20-5%20758%205%20C850%208%20900%2025%20930%2070%20C990%20120%20970%20390%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"); -webkit-mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cg%20transform%3D%22translate%280%200%29%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M0%20165%20C50%20130%2090%20100%20151%2092%20C245%2075%20360%2048%20455%2040%20C570%2030%20665%20-5%20758%205%20C850%208%20900%2025%20930%2070%20C990%20120%20970%20390%20975%20590%20C1035%20930%20840%201050%20580%20970%20C350%20910%20140%20885%200%20850%20Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"); }
+.engineer-team::before { inset:0 0 auto; height:330px; background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201440%20330%22%20preserveAspectRatio%3D%22none%22%3E%3Cg%20transform%3D%22translate%280%200%29%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%2019%20C331%20-16%20461%2027%20763%209%20S1152%204%201440%2024%20L1440%20295%20C1360%20307%201300%20311%201260%20307%20C1160%20300%201080%20287%201000%20288%20C850%20290%20700%20280%20600%20283%20C490%20286%20420%20290%20400%20287%20C350%20281%20330%20275%20300%20277%20C210%20278%20160%20300%20100%20297%20C50%20297%200%20294%200%20294%20Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"); }
+}
+
+/* Round33: local contour residuals, sampled UI color and independently sized icons. */
+@media(min-width:1200px) {
+.team-caption::before { background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20783.1875%20350.3125%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%200%20L190%200%20C290%200%20315%2038%20398%2054%20C420%2068%20535%2065%20571%2092%20C600%20110%20604%20122%20616%20141.5%20C627%20160%20628%20175%20639%20191.5%20C648%20210%20660%20226%20663%20241.5%20C666%20258%20661%20277%20671%20291.5%20C680%20315%20704%20329%20726%20341.5%20C739%20352%20747%20350%20760%20350.3125%20L0%20350.3125%20Z%22%2F%3E%3C%2Fsvg%3E"); }
+.hr-hero::after { background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201000%201000%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M1000%2075%20C940%2095%20900%20120%20841%20158%20C800%20190%20750%20220%20717%20265%20C650%20320%20600%20360%20552%20399%20C465%20520%20470%20670%20400%20760%20C300%20900%20140%20965%200%201000%20L1000%201000%20Z%22%2F%3E%3C%2Fsvg%3E"); }
+ .training-trio > div { position:relative; border-left:0; }
+ .training-trio > div::before { content:""; position:absolute; left:0; top:48px; bottom:0; width:2px; background:#d2d6dc; }
+ .training-trio .art { height:195px; max-width:none; position:relative; left:50%; transform:translateX(-50%); }
+ .training-trio > div:nth-child(1) .art { width:130%; top:18px; }
+ .training-trio > div:nth-child(2) .art { width:128%; top:12px; }
+ .training-trio > div:nth-child(3) .art { width:115%; }
+}
+
+/* Round34: this source composition needs its faces to the right of the copy.
+   Preserve the complete photograph, caption position and section flow height.
+   The master's full-width photo is intentionally deferred to asset approval. */
+@media(min-width:1200px) {
+  .sales-team { background:var(--cream); }
+  .sales-team > .photo {
+    position:absolute;
+    inset:0 0 auto auto;
+    width:auto;
+    height:100%;
+    max-width:100%;
+    aspect-ratio:3 / 2;
+    object-fit:contain;
+    object-position:center;
+  }
+}

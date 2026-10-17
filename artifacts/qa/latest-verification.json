@@ -1,0 +1,10 @@
+{
+  "round": 34,
+  "source_commit": "026a3ad685b335016d3d4ae3c4327f20458186f2",
+  "source_sha256": "8de54c32d52222247b0b2701c39869015235df25c9ba36598fa0a62b8867bd5e",
+  "asset_tree_sha256": "0db0948325acac42acee025fd9c2c693e7ca9d11822cf61fa893df86f44bd524",
+  "status": "PC face-coverage P1 fixed in dev and production build; live orchestrator verification pending",
+  "new_images": "local-only",
+  "evidence": "artifacts/qa/round-34",
+  "pages": "artifacts/qa/pages/round34-release"
+}

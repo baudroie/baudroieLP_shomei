@@ -1,0 +1,41 @@
+{
+  "method": "User independent 12x12 interior median; no text/edge; master native coordinates",
+  "samples": {
+    "overview": {
+      "xy": [
+        46,
+        338
+      ],
+      "hex": "#fd4a01",
+      "cloud_reproduced_12x12_start_xy_median": "#fd4a01"
+    },
+    "sales": {
+      "xy": [
+        49,
+        330
+      ],
+      "hex": "#fd4101",
+      "cloud_reproduced_12x12_start_xy_median": "#fd4101"
+    },
+    "hr": {
+      "xy": [
+        298,
+        298
+      ],
+      "hex": "#fd4402",
+      "cloud_reproduced_12x12_start_xy_median": "#fd4402"
+    },
+    "engineer": {
+      "xy": [
+        43,
+        283
+      ],
+      "hex": "#fd4201",
+      "cloud_reproduced_12x12_start_xy_median": "#fd4201"
+    }
+  },
+  "chosen": "#fd4301",
+  "before_cloud_css_png": "#ff4b00",
+  "orchestrator_observed_before": "#ec5a29",
+  "scope": "CSS token/HTML accents only; logo and all image pixels untouched"
+}

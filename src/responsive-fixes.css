@@ -1,0 +1,178 @@
+/* Review 6208344208 / 6208400965: preserve assets; size the layout to its content. */
+main section > *, .job-grid > *, .sales-intro > *, .sales-value > *,
+.hr-planning > *, .hr-value > *, .engineer-learning > *, .engineer-career > *,
+.engineer-team > *, .engineer-cta > * { min-width: 0; }
+
+/* One cell of the existing three-cell strip, with room above each person's head. */
+.role-illustration { width: 220px; height: 200px; max-width: 100%; }
+.job-grid .role-illustration .role-art { width: 300%; height: auto; top: 50%; }
+.job-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.jobs { height: auto; min-height: 497px; }
+.hr-planning .art, .hr-team > .art, .engineer-team > .art { object-fit: contain; }
+.hr-value > div:first-child p { font-weight: 700; color: #607087; line-height: 1.6; }
+
+/* The pale field curves around the central white reading area, rather than a flat fill. */
+.hr-hero { background: #fff; isolation: isolate; }
+.hr-hero::before { content: ''; position: absolute; inset: 0; z-index: -1;
+  background: #fff6e9; clip-path: polygon(0 5%, 10% 9%, 24% 26%, 38% 48%, 55% 70%, 81% 76%, 100% 98%, 100% 100%, 0 100%); }
+.hr-hero::after { content: ''; position: absolute; width: 32%; height: 92%; right: 0; top: 3%; z-index: -1;
+  background: #fff6e9; border-radius: 90% 0 0 20%; clip-path: polygon(100% 0, 100% 100%, 0 100%, 12% 48%); }
+
+@media (min-width: 1200px) {
+  .header:has(+ .overview) nav { background: rgb(255 255 255 / 95%); padding: 0 12px; border-radius: 4px; }
+  .overview-hero { padding-inline: min(68px, 4.722vw); }
+  .hero-copy { width: calc(38% - 20px); }
+  .hero-copy h1 { font-size: min(79px, 5.486vw); white-space: nowrap; }
+  .hero-copy p { font-size: clamp(17px, 1.458vw, 21px); }
+  .hero-copy .button { min-width: 0; width: min(418px, 100%); }
+  .welcome { width: 62%; }
+  .sales-intro { margin-right: calc(-1 * min(68px, 4.7vw)); grid-template-columns: minmax(0, 60fr) minmax(0, 40fr); }
+  .sales-intro p { white-space: normal; }
+  .sales-career { width: 47%; }
+  .sales-value { grid-template-columns: minmax(0, 57fr) minmax(0, 43fr); height: auto; min-height: 516px; }
+  .sales-value h2 { font-size: min(94px, 6.52vw); white-space: normal; }
+  .sales-value h2 span { font-size: min(70px, 4.861vw); }
+  .value-notes article:first-child h3 { font-size: min(42px, 2.916vw); white-space: normal; }
+  .value-notes article + article h3 { font-size: min(39px, 2.708vw); white-space: normal; }
+  .hr-planning { grid-template-columns: minmax(0, 52fr) minmax(0, 48fr); }
+  .hr-value { grid-template-columns: minmax(0, 52fr) minmax(0, 48fr); }
+  .engineer-learning { grid-template-columns: minmax(0, 46.25fr) minmax(0, 53.75fr); height: auto; min-height: 440px; padding-bottom: 25px; }
+  .engineer-learning figure { height: auto; }
+  .engineer-career { grid-template-columns: minmax(0, 54fr) minmax(0, 46fr); height: auto; min-height: 227px; padding-block: 28px; }
+  .engineer-career ul { gap: 10px; }
+  .engineer-career li { padding-inline: 10px; }
+  .engineer-team { grid-template-columns: minmax(0, 40fr) minmax(0, 39fr) minmax(0, 21fr); height: auto; min-height: 297px; }
+  .engineer-cta { grid-template-columns: minmax(0, 26fr) minmax(0, 43fr) minmax(0, 31fr); height: auto; min-height: 251px; }
+}
+
+/* Intermediate desktop widths must reflow, rather than inherit the fixed 1440px type. */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .business { height: auto; min-height: 1290px; padding-bottom: 30px; }
+  .jobs { padding-inline: 4.7vw; }
+  .job-grid article { padding-inline: 16px; }
+  .job-grid .button { font-size: 18px; white-space: normal; padding-inline: 10px; }
+  .sales-work { height: auto; padding-bottom: 30px; }
+  .sales-intro h2 { font-size: 4.16vw; }
+  .sales-intro p { font-size: 1.67vw; }
+  .sales-map h3 { font-size: 2.57vw; }
+  .sales-map p { font-size: 1.6vw; }
+  .sales-value { padding-inline: 4.7vw; min-height: 0; }
+  .sales-value p { font-size: 1.944vw; }
+  .value-notes { padding-left: 24px; }
+  .value-notes p { font-size: 1.39vw; }
+  .sales-training { grid-template-columns: minmax(0, 51fr) minmax(0, 49fr); }
+  .sales-training h2 { font-size: 3.54vw; }
+  .sales-training p { font-size: 1.53vw; }
+  .training-trio > div { font-size: 1.32vw; padding-inline: 8px; }
+  .hr-work { height: auto; padding-bottom: 30px; }
+  .hr-work h3 { white-space: normal; font-size: 2.64vw; }
+  .hr-work article p { font-size: 1.81vw; }
+  .hr-planning { margin-top: 0; padding-left: 45px; }
+  .hr-value { height: auto; min-height: 486px; }
+  .hr-value h2 { font-size: 4.51vw; }
+  .hr-value p { font-size: 1.736vw; }
+  .hr-value .charcoal { padding-inline: 28px; }
+  .hr-value .charcoal h3 { font-size: 2.916vw; white-space: normal; }
+  .hr-value .charcoal p { font-size: 1.458vw; }
+  .hr-team h2 { white-space: normal; }
+  .engineer-learning h2 { font-size: 4.44vw; }
+  .engineer-learning p { font-size: 1.389vw; }
+  .engineer-learning figure img { height: auto; aspect-ratio: 1.86; }
+  .engineer-career h2 { font-size: 3.68vw; white-space: normal; }
+  .engineer-career p { font-size: 1.458vw; }
+  .engineer-career ul { flex-wrap: wrap; font-size: 1.32vw; }
+  .engineer-career li { white-space: normal; padding-inline: 5px; }
+  .engineer-team h2 { font-size: 3.5vw; white-space: normal; }
+  .engineer-team p, .engineer-team ul { font-size: 1.458vw; }
+  .engineer-cta h2 { font-size: 3vw; white-space: normal; }
+  .engineer-cta p { font-size: 1.528vw; }
+  .engineer-cta .button { font-size: 1.458vw; white-space: normal; }
+}
+@media (max-width: 1199px) {
+  .job-grid { grid-template-columns: minmax(0, 1fr); }
+  .jobs { min-height: 0; }
+  .hr-hero::before { opacity: .6; }
+}
+
+/* Keep the original 1440px rhythm; smaller layouts retain natural section heights. */
+.engineer-cta .art { object-fit: contain; object-position: center; }
+@media(min-width:1200px){.engineer-team > .art { height: auto; aspect-ratio: 1942 / 809; }}
+@media(min-width:1400px){
+  .engineer-learning { height: 440px; min-height: 0; padding-bottom: 0; }
+  .engineer-career { height: 227px; min-height: 0; padding-block: 0; }
+}
+
+@media(min-width:1000px) and (max-width:1199px){
+  .job-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .job-grid article, .job-grid article:first-child, .job-grid article:last-child { padding: 12px; border-right: 1px solid #c7cbd0; border-bottom: 0; }
+  .job-grid article:last-child { border-right: 0; }
+  .job-grid .button { font-size: 16px!important; padding-inline: 8px; }
+}
+@media(min-width:1200px) and (max-width:1399px){
+  .sales-hero h1 { font-size: 5vw; }
+  .sales-team { height: auto; display: grid; grid-template-columns: 1fr 1fr; }
+  .sales-team > .photo { grid-column: 2; grid-row: 1; height: 420px; }
+  .team-caption { position: static; grid-column: 1; grid-row: 1; width: auto; padding: 32px; border-radius: 0; }
+  .team-caption h2 { font-size: 3.26vw; white-space: normal; }
+  .team-caption p { white-space: normal; font-size: 1.6vw; }
+  .sales-cta h2 { font-size: 4.3vw; white-space: normal; }
+  .sales-cta .art { object-fit: contain; }
+  .path-grid .path-illustration .art, .path-grid #experienced .path-illustration .art { height: 100%; bottom: 0; object-fit: contain; }
+  .infrastructure > .art { object-fit: contain; }
+}
+@media(min-width:1400px){
+  .value-notes article:last-child p { margin-bottom: 0; }
+  .value-notes article+article { margin-top: 35px; }
+}
+/* The HR hero needs its own transition before its three-part desktop composition fits. */
+@media(min-width:1200px) and (max-width:1299px){
+  .hr-hero { height: auto; display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
+  .hr-hero-copy { position: relative; top: auto; left: auto; width: 100%; grid-column: 1 / -1; padding: 30px 26px; }
+  .hr-hero > .photo { position: static; width: 100%; height: 320px; clip-path: none; border-radius: 0 50% 8% 0; }
+  .hr-hero > .art { position: static; width: 100%; height: 320px; object-fit: contain; }
+}
+/* Keep the existing training and intro photographs complete at responsive widths. */
+.sales-intro > .photo { object-fit: contain; }
+@media(max-width:1399px){
+  .engineer-learning figure img { height: auto; aspect-ratio: auto; object-fit: contain; }
+}
+@media(min-width:1200px) and (max-width:1299px){
+  .hr-hero-copy { grid-row: 1; }
+  .hr-hero > .photo { grid-column: 1; grid-row: 2; }
+  .hr-hero > .art { grid-column: 2; grid-row: 2; }
+}
+/* Round19: keep the heads and visible hands within this existing 750x500 photograph. */
+.hr-support { height: auto; }
+.hr-support figure { height: auto; max-width: 900px; margin-inline: auto; }
+.hr-support figure img { height: auto; aspect-ratio: 12 / 5; object-fit: cover; object-position: 50% 45%; }
+@media(min-width:1200px){ .hr-support { min-height: 830px; } }
+@media(max-width:599px){ .hr-support figure img { aspect-ratio: 3 / 2; } }
+@media(min-width:1400px){
+  .hr-value > div:first-child { top: -16px; }
+  .hr-value > div:first-child p { line-height: 1.78; }
+}
+
+/* A single-column phone hero must not retain the desktop half-width images. */
+@media(max-width:1199px){
+  .hr-hero { display: grid; grid-template-columns: minmax(0,1fr); gap: 24px; padding: 25px 26px 30px; }
+  .hr-hero-copy { position: static; grid-row: 1; grid-column: 1 / -1; width: 100%; padding: 0; }
+  .hr-hero > .photo { position: static; grid-row: 2; grid-column: 1; width: 100%; max-width: 640px; height: auto; aspect-ratio: 4 / 3; margin: 0 auto; object-fit: contain; object-position: center; border-radius: 18px; clip-path: none; }
+  .hr-hero > .art { position: static; grid-row: 3; grid-column: 1; width: 100%; max-width: 600px; height: auto; margin: 0 auto; object-fit: contain; }
+}
+@media(min-width:600px) and (max-width:1199px){
+  .hr-hero { grid-template-columns: minmax(0,1fr) minmax(0,1fr); align-items: center; }
+  .hr-hero > .art { grid-row: 2; grid-column: 2; }
+}
+@media(max-width:1199px){
+  .engineer-hero > .art { height: auto; aspect-ratio: 3 / 1; object-fit: contain; }
+}
+@media(max-width:599px){
+  .welcome { height: auto; }
+  .welcome img { height: auto; aspect-ratio: 1477 / 1108; object-fit: contain; }
+  .sales-hero p { text-wrap: pretty; }
+}
+@media(max-width:1199px){
+  .engineer-hero-top { padding-bottom: 16px; }
+  .engineer-hero-top figure { height: auto; width: 100%; max-width: 700px; margin-inline: auto; }
+  .engineer-hero-top figure img { height: auto; aspect-ratio: 3 / 2; object-fit: contain; }
+}

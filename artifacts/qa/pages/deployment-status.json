@@ -1,0 +1,10 @@
+{
+  "source_commit": "313e9d09a15d9ab4ce33df67e1353efef5a8c2f2",
+  "gh_pages_commit": "6995de1d36f2b70488d2159e604a8a623b0a00ec",
+  "expected_url": "https://baudroie.github.io/baudroieLP_shomei/",
+  "status": "awaiting_pages_enablement",
+  "pages_api_status": 403,
+  "pages_api_message": "Resource not accessible by integration",
+  "local_static_checks": 12,
+  "public_site_verified": false
+}

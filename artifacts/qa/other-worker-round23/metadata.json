@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-16",
+  "browser": "Codex In-app Browser",
+  "viewport_widths": [
+    1440,
+    1280,
+    1066,
+    390
+  ],
+  "devicePixelRatio": 1,
+  "source_base": "f90cc03b2e87e2068d870cbe497f0f5a0b6822e3",
+  "sha256": {
+    "src/main.tsx": "2a9ddf83684e0db421ca93f997e9583e937df5fee8365f2db68314de7eb12f0b",
+    "src/master-curves.css": "b7ae3d9900b296bcf94abbaff65bce84906555a3310c7c131c5df61952d55e1c"
+  },
+  "checks": {
+    "typescript": "passed",
+    "vite_build": "passed (WASM bundler, CSS minification disabled for local native module compatibility)",
+    "1440_all_routes": {
+      "overflow": 0,
+      "broken_images": 0
+    },
+    "overview_390_1066_1280": {
+      "overflow": 0,
+      "broken_images": 0
+    },
+    "engineer_cta": "dialog open/close passed; LINE URL still unset"
+  },
+  "excluded_captures": "Early before captures for sales/hr had assets loading or wrong full-page width; use verified after/final captures, not early files.",
+  "comparison_export": "side-by-side source1440 + implementation1440 reduced uniformly to width1600 for repository delivery; original full-height PNG retained locally"
+}
