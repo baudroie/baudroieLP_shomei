@@ -140,3 +140,20 @@
  .training-trio > div:nth-child(2) .art { width:128%; top:12px; }
  .training-trio > div:nth-child(3) .art { width:115%; }
 }
+
+/* Round34: this source composition needs its faces to the right of the copy.
+   Preserve the complete photograph, caption position and section flow height.
+   The master's full-width photo is intentionally deferred to asset approval. */
+@media(min-width:1200px) {
+  .sales-team { background:var(--cream); }
+  .sales-team > .photo {
+    position:absolute;
+    inset:0 0 auto auto;
+    width:auto;
+    height:100%;
+    max-width:100%;
+    aspect-ratio:3 / 2;
+    object-fit:contain;
+    object-position:center;
+  }
+}
