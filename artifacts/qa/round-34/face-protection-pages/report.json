@@ -1,0 +1,443 @@
+{
+  "source_commit": "026a3ad685b335016d3d4ae3c4327f20458186f2",
+  "asset_sha256": "24cbee3f2640b2c6cae742fb87393423e16aeca506efd06996779ae6a41a4245",
+  "source_regions": {
+    "left_woman_face": [
+      115,
+      185,
+      155,
+      250
+    ],
+    "center_man_face": [
+      250,
+      135,
+      294,
+      198
+    ],
+    "right_woman_face": [
+      425,
+      145,
+      470,
+      216
+    ],
+    "foreground_head": [
+      195,
+      285,
+      265,
+      340
+    ],
+    "center_hands": [
+      230,
+      228,
+      275,
+      260
+    ],
+    "right_hands": [
+      375,
+      260,
+      413,
+      295
+    ]
+  },
+  "url": "http://127.0.0.1:4174/baudroieLP_shomei",
+  "note": "Manual source-space regions; compares exact same render with caption on/off. Visual review still required.",
+  "checks": [
+    {
+      "width": 1440,
+      "box": {
+        "x": 597,
+        "y": 2246.84375,
+        "width": 843,
+        "height": 562,
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      "regions": [
+        {
+          "name": "left_woman_face",
+          "screen_rect": [
+            726.26,
+            2454.78375,
+            771.22,
+            2527.84375
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "center_man_face",
+          "screen_rect": [
+            878.0,
+            2398.58375,
+            927.456,
+            2469.39575
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "right_woman_face",
+          "screen_rect": [
+            1074.7,
+            2409.82375,
+            1125.2800000000002,
+            2489.62775
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "foreground_head",
+          "screen_rect": [
+            816.1800000000001,
+            2567.18375,
+            894.86,
+            2629.00375
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "center_hands",
+          "screen_rect": [
+            855.52,
+            2503.11575,
+            906.1,
+            2539.08375
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "right_hands",
+          "screen_rect": [
+            1018.5,
+            2539.08375,
+            1061.212,
+            2578.42375
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "box": {
+        "x": 500,
+        "y": 2274.5625,
+        "width": 780,
+        "height": 520,
+        "fit": "contain",
+        "position": "50% 50%"
+      },
+      "regions": [
+        {
+          "name": "left_woman_face",
+          "screen_rect": [
+            619.6,
+            2466.9625,
+            661.2,
+            2534.5625
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "center_man_face",
+          "screen_rect": [
+            760.0,
+            2414.9625,
+            805.76,
+            2480.4825
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "right_woman_face",
+          "screen_rect": [
+            942.0,
+            2425.3625,
+            988.8,
+            2499.2025
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "foreground_head",
+          "screen_rect": [
+            702.8,
+            2570.9625,
+            775.6,
+            2628.1625
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "center_hands",
+          "screen_rect": [
+            739.2,
+            2511.6825,
+            786.0,
+            2544.9625
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "right_hands",
+          "screen_rect": [
+            890.0,
+            2544.9625,
+            929.52,
+            2581.3625
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        }
+      ]
+    },
+    {
+      "width": 1066,
+      "box": {
+        "x": 0,
+        "y": 2791.984375,
+        "width": 1066,
+        "height": 330,
+        "fit": "cover",
+        "position": "50% 42%"
+      },
+      "regions": [
+        {
+          "name": "left_woman_face",
+          "screen_rect": [
+            163.45333333333335,
+            2895.0510416666666,
+            220.30666666666667,
+            2987.4377083333334
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "center_man_face",
+          "screen_rect": [
+            355.3333333333333,
+            2823.984375,
+            417.872,
+            2913.528375
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "right_woman_face",
+          "screen_rect": [
+            604.0666666666667,
+            2838.197708333333,
+            668.0266666666666,
+            2939.1123749999997
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "foreground_head",
+          "screen_rect": [
+            277.16,
+            3037.184375,
+            376.6533333333333,
+            3115.357708333333
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "center_hands",
+          "screen_rect": [
+            326.9066666666667,
+            2956.1683749999997,
+            390.8666666666667,
+            3001.6510416666665
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "right_hands",
+          "screen_rect": [
+            533.0,
+            3001.6510416666665,
+            587.0106666666667,
+            3051.3977083333334
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "box": {
+        "x": 0,
+        "y": 2638.703125,
+        "width": 768,
+        "height": 330,
+        "fit": "cover",
+        "position": "50% 42%"
+      },
+      "regions": [
+        {
+          "name": "left_woman_face",
+          "screen_rect": [
+            117.76,
+            2751.703125,
+            158.72,
+            2818.263125
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "center_man_face",
+          "screen_rect": [
+            256.0,
+            2700.503125,
+            301.056,
+            2765.015125
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "right_woman_face",
+          "screen_rect": [
+            435.2,
+            2710.743125,
+            481.28000000000003,
+            2783.447125
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "foreground_head",
+          "screen_rect": [
+            199.68,
+            2854.103125,
+            271.36,
+            2910.423125
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "center_hands",
+          "screen_rect": [
+            235.52,
+            2795.735125,
+            281.6,
+            2828.503125
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "right_hands",
+          "screen_rect": [
+            384.0,
+            2828.503125,
+            422.91200000000003,
+            2864.343125
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "box": {
+        "x": 0,
+        "y": 2701.25,
+        "width": 390,
+        "height": 330,
+        "fit": "cover",
+        "position": "50% 42%"
+      },
+      "regions": [
+        {
+          "name": "left_woman_face",
+          "screen_rect": [
+            23.400000000000006,
+            2823.35,
+            49.80000000000001,
+            2866.25
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "center_man_face",
+          "screen_rect": [
+            112.5,
+            2790.35,
+            141.54000000000002,
+            2831.93
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "right_woman_face",
+          "screen_rect": [
+            228.0,
+            2796.95,
+            257.7,
+            2843.81
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "foreground_head",
+          "screen_rect": [
+            76.20000000000002,
+            2889.35,
+            122.4,
+            2925.65
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "center_hands",
+          "screen_rect": [
+            99.30000000000001,
+            2851.73,
+            129.0,
+            2872.85
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        },
+        {
+          "name": "right_hands",
+          "screen_rect": [
+            195.0,
+            2872.85,
+            220.08000000000004,
+            2895.95
+          ],
+          "inside_photo": true,
+          "caption_changes_pixels": false
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "browser": "154.0.8037.57"
+}

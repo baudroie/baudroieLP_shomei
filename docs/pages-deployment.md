@@ -1,17 +1,17 @@
-# Round33 — 測定したCSS差の修正と公開
+# Round34 — sales-teamのPC顔被覆修正を公開
 
-URL https://baudroie.github.io/baudroieLP_shomei/
-撮影・描画・ビルド元 `87bc39bfe771b6ce3b70952a37bd824c501c99e6`
-公開SHA `74665af92049fad229784365e55772562f9dd94e`（親86053f8）
-CSS `index-DilzdAgK.css` / JS `index-DYQvgn6f.js`
-デプロイ completed / success
-https://github.com/baudroie/baudroieLP_shomei/actions/runs/38895081591
-公開更新JST 2026-10-16T20:38:11.951461+09:00
+プレビュー https://baudroie.github.io/baudroieLP_shomei/sales/#sales-team
+配信元・撮影・ビルドSHA `026a3ad685b335016d3d4ae3c4327f20458186f2`
+公開SHA `a3cea681cd5f3b0f64407010d0bb97f16b4723a9`（親74665af）
+CSS `index-Cxalxh3m.css` / JS `index-5w4Ugcp-.js`
+GitHubデプロイ completed / success
+https://github.com/baudroie/baudroieLP_shomei/actions/runs/38987041707
+公開更新JST 2026-10-17T09:35:03.847541+09:00
 
-既存gh-pagesへ通常push。mainマージ、Pages設定・権限・ネットワーク変更なし。dist以外を公開せず、**新しい比較画像・QA画像を公開していない**。公開treeの全配信ファイルSHA256は検証済distと一致。公開URLはCONNECT proxy403のためクラウドから直接実見不可。依頼元が公開画面を検証する。
+PR指摘6227322804へ対応。最新c326805を保持して開始。現750×500写真のまま、PC写真を右寄せ自然3:2表示へ。1440は843×562px/左597px、1280は780×520px/左500px。captionとsection高さを保持し、写真左の空きを淡色で処理。3人の顔と前景後頭部がクリーム/文字で隠れない。
 
-## 今回の変更
+**暫定差**: マスターの全幅写真とは異なり、右側約59〜61%幅の写真と左上淡色余白、写真上側左端の直線境界になる。局所くびれpathを保持しているが全体輪郭一致ではない。元写真の構図では全幅背景+マスター本文の重なりと顔保護を両立できず、ユーザー指示により顔保護を優先した。本文/後続セクションの位置を動かさず、PC全高は前版と同じ。
 
-390pxまとめの見出しは原稿を保って『中長期の成長に／向けた取り組み』2行へ。learning谷と写真上弧、営業teamくびれ、HRhero左右、engineerteam底辺を同倍率/global原点の実測から局所修正。初回で残った営業/HR右差を独立レビュー後に再修正。共通orangeはマスター4枚12×12中央値を再現して#fd4301へ。営業3アイコンを個別拡大しlabel・罫線を約22〜26px下へ。ロゴ・写真・原線画の画素は未変更。
+5幅1440/1280/1066/768/390をfont/画像読込とスクロール停止後に撮影・実見。標準20、clientWidth横溢れ20、操作27、Pages静的12条件が成功。P1専用顔/後頭部上側/手の6ROI×5幅はdevと公開ビルドで写真内・caption表示による画素変化なし。768/1066の既存前景後頭部下端/肩/手首cropは別記し、全ての頭と手を表示したとは扱わない。独立レビュー docs/independent-review-round-34.md。
 
-最終33は固定SHAから全4ページ1440/1280/1066/768/390で画像/フォント読込・スクロール停止後撮影。標準20、clientWidth基準20、文字境界36、操作27、Pages静的12条件成功。PC全高3557/3608/3798/3900は30から不変。人物の頭・顔・手、390役割ラベル、1280組みの検収済み箇所に新規P1/P2退行なし。独立補助レビュー docs/independent-review-round-33.md。
+同一ソースのdistのみを既存gh-pagesへ通常pushし、配信tree全ファイルhashが検証済distと一致。mainマージ・Pages設定・権限・ネットワーク変更なし。素材差替え/生成/アップスケールなし。新規画像公開なし。公開URL直接確認はCONNECT proxy403で実施できず、依頼元がライブを再検証する。

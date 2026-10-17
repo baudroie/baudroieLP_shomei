@@ -1,38 +1,27 @@
-# Round33 — 測定したCSS差の修正と公開
+# Round34 — sales-teamのPC顔被覆修正を公開
 
-URL https://baudroie.github.io/baudroieLP_shomei/
-撮影・描画・ビルド元 `87bc39bfe771b6ce3b70952a37bd824c501c99e6`
-公開SHA `74665af92049fad229784365e55772562f9dd94e`（親86053f8）
-CSS `index-DilzdAgK.css` / JS `index-DYQvgn6f.js`
-デプロイ completed / success
-https://github.com/baudroie/baudroieLP_shomei/actions/runs/38895081591
-公開更新JST 2026-10-16T20:38:11.951461+09:00
+プレビュー https://baudroie.github.io/baudroieLP_shomei/sales/#sales-team
+配信元・撮影・ビルドSHA `026a3ad685b335016d3d4ae3c4327f20458186f2`
+公開SHA `a3cea681cd5f3b0f64407010d0bb97f16b4723a9`（親74665af）
+CSS `index-Cxalxh3m.css` / JS `index-5w4Ugcp-.js`
+GitHubデプロイ completed / success
+https://github.com/baudroie/baudroieLP_shomei/actions/runs/38987041707
+公開更新JST 2026-10-17T09:35:03.847541+09:00
 
-既存gh-pagesへ通常push。mainマージ、Pages設定・権限・ネットワーク変更なし。dist以外を公開せず、**新しい比較画像・QA画像を公開していない**。公開treeの全配信ファイルSHA256は検証済distと一致。公開URLはCONNECT proxy403のためクラウドから直接実見不可。依頼元が公開画面を検証する。
+PR指摘6227322804へ対応。最新c326805を保持して開始。現750×500写真のまま、PC写真を右寄せ自然3:2表示へ。1440は843×562px/左597px、1280は780×520px/左500px。captionとsection高さを保持し、写真左の空きを淡色で処理。3人の顔と前景後頭部がクリーム/文字で隠れない。
 
-## 今回の変更
+**暫定差**: マスターの全幅写真とは異なり、右側約59〜61%幅の写真と左上淡色余白、写真上側左端の直線境界になる。局所くびれpathを保持しているが全体輪郭一致ではない。元写真の構図では全幅背景+マスター本文の重なりと顔保護を両立できず、ユーザー指示により顔保護を優先した。本文/後続セクションの位置を動かさず、PC全高は前版と同じ。
 
-390pxまとめの見出しは原稿を保って『中長期の成長に／向けた取り組み』2行へ。learning谷と写真上弧、営業teamくびれ、HRhero左右、engineerteam底辺を同倍率/global原点の実測から局所修正。初回で残った営業/HR右差を独立レビュー後に再修正。共通orangeはマスター4枚12×12中央値を再現して#fd4301へ。営業3アイコンを個別拡大しlabel・罫線を約22〜26px下へ。ロゴ・写真・原線画の画素は未変更。
+5幅1440/1280/1066/768/390をfont/画像読込とスクロール停止後に撮影・実見。標準20、clientWidth横溢れ20、操作27、Pages静的12条件が成功。P1専用顔/後頭部上側/手の6ROI×5幅はdevと公開ビルドで写真内・caption表示による画素変化なし。768/1066の既存前景後頭部下端/肩/手首cropは別記し、全ての頭と手を表示したとは扱わない。独立レビュー docs/independent-review-round-34.md。
 
-最終33は固定SHAから全4ページ1440/1280/1066/768/390で画像/フォント読込・スクロール停止後撮影。標準20、clientWidth基準20、文字境界36、操作27、Pages静的12条件成功。PC全高3557/3608/3798/3900は30から不変。人物の頭・顔・手、390役割ラベル、1280組みの検収済み箇所に新規P1/P2退行なし。独立補助レビュー docs/independent-review-round-33.md。
+同一ソースのdistのみを既存gh-pagesへ通常pushし、配信tree全ファイルhashが検証済distと一致。mainマージ・Pages設定・権限・ネットワーク変更なし。素材差替え/生成/アップスケールなし。新規画像公開なし。公開URL直接確認はCONNECT proxy403で実施できず、依頼元がライブを再検証する。
 
-## 証拠と測定値
+## 証拠と訂正
 
-新しい画像はローカル限定。下記は /workspace/baudroieLP_shomei/artifacts/qa/round-33/ 配下で保持。PRにはJSONとレビュー文書を保存する。以前の公開round30画像は変更なし。
+画像はローカル /workspace/baudroieLP_shomei/artifacts/qa/round-34/ のみ保持。最新営業5幅部位は subjects-stable/sales-{1440,1280,1066,768,390}-sales-team.png、前後比較before-after/、全体/section/横並び/overlay/differenceも同round。local-evidence-manifest.jsonに絶対パス/hash。PRにはJSON/レビューのみ保存。
 
-|ページ|ローカル最新比較|重点部位|
-|---|---|---|
-|まとめ|overview-side-by-side.jpg / overlay / difference|overview-focus-3.jpg、overview-390.png|
-|営業|sales-side-by-side.jpg / overlay / difference|sales-focus-4.jpg / sales-focus-5.jpg、sales-1280/1066/390.png|
-|人事|hr-side-by-side.jpg / overlay / difference|hr-focus-1.jpg、subjects-stable/hr-*-hr-support.png|
-|エンジニア|engineer-side-by-side.jpg / overlay / difference|engineer-focus-6.jpg、subjects-stable/engineer-390-engineer-team.png|
+face-protection/report.jsonはdev、face-protection-pages/report.jsonはminifyしたPagesビルドで各30ROI。元画像の3人の顔、前景後頭部上部、中央と右人物の手に限定し、全写真の保証と混同しない。
 
-全5幅全体・PCsection・subjects-stable70・responsive20もローカル保持。local-evidence-manifest.jsonに全画像絶対パス/ハッシュ。公開記録 artifacts/qa/pages/round33-release/deployment-status.json、サンプルorange-sampling.json、ソース/素材hash report.json。
+round33の「新規P1/P2なし」は今回の既存被覆の解消を確認しておらず、見落としを訂正。docs/public-verification-round33-followup.mdと指摘コメントを保持。
 
-測定は固定マスターを幅1440へ等比換算しglobal原点を保持。learning上辺8点残差+1〜+4px、写真上弧7点-3〜+1px、営業くびれ5点-2〜0px、HR右3点-1〜+1px、engineer底5点-1〜+4px。HR左y160は一致、y220には約6pxの精密差あり。測定ぼかし/閾値誤差±3〜5pxを含み、全画素同一の保証ではない。
-
-## 残課題・次作業
-
-今回の具体的CSS指摘は修正して独立レビュー・再撮影済み。素材待ちは分離: 原フォント/weight、原分離線画、営業work/team写真の未承認構図・画質、写真identity差。承認済み相談写真の適用は意図した例外。素材の勝手な選択・差替え・生成・アップスケールなし。HR左の精密差、背景色/全曲線の厳密一致と依頼元の最終承認は保留。スマホは暫定、正式LINEは待機表示を維持。
-
-依頼元が公開CSS/JSを照合して再実見する。具体的CSS指摘があれば同PRで修正し、次round34以降で記録。新しい比較画像は引き続きローカル保持し、画像公開は別途ユーザー指示なしに行わない。無人常駐監視は新設していない。
+今回PCの顔被覆P1はローカル/公開相当ビルドで解消し、公開再検証待ち。写真画質/原線画/書体同一性、暫定右寄せ写真のマスター差、768/1066の既存下側crop、LINE正式URL未提供・スマホ暫定は継続課題。次round35以降も新規画像はローカル保持。
