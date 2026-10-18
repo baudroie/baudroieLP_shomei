@@ -38,6 +38,7 @@
 .approved-design .job-grid .button { min-height:52px; font-size:18px; }
 .approved-design .jobs-return { display:flex; align-items:center; justify-content:center; gap:32px; padding:44px 32px; border-top:1px solid var(--line); flex-wrap:wrap; }
 .approved-design .jobs-return > span { width:100%; text-align:center; color:var(--muted); }
+.approved-design .overview-line-cta { display:flex; justify-content:center; padding:0 24px 48px; }
 .approved-design .jobs-return a { font-weight:700; border-bottom:1px solid var(--orange); padding-bottom:8px; }
 .approved-design .overview-support > .motif-overview { left:48%; opacity:.65; }
 /* HR: connected ribbons behind the existing human-resources composition. */

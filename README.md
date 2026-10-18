@@ -11,7 +11,7 @@
 
 対象: /、/sales/、/hr/、/engineer/。
 
-React + TypeScript + Viteで4ページを実装中です。最新の視覚QA判定はdesign-qa.md、進捗はdocs/orchestrator-status.mdを確認してください。LINEの正式URLは未提供です。
+React + TypeScript + Viteで4ページを実装中です。最新の視覚QA判定はdesign-qa.md、進捗はdocs/orchestrator-status.mdを確認してください。LINEの正式URLは2026-10-19に4流入元分を設定済みです。検証内容と公開状況はdocs/line-url-verification-20261019.mdを参照してください。
 
 本番公開や自動マージは含みません。文字と導線は編集可能なHTMLで実装します。
 
@@ -38,7 +38,7 @@ python3 scripts/functional_qa.py
 
 Viteを起動した状態で実行。1440・390・768 CSS px/DPR1で全ページを撮影し、1440pxでは各セクションも撮影。横並び・50%overlay・差分と検証レポートを `artifacts/qa/round-N/` に保存します。Chromiumがサンドボックスのソケット制限で起動できない場合は正規の実行承認経路を使います。TLS検証や画像ハッシュは無効化しません。
 
-`src/config.ts` に職種別LINE URLを設定できます。未設定時は「LINEリンクは設定待ちです」のダイアログを表示し、Escapeで閉じて操作元へフォーカスを戻します。
+`src/config.ts` にまとめ・営業・人事・エンジニアの流入元別LINE URLを一元管理しています。未設定時は「LINEリンクは設定待ちです」のダイアログを表示し、Escapeで閉じて操作元へフォーカスを戻します。
 
 公式写真の出典・AI生成素材は `docs/asset-manifest.json`、原稿補正は `docs/content-corrections.md`。生成素材はマスターとの完全一致ではなく、公式写真との構図差を含めQAで継続確認します。
 

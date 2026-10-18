@@ -32,3 +32,10 @@ round33の「新規P1/P2なし」は今回の既存被覆の解消を確認し�
 base=feat/four-role-landing-pages@05efb8b、head=design/approved-four-pages-20261019。
 ローカル承認版42ebb4bからsrc/public 54ファイル一致、ビルド出力CSS/JS一致。
 証拠 artifacts/approved/ と artifacts/hr-mask/。本番・main未変更、Draft PRで提出。
+
+
+## 2026-10-19 LINE URL接続（公開とは別工程）
+ユーザー提供の4URLをsrc/config.tsへ設定。まとめ下部に直接LINE相談CTAを追加し、6本の職種リンクとページ内リンクは維持。
+比較基準は最新ブランチ8b9f53d。旧Pagesは今回の検証対象にしていない。
+公開相当の最新ビルドをlocalhost:4193/baudroieLP_shomei/で検証。詳細はdocs/line-url-verification-20261019.md。
+GitHubへはDraft PR #2の既存headブランチを更新する。Pages配信・mainマージは実施しない。

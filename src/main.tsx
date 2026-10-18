@@ -1,6 +1,6 @@
 import React, { useEffect, useId, useRef, useState } from "react";
 import { createRoot, hydrateRoot } from "react-dom/client";
-import { lineUrls, roleNames, type Role } from "./config";
+import { lineUrls, roleNames, type Role, type LineSource } from "./config";
 import "./styles.css";
 import "./responsive-fixes.css";
 import "./master-curves.css";
@@ -39,7 +39,7 @@ function LineButton({
   role,
   compact = false,
 }: {
-  role: Role;
+  role: LineSource;
   compact?: boolean;
 }) {
   const [open, setOpen] = useState(false);
@@ -84,7 +84,7 @@ function LineButton({
       >
         <h2 id={titleId}>LINEリンクは設定待ちです</h2>
         <p>
-          {roleNames[role]}の正式な相談先URLは、準備ができ次第ご案内します。
+          {role === "overview" ? "会社" : roleNames[role]}の正式な相談先URLは、準備ができ次第ご案内します。
         </p>
         <button className="button" onClick={() => dialog.current?.close()}>
           閉じる
@@ -394,6 +394,7 @@ function Overview() {
           </figure>
         </section>
         <nav className="jobs-return" aria-label="職種を選ぶ"><span>関心のある仕事から、もう少し詳しく。</span>{(["sales", "hr", "engineer"] as Role[]).map(role => <a key={role} href={`${baseUrl}${role}/`}>{roleNames[role]}の仕事を見る <span aria-hidden="true">→</span></a>)}</nav>
+        <div className="overview-line-cta"><LineButton role="overview" /></div>
       </main>
       <Footer />
     </>
