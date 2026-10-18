@@ -1,0 +1,34 @@
+[
+  {
+    "role": "overview",
+    "bodyWidth": 390,
+    "opacity": "1",
+    "reduced": true,
+    "title": "人を育てる。その力で、社会を支える。",
+    "transform": "none"
+  },
+  {
+    "role": "hr",
+    "bodyWidth": 390,
+    "opacity": "1",
+    "reduced": true,
+    "title": "人の可能性を、会社の未来へ。",
+    "transform": "none"
+  },
+  {
+    "role": "sales",
+    "bodyWidth": 390,
+    "opacity": "1",
+    "reduced": true,
+    "title": "大手企業の課題に、技術と人で応える。",
+    "transform": "none"
+  },
+  {
+    "role": "engineer",
+    "bodyWidth": 390,
+    "opacity": "1",
+    "reduced": true,
+    "title": "技術を磨く。可能性を広げる。",
+    "transform": "none"
+  }
+]

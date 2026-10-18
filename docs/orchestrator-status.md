@@ -25,3 +25,10 @@ face-protection/report.jsonはdev、face-protection-pages/report.jsonはminify�
 round33の「新規P1/P2なし」は今回の既存被覆の解消を確認しておらず、見落としを訂正。docs/public-verification-round33-followup.mdと指摘コメントを保持。
 
 今回PCの顔被覆P1はローカル/公開相当ビルドで解消し、公開再検証待ち。写真画質/原線画/書体同一性、暫定右寄せ写真のマスター差、768/1066の既存下側crop、LINE正式URL未提供・スマホ暫定は継続課題。次round35以降も新規画像はローカル保持。
+
+
+## 2026-10-19 承認済み4ページのGitHub反映
+最新の作業内容は docs/github-approved-update-20261019.md を参照。
+base=feat/four-role-landing-pages@05efb8b、head=design/approved-four-pages-20261019。
+ローカル承認版42ebb4bからsrc/public 54ファイル一致、ビルド出力CSS/JS一致。
+証拠 artifacts/approved/ と artifacts/hr-mask/。本番・main未変更、Draft PRで提出。

@@ -1,9 +1,14 @@
 import React, { useEffect, useId, useRef, useState } from "react";
-import { createRoot } from "react-dom/client";
+import { createRoot, hydrateRoot } from "react-dom/client";
 import { lineUrls, roleNames, type Role } from "./config";
 import "./styles.css";
 import "./responsive-fixes.css";
 import "./master-curves.css";
+import "./oct18-refinements.css";
+import "./engineer-refinements.css";
+import "./engineer-warm.css";
+import "./approved-design.css";
+import { Motif, useApprovedMotion } from "./approved-design";
 
 
 const baseUrl = import.meta.env.BASE_URL;
@@ -28,7 +33,7 @@ function Art({
   alt: string;
   className?: string;
 }) {
-  return <img className={`art ${className}`} src={asset(name)} alt={alt} />;
+  return <img className={`art ${name.endsWith("-white.png") ? "filled-art" : "brand-art"} ${className}`} src={asset(name)} alt={alt} />;
 }
 function LineButton({
   role,
@@ -44,7 +49,7 @@ function LineButton({
   useEffect(() => {
     if (open) dialog.current?.showModal();
   }, [open]);
-  const label = compact ? "LINEで相談" : `LINEで${roleNames[role]}の話を聞く`;
+  const label = compact ? "まずは話を聞く" : "仕事や会社の話を聞く";
   return (
     <>
       {lineUrls[role] ? (
@@ -124,13 +129,7 @@ function Header({ role }: { role?: Role }) {
             {label}
           </a>
         ))}
-        {role ? (
-          <LineButton role={role} compact />
-        ) : (
-          <a className="line-outline" href="#jobs">
-            3つの仕事
-          </a>
-        )}
+        {role ? <LineButton role={role} compact /> : <a className="overview-nav-jobs" href="#jobs">3つの仕事</a>}
       </nav>
     </header>
   );
@@ -171,16 +170,10 @@ function Overview() {
     <>
       <Header />
       <main className="overview">
-        <section className="overview-hero" aria-labelledby="overview-title">
+        <section className="overview-hero" aria-labelledby="overview-title"><Motif kind="overview" />
           <div className="hero-copy">
             <Eyebrow>ボードルアで働くということ。</Eyebrow>
-            <h1 id="overview-title">
-              人を<em>育てる</em>
-              <br />
-              その力で、
-              <br />
-              社会を支える
-            </h1>
+            <h1 id="overview-title"><span className="approved-title-line"><span>人を<em>育てる</em>。</span></span><span className="approved-title-line"><span>その力で、</span></span><span className="approved-title-line"><span>社会を支える。</span></span></h1>
             <p>
               ボードルアは、ネットワークやクラウドなど、
               <br className="desktop" />
@@ -197,6 +190,49 @@ function Overview() {
             />
             
           </figure>
+        </section>
+        <section className="jobs" id="jobs">
+          <h2>同じ未来を、違う役割で。</h2>
+          <p>あなたの関心に近い仕事から、ボードルアを知ってください。</p>
+          <div className="job-grid">
+            {(["sales", "hr", "engineer"] as Role[]).map((role) => (
+              <article key={role} className={`job-${role}`}>
+                <div className="role-illustration"><Motif kind={role} compact /><div className="role-art-window">
+                  <Art
+                    className={`role-art role-${role}`}
+                    name="overview-role-illustrations.png"
+                    alt={roleNames[role] + "の仕事を表す線画"}
+                  /></div>
+                </div>
+                <h3>{role === "hr" ? "人事採用" : roleNames[role]}</h3>
+                <p>
+                  {role === "sales" ? (
+                    <>
+                      お客様の課題に、
+                      <br />
+                      チームで応える。
+                    </>
+                  ) : role === "hr" ? (
+                    <>
+                      人の可能性を、
+                      <br />
+                      会社の未来へ。
+                    </>
+                  ) : (
+                    <>
+                      技術を磨き、
+                      <br />
+                      社会の基盤を支える。
+                    </>
+                  )}
+                </p>
+                <a href={`${baseUrl}${role}/`} className="button">
+                  {role === "hr" ? "人事採用" : roleNames[role]}の仕事を見る{" "}
+                  <span aria-hidden="true">→</span>
+                </a>
+              </article>
+            ))}
+          </div>
         </section>
         <section className="business section-pad" id="business">
           <div className="section-label">
@@ -339,7 +375,7 @@ function Overview() {
             </div>
           </div>
         </section>
-        <section className="overview-support" id="support">
+        <section className="overview-support" id="support"><Motif kind="overview" compact />
           <div>
             <h2>入社前も、その先も。</h2>
             <p>
@@ -357,49 +393,7 @@ function Overview() {
             
           </figure>
         </section>
-        <section className="jobs" id="jobs">
-          <h2>同じ未来を、違う役割で。</h2>
-          <p>あなたの関心に近い仕事から、ボードルアを知ってください。</p>
-          <div className="job-grid">
-            {(["sales", "hr", "engineer"] as Role[]).map((role) => (
-              <article key={role}>
-                <div className="role-illustration">
-                  <Art
-                    className={`role-art role-${role}`}
-                    name="overview-role-illustrations.png"
-                    alt={roleNames[role] + "の仕事を表す線画"}
-                  />
-                </div>
-                <h3>{role === "hr" ? "人事採用" : roleNames[role]}</h3>
-                <p>
-                  {role === "sales" ? (
-                    <>
-                      お客様の課題に、
-                      <br />
-                      チームで応える。
-                    </>
-                  ) : role === "hr" ? (
-                    <>
-                      人の可能性を、
-                      <br />
-                      会社の未来へ。
-                    </>
-                  ) : (
-                    <>
-                      技術を磨き、
-                      <br />
-                      社会の基盤を支える。
-                    </>
-                  )}
-                </p>
-                <a href={`${baseUrl}${role}/`} className="button">
-                  {role === "hr" ? "人事採用" : roleNames[role]}の仕事を見る{" "}
-                  <span aria-hidden="true">→</span>
-                </a>
-              </article>
-            ))}
-          </div>
-        </section>
+        <nav className="jobs-return" aria-label="職種を選ぶ"><span>関心のある仕事から、もう少し詳しく。</span>{(["sales", "hr", "engineer"] as Role[]).map(role => <a key={role} href={`${baseUrl}${role}/`}>{roleNames[role]}の仕事を見る <span aria-hidden="true">→</span></a>)}</nav>
       </main>
       <Footer />
     </>
@@ -411,13 +405,9 @@ function Sales() {
     <>
       <Header role="sales" />
       <main className="sales">
-        <section className="sales-hero">
+        <section className="sales-hero"><Motif kind="sales" />
           <div>
-            <h1>
-              大手企業の課題に、
-              <br />
-              <em>技術と人</em>で応える。
-            </h1>
+            <h1><span className="approved-title-line"><span>大手企業の課題に、</span></span><span className="approved-title-line"><span><em>技術と人</em>で応える。</span></span></h1>
             <p>
               顧客開拓から、先端技術案件の獲得、
               <br />
@@ -442,10 +432,7 @@ function Sales() {
               </h2>
               <p>ITインフラの専門性を、人と企業の可能性につなげる仕事です。</p>
             </div>
-            <Photo
-              name="office_lounge.jpg"
-              alt="公式写真：オフィスで仲間と対話する様子"
-            />
+
           </div>
           <div className="sales-map">
             <Art
@@ -517,7 +504,7 @@ function Sales() {
             </article>
           </div>
         </section>
-        <section className="sales-team" id="sales-team">
+        <section className="sales-team" id="sales-team"><Motif kind="sales" compact />
           <Photo
             name="office_lounge.jpg"
             alt="公式写真：仲間と考えるオフィスのラウンジ"
@@ -562,13 +549,13 @@ function Sales() {
             </div>
           </div>
         </section>
-        <section className="sales-cta cream section-pad">
+        <section className="sales-cta cream section-pad"><Motif kind="sales" compact />
           <div>
             <h2>まずは、仕事の話から。</h2>
             <p>
               ボードルアの営業について、
               <br />
-              LINEからお気軽にご相談ください。
+              気になることからお話ししませんか。
             </p>
             <LineButton role="sales" />
           </div>
@@ -588,26 +575,24 @@ function HR() {
     <>
       <Header role="hr" />
       <main className="hr">
-        <section className="hr-hero cream">
+        <section className="hr-hero cream"><Motif kind="hr" />
+          <div className="photo hr-hero-photo">
           <Photo
-            name="recruiting_conversation.jpg"
-            alt="公式写真：採用について対話する様子"
+            name="hr-interview-oct18.png"
+            alt="女性の人事担当者が候補者と面談するイメージ（AI生成）"
           />
+          </div>
           <div className="hr-hero-copy">
             <Eyebrow>HUMAN RESOURCES / 人事・採用</Eyebrow>
-            <h1>
-              人の<em>可能性</em>を、
-              <br />
-              会社の未来へ。
-            </h1>
+            <h1><span className="approved-title-line"><span>人の<em>可能性</em>を、</span></span><span className="approved-title-line"><span>会社の未来へ。</span></span></h1>
             <p>
-              一人ひとりとの対話から、採用の企画、入社前後のフォローまで。
-              <br />
-              人と組織の成長に関わる仕事です。
+              <span className="hr-intro-phrase">一人ひとりとの対話から、</span><span className="hr-intro-phrase">採用の企画、入社前後のフォローまで。</span>
+              <br className="hr-intro-desktop-break" />
+              <span className="hr-intro-phrase">人と組織の成長に関わる仕事です。</span>
             </p>
             <LineButton role="hr" />
           </div>
-          <Art name="hr-hero.png" alt="人事が一人ひとりと対話する線画" />
+          <Art name="hr-hero-white.png" alt="人事が一人ひとりと対話する線画" />
         </section>
         <section className="hr-work section-pad" id="hr-work">
           <h2 className="serif">対話から、その人を知る。</h2>
@@ -618,7 +603,7 @@ function HR() {
           </p>
           <div className="hr-meeting">
             <Art
-              name="hr-hero.png"
+              name="hr-hero-white.png"
               alt="向かい合って話を聞く人事担当者と候補者の線画"
             />
             <article>
@@ -638,18 +623,18 @@ function HR() {
               <p>
                 会社の魅力の伝え方や、候補者との接点を考える。
                 <br />
-                日々の採用活動をチームで振り返り、
+                日々の採用活動を<span className="keep-phrase">チームで振り返り、</span>
                 <br />
                 よりよい出会いにつなげます。
               </p>
             </article>
             <Art
-              name="hr-planning.png"
+              name="hr-planning-white.png"
               alt="ホワイトボードを使いチームで採用企画を検討する線画"
             />
           </div>
         </section>
-        <section className="hr-support cream section-pad" id="hr-support">
+        <section className="hr-support cream section-pad" id="hr-support"><Motif kind="hr" compact />
           <h2 className="serif">入社前も、その先も。</h2>
           <p>
             入社前の不安や学び、入社後の相談まで。
@@ -700,6 +685,7 @@ function HR() {
           </div>
           <div className="charcoal">
             <article>
+              <Art name="hr-hero-white.png" alt="" className="value-watermark" />
               <h3 className="serif">人の変化に、立ち会える。</h3>
               <p>
                 対話を重ねた相手が、新しい一歩を踏み出す。
@@ -708,6 +694,7 @@ function HR() {
               </p>
             </article>
             <article>
+              <Art name="hr-planning-white.png" alt="" className="value-watermark" />
               <h3 className="serif">組織をつくる視点が、育つ。</h3>
               <p>
                 現場の声と候補者の想いをつなぎ、
@@ -718,9 +705,9 @@ function HR() {
           </div>
         </section>
         <section className="hr-team cream">
-          <Art name="hr-team.png" alt="人事・営業・先輩が一緒に話す線画" />
+          <Art name="hr-team-white.png" alt="人事・営業・先輩が一緒に話す線画" />
           <div>
-            <h2 className="serif">一人で抱えず、チームで考える。</h2>
+            <h2 className="serif"><span className="keep-phrase">一人で抱えず、</span><span className="keep-phrase">チームで考える。</span></h2>
             <p>
               候補者との対話も、採用活動の工夫も。
               <br />
@@ -728,13 +715,13 @@ function HR() {
             </p>
           </div>
         </section>
-        <section className="hr-cta cream">
-          <Art name="hr-notebook.png" alt="" />
+        <section className="hr-cta cream"><Motif kind="hr" compact />
+          <Art name="hr-notebook-white.png" alt="" />
           <h2>まずは、仕事の話から。</h2>
           <p>
             ボードルアの人事・採用について、
             <br />
-            LINEからお気軽にご相談ください。
+            気になることからお話ししませんか。
           </p>
           <LineButton role="hr" />
         </section>
@@ -745,49 +732,48 @@ function HR() {
 }
 
 function Engineer() {
+  const root = useRef<HTMLDivElement>(null);
+
   return (
-    <>
+    <div className="engineer-page" ref={root}>
       <Header role="engineer" />
-      <main className="engineer">
+      <main className="engineer engineer-restored">
         <section className="engineer-hero">
+          <Motif kind="engineer" />
           <div className="engineer-hero-top">
             <div>
               <small>ENGINEER / エンジニア</small>
               <h1>
-                技術を磨く。
-                <br />
-                <em>可能性</em>を広げる。
+                <span className="eng-title-line"><span>技術を磨く。</span></span>
+                <span className="eng-title-line"><span><em>可能性</em>を広げる。</span></span>
               </h1>
               <p>
                 これからITを学ぶ人も、経験を次につなげたい人も。
                 <br />
-                社会を支えるITインフラの世界で、自分の可能性を広げていく。
+                社会の基盤となるITインフラの世界で、<span className="eng-phrase">自分らしい挑戦を。</span>
               </p>
               <LineButton role="engineer" />
+              <nav className="engineer-jump" aria-label="経験に合わせたご案内">
+                <a href="#beginner">未経験から学びたい<span aria-hidden="true">↓</span></a>
+                <a href="#experienced">経験を活かしたい<span aria-hidden="true">↓</span></a>
+              </nav>
             </div>
             <figure>
               <Photo
                 name="engineer-network.png"
                 alt="ネットワーク機器にケーブルを接続する手元のイメージ（AI生成）"
               />
-              
+              <figcaption>写真はAI生成のイメージです。実際の社員・設備ではありません。</figcaption>
             </figure>
           </div>
-          <Art
-            name="engineer-panorama.png"
-            alt="エンジニアがサーバーやクラウドをつなぎ学ぶ線画"
-          />
-          <nav className="engineer-jump" aria-label="経験に合わせたご案内">
-            <a href="#beginner">
-              初めてITを学ぶ方へ <span aria-hidden="true">↓</span>
-            </a>
-            <a href="#experienced">
-              経験を次につなげたい方へ <span aria-hidden="true">↓</span>
-            </a>
-          </nav>
+          <div className="eng-panorama-frame">
+            <Art name="engineer-panorama.png" alt="エンジニアがサーバーやクラウドをつなぎ学ぶ線画" />
+            <svg className="eng-cloud-bridge" viewBox="0 0 1440 120" aria-hidden="true">{[0,1,2,3,4].map(i => <path key={i} d={`M${643+i*10} 0 V${28+i*4} Q${643+i*10} ${46+i*3} ${665+i*9} ${46+i*3} H${704+i*2} V${58+i*2}`} />)}</svg>
+          </div>
+
         </section>
         <section className="engineer-work section-pad" id="engineer-work">
-          <h2 className="serif">社会の「あたりまえ」を、技術で支える。</h2>
+          <h2 className="serif"><span className="eng-phrase">社会の「あたりまえ」を、</span><span className="eng-phrase">技術で支える。</span></h2>
           <p>
             ネットワーク、サーバー、クラウド、セキュリティ。
             <br />
@@ -814,7 +800,7 @@ function Engineer() {
                 ],
               ].map(([title, a, b]) => (
                 <article key={title}>
-                  <h3>{title}</h3>
+                  <h3>{title === "ネットワーク・サーバー" ? <><span className="eng-phrase">ネットワーク・</span><span className="eng-phrase">サーバー</span></> : title}</h3>
                   <p>
                     {a}
                     <br />
@@ -829,12 +815,12 @@ function Engineer() {
             />
           </div>
           <div className="infrastructure-caption">
-            <strong>コンサルティングから、設計・構築、運用まで。</strong>
+            <strong><span className="eng-phrase">コンサルティングから、</span><span className="eng-phrase">設計・構築、運用まで。</span></strong>
             <p>専門技術を活かし、ITインフラの幅広い領域を支えています。</p>
           </div>
         </section>
         <section className="engineer-paths cream" id="engineer-career">
-          <h2 className="serif">今の自分から、次のステージへ。</h2>
+          <h2 className="serif"><span className="eng-phrase">今の自分から、</span><span className="eng-phrase">次のステージへ。</span></h2>
           <div className="path-grid">
             <article id="beginner">
               <Eyebrow>初めてITを学ぶ方へ</Eyebrow>
@@ -883,14 +869,14 @@ function Engineer() {
               />
               </div>
               <div className="path-skills">
-                <span>先端技術</span>
+                <span>扱う技術</span>
                 <span>設計・構築</span>
-                <span>専門性の深化</span>
+                <span>志向に合う役割</span>
               </div>
             </article>
           </div>
         </section>
-        <section className="engineer-learning section-pad">
+        <section className="engineer-learning section-pad" id="engineer-learning">
           <div>
             <h2>
               学びを、
@@ -905,35 +891,32 @@ function Engineer() {
             <small className="qualification">資格学習の例：CCNA・CCNP</small>
           </div>
           <figure>
+            <div className="eng-decor eng-learning-curves" aria-hidden="true"><span /><span /></div>
             <Photo
               name="engineer-training.png"
               alt="ネットワーク機器を使って学ぶエンジニアのイメージ（AI生成）"
             />
             <figcaption>
               実機に触れる。先輩と考える。理解を深める。
-
+              <small>写真はAI生成のイメージです。<span className="eng-phrase">実際の社員・研修風景ではありません。</span></small>
             </figcaption>
           </figure>
         </section>
-        <section className="engineer-career section-pad">
+        <section className="engineer-career section-pad" id="engineer-options">
           <div>
-            <h2 className="serif">深める道も、広げる道も。</h2>
+            <h2 className="serif"><span className="eng-phrase">深める道も、</span><span className="eng-phrase">広げる道も。</span></h2>
             <p>
               技術を追求する。プロジェクトを動かす。顧客の課題に向き合う。
               <br />
               経験を重ねながら、自分の志向に合うキャリアを考えていきます。
             </p>
           </div>
-          <div>
-            <small>キャリアの例</small>
+          <div className="career-examples">
+            <small>キャリアの例</small><p className="eng-career-origin">自分の志向から考える</p>
             <ul>
-              <li>スペシャリスト</li>
-              <li>
-                プロジェクト
-                <br />
-                マネージャー
-              </li>
-              <li>ITコンサルタント</li>
+              <li><span>技術を深める</span><strong>スペシャリスト</strong></li>
+              <li><span>チームやプロジェクトを動かす</span><strong><span>プロジェクト</span><span>マネージャー</span></strong></li>
+              <li><span>顧客の課題に向き合う</span><strong>ITコンサルタント</strong></li>
             </ul>
           </div>
         </section>
@@ -947,7 +930,7 @@ function Engineer() {
             </p>
           </div>
           <Art
-            name="hr-team.png"
+            name="hr-team-white.png"
             alt="人事・営業・先輩エンジニアの支援を表す線画"
           />
           <ul>
@@ -964,62 +947,36 @@ function Engineer() {
           </ul>
         </section>
         <section className="engineer-cta section-pad">
+          <Motif kind="engineer" compact />
           <Art name="engineer-laptop.png" alt="" />
-          <div>
-            <h2>
-              あなたの「<em>これから</em>」を、
-              <br />
-              聞かせてください。
-            </h2>
-            <p>
-              未経験からの一歩も、経験を活かした次の挑戦も。
-              <br />
-              まずはLINEで、仕事の話から。
-            </p>
+          <div className="engineer-cta-copy">
+            <h2><span className="eng-phrase">まずは、</span><span className="eng-phrase">仕事や会社のことから。</span></h2>
+            <p><span className="eng-phrase">仕事内容や学び方、働く環境など、</span><br />気になることからお話ししませんか。</p>
           </div>
-          <LineButton role="engineer" />
+          <div className="engineer-cta-action"><LineButton role="engineer" /><small>{lineUrls.engineer ? "LINEへ移動します。" : "ご案内先URLは準備中です。"}</small></div>
         </section>
       </main>
       <Footer role="engineer" />
-    </>
+    </div>
   );
 }
 
-const relativePath = window.location.pathname.startsWith(baseUrl)
-  ? window.location.pathname.slice(baseUrl.length)
-  : window.location.pathname;
-const path = "/" + relativePath.replace(/^\/+|\/+$/g, "");
-const Page =
-  path === "/sales"
-    ? Sales
-    : path === "/hr"
-      ? HR
-      : path === "/engineer"
-        ? Engineer
-        : path === "/"
-          ? Overview
-          : null;
-document.title = `${path === "/sales" ? "営業" : path === "/hr" ? "人事・採用" : path === "/engineer" ? "エンジニア" : "ボードルアで働くということ。"} | baudroie inc.`;
-createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <a className="skip-link" href="#content">
-      本文へ
-    </a>
-    <div id="content" tabIndex={-1}>
-      {Page ? (
-        <Page />
-      ) : (
-        <>
-          <Header />
-          <main className="not-found">
-            <h1>ページが見つかりません</h1>
-            <a className="button" href={baseUrl}>
-              まとめページへ戻る
-            </a>
-          </main>
-          <Footer />
-        </>
-      )}
-    </div>
-  </React.StrictMode>,
-);
+export function App({ path }: { path: string }) {
+ const motionRoot = useRef<HTMLDivElement>(null);
+ useApprovedMotion(motionRoot);
+ const Page = path === "/sales" ? Sales : path === "/hr" ? HR : path === "/engineer" ? Engineer : path === "/" ? Overview : null;
+ return <React.StrictMode>
+   <a className="skip-link" href="#content">本文へ</a>
+   <div id="content" className="approved-design" ref={motionRoot} tabIndex={-1}>
+    {Page ? <Page /> : <><Header /><main className="not-found"><h1><span className="approved-title-line"><span>ページが見つかりません</span></span></h1><a className="button" href={baseUrl}>まとめページへ戻る</a></main><Footer /></>}
+   </div>
+ </React.StrictMode>;
+}
+if (typeof window !== "undefined") {
+ const relativePath = window.location.pathname.startsWith(baseUrl) ? window.location.pathname.slice(baseUrl.length) : window.location.pathname;
+ const path = "/" + relativePath.replace(/^\/+|\/+$/g, "");
+ document.title = `${path === "/sales" ? "営業" : path === "/hr" ? "人事・採用" : path === "/engineer" ? "エンジニア" : "ボードルアで働くということ。"} | baudroie inc.`;
+ const root = document.getElementById("root")!;
+ if (root.hasChildNodes()) hydrateRoot(root, <App path={path} />);
+ else createRoot(root).render(<App path={path} />);
+}

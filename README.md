@@ -59,3 +59,21 @@ Viteを起動した状態で実行。1440・390・768 CSS px/DPR1で全ページ
 中間幅の検査: `python3 scripts/responsive_qa.py --round 35`、境界検査: `python3 scripts/layout_bounds_qa.py --round 35`。人物見切れ・重なりを含む目視レビューと機械検査を区別します。写真選定待ちはdocs/photo-replacement-pending.md。
 
 round31以降の新規比較・QA画像はユーザー指示によりローカル保持のみ。画像の公開追加は行わず、測定JSONとレビュー記録をPRへ保存します。
+
+
+## 承認済み4ページ・2026-10-19更新
+
+まとめ・人事・営業・エンジニアの選定済み背景と、人事FVの曲線切り抜き最終調整を反映。既存の機能修正と確定オレンジを維持。
+
+```sh
+npm ci
+npm run build:approved-preview
+npm run preview:approved
+```
+
+プレビュー: http://127.0.0.1:4192/approved-four-pages/ （人事は末尾に `hr/`、営業は `sales/`、エンジニアは `engineer/`）。ビルドのみで公開はしません。
+
+- 人事の最終比較はローカル `artifacts/hr-mask/`。新規の比較画像・動画はGitHubへ公開せず、`docs/local-evidence-approved-20261019.json` にファイル名・SHA-256・サイズを記録。
+- 全4ページの比較一覧: `artifacts/approved/review.html`（画像を保持した元のローカル作業環境で開く）
+- 動作動画: ローカル `artifacts/approved/motion-preview.mp4`
+- 詳細: [GitHub反映記録](docs/github-approved-update-20261019.md)

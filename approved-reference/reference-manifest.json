@@ -1,0 +1,22 @@
+[
+  {
+    "reference": "references/overview-approved.png",
+    "source_filename": "exec-2a862cca-d07c-4284-8d11-1cb9ef050a09.png",
+    "sha256": "a5192f830c94044dae32d168cdd6507243aa59ebfacf91944501dbf582ae8fbb"
+  },
+  {
+    "reference": "references/hr-approved.png",
+    "source_filename": "exec-530c640d-5e39-4e9b-90b3-097505cffd6e.png",
+    "sha256": "742517e529d62d5c02e9bf71914cbcac89182062f57a3dc4b087625ce0ede7ce"
+  },
+  {
+    "reference": "references/sales-approved.png",
+    "source_filename": "exec-cd0b99a5-34c6-433d-82f2-7c8af92c9493.png",
+    "sha256": "fed74c7f8bfc8bc2d4ae0c745b542ae6f3d6cc9c55cf2d8410c08d7e159a32f5"
+  },
+  {
+    "reference": "references/engineer-approved.png",
+    "source_filename": "exec-2d8e7aea-10a4-436f-990e-289f9282d4d3.png",
+    "sha256": "7a20625a0dbe6e94ec78d1180a9687b76512be56b66988f43a9fb0633a47d236"
+  }
+]

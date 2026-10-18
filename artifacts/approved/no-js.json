@@ -1,0 +1,30 @@
+[
+  {
+    "role": "overview",
+    "cta": 4,
+    "scripts": 0,
+    "sections": 5,
+    "title": "人を育てる。その力で、社会を支える。"
+  },
+  {
+    "role": "hr",
+    "cta": 5,
+    "scripts": 0,
+    "sections": 6,
+    "title": "人の可能性を、会社の未来へ。"
+  },
+  {
+    "role": "sales",
+    "cta": 5,
+    "scripts": 0,
+    "sections": 6,
+    "title": "大手企業の課題に、技術と人で応える。"
+  },
+  {
+    "role": "engineer",
+    "cta": 5,
+    "scripts": 0,
+    "sections": 7,
+    "title": "技術を磨く。可能性を広げる。"
+  }
+]

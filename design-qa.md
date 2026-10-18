@@ -1,31 +1,104 @@
-# Round34 — sales-teamのPC顔被覆P1修正
+# 最新レビュー: 人事FV曲線復元
 
-対象PRコメント6227322804を全文確認。最新c326805をfast-forwardで取り込み、他担当のdocs/public-verification-round33-followup.mdを保持。
+final result: passed
 
-撮影/描画/ビルド元 `026a3ad685b335016d3d4ae3c4327f20458186f2`。全src SHA256 `8de54c32d52222247b0b2701c39869015235df25c9ba36598fa0a62b8867bd5e`、全public tree SHA256 `0db0948325acac42acee025fd9c2c693e7ca9d11822cf61fa893df86f44bd524`。素材treeはround33と同一。写真・線画・ロゴ・referenceの画素を変更していない。
+詳細: docs/hr-mask-retry-status.md。元参照とPC・スマホ実画面、3点比較を実見済み。独立レビューにP1/P2なし。
 
-## 問題・原因・修正
+---
 
-1440の全幅office_lounge.jpgとクリーム本文背景が重なり、左女性の顔を完全に覆っていた。低解像度とは別の既存P1。round33の「新規P1/P2なし」はこの既存被覆の解消を確認したものではなく、見落としを訂正する。素材待ちの構図差として放置しない。
+# Approved four-page design QA — 2026-10-18
 
-1200px以上のみ、写真を自然3:2で右寄せ・object-fit:contain・height100%に変更。1440では843×562px/左597px、1280では780×520px/左500px。caption位置・文字・局所くびれpath・section高は保持し、左空き領域を淡クリームに。左女性・中央男性・右女性の顔、前景の後頭部、中央/右人物の手が本文/背景に覆われない。
+final result: passed
 
-**暫定マスター差**: 元マスターの全幅大判写真ではなく右側約59〜61%幅の写真となり、左上に広い淡色余白、写真上側左端に直線境界が生じる。局所くびれpath自体は残すが、見える全体輪郭は元マスターと同一ではない。現素材の人物配置と全幅写真+左本文重なりの両立が困難なため、ユーザー指示どおり顔保護を優先した最小限の暫定CSS対応。photo/section/本文を一緒に縦伸縮して誤差を隠していない。
+Scope: requested preview design, preserving the current brand color and existing functional corrections. Not approval for production publication or recruitment claims. No publish, push, or merge executed.
 
-1199以下は今回変更なし。390は写真と本文が分離しており顔非被覆を保持。768/1066には以前から前景後頭部下端・肩や原画像右下の小さな手首のcropが残るが、クリームの顔被覆とは別。全幅ですべての頭/手を完全表示したとは主張しない。
+## Source and comparison contract
+- `approved-reference/00_IMPLEMENTATION_PROMPT.md` read in full.
+- Opened all four images in `approved-reference/references/`; verified SHA256 against the supplied manifest.
+- Overview uses the door-frame composition. HR, sales, engineer references specify BACKGROUND directions; their repeated engineer copy/photos must NOT be transplanted. Existing role copy, imagery and structure retained.
+- The reference is a partial-page concept, not a replacement of all existing business and support sections. Full-page pixel identity is not claimed.
+- Baseline: local engineer preview commit `8ff05b2`, copied into independent branch `design/approved-four-pages-20261018`. Original checkout remains unchanged. Source history snapshot is `57445ee`.
 
-## 撮影・回帰とP1専用検証
+## Evidence
+- Browser: Codex in-app Chromium, DPR 1. CSS viewports 1440, 768, 430, 390, 375 × 1000.
+- All current screenshot widths match the CSS viewport. References scaled proportionally to 1440 px; no unequal scaling or height matching.
+- `artifacts/approved/reference-{overview,hr,sales,engineer}-1440.jpg`: source at left, implementation at right, same scale and resting state. Source is cropped concept extent; full implementation continues below.
+- `comparison-*-1440.jpg` and `comparison-*-390.jpg`: BEFORE left, AFTER right, preserved full heights.
+- `after-*-{1440,390,375,430,768}.jpg`: full pages.
+- `mobile-contact-*.jpg`: full-size 390 px extracts at top, midpoint and final CTA; inspect in addition to full length.
+- `motion-preview.mp4`: actual browser screenshots with captured timestamps, 4 initial reveal sequences plus CTA dialog/open-close. Not generated animation. Variable capture cadence, encoded as 30 fps.
+- `reduced-*-390.jpg`, `reduced-motion.json`: actual macOS Reduce Motion setting enabled; media query true and title opacity 1 / transform none. Restored setting to OFF afterwards. Later changes only clipped entry decoration and separated header grid hit areas; no motion logic changed.
+- `no-js.json`: script-free prerendered pages have zero scripts and 5/6/6/7 sections respectively. Body and CTA present. URL-less CTA needs JS for the existing dialog, so no-JS does not provide an external contact destination.
 
-固定SHAから全4ページ×1440/1280/1066/768/390 CSS px・DPR1、font ready/画像decode/スクロール停止後に撮影。初回は前セッションのdev server停止でERR_CONNECTION_REFUSEDとなり、ループバックで再起動して同一ソースを完走。初回失敗を成功扱いにしていない。
+## Iterations / findings closed
+1. P1 sales: legacy absolute art positioning enlarged it across the text and header. Restored position relative and isolated two-column grid. New screenshot confirms no overlap.
+2. P2 overview: inherited image mask conflicted with straight frame. Removed obsolete hero mask, retained approved original conversation image.
+3. P2 job strip: reducing strip width exposed adjacent role. Introduced inner clipping window, kept 300% original strip proportions. Latest reference-overview confirms correct role crop.
+4. P2 engineer: bundle disappeared behind opaque panorama exterior. Added short, local bridge over the empty exterior to the cloud upper outline; no text/body/equipment occlusion. Latest reference-engineer confirms connection.
+5. P2 sales mobile: heading orphaned final る。 Applied balanced wrap. No isolated final character remains. Minor grammatical line boundary is P3.
+6. P2 mobile job decorations reached copy. Clipped decoration to illustration-only region.
+7. Header mobile links were visually separate but first grid item's click box overlapped another. Assigned one grid column per navigation item, with logo spanning first two columns above.
 
-標準20条件、clientWidth基準横溢れ20条件、操作27条件、同じSHAのPages静的12条件が成功。PC全高は3557/3608/3798/3900で前版と不変。全4ページPC全体/section/side-by-side/50%overlay/difference、全5幅と70部位はartifacts/qa/round-34/にローカル保持。営業team修正前33→後34の5幅比較はbefore-after/。local-evidence-manifest.jsonに絶対パスとSHA256。新規画像はPR/Pagesへ公開しない。
+## Required surfaces
+- Typography: existing Noto Sans / Noto Serif roles retained. Headline lines reveal independently within masks. Same final position and font. 375–430 px copy and controls fit.
+- Spacing: overview jobs directly after hero; existing business/learning/support follow. HR remains central-copy composition, sales illustrated hero and dark value section, engineer preserves experience panels and wave boundaries.
+- Colors: `--orange:#e89314` unchanged. No logo/foreground recoloring. Background-only tokens apricot #F7D6B5, yellow #F4E4B2, ivory #FFF9EF. Engineer inherited training accents remain; line accents #B7BC7D/#DCC77C are decoration only.
+- Images: all 42 public files unchanged by SHA256, no regeneration, no screenshot/photo extraction from references. HR and sales use original approved role-specific assets. AI provenance retained in alt text and pre-existing notes.
+- Copy: role copy retained, overview punctuation restored, CTA labels normalized to「まずは話を聞く」「仕事や会社の話を聞く」. Removed LINE wording from sales/HR final explanatory text. No invented benefits, application requirements, time limit or interview promises added.
 
-P1専用 scripts/sales_face_qa.py: 原750×500画像に対し、3人の顔、前景後頭部上側、中央/右の手の6手動ROIを定義。5幅=30領域について写真内にあること、captionの表示あり/なしで同一画素であることを検証。devとminify済みPagesビルドの両方でfailures=[]。これは画像認識による全人物保証ではなく、前景手首や後頭部全体は対象外。目視レビューも併用。
+## Function and accessibility
+- `responsive.json`: 20 route/width combinations; no document horizontal overflow, missing images, or off-screen headings/text/buttons/navigation.
+- Overview hero #jobs move verified after smooth-scroll settled; target begins 43 px from viewport top at 390 px.
+- Three role links and return-to-overview logo exercised, correct relative base routes.
+- 9 contact controls: 3 per role. All display the existing honest unset-URL dialog. Enter opens header contact; Tab stays on Close; Escape returns focus to trigger. Close button works.
+- Existing explicit focus outline retained. Decorative layers aria-hidden and pointer-events:none.
+- Browser console errors queried: none observed.
+- TypeScript and Vite build passed. All routes prerendered for no-JS readability.
 
-記録face-protection/report.jsonとface-protection-pages/report.json。公開ビルドのbaseパスは/baudroieLP_shomei/。独立レビューdocs/independent-review-round-34.mdでも5幅原寸部位と原写真を実見し、PC顔被覆P1解消を確認。原素材/マスターとの同一性・画質は別課題。
+## Independent visual review
+Read-only reviewer opened original references, 4 PC comparisons and 4 mobile top/middle/end contact sheets. Three specific fixes rechecked on latest images: role crop, engineer cloud connection, sales orphan. No remaining P1/P2 within that scope. Review did not independently exercise interactions/video or every full-length pixel; those are implementation-side verification.
 
-## 判定・公開・残課題
+## Known constraints / not verified
+- `src/config.ts`: all 3 official contact URLs remain null. Actual destination, recruitment handling, whether application is required, selection conditions, preparation and duration are unknown. No external submissions made.
+- Existing orange/white CTA contrast approximately 2.44:1. Kept per explicit instruction; requires separate color-authorized work before an accessibility compliance claim. It is not a regression introduced here.
+- Reference photos/illustrations are concept materials; actual employee photography not newly supplied.
+- No production deployment, main merge, or remote push. Local preview only.
+- P3: sales mobile balanced heading can optionally group「一緒に考える／人がいる。」in a future typography pass.
 
-今回P1はローカルと公開相当ビルドで解消。公開画面そのものはプロキシ制限により依頼元が再検証する。新しいsource/publicSHA・CSS/JS・GitHubデプロイ結果はdocs/pages-deployment.mdとdocs/orchestrator-status.md。
+---
+## 2026-10-19 HR hero scoped composition QA
+Source visual truth: artifacts/hr-fv/before-1440.jpg and before-390.jpg + current user composition brief.
+Implementation: artifacts/hr-fv/after-1440.jpg and after-390.jpg.
+Full-view comparison: artifacts/hr-fv/comparison-1440.jpg (2880×940), comparison-390.jpg (780×884).
+Focused image evidence: artifacts/hr-fv/photo-framing.jpg; original public/assets/hr-interview-oct18.png (1536×1024).
+Viewport/state: desktop1440×900, mobile390×844; top of page; initial animation completed. Exact mobile375/390/430 widths also verified using iframe harness. See docs/hr-fv-review.md for browser scaling normalization.
 
-未承認写真差替え・生成・アップスケールなし。新規比較画像公開なし。mainマージ、権限・Pages設定・ネットワーク変更なし。営業写真の画質/構図、原線画/書体同一性、暫定PC写真配置、768/1066の既存cropを明記して最終完全再現は保留。正式LINE未提供/スマホ暫定も継続。次の具体指摘は同PR・round35以降。
+Required fidelity surfaces:
+- Typography: title wording/family/72px desktop/2lines/emphasis retained. Body19px desktop only, content unchanged, dangling last-word wrap fixed.
+- Spacing/layout: copy lowered64px in normal flow; hero798→690px; picture and illustration moved up into side columns; no face/body/text overlap. Mobile retains vertical flow.
+- Colors/tokens: no color tokens modified; all existing brand/background colors preserved.
+- Assets: originals unchanged; photo full3:2 contain, old clip removed; illustration opaque internal whites retained; existing three wave paths repositioned only within desktop HR hero.
+- Copy: no content changes.
+
+Iteration: P2 photo-to-wave white gap found in first comparison. Raised only the left side of existing hero wave paths. Recaptured after-1440/comparison-1440; independent reviewer re-opened both and confirmed resolution, no further P1/P2.
+Interactions: hero CTA setting-wait dialog and Close verified. Console errors: none. Build passed. Formal CTA target remains unset (pre-existing).
+final result: passed
+
+---
+## 2026-10-19 HR hero finishing pass
+Source: 60c36ea rendered as artifacts/hr-fv-finish/before-1440.jpg and before-390.jpg.
+Implementation: artifacts/hr-fv-finish/after-1440.jpg and after-390.jpg.
+Comparison: artifacts/hr-fv-finish/comparison-1440.jpg (2880×936), comparison-390.jpg (780×1036), photo-detail-comparison.jpg (900×340).
+Viewport:1440×900 / 390×1000, DPR1, top of page, settled animation, no normalization required. Additional375/430 screenshots and DOM bounds recorded.
+Typography/copy/colors/assets: unchanged. Layout: copy/CTA/photo/illustration rects unchanged; hero690→676px. Photo only lower12–23px overlapped by original ivory wave; hands and both conversation participants visible. Lower apricot band central thickness72→58px (~19% reduction). Existing illustration opaque whites preserved.
+Console errors:none. TypeScript/Vite build:passed. Mobile width=scrollWidth at375/390/430, CTA-to-photo spacing24px; no cropping or overlap. Previous CTA behavior remains unchanged.
+final result: passed
+
+---
+## HR final photo and mobile typography correction
+Baseline: 3e357b9; photo framing reference: artifacts/hr-fv-finish/before-1440.jpg.
+PC photo moved left24px and placed above the wave, restoring its complete rectangular 3:2 image. No scaling, flipping, asset edit, or crop change. Other fixed hero elements and the reduced lower band retained.
+Mobile introduction uses three semantic lines at375/390/430; font17px unchanged. PC retains two lines. No horizontal overflow; CTA-photo gap24px.
+Evidence: artifacts/hr-final/; details: docs/hr-final-review.md. Viewports1440×900 and375/390/430×1000; browser scrollbar consumes15px. Raw screenshots retained without dimension normalization.
+Build passed, console errors none. Read-only independent review and implementation visual inspection completed, no in-scope P1/P2.
+final result: passed

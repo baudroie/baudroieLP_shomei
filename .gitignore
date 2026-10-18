@@ -4,3 +4,23 @@ dist/
 .env.*
 !.env.example
 .DS_Store
+
+# Local previews and installed dependencies
+node_modules
+preview-dist/
+approved-dist/
+.engineer-ssr/
+.approved-ssr/
+artifacts/approved/motion-frames/
+
+# Review images/videos remain local under the existing project policy.
+artifacts/approved/*.jpg
+artifacts/approved/*.png
+artifacts/approved/*.mp4
+artifacts/hr-mask/*.jpg
+artifacts/hr-mask/*.png
+artifacts/hr-fv/*.jpg
+artifacts/hr-fv-finish/*.jpg
+artifacts/hr-final/*.jpg
+approved-reference/*.png
+approved-reference/references/*.png

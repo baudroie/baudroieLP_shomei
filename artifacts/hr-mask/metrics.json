@@ -1,0 +1,161 @@
+[
+  {
+    "clip": "shape(from 0px 0px, line to 17% 0px, curve to 58% 28% with 58% 0px / 58% 10%, line to 58% 48%, curve to 82% 70% with 58% 63% / 72% 65%, curve to 100% 100% with 110% 75% / 100% 100%, line to 0px 100%, close)",
+    "cta": {
+      "bottom": 479.9453125,
+      "height": 57.6484375,
+      "left": 24,
+      "right": 351,
+      "top": 422.296875,
+      "width": 327,
+      "x": 24,
+      "y": 422.296875
+    },
+    "frame": {
+      "bottom": 721.9453125,
+      "height": 218,
+      "left": 24,
+      "right": 351,
+      "top": 503.9453125,
+      "width": 327,
+      "x": 24,
+      "y": 503.9453125
+    },
+    "missing": 0,
+    "photo": {
+      "bottom": 738.71875,
+      "height": 251.5390625,
+      "left": -26.3046875,
+      "right": 351,
+      "top": 487.1796875,
+      "width": 377.3046875,
+      "x": -26.3046875,
+      "y": 487.1796875
+    },
+    "phrases": [
+      {
+        "scroll": 327,
+        "text": "一人ひとりとの対話から、",
+        "width": 327
+      },
+      {
+        "scroll": 327,
+        "text": "採用の企画、入社前後のフォローまで。",
+        "width": 327
+      },
+      {
+        "scroll": 327,
+        "text": "人と組織の成長に関わる仕事です。",
+        "width": 327
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "clip": "shape(from 0px 0px, line to 17% 0px, curve to 58% 28% with 58% 0px / 58% 10%, line to 58% 48%, curve to 82% 70% with 58% 63% / 72% 65%, curve to 100% 100% with 110% 75% / 100% 100%, line to 0px 100%, close)",
+    "cta": {
+      "bottom": 479.9453125,
+      "height": 57.6484375,
+      "left": 24,
+      "right": 366,
+      "top": 422.296875,
+      "width": 342,
+      "x": 24,
+      "y": 422.296875
+    },
+    "frame": {
+      "bottom": 731.9453125,
+      "height": 228,
+      "left": 24,
+      "right": 366,
+      "top": 503.9453125,
+      "width": 342,
+      "x": 24,
+      "y": 503.9453125
+    },
+    "missing": 0,
+    "photo": {
+      "bottom": 749.484375,
+      "height": 263.0703125,
+      "left": -28.609375,
+      "right": 366,
+      "top": 486.4140625,
+      "width": 394.609375,
+      "x": -28.609375,
+      "y": 486.4140625
+    },
+    "phrases": [
+      {
+        "scroll": 342,
+        "text": "一人ひとりとの対話から、",
+        "width": 342
+      },
+      {
+        "scroll": 342,
+        "text": "採用の企画、入社前後のフォローまで。",
+        "width": 342
+      },
+      {
+        "scroll": 342,
+        "text": "人と組織の成長に関わる仕事です。",
+        "width": 342
+      }
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "clip": "shape(from 0px 0px, line to 17% 0px, curve to 58% 28% with 58% 0px / 58% 10%, line to 58% 48%, curve to 82% 70% with 58% 63% / 72% 65%, curve to 100% 100% with 110% 75% / 100% 100%, line to 0px 100%, close)",
+    "cta": {
+      "bottom": 479.9453125,
+      "height": 57.6484375,
+      "left": 24,
+      "right": 406,
+      "top": 422.296875,
+      "width": 382,
+      "x": 24,
+      "y": 422.296875
+    },
+    "frame": {
+      "bottom": 758.609375,
+      "height": 254.6640625,
+      "left": 24,
+      "right": 406,
+      "top": 503.9453125,
+      "width": 382,
+      "x": 24,
+      "y": 503.9453125
+    },
+    "missing": 0,
+    "photo": {
+      "bottom": 778.203125,
+      "height": 293.84375,
+      "left": -34.765625,
+      "right": 406,
+      "top": 484.359375,
+      "width": 440.765625,
+      "x": -34.765625,
+      "y": 484.359375
+    },
+    "phrases": [
+      {
+        "scroll": 382,
+        "text": "一人ひとりとの対話から、",
+        "width": 382
+      },
+      {
+        "scroll": 382,
+        "text": "採用の企画、入社前後のフォローまで。",
+        "width": 382
+      },
+      {
+        "scroll": 382,
+        "text": "人と組織の成長に関わる仕事です。",
+        "width": 382
+      }
+    ],
+    "scrollWidth": 430,
+    "width": 430
+  }
+]

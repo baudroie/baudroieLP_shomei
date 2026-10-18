@@ -1,0 +1,41 @@
+/* October 18 approved requests. Reference logo background: RGB(232,147,20). */
+:root { --orange: #e89314; }
+.sales-intro { grid-template-columns: minmax(0, 1fr); margin-right: 0; }
+.sales-intro p { white-space: normal; }
+
+/* Opaque white interiors, transparent exterior; never multiply the white away. */
+.hr .art { mix-blend-mode: normal; }
+.hr-hero > .photo { object-position: 65% 45%; }
+
+.hr-value .charcoal article { position: relative; isolation: isolate; }
+.hr-value .charcoal h3, .hr-value .charcoal p { position: relative; z-index: 1; }
+.hr-value .charcoal .value-watermark {
+  position: absolute;
+  right: -14px;
+  bottom: -6px;
+  width: 175px;
+  height: 130px;
+  object-fit: contain;
+  opacity: .12;
+  filter: grayscale(1);
+  pointer-events: none;
+  z-index: 0;
+}
+@media (max-width: 1199px) {
+  .hr-hero > .photo { aspect-ratio: 3 / 2; object-fit: contain; object-position: center; }
+}
+@media (max-width: 599px) {
+  .hr-value .charcoal .value-watermark { width: 135px; height: 105px; right: -8px; }
+}
+
+/* Harmonize legacy raster orange (#ff4b00) with the sampled brand color. */
+.brand-art, .service-symbol img { filter: hue-rotate(24.5deg) saturate(.592) brightness(1.444); }
+
+@media (max-width:599px) {
+ .hr-meeting > .art, .hr-planning > .art { height:auto; margin-block:16px; }
+ .hr-work article h3, .hr-value .charcoal h3, .hr-team h2 { text-wrap:balance; }
+ .hr-hero-copy p { text-wrap:pretty; }
+}
+
+.keep-phrase { display:inline-block; }
+@media(max-width:599px) { .hr-planning p br { display:none; } .hr-planning p { text-wrap:pretty; } .hr-team h2 .keep-phrase { display:block; } }
