@@ -21,6 +21,7 @@ html { scroll-padding-top:calc(var(--header-height) + 16px); }
 .approved-design .overview-line-cta { text-align:center; }
 .approved-design .overview-line-cta { flex-direction:column; align-items:center; text-align:center; }
 .approved-design .jobs-return h2 { width:100%; text-align:center; color:var(--muted); font-family:inherit; font-size:18px; font-weight:500; margin:0; }
+.approved-design .sales-cta { height:auto; min-height:350px; }
 .approved-design .hr-cta { height:auto; min-height:320px; }
 .approved-design .image-note, .approved-design .engineer-learning figcaption,
 .approved-design .engineer-hero-top figcaption { position:relative; inset:auto; background:#fff; padding:8px 0; font-size:12px; font-weight:400; line-height:1.65; color:#515967; text-align:left; }
