@@ -39,3 +39,19 @@ base=feat/four-role-landing-pages@05efb8b、head=design/approved-four-pages-2026
 比較基準は最新ブランチ8b9f53d。旧Pagesは今回の検証対象にしていない。
 公開相当の最新ビルドをlocalhost:4193/baudroieLP_shomei/で検証。詳細はdocs/line-url-verification-20261019.md。
 GitHubへはDraft PR #2の既存headブランチを更新する。Pages配信・mainマージは実施しない。
+
+
+## 2026-10-19 最新4ページとLINE URLをPagesへ公開済み
+
+ユーザーの公開指示により、先行する「Pages未公開」状態を更新。
+- 公開元ソース: e9af3655229b01995d1c477d7bb43239b0221394
+- gh-pages公開コミット: 58b537151b5a33cd53b1a95be43f8afebf9a03ef
+- 配信tree: 29f09260c3f3b8462d5a946bbcb537a202b74f65
+- デプロイ: https://github.com/baudroie/baudroieLP_shomei/actions/runs/39155460787 （completed / success）
+- 公開URL: https://baudroie.github.io/baudroieLP_shomei/
+- 51ファイルすべてが検証済みdistとGitHub treeでSHA一致。
+- 公開deployment.jsonのsource_commitがe9af365、CSS index-CEtWWikq.css / JS index-CCqdp7rz.jsを確認。
+- 公開4ページをChromeの1440/390pxで検証。読込完了後、画像欠落・横溢れなし。コンソールerrorなし。
+- 4ページのCTAから指定uLand（まとめDEUpQ8／人事XJFhyu／営業nRXMPl／エンジニアWxzOIt）のエルメQR案内へ実遷移を確認。
+- 4ページHTML・CSS・JS・deployment.jsonの公開レスポンスはローカルdistとバイト一致。
+- mainマージなし。PR #2はDraftを維持。LINEアプリ内の友だち追加・タグ付与・配信は検証対象外。
