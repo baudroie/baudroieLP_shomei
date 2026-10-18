@@ -55,3 +55,7 @@ GitHubへはDraft PR #2の既存headブランチを更新する。Pages配信・
 - 4ページのCTAから指定uLand（まとめDEUpQ8／人事XJFhyu／営業nRXMPl／エンジニアWxzOIt）のエルメQR案内へ実遷移を確認。
 - 4ページHTML・CSS・JS・deployment.jsonの公開レスポンスはローカルdistとバイト一致。
 - mainマージなし。PR #2はDraftを維持。LINEアプリ内の友だち追加・タグ付与・配信は検証対象外。
+
+
+## 2026-10-19 固定ヘッダーと表示演出
+実装・ブラウザ確認を完了。詳細 docs/polish-verification-20261019.md。証拠 artifacts/polish/。元ソースa05e987、旧公開e9af365との比較。人事写真・配色・主要素材を維持。公開処理へ進む。

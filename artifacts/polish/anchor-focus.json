@@ -1,0 +1,43 @@
+{
+  "anchors": [
+    {
+      "role": "overview",
+      "hash": "#business",
+      "headerBottom": 96,
+      "targetTop": 128.734375
+    },
+    {
+      "role": "hr",
+      "hash": "#hr-work",
+      "headerBottom": 96,
+      "targetTop": 128.125
+    },
+    {
+      "role": "sales",
+      "hash": "#sales-work",
+      "headerBottom": 96,
+      "targetTop": 128.25
+    },
+    {
+      "role": "engineer",
+      "hash": "#engineer-work",
+      "headerBottom": 96,
+      "targetTop": 128.8828125
+    }
+  ],
+  "focus": {
+    "headerBottom": 96,
+    "outline": "solid",
+    "rect": {
+      "bottom": 279.9921875,
+      "height": 56.296875,
+      "left": 24,
+      "right": 366,
+      "top": 223.6953125,
+      "width": 342,
+      "x": 24,
+      "y": 223.6953125
+    },
+    "text": "仕事や会社の話を聞く↗"
+  }
+}

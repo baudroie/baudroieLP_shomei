@@ -1,0 +1,74 @@
+[
+  {
+    "role": "overview",
+    "headingOpacity": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "scrollBehavior": "auto",
+    "transition": "0s",
+    "width": 390
+  },
+  {
+    "role": "hr",
+    "headingOpacity": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "scrollBehavior": "auto",
+    "transition": "0s",
+    "width": 390
+  },
+  {
+    "role": "sales",
+    "headingOpacity": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "scrollBehavior": "auto",
+    "transition": "0s",
+    "width": 390
+  },
+  {
+    "role": "engineer",
+    "headingOpacity": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "scrollBehavior": "auto",
+    "transition": "0s",
+    "width": 390
+  }
+]

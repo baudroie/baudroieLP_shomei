@@ -10,31 +10,85 @@ export function Motif({kind, compact=false}: {kind: 'overview' | 'hr' | 'sales' 
  </div>;
 }
 
+/** WAAPI enhancement: no CSS hidden state, no animation on interactive ancestors.
+ * Cancel returns to the readable underlying style, including on live reduced-motion changes.
+ */
 export function useApprovedMotion(root: RefObject<HTMLDivElement | null>) {
- useEffect(()=>{
-  const el=root.current; if(!el || !el.animate) return;
-  const media=matchMedia('(prefers-reduced-motion: reduce)');
-  const running=new Set<Animation>();
-  const play=(node:Element, frames:Keyframe[], delay=0, duration=560)=>{
-   const a=node.animate(frames,{duration,delay,easing:'cubic-bezier(.22,.7,.25,1)',fill:'backwards'});
-   running.add(a);a.onfinish=()=>running.delete(a);
+ useEffect(() => {
+  const el = root.current;
+  if (!el || !el.animate || !('IntersectionObserver' in window)) return;
+  const preference = matchMedia('(prefers-reduced-motion: reduce)');
+  const running = new Map<Animation, Element>();
+  const seen = new WeakSet<Element>();
+  const easing = 'cubic-bezier(.22,.7,.25,1)';
+  const startedAt = performance.now();
+  let disposed = false;
+  let observer: IntersectionObserver | undefined;
+  const distance = () => matchMedia('(max-width:767px)').matches ? 10 : 16;
+  const play = (node: Element, frames: Keyframe[], delay = 0, duration = 600) => {
+   if (preference.matches || disposed) return;
+   const animation = node.animate(frames, { duration, delay, easing, fill: 'backwards' });
+   running.set(animation, node);
+   animation.onfinish = () => running.delete(animation);
+   animation.oncancel = () => running.delete(animation);
   };
-  let observer:IntersectionObserver|undefined;
-  if(!media.matches){
-   const h1=el.querySelector('h1');
-   const lines=el.querySelectorAll('.eng-title-line > span, .approved-title-line > span');
-   (lines.length ? lines : h1 ? [h1] : []).forEach((n,i)=>play(n,[{transform:'translateY(16px)',opacity:0},{transform:'translateY(0)',opacity:1}],i*120));
-   if(matchMedia('(min-width:768px)').matches){
-    el.querySelectorAll('main > section:first-child .approved-motif path').forEach((n,i)=>{
-     if(n.classList.contains('connection')) play(n,[{strokeDasharray:'1',strokeDashoffset:'1'},{strokeDasharray:'1',strokeDashoffset:'0'}],i*28,720);
-     else play(n,[{transform:'translateX(20px)',opacity:.35},{transform:'translateX(0)',opacity:1}],i*70,600);
+  const rise = (node: Element, delay = 0, opaque = false) => play(node,
+   [{ translate: `0 ${distance()}px`, opacity: opaque ? 1 : 0 }, { translate: '0 0', opacity: 1 }], delay);
+  const reveal = (node: Element) => {
+   if (seen.has(node)) return;
+   seen.add(node);
+   if (node.matches('h1, [data-motion-heading]')) {
+    const lines = node.querySelectorAll(':scope > .motion-line, :scope > .eng-phrase, :scope > .approved-title-line > span, :scope > .eng-title-line > span');
+    (lines.length ? lines : [node]).forEach((line, i) => rise(line, i * 80));
+   } else if (node.matches('.job-grid')) {
+    node.querySelectorAll('article').forEach((article, i) => article.querySelectorAll('.role-illustration, h3, p').forEach(child => rise(child, i * 70)));
+   } else if (node.matches('.career-examples')) {
+    node.querySelectorAll('.career-connections path').forEach(path => play(path, [{strokeDasharray:'1',strokeDashoffset:'1'}, {strokeDasharray:'1',strokeDashoffset:'0'}], 0, 350));
+    node.querySelectorAll('li').forEach((item, i) => rise(item, 260 + i * 70));
+   } else if (node.matches('.infrastructure-labels')) {
+    node.querySelectorAll('article').forEach((item, i) => {
+     const line = item.querySelector('.topic-connector');
+     if(line) play(line, [{scale:'0 1'},{scale:'1 1'}], i * 70, 300);
+     item.querySelectorAll('h3, p').forEach(text => rise(text, 180 + i * 70));
+    });
+   } else if (node.matches('.approved-motif, .eng-learning-curves')) {
+    // Opacity only: protects the approved HR photo/ribbon contact geometry.
+    play(node, [{opacity:.55},{opacity:1}], 100, 600);
+   } else {
+    // Human figures remain opaque so decoration cannot show through their bodies.
+    rise(node, 40, node.matches('.art, .hr-hero-photo'));
+   }
+  };
+  const cancel = () => { for (const animation of running.keys()) animation.cancel(); running.clear(); };
+  const showHash = () => {
+   cancel();
+   let target: Element | null = null;
+   try { target = document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch { /* malformed fragment is harmless */ }
+   const section = target?.closest('section') || target;
+   if(section) { seen.add(section); section.querySelectorAll('*').forEach(node => seen.add(node)); }
+  };
+  const start = () => {
+   if(disposed || preference.matches) return;
+   showHash();
+   // Never hide text the visitor could already have started reading during a slow font load.
+   if (performance.now() - startedAt > 300) {
+    el.querySelectorAll('h1, [data-motion-heading]').forEach(node => {
+     const rect = node.getBoundingClientRect();
+     if (rect.bottom > 0 && rect.top < innerHeight) seen.add(node);
     });
    }
-   observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){play(e.target,[{transform:'translateY(9px)',opacity:.3},{transform:'translateY(0)',opacity:1}],0,440);observer?.unobserve(e.target);}}),{threshold:.2});
-   el.querySelectorAll('.learning h2,.hr-support h2,.sales-training h2,.engineer-learning h2,.engineer-career h2').forEach(n=>observer?.observe(n));
-  }
-  const cancel=()=>{running.forEach(a=>a.cancel());running.clear();observer?.disconnect();};
-  const changed=()=>{if(media.matches)cancel();};media.addEventListener('change',changed);
-  return ()=>{cancel();media.removeEventListener('change',changed);};
- },[root]);
+   observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => { if(entry.isIntersecting) { reveal(entry.target); observer?.unobserve(entry.target); } });
+   }, { threshold: .08, rootMargin: '0px 0px -24px 0px' });
+   el.querySelectorAll('h1, [data-motion-heading], .job-grid, .career-examples, .infrastructure-labels, .welcome > img, .learning figure > img, .overview-support figure > img, .hr-hero-photo, .hr-hero > .art, .hr-support figure > img, .sales-hero > .art, .sales-team > .photo, .engineer-hero-top figure > img, .engineer-learning figure > img, main > section > .approved-motif, .eng-learning-curves').forEach(node => observer!.observe(node));
+  };
+  // Fonts settle before revealing text; content remains readable while they load.
+  if(document.fonts) document.fonts.ready.then(start); else start();
+  const onPreference = () => { if(preference.matches) { cancel(); observer?.disconnect(); } };
+  preference.addEventListener('change', onPreference);
+  window.addEventListener('hashchange', showHash);
+  const onFocus = () => cancel();
+  el.addEventListener('focusin', onFocus);
+  return () => { disposed = true; cancel(); observer?.disconnect(); preference.removeEventListener('change', onPreference); window.removeEventListener('hashchange', showHash); el.removeEventListener('focusin', onFocus); };
+ }, [root]);
 }

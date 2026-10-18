@@ -1,0 +1,86 @@
+/* Shared finish. Brand tokens, approved hero masks and wave boundaries stay untouched. */
+:root { --header-height:102px; --motion-ease:cubic-bezier(.22,.7,.25,1); --cta-ink:#202020; }
+html { scroll-padding-top:calc(var(--header-height) + 16px); }
+.approved-design :is(section[id], article[id]) { scroll-margin-top:16px; }
+.approved-design :is(a, button, [tabindex]) { scroll-margin-block:calc(var(--header-height) + 16px) 20px; }
+.header-sentinel { height:1px; margin-bottom:-1px; pointer-events:none; }
+.approved-design .header { position:sticky; top:0; z-index:100; background:#fff; height:auto; min-height:102px; display:flex; gap:24px; box-shadow:none; }
+.approved-design .header.is-scrolled { box-shadow:0 1px 0 rgb(12 16 21 / 10%); }
+.approved-design .header nav { background:#fff; margin-left:auto; padding:0; }
+.approved-design .header-action { flex:none; }
+.approved-design .header :is(a,button) { min-height:44px; display:inline-flex; align-items:center; }
+.approved-design .header .logo { line-height:1; }
+.approved-design .header .line-outline { white-space:nowrap; }
+.approved-design :is(.button, .overview-nav-jobs) { color:var(--cta-ink); }
+.approved-design .line-outline { color:var(--cta-ink); }
+.approved-design .button:hover, .approved-design .button:focus-visible { background:var(--orange); border-color:var(--orange); color:var(--cta-ink); }
+.approved-design :is(.button,.line-outline,.jobs-return a):is(:hover,:focus-visible) > span { transform:translateX(3px); }
+.approved-design :is(a,button):focus-visible { outline:3px solid #1765af; outline-offset:4px; }
+.approved-design .line-destination { display:block; font-size:12px; line-height:1.6; color:#515967; margin-top:8px; font-weight:400; }
+.approved-design .contact-note { font-size:14px; line-height:1.8; color:#515967; margin:14px 0 0; font-weight:400; }
+.approved-design .overview-line-cta { text-align:center; }
+.approved-design .overview-line-cta { flex-direction:column; align-items:center; text-align:center; }
+.approved-design .jobs-return h2 { width:100%; text-align:center; color:var(--muted); font-family:inherit; font-size:18px; font-weight:500; margin:0; }
+.approved-design .hr-cta { height:auto; min-height:320px; }
+.approved-design .image-note, .approved-design .engineer-learning figcaption,
+.approved-design .engineer-hero-top figcaption { position:relative; inset:auto; background:#fff; padding:8px 0; font-size:12px; font-weight:400; line-height:1.65; color:#515967; text-align:left; }
+.approved-design .welcome .image-note { margin:0; }
+.approved-design .overview-support figure .image-note { margin-top:0; }
+.approved-design .hr-hero .hr-hero-image-note { position:absolute; bottom:4px; left:24px; right:24px; width:auto; padding:4px 0; background:none; text-align:left; }
+.approved-design .hr-support figure { margin-bottom:24px; }
+.approved-design .hr-support .image-note { text-align:center; }
+.approved-design .footer small { line-height:1.8; color:#515967; }
+.approved-design .motion-line { display:block; }
+.approved-design h1, .approved-design .approved-title-line, .approved-design .eng-title-line { overflow:visible; }
+.approved-design .keep-phrase { display:inline-block; white-space:nowrap; }
+/* Repeated dialogue art becomes a supporting detail; main hero art is unchanged. */
+.approved-design .hr-meeting > .art { width:70%; height:auto; max-height:250px; justify-self:center; align-self:center; }
+.approved-design .hr-work h3 { white-space:normal; }
+/* Make the second panoramic image a smaller diagram under the four technical labels. */
+.approved-design .engineer-restored .infrastructure > .art { width:72%; max-width:920px; margin:24px auto 0; }
+.approved-design .engineer-restored .infrastructure::before,
+.approved-design .engineer-restored #beginner .path-illustration::before,
+.approved-design .engineer-restored #experienced::before { content:none; }
+.approved-design .eng-learning-curves > span { border-radius:0; }
+.approved-design .eng-learning-curves > span:first-child { border-radius:0; background:var(--eng-bg-sage); }
+.approved-design .eng-learning-curves > span:last-child { border-radius:0; background:var(--eng-bg-apricot); }
+.approved-design #experienced .path-illustration { background:var(--charcoal); }
+.approved-design .infrastructure-labels article { position:relative; padding-top:14px; }
+.topic-connector { display:block; width:100%; height:1px; background:var(--line); position:absolute; top:0; left:0; transform-origin:left; }
+.approved-design .career-examples { position:relative; }
+.approved-design .career-examples ul::before, .approved-design .career-examples ul::after,
+.approved-design .career-examples li::before { content:none; }
+.career-connections { display:block; position:absolute; width:100%; height:44px; top:76px; left:0; pointer-events:none; overflow:visible; }
+.career-connections path { fill:none; stroke:var(--line); stroke-width:1; vector-effect:non-scaling-stroke; }
+@media(min-width:768px) and (max-width:1199px) {
+ .approved-design .header { padding-inline:24px; gap:18px; }
+ .approved-design .header nav { gap:18px; font-size:14px; }
+ .approved-design .header .logo img { width:200px; }
+ .approved-design .header .line-outline { padding-inline:12px; font-size:14px; }
+}
+@media(max-width:767px) {
+ :root { --header-height:96px; }
+ .approved-design .header { display:grid; grid-template-columns:minmax(0,1fr) auto; grid-template-rows:minmax(44px,auto) minmax(44px,auto); min-height:96px; padding:4px 20px; gap:0 12px; }
+ .approved-design .header > .logo { grid-column:1; grid-row:1; }
+ .approved-design .header .logo img { width:164px; max-width:100%; }
+ .approved-design .header-action { grid-column:2; grid-row:1; }
+ .approved-design .header nav { grid-column:1 / -1; grid-row:2; display:flex; width:100%; justify-content:space-between; gap:8px; margin:0; font-size:12px; }
+ .approved-design .header nav > a:not(.overview-nav-jobs) { display:inline-flex; font-size:12px; white-space:nowrap; min-height:44px; }
+ .approved-design .header .line-outline, .approved-design .header .overview-nav-jobs { font-size:12px; padding:8px; min-height:44px; margin:0; gap:4px; }
+ .approved-design .header .overview-nav-jobs { justify-content:center; }
+ .approved-design .line-destination { font-size:12px; }
+ .approved-design .contact-note { font-size:13px; }
+ .approved-design .hr-hero .hr-hero-image-note { position:relative; inset:auto; grid-column:1 / -1; grid-row:4; margin:-12px 0 0; }
+ .approved-design .hr-meeting > .art { width:64%; max-height:200px; margin:12px auto; }
+ .approved-design .hr-work h3 { white-space:normal; }
+ .approved-design .engineer-restored .infrastructure > .art { width:88%; }
+ .approved-design .career-examples ul { padding-left:28px; }
+ .career-connections { top:76px; left:0; width:1px; height:calc(100% - 104px); background:var(--line); }
+ .career-connections path { display:none; }
+ .approved-design .career-examples li::before { content:''; left:-28px; top:12px; width:18px; height:0; border:0; border-top:1px solid var(--line); }
+}
+@media(prefers-reduced-motion:reduce) {
+ html { scroll-behavior:auto !important; }
+ .approved-design *, .approved-design *::before, .approved-design *::after { animation:none !important; transition:none !important; scroll-behavior:auto !important; }
+ .approved-design :is(.button,.line-outline,.jobs-return a):is(:hover,:focus-visible) > span { transform:none; }
+}

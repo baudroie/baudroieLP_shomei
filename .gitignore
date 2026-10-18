@@ -24,3 +24,9 @@ artifacts/hr-fv-finish/*.jpg
 artifacts/hr-final/*.jpg
 approved-reference/*.png
 approved-reference/references/*.png
+
+# Review deliverables are saved separately.
+artifacts/polish/*.png
+artifacts/polish/*.jpg
+artifacts/polish/*.mp4
+artifacts/polish/frames/
