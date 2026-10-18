@@ -1,0 +1,146 @@
+[
+  {
+    "role": "overview",
+    "badImages": [],
+    "css": [
+      "/baudroieLP_shomei/assets/index-DCIR0hE-.css"
+    ],
+    "headerHeight": 102,
+    "images": 15,
+    "line": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+    ],
+    "scrollWidth": 1440,
+    "width": 1440,
+    "footer": {
+      "headerTop": 0,
+      "scrollY": 3183.5
+    }
+  },
+  {
+    "role": "hr",
+    "badImages": [],
+    "css": [
+      "/baudroieLP_shomei/assets/index-DCIR0hE-.css"
+    ],
+    "headerHeight": 102,
+    "images": 9,
+    "line": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu"
+    ],
+    "scrollWidth": 1440,
+    "width": 1440,
+    "footer": {
+      "headerTop": 0,
+      "scrollY": 3011.5
+    }
+  },
+  {
+    "role": "sales",
+    "badImages": [],
+    "css": [
+      "/baudroieLP_shomei/assets/index-DCIR0hE-.css"
+    ],
+    "headerHeight": 102,
+    "images": 9,
+    "line": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl"
+    ],
+    "scrollWidth": 1440,
+    "width": 1440,
+    "footer": {
+      "headerTop": 0,
+      "scrollY": 2882
+    }
+  },
+  {
+    "role": "engineer",
+    "badImages": [],
+    "css": [
+      "/baudroieLP_shomei/assets/index-DCIR0hE-.css"
+    ],
+    "headerHeight": 102,
+    "images": 10,
+    "line": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+    ],
+    "scrollWidth": 1440,
+    "width": 1440,
+    "footer": {
+      "headerTop": 0,
+      "scrollY": 4156
+    }
+  },
+  {
+    "role": "overview",
+    "badImages": [],
+    "css": [
+      "/baudroieLP_shomei/assets/index-DCIR0hE-.css"
+    ],
+    "headerHeight": 96,
+    "images": 15,
+    "line": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+    ],
+    "scrollWidth": 390,
+    "width": 390,
+    "footer": {
+      "headerTop": 0,
+      "scrollY": 4649
+    }
+  },
+  {
+    "role": "hr",
+    "badImages": [],
+    "css": [
+      "/baudroieLP_shomei/assets/index-DCIR0hE-.css"
+    ],
+    "headerHeight": 96,
+    "images": 9,
+    "line": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu"
+    ],
+    "scrollWidth": 390,
+    "width": 390,
+    "footer": {
+      "headerTop": 0,
+      "scrollY": 3897.5
+    }
+  },
+  {
+    "role": "sales",
+    "badImages": [],
+    "css": [
+      "/baudroieLP_shomei/assets/index-DCIR0hE-.css"
+    ],
+    "headerHeight": 96,
+    "images": 9,
+    "line": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl"
+    ],
+    "scrollWidth": 390,
+    "width": 390,
+    "footer": {
+      "headerTop": 0,
+      "scrollY": 3471
+    }
+  },
+  {
+    "role": "engineer",
+    "badImages": [],
+    "css": [
+      "/baudroieLP_shomei/assets/index-DCIR0hE-.css"
+    ],
+    "headerHeight": 96,
+    "images": 10,
+    "line": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+    ],
+    "scrollWidth": 390,
+    "width": 390,
+    "footer": {
+      "headerTop": 0,
+      "scrollY": 5067.5
+    }
+  }
+]

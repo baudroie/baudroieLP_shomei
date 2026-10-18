@@ -59,3 +59,16 @@ GitHubへはDraft PR #2の既存headブランチを更新する。Pages配信・
 
 ## 2026-10-19 固定ヘッダーと表示演出
 実装・ブラウザ確認を完了。詳細 docs/polish-verification-20261019.md。証拠 artifacts/polish/。元ソースa05e987、旧公開e9af365との比較。人事写真・配色・主要素材を維持。公開処理へ進む。
+
+
+## 2026-10-19 固定ヘッダー・表示演出の最終版を公開済み
+
+- 実装ソース: c9ca2d20047300698482afe45179e8e70caaaeae
+- gh-pages: f7bf01b2b871f265a1dfb11e929f95d28cf91db9
+- Actions: https://github.com/baudroie/baudroieLP_shomei/actions/runs/39160623724 （completed / success）
+- 公開URL: https://baudroie.github.io/baudroieLP_shomei/
+- CSS index-DCIR0hE-.css / JS index-MxbsS-hI.js。
+- 公開4ページをChrome 1440/390pxで読み込み完了後に検証。画像欠落・横溢れなし、固定ヘッダーPC102px/スマホ96px、フッターまで上端0px。4種類のLINE href一致。
+- 詳細 docs/polish-verification-20261019.md、公開計測 artifacts/polish/public-verification.json。
+- mainマージなし。PR #2はDraft。スマホ実機の性能・LINEアプリ内の友だち追加/タグ配信は未検証。
+- 比較画像8枚と約8秒GIFを含む自己完結HTMLを納品。
