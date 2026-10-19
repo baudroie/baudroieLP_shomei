@@ -1,0 +1,530 @@
+[
+  {
+    "route": "overview",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+    ],
+    "header": "sticky",
+    "headerHeight": 102,
+    "overflow": false,
+    "photo": null,
+    "removedNotes": false,
+    "width": 1440,
+    "bottom": {
+      "footerBottom": 1000.0234375,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "株式会社ボードルア",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 3075.5
+    }
+  },
+  {
+    "route": "engineer/",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+    ],
+    "header": "sticky",
+    "headerHeight": 102,
+    "overflow": false,
+    "photo": "1",
+    "removedNotes": false,
+    "width": 1440,
+    "bottom": {
+      "footerBottom": 999.90625,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "会社について",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 4541
+    }
+  },
+  {
+    "route": "sales/",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl"
+    ],
+    "header": "sticky",
+    "headerHeight": 102,
+    "overflow": false,
+    "photo": null,
+    "removedNotes": false,
+    "width": 1440,
+    "bottom": {
+      "footerBottom": 999.921875,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "会社について",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 2800
+    }
+  },
+  {
+    "route": "hr/",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu"
+    ],
+    "header": "sticky",
+    "headerHeight": 102,
+    "overflow": false,
+    "photo": null,
+    "removedNotes": false,
+    "width": 1440,
+    "bottom": {
+      "footerBottom": 1000.2265625,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "会社について",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 2915
+    }
+  },
+  {
+    "route": "overview",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+    ],
+    "header": "sticky",
+    "headerHeight": 96,
+    "overflow": false,
+    "photo": null,
+    "removedNotes": false,
+    "width": 375,
+    "bottom": {
+      "footerBottom": 999.8359375,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "株式会社ボードルア",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 4506
+    }
+  },
+  {
+    "route": "engineer/",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+    ],
+    "header": "sticky",
+    "headerHeight": 96,
+    "overflow": false,
+    "photo": "1",
+    "removedNotes": false,
+    "width": 375,
+    "bottom": {
+      "footerBottom": 1000.015625,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "会社について",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 5186
+    }
+  },
+  {
+    "route": "sales/",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl"
+    ],
+    "header": "sticky",
+    "headerHeight": 96,
+    "overflow": false,
+    "photo": null,
+    "removedNotes": false,
+    "width": 375,
+    "bottom": {
+      "footerBottom": 1000.09375,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "会社について",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 3454
+    }
+  },
+  {
+    "route": "hr/",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu"
+    ],
+    "header": "sticky",
+    "headerHeight": 96,
+    "overflow": false,
+    "photo": null,
+    "removedNotes": false,
+    "width": 375,
+    "bottom": {
+      "footerBottom": 999.9375,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "会社について",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 3684.5
+    }
+  },
+  {
+    "route": "overview",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+    ],
+    "header": "sticky",
+    "headerHeight": 96,
+    "overflow": false,
+    "photo": null,
+    "removedNotes": false,
+    "width": 390,
+    "bottom": {
+      "footerBottom": 999.8203125,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "株式会社ボードルア",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 4492.5
+    }
+  },
+  {
+    "route": "engineer/",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+    ],
+    "header": "sticky",
+    "headerHeight": 96,
+    "overflow": false,
+    "photo": "1",
+    "removedNotes": false,
+    "width": 390,
+    "bottom": {
+      "footerBottom": 999.9765625,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "会社について",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 5209.5
+    }
+  },
+  {
+    "route": "sales/",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl"
+    ],
+    "header": "sticky",
+    "headerHeight": 96,
+    "overflow": false,
+    "photo": null,
+    "removedNotes": false,
+    "width": 390,
+    "bottom": {
+      "footerBottom": 999.859375,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "会社について",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 3296
+    }
+  },
+  {
+    "route": "hr/",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu"
+    ],
+    "header": "sticky",
+    "headerHeight": 96,
+    "overflow": false,
+    "photo": null,
+    "removedNotes": false,
+    "width": 390,
+    "bottom": {
+      "footerBottom": 999.8359375,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "会社について",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 3623
+    }
+  },
+  {
+    "route": "overview",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+    ],
+    "header": "sticky",
+    "headerHeight": 96,
+    "overflow": false,
+    "photo": null,
+    "removedNotes": false,
+    "width": 430,
+    "bottom": {
+      "footerBottom": 1000.078125,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "株式会社ボードルア",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 4422
+    }
+  },
+  {
+    "route": "engineer/",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+    ],
+    "header": "sticky",
+    "headerHeight": 96,
+    "overflow": false,
+    "photo": "1",
+    "removedNotes": false,
+    "width": 430,
+    "bottom": {
+      "footerBottom": 999.9921875,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "会社について",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 5240
+    }
+  },
+  {
+    "route": "sales/",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl"
+    ],
+    "header": "sticky",
+    "headerHeight": 96,
+    "overflow": false,
+    "photo": null,
+    "removedNotes": false,
+    "width": 430,
+    "bottom": {
+      "footerBottom": 1000.1171875,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "会社について",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 3266
+    }
+  },
+  {
+    "route": "hr/",
+    "broken": 0,
+    "ctas": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu"
+    ],
+    "header": "sticky",
+    "headerHeight": 96,
+    "overflow": false,
+    "photo": null,
+    "removedNotes": false,
+    "width": 430,
+    "bottom": {
+      "footerBottom": 999.890625,
+      "footerLinks": [
+        {
+          "text": "",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "会社について",
+          "whiteSpace": "nowrap"
+        },
+        {
+          "text": "プライバシーポリシー",
+          "whiteSpace": "nowrap"
+        }
+      ],
+      "headerTop": 0,
+      "overflow": false,
+      "scrollY": 3664.5
+    }
+  }
+]

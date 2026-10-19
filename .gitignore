@@ -39,3 +39,10 @@ artifacts/photo-notes/*.html
 # Engineer photo layering review screenshots remain in the private deliverable.
 artifacts/qa/engineer-layers-20261019/*.png
 artifacts/qa/engineer-layers-20261019/*.html
+
+# Private visual proof is included in the delivered review, not the public repository.
+artifacts/qa/icons-career-20261019/*.png
+artifacts/qa/icons-career-20261019/*.jpg
+artifacts/qa/icons-career-20261019/*.html
+artifacts/qa/icons-career-20261019/baseline.json
+artifacts/qa/icons-career-20261019/anchors.json

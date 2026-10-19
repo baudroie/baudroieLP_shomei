@@ -43,8 +43,8 @@ export function useApprovedMotion(root: RefObject<HTMLDivElement | null>) {
    } else if (node.matches('.job-grid')) {
     node.querySelectorAll('article').forEach((article, i) => article.querySelectorAll('.role-illustration, h3, p').forEach(child => rise(child, i * 70)));
    } else if (node.matches('.career-examples')) {
-    node.querySelectorAll('.career-connections path').forEach(path => play(path, [{strokeDasharray:'1',strokeDashoffset:'1'}, {strokeDasharray:'1',strokeDashoffset:'0'}], 0, 350));
-    node.querySelectorAll('li').forEach((item, i) => rise(item, 260 + i * 70));
+    // Reveal the complete relationship together; connectors never move independently.
+    play(node, [{opacity:0}, {opacity:1}], 0, 420);
    } else if (node.matches('.infrastructure-labels')) {
     node.querySelectorAll('article').forEach((item, i) => {
      const line = item.querySelector('.topic-connector');

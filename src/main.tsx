@@ -9,6 +9,8 @@ import "./engineer-refinements.css";
 import "./engineer-warm.css";
 import "./approved-design.css";
 import "./polish.css";
+import "./engineer-icons.css";
+import { EngineerIcon } from "./EngineerIcon";
 import { useHeaderPosition } from "./polish";
 import { Motif, useApprovedMotion } from "./approved-design";
 
@@ -275,9 +277,9 @@ function Overview() {
             {[
               [
                 "network",
-                "ネットワーク仮想化",
-                "変化に柔軟に対応する",
-                "ネットワークを構築",
+                "ネットワーク構築／運用保守",
+                "柔軟につながる仕組みを設計し、",
+                "安定した運用を支えます。",
               ],
               [
                 "cloud",
@@ -302,7 +304,7 @@ function Overview() {
                 <span className={`service-symbol ${key}`} aria-hidden="true">
                   <img src={asset(`icon-${key}.png`)} alt="" />
                 </span>
-                <h5>{title}</h5>
+                <h5>{key === "network" ? <><span><span className="service-phrase">ネットワーク</span><span className="service-phrase">構築／</span></span><span>運用保守</span></> : title}</h5>
                 <p>
                   {a}
                   <br />
@@ -743,8 +745,8 @@ function Engineer() {
               </p>
               <LineButton role="engineer" />
               <nav className="engineer-jump" aria-label="経験に合わせたご案内">
-                <a href="#beginner">未経験から学びたい<span aria-hidden="true">↓</span></a>
-                <a href="#experienced">経験を活かしたい<span aria-hidden="true">↓</span></a>
+                <a href="#beginner"><EngineerIcon name="book" /><span className="jump-label">未経験から学びたい</span><span className="jump-arrow" aria-hidden="true">↓</span></a>
+                <a href="#experienced"><EngineerIcon name="layers" /><span className="jump-label">経験を活かしたい</span><span className="jump-arrow" aria-hidden="true">↓</span></a>
               </nav>
             </div>
             <figure>
@@ -788,6 +790,7 @@ function Engineer() {
                 ],
               ].map(([title, a, b]) => (
                 <article key={title}><span className="topic-connector" aria-hidden="true" />
+                  <span className="technology-icon" aria-hidden="true">{title === "ネットワーク仮想化" ? <EngineerIcon name="virtualization" /> : <img className={`technology-raster tech-${title === "クラウド" ? 'cloud' : title === "セキュリティ" ? 'security' : 'network'}`} src={asset(`icon-${title === "クラウド" ? 'cloud' : title === "セキュリティ" ? 'security' : 'network'}.png`)} alt="" />}</span>
                   <h3>{title === "ネットワーク・サーバー" ? <><span className="eng-phrase">ネットワーク・</span><span className="eng-phrase">サーバー</span></> : title}</h3>
                   <p>
                     {a}
@@ -831,9 +834,9 @@ function Engineer() {
               />
               </div>
               <div className="path-skills">
-                <span>基礎学習</span>
-                <span>資格取得支援</span>
-                <span>実機演習</span>
+                <div><EngineerIcon name="book" /><span>基礎学習</span></div>
+                <div><EngineerIcon name="certificate" /><span>資格取得支援</span></div>
+                <div><EngineerIcon name="hardware" /><span>実機演習</span></div>
               </div>
             </article>
             <article id="experienced" className="charcoal">
@@ -857,9 +860,9 @@ function Engineer() {
               />
               </div>
               <div className="path-skills">
-                <span>扱う技術</span>
-                <span>設計・構築</span>
-                <span>志向に合う役割</span>
+                <div><EngineerIcon name="chip" /><span>先端技術</span></div>
+                <div><EngineerIcon name="blueprint" /><span>設計・構築</span></div>
+                <div><EngineerIcon name="strengths" /><span><span className="skill-phrase">強みを活かせる</span><span className="skill-phrase">役割</span></span></div>
               </div>
             </article>
           </div>
@@ -891,12 +894,12 @@ function Engineer() {
               経験を重ねながら、自分の志向に合うキャリアを考えていきます。
             </p>
           </div>
-          <div className="career-examples"><svg className="career-connections" viewBox="0 0 1000 50" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M500 0V20H167V50 M500 20V50 M500 20H833V50" /></svg>
+          <div className="career-examples">
             <small>キャリアの例</small><p className="eng-career-origin">自分の志向から考える</p>
             <ul>
-              <li><span>技術を深める</span><strong>スペシャリスト</strong></li>
-              <li><span>チームやプロジェクトを動かす</span><strong><span>プロジェクト</span><span>マネージャー</span></strong></li>
-              <li><span>顧客の課題に向き合う</span><strong>ITコンサルタント</strong></li>
+              <li><EngineerIcon name="specialist" /><div className="career-copy"><span>技術を深める</span><strong>スペシャリスト</strong></div></li>
+              <li><EngineerIcon name="manager" /><div className="career-copy"><span>チームやプロジェクトを動かす</span><strong><span>プロジェクト</span><span>マネージャー</span></strong></div></li>
+              <li><EngineerIcon name="consultant" /><div className="career-copy"><span>顧客の課題に向き合う</span><strong>ITコンサルタント</strong></div></li>
             </ul>
           </div>
         </section>

@@ -1,0 +1,58 @@
+[
+  {
+    "hash": "#beginner",
+    "headerBottom": 96,
+    "headingTop": 202.796875,
+    "targetTop": 127.796875,
+    "width": 375
+  },
+  {
+    "hash": "#experienced",
+    "headerBottom": 96,
+    "headingTop": 202.9375,
+    "targetTop": 127.9375,
+    "width": 375
+  },
+  {
+    "hash": "#beginner",
+    "headerBottom": 102,
+    "headingTop": 219.1953125,
+    "targetTop": 134.1953125,
+    "width": 1440
+  },
+  {
+    "hash": "#experienced",
+    "headerBottom": 102,
+    "headingTop": 219.1953125,
+    "targetTop": 134.1953125,
+    "width": 1440
+  },
+  {
+    "hash": "#beginner",
+    "headerBottom": 96,
+    "headingTop": 203.265625,
+    "targetTop": 128.265625,
+    "width": 390
+  },
+  {
+    "hash": "#experienced",
+    "headerBottom": 96,
+    "headingTop": 203.15625,
+    "targetTop": 128.15625,
+    "width": 390
+  },
+  {
+    "hash": "#beginner",
+    "headerBottom": 96,
+    "headingTop": 203.921875,
+    "targetTop": 128.921875,
+    "width": 430
+  },
+  {
+    "hash": "#experienced",
+    "headerBottom": 96,
+    "headingTop": 203.3125,
+    "targetTop": 128.3125,
+    "width": 430
+  }
+]

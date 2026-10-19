@@ -46,10 +46,6 @@ html { scroll-padding-top:calc(var(--header-height) + 16px); }
 .approved-design .infrastructure-labels article { position:relative; padding-top:14px; }
 .topic-connector { display:block; width:100%; height:1px; background:var(--line); position:absolute; top:0; left:0; transform-origin:left; }
 .approved-design .career-examples { position:relative; }
-.approved-design .career-examples ul::before, .approved-design .career-examples ul::after,
-.approved-design .career-examples li::before { content:none; }
-.career-connections { display:block; position:absolute; width:100%; height:44px; top:76px; left:0; pointer-events:none; overflow:visible; }
-.career-connections path { fill:none; stroke:var(--line); stroke-width:1; vector-effect:non-scaling-stroke; }
 @media(min-width:768px) and (max-width:1199px) {
  .approved-design .header { padding-inline:24px; gap:18px; }
  .approved-design .header nav { gap:18px; font-size:14px; }
@@ -75,10 +71,6 @@ html { scroll-padding-top:calc(var(--header-height) + 16px); }
  .approved-design .hr-meeting > .art { width:64%; max-height:200px; margin:12px auto; }
  .approved-design .hr-work h3 { white-space:normal; }
  .approved-design .engineer-restored .infrastructure > .art { width:88%; }
- .approved-design .career-examples ul { padding-left:28px; }
- .career-connections { top:76px; left:0; width:1px; height:calc(100% - 104px); background:var(--line); }
- .career-connections path { display:none; }
- .approved-design .career-examples li::before { content:''; left:-28px; top:12px; width:18px; height:0; border:0; border-top:1px solid var(--line); }
 }
 @media(prefers-reduced-motion:reduce) {
  html { scroll-behavior:auto !important; }

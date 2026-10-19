@@ -30,11 +30,6 @@
 .engineer-page .eng-learning-curves > span:last-child { inset:22px 0 0 30px; background:var(--eng-bg-apricot); border-radius:55% 45% 25% 75% / 50% 40% 60% 50%; }
 .engineer-restored .career-examples > small { display:block; }
 .engineer-restored .career-examples .eng-career-origin { margin:14px 0 0; font-size:16px; color:inherit; text-align:center; }
-.engineer-restored .career-examples ul { position:relative; padding-top:44px; margin-top:0; gap:32px; }
-.engineer-restored .career-examples ul::before { content:""; position:absolute; top:20px; left:calc(100% / 6); right:calc(100% / 6); border-top:1px solid var(--line); }
-.engineer-restored .career-examples ul::after { content:""; position:absolute; top:0; left:50%; height:21px; border-left:1px solid var(--line); }
-.engineer-restored .career-examples li { position:relative; text-align:center; }
-.engineer-restored .career-examples li::before { content:""; position:absolute; height:18px; left:50%; top:-24px; border-left:1px solid var(--line); }
 .engineer-restored .engineer-team { margin-block:12px 28px; }
 .engineer-restored .engineer-team::after { content:""; position:absolute; pointer-events:none; z-index:-2; inset:-16px 0 16px; background:var(--eng-bg-apricot); mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201440%20330%22%20preserveAspectRatio%3D%22none%22%3E%3Cg%20transform%3D%22translate%280%200%29%22%3E%3Cpath%20fill%3D%22%23fff6e9%22%20d%3D%22M0%2019%20C331%20-16%20461%2027%20763%209%20S1152%204%201440%2024%20L1440%20295%20C1360%20307%201300%20311%201260%20307%20C1160%20300%201080%20287%201000%20288%20C850%20290%20700%20280%20600%20283%20C490%20286%20420%20290%20400%20287%20C350%20281%20330%20275%20300%20277%20C210%20278%20160%20300%20100%20297%20C50%20297%200%20294%200%20294%20Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"); mask-size:100% 100%; mask-repeat:no-repeat; }
 .engineer-restored .engineer-cta { padding-block:88px; grid-template-columns:1fr; gap:24px; text-align:center; background:var(--eng-bg-ivory); }
@@ -75,11 +70,6 @@
  .engineer-page .eng-learning-curves > span:first-child { inset:0 24px 12px 0; }
  .engineer-page .eng-learning-curves > span:last-child { inset:12px 0 0 18px; }
  .engineer-restored .career-examples .eng-career-origin { text-align:left; margin-left:0; }
- .engineer-restored .career-examples ul { padding:24px 0 0 28px; gap:28px; }
- .engineer-restored .career-examples ul::before { left:0; right:auto; top:0; bottom:28px; border-top:0; border-left:1px solid var(--line); }
- .engineer-restored .career-examples ul::after { content:none; }
- .engineer-restored .career-examples li { text-align:left; }
- .engineer-restored .career-examples li::before { left:-28px; top:12px; width:18px; height:0; border-left:0; border-top:1px solid var(--line); }
  .engineer-restored .career-examples strong { font-size:21px; white-space:nowrap; }
  .engineer-restored .engineer-team { margin-block:12px 20px; }
  .engineer-restored .engineer-team::after { inset:-12px 0 12px;  }
