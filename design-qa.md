@@ -1,3 +1,18 @@
+## 2026-10-19 エンジニア写真レイヤー修正版を公開済み
+
+- 公開ソース: `3b44f15a5cf723c605b1a1ffaa23acffd2ede2c7`（ローカル検証コミットf752a0dとtree bf435bcfeba0ba1bd1df8938e2ba8b86fe464cd9が完全一致）。
+- gh-pages: `214f1056fba18f215f80f9fd0ec841e5129a5f21`。配信tree `060385de8b2b0e16237357b9ce48cbf801592cea` の55ファイルすべてが検証済みdistとGit blob SHA一致。
+- Actions: https://github.com/baudroie/baudroieLP_shomei/actions/runs/39186335210 （completed / success）。
+- 公開URL: https://baudroie.github.io/baudroieLP_shomei/engineer/
+- CSS `index-B43WP30C.css` / JS `index-DEareOG4.js`。公開4ページを1440/375/390/430で再読み込み、新CSS配信・横溢れなし・4種のCTA href維持を確認。エンジニア写真の登場時opacityは全4幅で1。
+- 公開4ページHTML・CSS・JS・deployment.jsonは検証済distとバイト一致。公開ソースは上記3b44f15。
+- 写真登場時の透け修正が完了。人事原稿の3組の根拠不足は継続のため本文・想定注記は保持。詳細 docs/engineer-layers-review-20261019.md。
+- 独立担当が新版before/after-entry-390と演出完了後footer-engineer-390を追加実見し、証拠の指摘解消を確認。
+- 証拠 artifacts/qa/engineer-layers-20261019/published-checks.json、published-byte-checks.json。画像は依頼元の baudroie-engineer-lines-review-20261019.html に収録。
+- mainマージ・権限変更なし。PR #2はDraft維持。LINE友だち追加・送信は未実施。全体の最終検収とは別。
+
+---
+
 ## 2026-10-19 エンジニア写真の透け修正（公開前検証済み）
 
 対象2ファイルの限定変更。写真登場時のopacityを常時1にし、不透明なfigureで背景装飾と分離。4幅の写真矩形一致・全4ページの回帰確認済み。人事本文に3組の根拠不足があるため想定注記は維持。詳細は docs/engineer-layers-review-20261019.md。ユーザー承認済みの公開手順で反映し、公開後の状態は追記する。
