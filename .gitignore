@@ -30,3 +30,8 @@ artifacts/polish/*.png
 artifacts/polish/*.jpg
 artifacts/polish/*.mp4
 artifacts/polish/frames/
+
+# Screenshots are shared through the private review deliverable.
+artifacts/photo-notes/*.png
+artifacts/photo-notes/*.jpg
+artifacts/photo-notes/*.html

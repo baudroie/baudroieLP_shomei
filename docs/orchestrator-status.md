@@ -1,3 +1,15 @@
+# 最新：2026-10-19 写真注記・折返しの追加修正
+
+対象は本記録と同じコミット（開始点ef9a113）。最新ユーザー方針をIMPLEMENTATION_BRIEF冒頭へ反映。4ページの写真注記削除・alt整理、公式研修写真への切替、フッターとCTAの折返しを実装。人事の業務内容の未確定注記は保持。
+
+4ページ×1440/390/375/430を実ブラウザで撮影。画像欠落/横はみ出しなし。ヘッダー3ナビ×16条件の移動と末尾のheader top=0を確認。通常モーション維持、reduced-motionロジックは不変（今回のライブ切替は未再検証）。読取専用の別レビュー担当が16枚と差分を確認。
+
+証拠：`artifacts/photo-notes/browser-checks.json`、`interactions.json`。比較画像は依頼元の `baudroie-photo-notes-review-20261019.html`。ローカルプレビューは `/approved-four-pages/` の4ルート、起動方法は既存READMEに準拠。外部からlocalhostへ接続できるとは扱わない。
+
+次の判断：人事の担当範囲の事実確認。今回の修正はPRへ反映し、mainマージ・gh-pages更新は行わない。旧公開版を今回の修正版と混同しない。以前の記録は以下に履歴として保持。
+
+---
+
 # Round34 — sales-teamのPC顔被覆修正を公開
 
 プレビュー https://baudroie.github.io/baudroieLP_shomei/sales/#sales-team

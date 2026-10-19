@@ -1,0 +1,834 @@
+[
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 180
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "株式会社ボードルア",
+        "width": 195
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 212.640625
+      }
+    ],
+    "header": {
+      "bottom": 102,
+      "height": 102,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": false,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "机を囲んで話す4人",
+        "src": "/approved-four-pages/assets/support-conversation-approved.webp"
+      },
+      {
+        "alt": "ボードルアカレッジでパソコンとネットワーク機器を使う研修風景",
+        "src": "/approved-four-pages/assets/college_training.jpg"
+      },
+      {
+        "alt": "机を囲んで話す4人",
+        "src": "/approved-four-pages/assets/support-conversation-approved.webp"
+      }
+    ],
+    "width": 1440,
+    "role": "overview"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 180
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "会社について",
+        "width": 140.4609375
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 212.640625
+      }
+    ],
+    "header": {
+      "bottom": 102,
+      "height": 102,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": true,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "テーブルを挟んで向かい合い、話す2人",
+        "src": "/approved-four-pages/assets/hr-interview-oct18.png"
+      },
+      {
+        "alt": "机を囲んで話す4人",
+        "src": "/approved-four-pages/assets/support-conversation-approved.webp"
+      }
+    ],
+    "width": 1440,
+    "role": "hr"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 180
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "会社について",
+        "width": 140.4609375
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 212.640625
+      }
+    ],
+    "header": {
+      "bottom": 102,
+      "height": 102,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": false,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "公式写真：仲間と考えるオフィスのラウンジ",
+        "src": "/approved-four-pages/assets/office_lounge.jpg"
+      }
+    ],
+    "width": 1440,
+    "role": "sales"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 180
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "会社について",
+        "width": 128.5234375
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 192.6875
+      }
+    ],
+    "header": {
+      "bottom": 102,
+      "height": 102,
+      "left": 0,
+      "right": 1440,
+      "top": 0,
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": false,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "ネットワーク機器にケーブルを接続する手元",
+        "src": "/approved-four-pages/assets/engineer-network.png"
+      },
+      {
+        "alt": "ボードルアカレッジでパソコンとネットワーク機器を使う研修風景",
+        "src": "/approved-four-pages/assets/college_training.jpg"
+      }
+    ],
+    "width": 1440,
+    "role": "engineer"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 342
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "株式会社ボードルア",
+        "width": 117
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 146.7421875
+      }
+    ],
+    "header": {
+      "bottom": 96,
+      "height": 96,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": false,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "机を囲んで話す4人",
+        "src": "/approved-four-pages/assets/support-conversation-approved.webp"
+      },
+      {
+        "alt": "ボードルアカレッジでパソコンとネットワーク機器を使う研修風景",
+        "src": "/approved-four-pages/assets/college_training.jpg"
+      },
+      {
+        "alt": "机を囲んで話す4人",
+        "src": "/approved-four-pages/assets/support-conversation-approved.webp"
+      }
+    ],
+    "width": 390,
+    "role": "overview"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 342
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "会社について",
+        "width": 77.6171875
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 146.7421875
+      }
+    ],
+    "header": {
+      "bottom": 96,
+      "height": 96,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": true,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "テーブルを挟んで向かい合い、話す2人",
+        "src": "/approved-four-pages/assets/hr-interview-oct18.png"
+      },
+      {
+        "alt": "机を囲んで話す4人",
+        "src": "/approved-four-pages/assets/support-conversation-approved.webp"
+      }
+    ],
+    "width": 390,
+    "role": "hr"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 342
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "会社について",
+        "width": 77.6171875
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 146.7421875
+      }
+    ],
+    "header": {
+      "bottom": 96,
+      "height": 96,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": false,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "公式写真：仲間と考えるオフィスのラウンジ",
+        "src": "/approved-four-pages/assets/office_lounge.jpg"
+      }
+    ],
+    "width": 390,
+    "role": "sales"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 342
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "会社について",
+        "width": 95.5234375
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 176.6875
+      }
+    ],
+    "header": {
+      "bottom": 96,
+      "height": 96,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": false,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "ネットワーク機器にケーブルを接続する手元",
+        "src": "/approved-four-pages/assets/engineer-network.png"
+      },
+      {
+        "alt": "ボードルアカレッジでパソコンとネットワーク機器を使う研修風景",
+        "src": "/approved-four-pages/assets/college_training.jpg"
+      }
+    ],
+    "width": 390,
+    "role": "engineer"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 327
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "株式会社ボードルア",
+        "width": 117
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 146.7421875
+      }
+    ],
+    "header": {
+      "bottom": 96,
+      "height": 96,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": false,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "机を囲んで話す4人",
+        "src": "/approved-four-pages/assets/support-conversation-approved.webp"
+      },
+      {
+        "alt": "ボードルアカレッジでパソコンとネットワーク機器を使う研修風景",
+        "src": "/approved-four-pages/assets/college_training.jpg"
+      },
+      {
+        "alt": "机を囲んで話す4人",
+        "src": "/approved-four-pages/assets/support-conversation-approved.webp"
+      }
+    ],
+    "width": 375,
+    "role": "overview"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 327
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "会社について",
+        "width": 77.6171875
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 146.7421875
+      }
+    ],
+    "header": {
+      "bottom": 96,
+      "height": 96,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": true,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "テーブルを挟んで向かい合い、話す2人",
+        "src": "/approved-four-pages/assets/hr-interview-oct18.png"
+      },
+      {
+        "alt": "机を囲んで話す4人",
+        "src": "/approved-four-pages/assets/support-conversation-approved.webp"
+      }
+    ],
+    "width": 375,
+    "role": "hr"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 327
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "会社について",
+        "width": 77.6171875
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 146.7421875
+      }
+    ],
+    "header": {
+      "bottom": 96,
+      "height": 96,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": false,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "公式写真：仲間と考えるオフィスのラウンジ",
+        "src": "/approved-four-pages/assets/office_lounge.jpg"
+      }
+    ],
+    "width": 375,
+    "role": "sales"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 327
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "会社について",
+        "width": 95.5234375
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 176.6875
+      }
+    ],
+    "header": {
+      "bottom": 96,
+      "height": 96,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": false,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "ネットワーク機器にケーブルを接続する手元",
+        "src": "/approved-four-pages/assets/engineer-network.png"
+      },
+      {
+        "alt": "ボードルアカレッジでパソコンとネットワーク機器を使う研修風景",
+        "src": "/approved-four-pages/assets/college_training.jpg"
+      }
+    ],
+    "width": 375,
+    "role": "engineer"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 382
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "株式会社ボードルア",
+        "width": 117
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 146.7421875
+      }
+    ],
+    "header": {
+      "bottom": 96,
+      "height": 96,
+      "left": 0,
+      "right": 430,
+      "top": 0,
+      "width": 430,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": false,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "机を囲んで話す4人",
+        "src": "/approved-four-pages/assets/support-conversation-approved.webp"
+      },
+      {
+        "alt": "ボードルアカレッジでパソコンとネットワーク機器を使う研修風景",
+        "src": "/approved-four-pages/assets/college_training.jpg"
+      },
+      {
+        "alt": "机を囲んで話す4人",
+        "src": "/approved-four-pages/assets/support-conversation-approved.webp"
+      }
+    ],
+    "width": 430,
+    "role": "overview"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 382
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "会社について",
+        "width": 77.6171875
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 146.7421875
+      }
+    ],
+    "header": {
+      "bottom": 96,
+      "height": 96,
+      "left": 0,
+      "right": 430,
+      "top": 0,
+      "width": 430,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": true,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "テーブルを挟んで向かい合い、話す2人",
+        "src": "/approved-four-pages/assets/hr-interview-oct18.png"
+      },
+      {
+        "alt": "机を囲んで話す4人",
+        "src": "/approved-four-pages/assets/support-conversation-approved.webp"
+      }
+    ],
+    "width": 430,
+    "role": "hr"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 382
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "会社について",
+        "width": 77.6171875
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 146.7421875
+      }
+    ],
+    "header": {
+      "bottom": 96,
+      "height": 96,
+      "left": 0,
+      "right": 430,
+      "top": 0,
+      "width": 430,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": false,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "公式写真：仲間と考えるオフィスのラウンジ",
+        "src": "/approved-four-pages/assets/office_lounge.jpg"
+      }
+    ],
+    "width": 430,
+    "role": "sales"
+  },
+  {
+    "dpr": 1,
+    "fonts": "loaded",
+    "footerLinks": [
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "",
+        "width": 382
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "会社について",
+        "width": 95.5234375
+      },
+      {
+        "height": 44,
+        "nowrap": "nowrap",
+        "text": "プライバシーポリシー",
+        "width": 176.6875
+      }
+    ],
+    "header": {
+      "bottom": 96,
+      "height": 96,
+      "left": 0,
+      "right": 430,
+      "top": 0,
+      "width": 430,
+      "x": 0,
+      "y": 0
+    },
+    "height": 1000,
+    "hrPending": false,
+    "missing": [],
+    "orange": "#e89314",
+    "overflow": false,
+    "photoNotes": false,
+    "photos": [
+      {
+        "alt": "ネットワーク機器にケーブルを接続する手元",
+        "src": "/approved-four-pages/assets/engineer-network.png"
+      },
+      {
+        "alt": "ボードルアカレッジでパソコンとネットワーク機器を使う研修風景",
+        "src": "/approved-four-pages/assets/college_training.jpg"
+      }
+    ],
+    "width": 430,
+    "role": "engineer"
+  }
+]

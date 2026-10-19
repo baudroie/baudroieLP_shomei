@@ -159,15 +159,12 @@ function Footer({ role }: { role?: Role }) {
       >
         プライバシーポリシー
       </a>
-      <small>
-        {role === "hr" && <>業務内容は想定を含みます。詳細はお問い合わせください。<br /></>}
-        写真の一部にAI生成のイメージを使用しています。実際の社員・設備・研修風景を示すものではありません。
-      </small>
+      {role === "hr" && <small className="hr-content-pending">業務内容は想定を含みます。詳細はお問い合わせください。</small>}
     </footer>
   );
 }
 function ContactNote() {
-  return <p className="contact-note">情報収集・人材のご紹介・お仕事のお問い合わせもこちらから。</p>;
+  return <p className="contact-note"><span className="keep-phrase">情報収集・</span><span className="keep-phrase">人材のご紹介・</span><span className="keep-phrase">お仕事のお問い合わせも</span><span className="keep-phrase">こちらから。</span></p>;
 }
 function Eyebrow({ children }: { children: React.ReactNode }) {
   return (
@@ -198,9 +195,8 @@ function Overview() {
           <figure className="welcome">
             <Photo
               name="support-conversation-approved.webp"
-              alt="机を囲んで話す4人のイメージ（AI生成・実社員ではありません）"
+              alt="机を囲んで話す4人"
             />
-            <figcaption className="image-note">AI生成のイメージです。実際の社員ではありません。</figcaption>
           </figure>
         </section>
         <section className="jobs" id="jobs">
@@ -254,10 +250,10 @@ function Overview() {
             </div>
             <hr />
           </div>
-          <h3>
-            ITインフラの専門性で、
+          <h3 className="business-heading">
+            <span className="keep-phrase">ITインフラの</span><span className="keep-phrase">専門性で、</span>
             <br />
-            企業活動を支える。
+            <span className="keep-phrase">企業活動を支える。</span>
           </h3>
           <p>
             ボードルアは、ITインフラストラクチャに特化した事業を展開しています。
@@ -352,7 +348,7 @@ function Overview() {
           <figure>
             <Photo
               name="college_training.jpg"
-              alt="公式写真：先輩と学ぶボードルアカレッジの研修風景"
+              alt="ボードルアカレッジでパソコンとネットワーク機器を使う研修風景"
             />
             
           </figure>
@@ -396,9 +392,8 @@ function Overview() {
           <figure>
             <Photo
               name="support-conversation-approved.webp"
-              alt="入社前後の相談を支えるチームのイメージ（AI生成）"
+              alt="机を囲んで話す4人"
             />
-            <figcaption className="image-note">AI生成のイメージです。実際の社員ではありません。</figcaption>
           </figure>
         </section>
         <nav className="jobs-return" aria-label="職種を選ぶ"><h2 data-motion-heading>関心のある仕事から、もう少し詳しく。</h2>{(["sales", "hr", "engineer"] as Role[]).map(role => <a key={role} href={`${baseUrl}${role}/`}>{roleNames[role]}の仕事を見る <span aria-hidden="true">→</span></a>)}</nav>
@@ -580,7 +575,7 @@ function HR() {
           <div className="photo hr-hero-photo">
           <Photo
             name="hr-interview-oct18.png"
-            alt="女性の人事担当者が候補者と面談するイメージ（AI生成）"
+            alt="テーブルを挟んで向かい合い、話す2人"
           />
           </div>
           <div className="hr-hero-copy">
@@ -594,7 +589,6 @@ function HR() {
             <LineButton role="hr" />
           </div>
           <Art name="hr-hero-white.png" alt="人事が一人ひとりと対話する線画" />
-          <small className="hr-hero-image-note image-note">左の写真はAI生成のイメージです。実際の社員ではありません。</small>
         </section>
         <section className="hr-work section-pad" id="hr-work">
           <h2 className="serif" data-motion-heading><span className="motion-line">対話から、その人を知る。</span></h2>
@@ -646,9 +640,8 @@ function HR() {
           <figure>
             <Photo
               name="support-conversation-approved.webp"
-              alt="人事・営業・先輩が相談するイメージ（AI生成）"
+              alt="机を囲んで話す4人"
             />
-            <figcaption className="image-note">AI生成のイメージです。実際の社員ではありません。</figcaption>
           </figure>
           <div className="support-pair">
             <article>
@@ -757,9 +750,8 @@ function Engineer() {
             <figure>
               <Photo
                 name="engineer-network.png"
-                alt="ネットワーク機器にケーブルを接続する手元のイメージ（AI生成）"
+                alt="ネットワーク機器にケーブルを接続する手元"
               />
-              <figcaption>写真はAI生成のイメージです。実際の社員・設備ではありません。</figcaption>
             </figure>
           </div>
           <div className="eng-panorama-frame">
@@ -885,12 +877,9 @@ function Engineer() {
           <figure>
             <div className="eng-decor eng-learning-curves" aria-hidden="true"><span /><span /></div>
             <Photo
-              name="engineer-training.png"
-              alt="ネットワーク機器を使って学ぶエンジニアのイメージ（AI生成）"
+              name="college_training.jpg"
+              alt="ボードルアカレッジでパソコンとネットワーク機器を使う研修風景"
             />
-            <figcaption>
-              写真はAI生成のイメージです。<span className="eng-phrase">実際の社員・研修風景ではありません。</span>
-            </figcaption>
           </figure>
         </section>
         <section className="engineer-career section-pad" id="engineer-options">
