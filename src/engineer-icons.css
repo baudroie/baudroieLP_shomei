@@ -6,6 +6,9 @@
 .approved-design .service-grid h5 > span { display:block; }
 .approved-design .service-grid .service-phrase { display:inline-block; }
 .approved-design .service-grid p { align-self:start; }
+/* Keep semantic units intact without shrinking labels or locking paragraph widths. */
+.approved-design .service-grid h5 .service-phrase { white-space:nowrap; }
+.approved-design .service-grid p > .service-phrase:first-child { display:block; }
 
 .engineer-restored .engineer-jump { max-width:590px; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:16px; }
 .engineer-restored .engineer-jump a { display:grid; grid-template-columns:26px minmax(0,1fr) 16px; gap:8px; min-height:66px; padding:16px; border:1px solid #d8d4c8; border-radius:6px; background:var(--eng-bg-ivory); color:#202020; font-size:16px; line-height:1.5; text-decoration:none; transition:background-color 180ms, border-color 180ms; }
@@ -61,6 +64,7 @@
 @media (max-width:767px) {
  .approved-design .service-grid { row-gap:24px; }
  .approved-design .service-grid > div { row-gap:0; }
+ .approved-design .service-grid > div:nth-child(even) { padding-right:0 !important; }
  .engineer-restored .engineer-jump { grid-template-columns:1fr; max-width:none; gap:12px; }
  .engineer-restored .engineer-jump a { min-height:66px; padding:16px 18px; grid-template-columns:26px minmax(0,1fr) 16px; gap:12px; }
  .engineer-restored .infrastructure-labels .technology-icon { width:48px; height:48px; margin-bottom:12px; }

@@ -1,0 +1,122 @@
+[
+  {
+    "width": 1440,
+    "route": "",
+    "samples": 35,
+    "minOpacity": 1,
+    "animationFrames": 0,
+    "first": {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 860.390625
+    }
+  },
+  {
+    "width": 1440,
+    "route": "sales/",
+    "samples": 41,
+    "minOpacity": 1,
+    "animationFrames": 0,
+    "first": {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "まずは、仕事の話から。",
+      "top": 895.84375
+    }
+  },
+  {
+    "width": 1440,
+    "route": "hr/",
+    "samples": 27,
+    "minOpacity": 1,
+    "animationFrames": 0,
+    "first": {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "まずは、仕事の話から。",
+      "top": 915.5
+    }
+  },
+  {
+    "width": 1440,
+    "route": "engineer/",
+    "samples": 24,
+    "minOpacity": 1,
+    "animationFrames": 0,
+    "first": {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "まずは、仕事や会社のことから。",
+      "top": 474.671875
+    }
+  },
+  {
+    "width": 390,
+    "route": "",
+    "samples": 19,
+    "minOpacity": 1,
+    "animationFrames": 0,
+    "first": {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 730.7890625
+    }
+  },
+  {
+    "width": 390,
+    "route": "sales/",
+    "samples": 17,
+    "minOpacity": 1,
+    "animationFrames": 0,
+    "first": {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "まずは、仕事の話から。",
+      "top": 646.4921875
+    }
+  },
+  {
+    "width": 390,
+    "route": "hr/",
+    "samples": 18,
+    "minOpacity": 1,
+    "animationFrames": 0,
+    "first": {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "まずは、仕事の話から。",
+      "top": 905.875
+    }
+  },
+  {
+    "width": 390,
+    "route": "engineer/",
+    "samples": 21,
+    "minOpacity": 1,
+    "animationFrames": 0,
+    "first": {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "まずは、仕事や会社のことから。",
+      "top": 523.796875
+    }
+  }
+]

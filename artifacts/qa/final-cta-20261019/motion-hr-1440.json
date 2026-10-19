@@ -1,0 +1,352 @@
+{
+  "frames": [
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "対話から、その人を知る。",
+      "top": 822
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 51,
+      "text": "対話から、その人を知る。",
+      "top": 822
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 55,
+      "text": "対話から、その人を知る。",
+      "top": 822
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 292,
+      "text": "対話から、その人を知る。",
+      "top": 822
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 299,
+      "text": "対話から、その人を知る。",
+      "top": 822
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 314,
+      "text": "対話から、その人を知る。",
+      "top": 822
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 326,
+      "text": "対話から、その人を知る。",
+      "top": 822
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 346,
+      "text": "対話から、その人を知る。",
+      "top": 822
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.0891751,
+      "ms": 369,
+      "text": "対話から、その人を知る。",
+      "top": 329.5
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "入社前も、その先も。",
+      "top": 851
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "人の成長が、会社の成長につながる。",
+      "top": 602.9921875
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        },
+        {
+          "delay": 80,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 16,
+      "text": "人の成長が、会社の成長につながる。",
+      "top": 162.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "まずは、仕事の話から。",
+      "top": 915.5
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 31,
+      "text": "まずは、仕事の話から。",
+      "top": 634.5
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 57,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 71,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 113,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 117,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 142,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 143,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 155,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 174,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 187,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 203,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 220,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 237,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 254,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 269,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 287,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 304,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 320,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 337,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 354,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 370,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 387,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 404,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 420,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 437,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 453,
+      "text": "まずは、仕事の話から。",
+      "top": 473
+    }
+  ],
+  "reduce": false
+}

@@ -304,9 +304,9 @@ function Overview() {
                 <span className={`service-symbol ${key}`} aria-hidden="true">
                   <img src={asset(`icon-${key}.png`)} alt="" />
                 </span>
-                <h5>{key === "network" ? <><span><span className="service-phrase">ネットワーク</span><span className="service-phrase">構築／</span></span><span>運用保守</span></> : title}</h5>
+                <h5>{key === "network" ? <><span><span className="service-phrase">ネットワーク</span><span className="service-phrase">構築／</span></span><span>運用保守</span></> : key === "cloud" ? <><span className="service-phrase">クラウド</span><span className="service-phrase">ソリューション</span></> : title}</h5>
                 <p>
-                  {a}
+                  {key === "network" ? <><span className="service-phrase">柔軟につながる仕組みを</span><span className="service-phrase">設計し、</span></> : a}
                   <br />
                   {b}
                 </p>
@@ -398,7 +398,7 @@ function Overview() {
             />
           </figure>
         </section>
-        <nav className="jobs-return" aria-label="職種を選ぶ"><h2 data-motion-heading>関心のある仕事から、もう少し詳しく。</h2>{(["sales", "hr", "engineer"] as Role[]).map(role => <a key={role} href={`${baseUrl}${role}/`}>{roleNames[role]}の仕事を見る <span aria-hidden="true">→</span></a>)}</nav>
+        <nav className="jobs-return" aria-label="職種を選ぶ"><h2>関心のある仕事から、もう少し詳しく。</h2>{(["sales", "hr", "engineer"] as Role[]).map(role => <a key={role} href={`${baseUrl}${role}/`}>{roleNames[role]}の仕事を見る <span aria-hidden="true">→</span></a>)}</nav>
         <div className="overview-line-cta"><LineButton role="overview" /><ContactNote /></div>
       </main>
       <Footer />
@@ -549,7 +549,7 @@ function Sales() {
         </section>
         <section className="sales-cta cream section-pad"><Motif kind="sales" compact />
           <div>
-            <h2 data-motion-heading><span className="motion-line">まずは、仕事の話から。</span></h2>
+            <h2><span className="motion-line">まずは、仕事の話から。</span></h2>
             <p>
               ボードルアの営業について、
               <br />
@@ -708,7 +708,7 @@ function HR() {
         </section>
         <section className="hr-cta cream"><Motif kind="hr" compact />
           <Art name="hr-notebook-white.png" alt="" />
-          <h2 data-motion-heading><span className="motion-line">まずは、仕事の話から。</span></h2>
+          <h2><span className="motion-line">まずは、仕事の話から。</span></h2>
           <p>
             ボードルアの人事・採用について、
             <br />
@@ -933,7 +933,7 @@ function Engineer() {
           <Motif kind="engineer" compact />
           <Art name="engineer-laptop.png" alt="" />
           <div className="engineer-cta-copy">
-            <h2 data-motion-heading><span className="eng-phrase">まずは、</span><span className="eng-phrase">仕事や会社のことから。</span></h2>
+            <h2><span className="eng-phrase">まずは、</span><span className="eng-phrase">仕事や会社のことから。</span></h2>
             <p><span className="eng-phrase">仕事内容や学び方、働く環境など、</span><br />気になることからお話ししませんか。</p>
           </div>
           <div className="engineer-cta-action"><LineButton role="engineer" /><ContactNote /></div>

@@ -48,3 +48,8 @@ artifacts/qa/icons-career-20261019/baseline.json
 artifacts/qa/icons-career-20261019/anchors.json
 
 artifacts/qa/icons-career-20261019/published.json
+
+artifacts/qa/final-cta-20261019/*.png
+artifacts/qa/final-cta-20261019/*.jpg
+artifacts/qa/final-cta-20261019/anchors.json
+artifacts/qa/final-cta-20261019/anchors-settled.json
