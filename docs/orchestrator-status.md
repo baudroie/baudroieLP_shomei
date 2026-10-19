@@ -1,3 +1,22 @@
+## 2026-10-19 写真注記・折返し修正版を公開済み
+
+ユーザーの公開指示により、以下の未公開記録を更新しました。
+
+- 公開元ソース: `d25a2c9ef56fa6df152bc1e2279a00e89e7cb966`
+- gh-pages: `aa14518c9d3731f00a2552ff50e7c09950b9c3c9`
+- 配信tree: `4ea1974c5fb144285277228bbb5d79ece0e12353`（55ファイルすべて検証済みdistとGit blob SHA一致）
+- Actions: https://github.com/baudroie/baudroieLP_shomei/actions/runs/39184467624 （completed / success）
+- 公開URL: https://baudroie.github.io/baudroieLP_shomei/
+- CSS `index-C4JHzsEv.css` / JS `index-DZa17xO8.js`。
+- 公開4ページHTML・CSS・JS・deployment.jsonを取得し、ローカル公開用distとバイト一致。
+- 公開4ページをChrome 1440/390pxで実見。読込後の画像欠落・横溢れ・削除対象写真注記なし。フッターで固定ヘッダーtop=0、会社/プライバシーリンクとエンジニア「こちらから。」を確認。4種類のLINE hrefを確認。
+- 人事の想定業務注記は保持。担当範囲の事実確認は引き続き必要。
+- 今回は既に検証済みの修正版の公開確認。375/430は先行プレビュー検証、reduced-motionライブ再検証とLINEアプリ内の友だち追加/タグ/配信は今回対象外。
+- スクリーンショットは非公開のローカル `artifacts/photo-notes/published-{overview,hr,sales,engineer}-{1440,390}.png`。390pxの計測は `artifacts/photo-notes/published-browser-checks.json`。
+- mainマージなし。PR #2はDraftを維持。サイト全体の最終検収とは別。
+
+---
+
 # 最新：2026-10-19 写真注記・折返しの追加修正
 
 対象は本記録と同じコミット（開始点ef9a113）。最新ユーザー方針をIMPLEMENTATION_BRIEF冒頭へ反映。4ページの写真注記削除・alt整理、公式研修写真への切替、フッターとCTAの折返しを実装。人事の業務内容の未確定注記は保持。
