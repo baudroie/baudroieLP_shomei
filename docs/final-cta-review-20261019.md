@@ -26,3 +26,11 @@
 ## 正式証拠
 artifacts/qa/final-cta-20261019/ 以下の final-motion-summary.json、motion-*.json、cta-regression.json、wrapping.json、anchors-final.jsonl、reduced.json。初期途中計測のanchors.json/anchors-settled.jsonは判定に使わず。
 ユーザー向け比較HTMLに4ページ×2幅の到達後/完了後と、サービス欄PC/スマホ変更前後を収録。
+
+## 公開完了
+- 実装ソース0df0750fb72de7d9391258c60046c48d68020354。ローカル96c254cとtree ccc636d7d766c3fa3ddbc33081c10d9b57496fe3が一致。
+- gh-pages 0a24da1af5a11bbf45129b91586b6bfaacd70bc6。配信tree c7848c35daae511c5b668dfe76bc3e722abe3d64の56ファイルがdistとGit blob SHA一致。
+- Actions https://github.com/baudroie/baudroieLP_shomei/actions/runs/39197880732 success。
+- 公開4ページ×1440/390pxを再読込。CSS index-DYq-yc93.css / JS index-B-6p08w6.js、最終h2の演出属性なし、見出しとspanのopacity1、固定ヘッダーtop0、CTA URL維持、横溢れ・画像欠落なしを確認。公開375pxのクラウド/ソリューション各30px一行、横溢れなしも確認。
+- プレビュー専用観測コードは公開HTMLに含まれない。mainマージ、LINE追加・送信なし。
+- 独立担当が更新後の8画像とPC/375サービス画像・各計測を確認し、証拠不一致の指摘解消。通常見出しの稼働フレームはまとめ/営業/人事で記録、エンジニアは別測定で観測したが最終motion JSONには含まれず。
