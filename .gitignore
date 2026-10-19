@@ -35,3 +35,7 @@ artifacts/polish/frames/
 artifacts/photo-notes/*.png
 artifacts/photo-notes/*.jpg
 artifacts/photo-notes/*.html
+
+# Engineer photo layering review screenshots remain in the private deliverable.
+artifacts/qa/engineer-layers-20261019/*.png
+artifacts/qa/engineer-layers-20261019/*.html

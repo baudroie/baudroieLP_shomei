@@ -72,7 +72,11 @@
 .approved-design .engineer-hero-top { position:relative; z-index:1; }
 .approved-design .engineer-hero > .motif-engineer { inset:-70px 0 40px; }
 .approved-design .engineer-hero-top figure::before,.approved-design .engineer-hero-top figure::after { content:none; }
-.approved-design .engineer-hero-top figure { clip-path:none; }
+/* Keep the photo in an opaque, isolated foreground plane. The section's
+   isolated backdrop owns the motif (-1); hero content owns the foreground (1).
+   No size/crop changes, and no blending with the decorative SVG. */
+.approved-design .engineer-hero-top figure { clip-path:none; position:relative; isolation:isolate; background:#fff; }
+.approved-design .engineer-hero-top figure > img { position:relative; mix-blend-mode:normal; opacity:1; }
 .approved-design .engineer-hero > .art { position:relative; z-index:1; border-radius:0; }
 .approved-design .engineer-cta > .motif-engineer { inset:0; mask-image:linear-gradient(to right,black 0%,transparent 30%,transparent 70%,black 100%); }
 .approved-design .engineer-cta { background:white; }

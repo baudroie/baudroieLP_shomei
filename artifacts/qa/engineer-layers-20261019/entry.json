@@ -1,0 +1,10 @@
+{
+  "beforeEntry": {
+    "opacity": "0.0533264",
+    "y": 0
+  },
+  "afterEntry": {
+    "opacity": "1",
+    "y": 0
+  }
+}

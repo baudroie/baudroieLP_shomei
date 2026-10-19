@@ -56,7 +56,7 @@ export function useApprovedMotion(root: RefObject<HTMLDivElement | null>) {
     play(node, [{opacity:.55},{opacity:1}], 100, 600);
    } else {
     // Human figures remain opaque so decoration cannot show through their bodies.
-    rise(node, 40, node.matches('.art, .hr-hero-photo'));
+    rise(node, 40, node.matches('.art, .hr-hero-photo, .engineer-hero-top figure > img'));
    }
   };
   const cancel = () => { for (const animation of running.keys()) animation.cancel(); running.clear(); };

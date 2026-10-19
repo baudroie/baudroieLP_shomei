@@ -1,0 +1,78 @@
+[
+  {
+    "blend": "normal",
+    "figureBackground": "rgb(255, 255, 255)",
+    "figureIsolation": "isolate",
+    "opacity": "1",
+    "overflow": false,
+    "photo": {
+      "bottom": 632.2421875,
+      "height": 414.71875,
+      "left": 769.9140625,
+      "right": 1392,
+      "top": 217.5234375,
+      "width": 622.0859375,
+      "x": 769.9140625,
+      "y": 217.5234375
+    },
+    "width": 1440,
+    "y": 0
+  },
+  {
+    "blend": "normal",
+    "figureBackground": "rgb(255, 255, 255)",
+    "figureIsolation": "isolate",
+    "opacity": "1",
+    "overflow": false,
+    "photo": {
+      "bottom": 834.71875,
+      "height": 218,
+      "left": 24,
+      "right": 351,
+      "top": 616.71875,
+      "width": 327,
+      "x": 24,
+      "y": 616.71875
+    },
+    "width": 375,
+    "y": 0
+  },
+  {
+    "blend": "normal",
+    "figureBackground": "rgb(255, 255, 255)",
+    "figureIsolation": "isolate",
+    "opacity": "1",
+    "overflow": false,
+    "photo": {
+      "bottom": 848.7890625,
+      "height": 228,
+      "left": 24,
+      "right": 366,
+      "top": 620.7890625,
+      "width": 342,
+      "x": 24,
+      "y": 620.7890625
+    },
+    "width": 390,
+    "y": 0
+  },
+  {
+    "blend": "normal",
+    "figureBackground": "rgb(255, 255, 255)",
+    "figureIsolation": "isolate",
+    "opacity": "1",
+    "overflow": false,
+    "photo": {
+      "bottom": 886.375,
+      "height": 254.6640625,
+      "left": 24,
+      "right": 406,
+      "top": 631.7109375,
+      "width": 382,
+      "x": 24,
+      "y": 631.7109375
+    },
+    "width": 430,
+    "y": 0
+  }
+]
