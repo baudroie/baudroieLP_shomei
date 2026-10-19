@@ -35,4 +35,11 @@
 
 artifacts/qa/icons-career-20261019/captures.json、regression.json、anchors-final.json。
 比較スクリーンショット・新規アイコン一覧・focus画像は同フォルダにローカル保存し、自己完結HTMLへ収録。公開サイトの配信には含めない。
-公開状態は反映後に追記。mainへのマージやPages設定変更は行わない。
+## 公開結果
+
+- 公開元ソース `31dc8cd7667a221aeb071bf8eb19b2e657aa8c0e`。ローカルcb185baとtree bdc50b8ddd57029c513d7a1de375273803aa5111が一致。
+- gh-pages `0f2a48f6aa8b3dde20017db7f685c7da2802bfb6`。56ファイルの配信tree `019b49a11383d359667799cb1ef67ff0558cb4ed` はローカル公開用distとGit blob SHAが一致。
+- Actions https://github.com/baudroie/baudroieLP_shomei/actions/runs/39192307149 completed / success。
+- 公開URLを再読み込み。全4ページ1440/390px、対象2ページ375/430pxの12条件で新CSS index-DsPFFcUp.css・JS index-BXfKA33m.js、改訂文言・アイコン、画像の読込完了・横溢れなし・LINE href維持を確認。
+- 証拠 published-final.json。初回published.jsonは画像読込途中のため判定に使用しない。
+- mainマージ・Pages設定変更なし。PR #2はDraft維持。LINE友だち追加・メッセージ送信なし。
