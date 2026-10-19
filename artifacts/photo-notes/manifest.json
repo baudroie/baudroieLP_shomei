@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-19T00:29:22.231126+00:00",
+  "created_utc": "2026-10-19T00:32:36.140606+00:00",
   "base_commit": "ef9a113d273a738f81d0843738597622379e0e07",
   "source_sha256": {
     "src/approved-design.css": "eef1e8a1faa3c29761842400e28d0e21ab61f8a5a8f1844854372829ef2d00af",
@@ -18,10 +18,6 @@
     "src/vite-env.d.ts": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
   },
   "evidence_sha256": {
-    "anchor-engineer-390.png": "e226c4e7ad672f2db974f37be6524537bfa0c53b1b23d338bf46aae1e5ffa689",
-    "anchor-hr-390.png": "5f3d2a7dbaeec443d9aae1da7445d46d99cee45635f1d7f34bc23ff6797516b5",
-    "anchor-overview-390.png": "beeb2d5eee464e5316e80ab7bf0987239965c56da8f0692ee1dedeb7a127b79b",
-    "anchor-sales-390.png": "0a7bfc9934f381891c1b63ad4f3792cbcecf33063c8f1ce530b9515e9d9cc03b",
     "before-engineer-1440.png": "fe18c0dd64809bd0c800a5f0cbce7fd2680fcdf870641642bdd7384a29080720",
     "before-engineer-390.png": "1fcf171a5bd0cb059d7489b7c020a50cd21821f17c24075f620b1833d52200d0",
     "before-hr-1440.png": "9bd4db4d3b9a64233c35a1e324375ab91189b61a46735308535651e468aa768e",

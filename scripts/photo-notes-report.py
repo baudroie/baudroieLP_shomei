@@ -12,7 +12,9 @@ def image(file):
     return 'data:image/jpeg;base64,' + base64.b64encode(jpg.read_bytes()).decode()
 
 source = {str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((root/'src').glob('*')) if p.is_file()}
-evidence = {p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(out.glob('*.png'))}
+selected = {f'{prefix}{role}-{width}.png' for role in names for width in [1440,390,375,430] for prefix in ['', 'footer-']}
+selected |= {f'before-{role}-{width}.png' for role in names for width in [1440,390]}
+evidence = {p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(out.glob('*.png')) if p.name in selected}
 manifest = {'created_utc':datetime.now(timezone.utc).isoformat(),'base_commit':'ef9a113d273a738f81d0843738597622379e0e07','source_sha256':source,'evidence_sha256':evidence,'note':'Local Chrome captures; previews only. No production update.'}
 (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
 html = ['''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ボードルアLP 写真注記・折返し修正</title><style>body{font-family:system-ui,sans-serif;color:#202020;background:#faf9f6;line-height:1.8;max-width:1460px;margin:auto;padding:28px}h1{font-size:30px}h2{font-size:23px;margin-top:36px}p{max-width:950px}summary{cursor:pointer;padding:16px;background:#fff;font-weight:700}details{margin:18px 0;border:1px solid #ddd}img{display:block;width:100%;height:auto}.pair{display:grid;grid-template-columns:1fr 1fr;align-items:start;gap:12px}.pair figure{margin:0;min-width:0}figcaption{padding:12px;background:#eee;position:sticky;top:0}table{border-collapse:collapse;width:100%}td,th{padding:10px;border-bottom:1px solid #ccc;text-align:left}.footers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}a{color:#18567d}@media(max-width:700px){body{padding:16px}.pair{min-width:700px}.scroll{overflow-x:auto}.footers{grid-template-columns:1fr 1fr}}</style>
