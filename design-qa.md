@@ -140,3 +140,6 @@ Mobile introduction uses three semantic lines at375/390/430; font17px unchanged.
 Evidence: artifacts/hr-final/; details: docs/hr-final-review.md. Viewports1440×900 and375/390/430×1000; browser scrollbar consumes15px. Raw screenshots retained without dimension normalization.
 Build passed, console errors none. Read-only independent review and implementation visual inspection completed, no in-scope P1/P2.
 final result: passed
+
+## 2026-10-19 Illustration alpha only
+Baseline 4b7a457. Nine illustration PNGs now retain opaque foreground whites while exposing exterior/background gaps. Existing transparent assets and all photos preserved. Removed role-art-window white backing; normal compositing for alpha illustrations. Chrome 4 pages ×375/390/430/1440 verified: loaded images, no horizontal overflow, settled image rectangles unchanged. Light/dark comparisons and independent asset review completed; six matte findings fixed and rechecked. Build passed. See docs/illustration-alpha-review-20261019.md and artifacts/qa/alpha-20261019/. No publication, merge or LINE submission. Mobile device Safari/Android not tested.

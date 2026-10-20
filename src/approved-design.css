@@ -1,5 +1,7 @@
 /* Approved 2026-10-18 directions. All foreground and brand tokens inherited. */
 .approved-design { --decor-apricot:#f7d6b5; --decor-yellow:#f4e4b2; --decor-ivory:#fff9ef; }
+/* Illustration whites are foreground paint; transparency is stored in the PNG. */
+.approved-design .art { mix-blend-mode:normal; }
 .approved-design section:has(> .approved-motif) { position:relative; isolation:isolate; }
 .approved-design .approved-motif { position:absolute; inset:0; overflow:clip; pointer-events:none; z-index:-1; min-width:0; }
 .approved-motif svg { display:block; width:100%; height:100%; overflow:visible; }
@@ -177,7 +179,7 @@
  .approved-design .overview-hero > .motif-overview { top:calc(100% - (100vw - 48px) * .75 - 52px); }
 }
 .approved-design .role-illustration { padding:0; overflow:visible; }
-.approved-design .role-art-window { position:relative; overflow:hidden; width:76%; height:100%; margin:auto; background:white; }
+.approved-design .role-art-window { position:relative; overflow:hidden; width:76%; height:100%; margin:auto; background:transparent; }
 .approved-design .job-grid .role-illustration .role-art { width:300%; }
 .approved-design .engineer-hero > .motif-engineer { top:0; bottom:auto; height:800px; }
 .approved-design .sales-team > .photo { mask:none; -webkit-mask:none; }

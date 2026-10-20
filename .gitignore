@@ -53,3 +53,9 @@ artifacts/qa/final-cta-20261019/*.png
 artifacts/qa/final-cta-20261019/*.jpg
 artifacts/qa/final-cta-20261019/anchors.json
 artifacts/qa/final-cta-20261019/anchors-settled.json
+
+# Illustration review images are included in the private comparison deliverable.
+artifacts/qa/alpha-20261019/*.png
+artifacts/qa/alpha-20261019/*.jpg
+artifacts/qa/alpha-20261019/*.html
+artifacts/qa/alpha-20261019/original/

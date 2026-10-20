@@ -1,0 +1,92 @@
+[
+  {
+    "name": "sales-hero.png",
+    "width": 1536,
+    "height": 1024,
+    "transparent": 990716,
+    "partial": 5984,
+    "opaque": 576164,
+    "opaqueRGBChanged": 0,
+    "inkLost": 0
+  },
+  {
+    "name": "overview-role-illustrations.png",
+    "width": 2172,
+    "height": 724,
+    "transparent": 1089481,
+    "partial": 6517,
+    "opaque": 476530,
+    "opaqueRGBChanged": 0,
+    "inkLost": 0
+  },
+  {
+    "name": "sales-map.png",
+    "width": 2172,
+    "height": 724,
+    "transparent": 1123353,
+    "partial": 9184,
+    "opaque": 439991,
+    "opaqueRGBChanged": 0,
+    "inkLost": 0
+  },
+  {
+    "name": "sales-phone.png",
+    "width": 1536,
+    "height": 1024,
+    "transparent": 1102698,
+    "partial": 4143,
+    "opaque": 466023,
+    "opaqueRGBChanged": 0,
+    "inkLost": 0
+  },
+  {
+    "name": "sales-research.png",
+    "width": 1254,
+    "height": 1254,
+    "transparent": 1144060,
+    "partial": 1395,
+    "opaque": 427061,
+    "opaqueRGBChanged": 0,
+    "inkLost": 0
+  },
+  {
+    "name": "engineer-panorama.png",
+    "width": 2172,
+    "height": 724,
+    "transparent": 931689,
+    "partial": 7417,
+    "opaque": 633422,
+    "opaqueRGBChanged": 0,
+    "inkLost": 0
+  },
+  {
+    "name": "engineer-infrastructure.png",
+    "width": 2172,
+    "height": 724,
+    "transparent": 862179,
+    "partial": 8584,
+    "opaque": 701765,
+    "opaqueRGBChanged": 0,
+    "inkLost": 0
+  },
+  {
+    "name": "engineer-laptop.png",
+    "width": 1536,
+    "height": 1024,
+    "transparent": 1012863,
+    "partial": 6371,
+    "opaque": 553630,
+    "opaqueRGBChanged": 0,
+    "inkLost": 0
+  },
+  {
+    "name": "hr-hero.png",
+    "width": 1536,
+    "height": 1024,
+    "transparent": 946666,
+    "partial": 3722,
+    "opaque": 622476,
+    "opaqueRGBChanged": 0,
+    "inkLost": 0
+  }
+]

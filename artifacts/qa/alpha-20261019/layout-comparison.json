@@ -1,0 +1,114 @@
+[
+  {
+    "page": "sales",
+    "width": 375,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "overview",
+    "width": 375,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "hr",
+    "width": 375,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "engineer",
+    "width": 375,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "sales",
+    "width": 390,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "overview",
+    "width": 390,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "hr",
+    "width": 390,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "engineer",
+    "width": 390,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "sales",
+    "width": 430,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "overview",
+    "width": 430,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "hr",
+    "width": 430,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "engineer",
+    "width": 430,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "sales",
+    "width": 1440,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "overview",
+    "width": 1440,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "hr",
+    "width": 1440,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  },
+  {
+    "page": "engineer",
+    "width": 1440,
+    "overflow": 0,
+    "loaded": true,
+    "deltas": []
+  }
+]
