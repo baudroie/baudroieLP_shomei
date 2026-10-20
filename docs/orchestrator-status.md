@@ -1,3 +1,22 @@
+## 2026-10-20 イラスト透過版を本番公開済み
+
+ユーザーの「本番適応お願いします」に基づき、前回の未公開状態を更新。
+
+- 実装ソース: 76f3add5799bab9d9ab0e7c01240b500c13eee78（検証済みローカルd76c530とtree一致）
+- gh-pages: fa080b26ed0643fe4323576675b14aa64a4515a1
+- 配信tree: 3dce93dc5584f7bee6ea74526cd0960ec5a04ea1。56ファイルすべて公開URLと検証distでバイト一致。
+- Actions: https://github.com/baudroie/baudroieLP_shomei/actions/runs/39354044811 completed / success
+- 公開URL: https://baudroie.github.io/baudroieLP_shomei/
+- 公開4ページ×1440/390/375/430pxをChromeで再読込。横溢れなし、固定ヘッダーと4種類のCTA URL維持。まとめの画像枠は透明。
+- 人事画像の読み込み途中は不合格判定に含めず、networkidle後に4幅で全画像の読込完了を再確認。詳細 hr-settled.json。
+- 比較・計測: artifacts/qa/alpha-20261020-published/。UIの画像は原版保持。
+- 初回のまとめ表示は旧キャッシュだったため再読込し、新CSSと透明な画像枠を確認。
+- mainマージ、LINE追加、フォーム送信、メッセージ送信、通知設定の変更なし。実機Safari/Androidは未確認。
+
+以下は過去の作業記録。未公開・送信停止の記述は今回の公開で解消済み。
+
+---
+
 ## 2026-10-19 イラスト外側白背景の透過
 
 基準4b7a457、ローカル専用ブランチfix/illustration-alpha-20261019（実装86a371f、検証dfe6b81）。GitHub保存は自動承認レビューが公開なし指示の範囲を超えるとして停止。リモートブランチ/PR未作成。9 PNGとまとめの白い画像枠を修正。透過済み素材・写真・コピー・配色・導線は保持。4ページ×375/390/430/1440pxを撮影し、横溢れ/画像欠落なし、修正前後の画像矩形一致。淡色/濃色比較と独立素材レビュー完了。詳細 docs/illustration-alpha-review-20261019.md、証拠 artifacts/qa/alpha-20261019/。未公開・mainマージなし。

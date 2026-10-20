@@ -1,3 +1,22 @@
+## 2026-10-20 イラスト透過版を本番公開済み
+
+ユーザーの「本番適応お願いします」に基づき、前回の未公開状態を更新。
+
+- 実装ソース: 76f3add5799bab9d9ab0e7c01240b500c13eee78（検証済みローカルd76c530とtree一致）
+- gh-pages: fa080b26ed0643fe4323576675b14aa64a4515a1
+- 配信tree: 3dce93dc5584f7bee6ea74526cd0960ec5a04ea1。56ファイルすべて公開URLと検証distでバイト一致。
+- Actions: https://github.com/baudroie/baudroieLP_shomei/actions/runs/39354044811 completed / success
+- 公開URL: https://baudroie.github.io/baudroieLP_shomei/
+- 公開4ページ×1440/390/375/430pxをChromeで再読込。横溢れなし、固定ヘッダーと4種類のCTA URL維持。まとめの画像枠は透明。
+- 人事画像の読み込み途中は不合格判定に含めず、networkidle後に4幅で全画像の読込完了を再確認。詳細 hr-settled.json。
+- 比較・計測: artifacts/qa/alpha-20261020-published/。UIの画像は原版保持。
+- 初回のまとめ表示は旧キャッシュだったため再読込し、新CSSと透明な画像枠を確認。
+- mainマージ、LINE追加、フォーム送信、メッセージ送信、通知設定の変更なし。実機Safari/Androidは未確認。
+
+以下は過去の作業記録。未公開・送信停止の記述は今回の公開で解消済み。
+
+---
+
 # イラスト外側白背景の透過
 
 基準: `4b7a457915c4bfeb51b6961eec9a4d7724d741da`。作業ブランチ: `fix/illustration-alpha-20261019`。公開・mainマージは未実施。
