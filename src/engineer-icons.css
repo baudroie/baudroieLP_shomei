@@ -1,0 +1,89 @@
+/* Scoped additions: approved palette, photos, waves and shared chrome are untouched. */
+.engineer-icon { display:block; flex:none; width:40px; height:40px; color:inherit; }
+.approved-design .service-grid { grid-template-rows:auto auto auto; row-gap:0; }
+.approved-design .service-grid > div { display:grid; grid-row:span 3; grid-template-rows:subgrid; }
+.approved-design .service-grid h5 { align-self:stretch; min-height:3em; line-height:1.5; }
+.approved-design .service-grid h5 > span { display:block; }
+.approved-design .service-grid .service-phrase { display:inline-block; }
+.approved-design .service-grid p { align-self:start; }
+/* Keep semantic units intact without shrinking labels or locking paragraph widths. */
+.approved-design .service-grid h5 .service-phrase { white-space:nowrap; }
+.approved-design .service-grid p > .service-phrase:first-child { display:block; }
+
+.engineer-restored .engineer-jump { max-width:590px; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:16px; }
+.engineer-restored .engineer-jump a { display:grid; grid-template-columns:26px minmax(0,1fr) 16px; gap:8px; min-height:66px; padding:16px; border:1px solid #d8d4c8; border-radius:6px; background:var(--eng-bg-ivory); color:#202020; font-size:16px; line-height:1.5; text-decoration:none; transition:background-color 180ms, border-color 180ms; }
+.engineer-restored .engineer-jump a + a { background:var(--eng-bg-sage); border:1px solid #cbd2c4; }
+.engineer-restored .engineer-jump .engineer-icon { width:26px; height:26px; }
+.engineer-restored .engineer-jump .jump-label { font-weight:700; text-align:left; }
+.engineer-restored .engineer-jump a:hover { border-color:#909b87; background:#f5efdf; }
+.engineer-restored .engineer-jump a + a:hover { background:#dfe6d7; }
+.engineer-restored .engineer-jump a:hover > span { transform:none; }
+.engineer-restored .engineer-jump a:focus-visible { outline:3px solid #1765af; outline-offset:4px; }
+
+/* Subgrid shares icon / heading / copy rows, including wrapped Japanese labels. */
+.engineer-restored .infrastructure-labels { grid-template-rows:auto auto auto; row-gap:0; }
+.engineer-restored .infrastructure-labels article { display:grid; grid-row:span 3; grid-template-rows:subgrid; padding-top:20px; }
+.engineer-restored .infrastructure-labels .technology-icon { display:block; width:64px; height:64px; overflow:hidden; position:relative; margin:0 0 16px; }
+.technology-icon > .engineer-icon { width:100%; height:100%; }
+.technology-icon > .technology-raster { position:absolute; max-width:none; width:150%; height:150%; left:-25%; top:-25%; object-fit:contain; filter:hue-rotate(24.5deg) saturate(.592) brightness(1.444); }
+.technology-icon > .tech-cloud { width:198%; height:198%; left:-49%; top:-49%; }
+.technology-icon > .tech-security { width:180%; height:180%; left:-40%; top:-40%; }
+.engineer-restored .infrastructure-labels h3 { min-height:3em; line-height:1.5; margin:0; align-self:start; }
+.engineer-restored .infrastructure-labels p { align-self:start; }
+
+.engineer-restored .path-skills { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; font-size:17px; line-height:1.6; }
+.engineer-restored .path-skills > div { display:flex; flex-direction:column; align-items:center; gap:12px; min-width:0; text-align:center; }
+.engineer-restored .path-skills span { white-space:normal; }
+.engineer-restored .path-skills span + span { border:0; padding:0; }
+.engineer-restored .path-skills .skill-phrase { display:block; }
+.engineer-restored #experienced .path-skills { color:#fff9ef; }
+
+/* One CSS connection system, aligned to the same equal columns as the content. */
+.engineer-restored .career-examples { --career-line:#85908c; --branch-rise:28px; --branch-stop:14px; }
+.engineer-restored .career-examples .eng-career-origin { max-width:none; width:100%; text-align:center; margin:14px 0 0; padding-bottom:var(--branch-rise); position:relative; }
+.engineer-restored .eng-career-origin::after { content:""; position:absolute; width:0; left:50%; bottom:0; height:var(--branch-rise); border-left:1.25px solid var(--career-line); }
+.engineer-restored .career-examples ul { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0; margin:0; padding:0; }
+.engineer-restored .career-examples li { position:relative; display:flex; flex-direction:column; align-items:center; text-align:center; padding:42px 16px 0; border:0; min-width:0; }
+.engineer-restored .career-examples li::before { content:""; position:absolute; top:0; left:0; right:0; border-top:1.25px solid var(--career-line); }
+.engineer-restored .career-examples li:first-child::before { left:50%; }
+.engineer-restored .career-examples li:last-child::before { right:50%; }
+.engineer-restored .career-examples li::after { content:""; position:absolute; left:50%; top:0; height:var(--branch-rise); border-left:1.25px solid var(--career-line); }
+.engineer-restored .career-examples .engineer-icon { width:76px; height:76px; margin:0 0 16px; }
+.engineer-restored .career-copy { width:100%; }
+.engineer-restored .career-copy > span { display:block; font-size:16px; font-weight:400; line-height:1.6; min-height:3.2em; margin-bottom:8px; }
+.engineer-restored .career-examples strong { white-space:normal; }
+
+@media (max-width:1199px) {
+ .engineer-restored .infrastructure-labels { row-gap:28px; }
+ .engineer-restored .infrastructure-labels article { row-gap:0; }
+ .engineer-restored .engineer-jump { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media (min-width:768px) and (max-width:1050px) {
+ .engineer-restored .engineer-jump a { grid-template-columns:24px minmax(0,1fr) 12px; padding-inline:12px; gap:6px; }
+}
+@media (max-width:767px) {
+ .approved-design .service-grid { row-gap:24px; }
+ .approved-design .service-grid > div { row-gap:0; }
+ .approved-design .service-grid > div:nth-child(even) { padding-right:0 !important; }
+ .engineer-restored .engineer-jump { grid-template-columns:1fr; max-width:none; gap:12px; }
+ .engineer-restored .engineer-jump a { min-height:66px; padding:16px 18px; grid-template-columns:26px minmax(0,1fr) 16px; gap:12px; }
+ .engineer-restored .infrastructure-labels .technology-icon { width:48px; height:48px; margin-bottom:12px; }
+ .engineer-restored .path-skills { gap:4px; font-size:15px; }
+ .engineer-restored .path-skills .engineer-icon { width:36px; height:36px; }
+ .engineer-restored .path-skills .skill-phrase { display:inline; }
+ .engineer-restored .path-skills .skill-phrase:last-child { display:block; }
+ .engineer-restored .career-examples { --mobile-rail:8px; --mobile-icon:54px; --mobile-indent:32px; --mobile-gap:28px; }
+ .engineer-restored .career-examples .eng-career-origin { text-align:left; padding-bottom:24px; padding-left:0; }
+ .engineer-restored .eng-career-origin::after { left:var(--mobile-rail); height:24px; }
+ .engineer-restored .career-examples ul { grid-template-columns:1fr; gap:0; padding:0; }
+ .engineer-restored .career-examples li { display:grid; grid-template-columns:var(--mobile-icon) minmax(0,1fr); gap:14px; align-items:start; padding:0 0 var(--mobile-gap) var(--mobile-indent); text-align:left; }
+ .engineer-restored .career-examples li::before,
+ .engineer-restored .career-examples li:first-child::before,
+ .engineer-restored .career-examples li:last-child::before { left:var(--mobile-rail); right:auto; top:0; bottom:0; width:0; height:auto; border-top:0; border-left:1.25px solid var(--career-line); }
+ .engineer-restored .career-examples li:last-child { padding-bottom:0; }
+ .engineer-restored .career-examples li:last-child::before { height:calc(var(--mobile-icon) / 2); bottom:auto; }
+ .engineer-restored .career-examples li::after { left:var(--mobile-rail); top:calc(var(--mobile-icon) / 2); height:0; width:calc(var(--mobile-indent) - var(--mobile-rail) - 12px); border-left:0; border-top:1.25px solid var(--career-line); }
+ .engineer-restored .career-examples .engineer-icon { width:var(--mobile-icon); height:var(--mobile-icon); margin:0; }
+ .engineer-restored .career-copy > span { min-height:0; margin-bottom:6px; font-size:15px; }
+ .engineer-restored .career-examples strong { font-size:21px; line-height:1.5; }
+}

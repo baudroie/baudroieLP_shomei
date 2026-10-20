@@ -1,0 +1,20 @@
+[
+  {
+    "role": "hr",
+    "dialog": "LINEリンクは設定待ちです\n\n人事の正式な相談先URLは、準備ができ次第ご案内します。\n\n閉じる",
+    "tabFocus": "閉じる",
+    "restored": "まずは話を聞く↗"
+  },
+  {
+    "role": "sales",
+    "dialog": "LINEリンクは設定待ちです\n\n営業の正式な相談先URLは、準備ができ次第ご案内します。\n\n閉じる",
+    "tabFocus": "閉じる",
+    "restored": "まずは話を聞く↗"
+  },
+  {
+    "role": "engineer",
+    "dialog": "LINEリンクは設定待ちです\n\nエンジニアの正式な相談先URLは、準備ができ次第ご案内します。\n\n閉じる",
+    "tabFocus": "閉じる",
+    "restored": "まずは話を聞く↗"
+  }
+]

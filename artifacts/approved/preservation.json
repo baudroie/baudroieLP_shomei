@@ -1,0 +1,27 @@
+{
+  "public/": {
+    "checked": 42,
+    "changed": []
+  },
+  "src/styles.css": {
+    "checked": 1,
+    "changed": []
+  },
+  "src/responsive-fixes.css": {
+    "checked": 1,
+    "changed": []
+  },
+  "src/oct18-refinements.css": {
+    "checked": 1,
+    "changed": []
+  },
+  "src/master-curves.css": {
+    "checked": 1,
+    "changed": []
+  },
+  "src/config.ts": {
+    "checked": 1,
+    "changed": []
+  },
+  "original_source_changed": []
+}

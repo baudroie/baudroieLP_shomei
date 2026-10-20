@@ -1,0 +1,130 @@
+{
+  "items": [
+    {
+      "clip": "none",
+      "fit": "fill",
+      "font": "16px",
+      "rect": {
+        "bottom": 778,
+        "height": 676,
+        "left": 0,
+        "right": 1425,
+        "top": 102,
+        "width": 1425,
+        "x": 0,
+        "y": 102
+      },
+      "selector": ".hr-hero",
+      "z": "auto"
+    },
+    {
+      "clip": "none",
+      "fit": "fill",
+      "font": "16px",
+      "rect": {
+        "bottom": 618.3125,
+        "height": 422.3125,
+        "left": 402.5,
+        "right": 1022.5,
+        "top": 196,
+        "width": 620,
+        "x": 402.5,
+        "y": 196
+      },
+      "selector": ".hr-hero-copy",
+      "z": "2"
+    },
+    {
+      "clip": "none",
+      "fit": "fill",
+      "font": "72px",
+      "rect": {
+        "bottom": 433.1875,
+        "height": 191.5,
+        "left": 402.5,
+        "right": 1022.5,
+        "top": 241.6875,
+        "width": 620,
+        "x": 402.5,
+        "y": 241.6875
+      },
+      "selector": ".hr-hero-copy h1",
+      "z": "auto"
+    },
+    {
+      "clip": "none",
+      "fit": "fill",
+      "font": "19px",
+      "rect": {
+        "bottom": 519.265625,
+        "height": 68.390625,
+        "left": 402.5,
+        "right": 1022.5,
+        "top": 450.875,
+        "width": 620,
+        "x": 402.5,
+        "y": 450.875
+      },
+      "selector": ".hr-hero-copy p",
+      "z": "auto"
+    },
+    {
+      "clip": "none",
+      "fit": "fill",
+      "font": "23px",
+      "rect": {
+        "bottom": 618.3125,
+        "height": 71.046875,
+        "left": 532.5,
+        "right": 892.5,
+        "top": 547.265625,
+        "width": 360,
+        "x": 532.5,
+        "y": 547.265625
+      },
+      "selector": ".hr-hero-copy button",
+      "z": "auto"
+    },
+    {
+      "clip": "none",
+      "fit": "contain",
+      "font": "16px",
+      "rect": {
+        "bottom": 583.6640625,
+        "height": 241.6640625,
+        "left": 0,
+        "right": 362.5,
+        "top": 342,
+        "width": 362.5,
+        "x": 0,
+        "y": 342
+      },
+      "selector": ".hr-hero > .photo",
+      "z": "2"
+    },
+    {
+      "clip": "none",
+      "fit": "contain",
+      "font": "16px",
+      "rect": {
+        "bottom": 583.6640625,
+        "height": 241.6640625,
+        "left": 1038.5,
+        "right": 1401,
+        "top": 342,
+        "width": 362.5,
+        "x": 1038.5,
+        "y": 342
+      },
+      "selector": ".hr-hero > .art",
+      "z": "2"
+    }
+  ],
+  "viewport": {
+    "clientWidth": 1425,
+    "dpr": 1,
+    "height": 900,
+    "scrollWidth": 1425,
+    "width": 1440
+  }
+}

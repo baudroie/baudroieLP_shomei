@@ -1,0 +1,920 @@
+{
+  "frames": [
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "同じ未来を、違う役割で。",
+      "top": 780
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 10,
+      "text": "同じ未来を、違う役割で。",
+      "top": 780
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 18,
+      "text": "同じ未来を、違う役割で。",
+      "top": 780
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 239,
+      "text": "同じ未来を、違う役割で。",
+      "top": 780
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 268,
+      "text": "同じ未来を、違う役割で。",
+      "top": 780
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 302,
+      "text": "同じ未来を、違う役割で。",
+      "top": 780
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 318,
+      "text": "同じ未来を、違う役割で。",
+      "top": 780
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.0893967,
+      "ms": 321,
+      "text": "同じ未来を、違う役割で。",
+      "top": 779
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.173998,
+      "ms": 351,
+      "text": "同じ未来を、違う役割で。",
+      "top": 695.5
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.264068,
+      "ms": 363,
+      "text": "同じ未来を、違う役割で。",
+      "top": 449
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "学びを、仕事に活きる力へ。",
+      "top": 872.0625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        },
+        {
+          "delay": 80,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 10,
+      "text": "学びを、仕事に活きる力へ。",
+      "top": 345.0625
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "入社前も、その先も。",
+      "top": 908.015625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 38,
+      "text": "入社前も、その先も。",
+      "top": 498.015625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 860.390625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 46,
+      "text": "入社前も、その先も。",
+      "top": 281.015625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 8,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 643.390625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.0894129,
+      "ms": 54,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 16,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.179983,
+      "ms": 84,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 46,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.269417,
+      "ms": 87,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 49,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.356596,
+      "ms": 111,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 73,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.438128,
+      "ms": 125,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 87,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.513027,
+      "ms": 134,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 96,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.579656,
+      "ms": 153,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 115,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.634246,
+      "ms": 165,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 127,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.685241,
+      "ms": 193,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 155,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.729249,
+      "ms": 200,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 162,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.765912,
+      "ms": 215,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 177,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.799642,
+      "ms": 233,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 195,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.825584,
+      "ms": 249,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 211,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.849557,
+      "ms": 265,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 227,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.8714,
+      "ms": 283,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 245,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.889373,
+      "ms": 299,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 262,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.904972,
+      "ms": 317,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 279,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.918778,
+      "ms": 333,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 295,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.930115,
+      "ms": 349,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 311,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.940666,
+      "ms": 365,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 327,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.950437,
+      "ms": 384,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 346,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.958298,
+      "ms": 399,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 361,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.965593,
+      "ms": 416,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 378,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.971478,
+      "ms": 432,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 394,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.977074,
+      "ms": 449,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 411,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.981596,
+      "ms": 465,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 427,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.985423,
+      "ms": 482,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 444,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.989019,
+      "ms": 500,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 462,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.991855,
+      "ms": 516,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 478,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.994185,
+      "ms": 533,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 495,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.99605,
+      "ms": 549,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 511,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.997557,
+      "ms": 566,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 528,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0.998664,
+      "ms": 583,
+      "text": "入社前も、その先も。",
+      "top": 222.515625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 545,
+      "text": "関心のある仕事から、もう少し詳しく。",
+      "top": 584.890625
+    }
+  ],
+  "reduce": false
+}

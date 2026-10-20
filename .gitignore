@@ -4,3 +4,58 @@ dist/
 .env.*
 !.env.example
 .DS_Store
+
+# Local previews and installed dependencies
+node_modules
+preview-dist/
+approved-dist/
+.engineer-ssr/
+.approved-ssr/
+artifacts/approved/motion-frames/
+
+# Review images/videos remain local under the existing project policy.
+artifacts/approved/*.jpg
+artifacts/approved/*.png
+artifacts/approved/*.mp4
+artifacts/hr-mask/*.jpg
+artifacts/hr-mask/*.png
+artifacts/hr-fv/*.jpg
+artifacts/hr-fv-finish/*.jpg
+artifacts/hr-final/*.jpg
+approved-reference/*.png
+approved-reference/references/*.png
+
+# Review deliverables are saved separately.
+artifacts/polish/*.png
+artifacts/polish/*.jpg
+artifacts/polish/*.mp4
+artifacts/polish/frames/
+
+# Screenshots are shared through the private review deliverable.
+artifacts/photo-notes/*.png
+artifacts/photo-notes/*.jpg
+artifacts/photo-notes/*.html
+
+# Engineer photo layering review screenshots remain in the private deliverable.
+artifacts/qa/engineer-layers-20261019/*.png
+artifacts/qa/engineer-layers-20261019/*.html
+
+# Private visual proof is included in the delivered review, not the public repository.
+artifacts/qa/icons-career-20261019/*.png
+artifacts/qa/icons-career-20261019/*.jpg
+artifacts/qa/icons-career-20261019/*.html
+artifacts/qa/icons-career-20261019/baseline.json
+artifacts/qa/icons-career-20261019/anchors.json
+
+artifacts/qa/icons-career-20261019/published.json
+
+artifacts/qa/final-cta-20261019/*.png
+artifacts/qa/final-cta-20261019/*.jpg
+artifacts/qa/final-cta-20261019/anchors.json
+artifacts/qa/final-cta-20261019/anchors-settled.json
+
+# Illustration review images are included in the private comparison deliverable.
+artifacts/qa/alpha-20261019/*.png
+artifacts/qa/alpha-20261019/*.jpg
+artifacts/qa/alpha-20261019/*.html
+artifacts/qa/alpha-20261019/original/

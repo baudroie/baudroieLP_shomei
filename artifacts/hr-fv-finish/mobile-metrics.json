@@ -1,0 +1,143 @@
+[
+  {
+    "art": {
+      "bottom": 910.3359375,
+      "height": 174.390625,
+      "left": 89.40625,
+      "right": 351,
+      "top": 735.9453125,
+      "width": 261.59375,
+      "x": 89.40625,
+      "y": 735.9453125
+    },
+    "client": 375,
+    "cta": {
+      "bottom": 479.9453125,
+      "height": 57.6484375,
+      "left": 24,
+      "right": 351,
+      "top": 422.296875,
+      "width": 327,
+      "x": 24,
+      "y": 422.296875
+    },
+    "images": [
+      {
+        "clip": "none",
+        "fit": "contain",
+        "loaded": true
+      },
+      {
+        "clip": "none",
+        "fit": "contain",
+        "loaded": true
+      }
+    ],
+    "photo": {
+      "bottom": 721.9453125,
+      "height": 218,
+      "left": 24,
+      "right": 351,
+      "top": 503.9453125,
+      "width": 327,
+      "x": 24,
+      "y": 503.9453125
+    },
+    "scroll": 375,
+    "width": 375
+  },
+  {
+    "art": {
+      "bottom": 928.3359375,
+      "height": 182.390625,
+      "left": 92.40625,
+      "right": 366,
+      "top": 745.9453125,
+      "width": 273.59375,
+      "x": 92.40625,
+      "y": 745.9453125
+    },
+    "client": 390,
+    "cta": {
+      "bottom": 479.9453125,
+      "height": 57.6484375,
+      "left": 24,
+      "right": 366,
+      "top": 422.296875,
+      "width": 342,
+      "x": 24,
+      "y": 422.296875
+    },
+    "images": [
+      {
+        "clip": "none",
+        "fit": "contain",
+        "loaded": true
+      },
+      {
+        "clip": "none",
+        "fit": "contain",
+        "loaded": true
+      }
+    ],
+    "photo": {
+      "bottom": 731.9453125,
+      "height": 228,
+      "left": 24,
+      "right": 366,
+      "top": 503.9453125,
+      "width": 342,
+      "x": 24,
+      "y": 503.9453125
+    },
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "art": {
+      "bottom": 976.3359375,
+      "height": 203.7265625,
+      "left": 100.40625,
+      "right": 406,
+      "top": 772.609375,
+      "width": 305.59375,
+      "x": 100.40625,
+      "y": 772.609375
+    },
+    "client": 430,
+    "cta": {
+      "bottom": 479.9453125,
+      "height": 57.6484375,
+      "left": 24,
+      "right": 406,
+      "top": 422.296875,
+      "width": 382,
+      "x": 24,
+      "y": 422.296875
+    },
+    "images": [
+      {
+        "clip": "none",
+        "fit": "contain",
+        "loaded": true
+      },
+      {
+        "clip": "none",
+        "fit": "contain",
+        "loaded": true
+      }
+    ],
+    "photo": {
+      "bottom": 758.609375,
+      "height": 254.6640625,
+      "left": 24,
+      "right": 406,
+      "top": 503.9453125,
+      "width": 382,
+      "x": 24,
+      "y": 503.9453125
+    },
+    "scroll": 430,
+    "width": 430
+  }
+]

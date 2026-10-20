@@ -1,0 +1,43 @@
+[
+  {
+    "bottom": -0.5,
+    "fonts": "loaded",
+    "header": 0,
+    "missing": 0,
+    "notes": false,
+    "overflow": false,
+    "route": "/baudroieLP_shomei/engineer/",
+    "width": 390
+  },
+  {
+    "bottom": 0,
+    "fonts": "loaded",
+    "header": 0,
+    "missing": 0,
+    "notes": false,
+    "overflow": false,
+    "route": "/baudroieLP_shomei/sales/",
+    "width": 390
+  },
+  {
+    "bottom": 0.5,
+    "fonts": "loaded",
+    "header": 0,
+    "missing": 0,
+    "notes": false,
+    "overflow": false,
+    "pending": true,
+    "route": "/baudroieLP_shomei/hr/",
+    "width": 390
+  },
+  {
+    "bottom": -0.5,
+    "fonts": "loaded",
+    "header": 0,
+    "missing": 0,
+    "notes": false,
+    "overflow": false,
+    "route": "/baudroieLP_shomei/",
+    "width": 390
+  }
+]

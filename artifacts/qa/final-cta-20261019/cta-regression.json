@@ -1,0 +1,528 @@
+[
+  {
+    "broken": [],
+    "chain": [
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "H2"
+      },
+      {
+        "animation": "none",
+        "cl": "jobs-return",
+        "opacity": "1",
+        "tag": "NAV"
+      },
+      {
+        "animation": "none",
+        "cl": "overview",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "animation": "none",
+        "cl": "approved-design",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "BODY"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "HTML"
+      }
+    ],
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+    ],
+    "headerTop": 0,
+    "html": "<h2>関心のある仕事から、もう少し詳しく。</h2>",
+    "normalHeadings": 3,
+    "overflow": false,
+    "path": "/baudroieLP_shomei/cta-review-20261019/",
+    "spanOpacities": [],
+    "top": 584.890625,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "chain": [
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "H2"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "sales-cta cream section-pad",
+        "opacity": "1",
+        "tag": "SECTION"
+      },
+      {
+        "animation": "none",
+        "cl": "sales",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "animation": "none",
+        "cl": "approved-design",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "BODY"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "HTML"
+      }
+    ],
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl",
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl",
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl"
+    ],
+    "headerTop": 0,
+    "html": "<h2><span class=\"motion-line\">まずは、仕事の話から。</span></h2>",
+    "normalHeadings": 2,
+    "overflow": false,
+    "path": "/baudroieLP_shomei/cta-review-20261019/sales/",
+    "spanOpacities": [
+      "1"
+    ],
+    "top": 505.84375,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "chain": [
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "H2"
+      },
+      {
+        "animation": "none",
+        "cl": "hr-cta cream",
+        "opacity": "1",
+        "tag": "SECTION"
+      },
+      {
+        "animation": "none",
+        "cl": "hr",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "animation": "none",
+        "cl": "approved-design",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "BODY"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "HTML"
+      }
+    ],
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu",
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu",
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu"
+    ],
+    "headerTop": 0,
+    "html": "<h2><span class=\"motion-line\">まずは、仕事の話から。</span></h2>",
+    "normalHeadings": 3,
+    "overflow": false,
+    "path": "/baudroieLP_shomei/cta-review-20261019/hr/",
+    "spanOpacities": [
+      "1"
+    ],
+    "top": 473,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "chain": [
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "H2"
+      },
+      {
+        "animation": "none",
+        "cl": "engineer-cta-copy",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "engineer-cta section-pad",
+        "opacity": "1",
+        "tag": "SECTION"
+      },
+      {
+        "animation": "none",
+        "cl": "engineer engineer-restored",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "animation": "none",
+        "cl": "engineer-page",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "approved-design",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "BODY"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "HTML"
+      }
+    ],
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt",
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt",
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+    ],
+    "headerTop": 0,
+    "html": "<h2><span class=\"eng-phrase\">まずは、</span><span class=\"eng-phrase\">仕事や会社のことから。</span></h2>",
+    "normalHeadings": 3,
+    "overflow": false,
+    "path": "/baudroieLP_shomei/cta-review-20261019/engineer/",
+    "spanOpacities": [
+      "1",
+      "1"
+    ],
+    "top": 474.671875,
+    "width": 1440
+  },
+  {
+    "broken": [],
+    "chain": [
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "H2"
+      },
+      {
+        "animation": "none",
+        "cl": "jobs-return",
+        "opacity": "1",
+        "tag": "NAV"
+      },
+      {
+        "animation": "none",
+        "cl": "overview",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "animation": "none",
+        "cl": "approved-design",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "BODY"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "HTML"
+      }
+    ],
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+    ],
+    "headerTop": 0,
+    "html": "<h2>関心のある仕事から、もう少し詳しく。</h2>",
+    "normalHeadings": 3,
+    "overflow": false,
+    "path": "/baudroieLP_shomei/cta-review-20261019/",
+    "spanOpacities": [],
+    "top": 427.7890625,
+    "width": 390
+  },
+  {
+    "broken": [],
+    "chain": [
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "H2"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "sales-cta cream section-pad",
+        "opacity": "1",
+        "tag": "SECTION"
+      },
+      {
+        "animation": "none",
+        "cl": "sales",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "animation": "none",
+        "cl": "approved-design",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "BODY"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "HTML"
+      }
+    ],
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl",
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl",
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl"
+    ],
+    "headerTop": 0,
+    "html": "<h2><span class=\"motion-line\">まずは、仕事の話から。</span></h2>",
+    "normalHeadings": 2,
+    "overflow": false,
+    "path": "/baudroieLP_shomei/cta-review-20261019/sales/",
+    "spanOpacities": [
+      "1"
+    ],
+    "top": 239.4921875,
+    "width": 390
+  },
+  {
+    "broken": [],
+    "chain": [
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "H2"
+      },
+      {
+        "animation": "none",
+        "cl": "hr-cta cream",
+        "opacity": "1",
+        "tag": "SECTION"
+      },
+      {
+        "animation": "none",
+        "cl": "hr",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "animation": "none",
+        "cl": "approved-design",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "BODY"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "HTML"
+      }
+    ],
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu",
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu",
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu"
+    ],
+    "headerTop": 0,
+    "html": "<h2><span class=\"motion-line\">まずは、仕事の話から。</span></h2>",
+    "normalHeadings": 3,
+    "overflow": false,
+    "path": "/baudroieLP_shomei/cta-review-20261019/hr/",
+    "spanOpacities": [
+      "1"
+    ],
+    "top": 489.875,
+    "width": 390
+  },
+  {
+    "broken": [],
+    "chain": [
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "H2"
+      },
+      {
+        "animation": "none",
+        "cl": "engineer-cta-copy",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "engineer-cta section-pad",
+        "opacity": "1",
+        "tag": "SECTION"
+      },
+      {
+        "animation": "none",
+        "cl": "engineer engineer-restored",
+        "opacity": "1",
+        "tag": "MAIN"
+      },
+      {
+        "animation": "none",
+        "cl": "engineer-page",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "approved-design",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "DIV"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "BODY"
+      },
+      {
+        "animation": "none",
+        "cl": "",
+        "opacity": "1",
+        "tag": "HTML"
+      }
+    ],
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt",
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt",
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+    ],
+    "headerTop": 0,
+    "html": "<h2><span class=\"eng-phrase\">まずは、</span><span class=\"eng-phrase\">仕事や会社のことから。</span></h2>",
+    "normalHeadings": 3,
+    "overflow": false,
+    "path": "/baudroieLP_shomei/cta-review-20261019/engineer/",
+    "spanOpacities": [
+      "1",
+      "1"
+    ],
+    "top": 444.296875,
+    "width": 390
+  }
+]

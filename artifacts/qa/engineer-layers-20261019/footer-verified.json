@@ -1,0 +1,114 @@
+[
+  {
+    "route": "",
+    "width": 1440,
+    "bottom": -0.5,
+    "top": 0,
+    "y": 3075.5
+  },
+  {
+    "route": "",
+    "width": 375,
+    "bottom": 0,
+    "top": 0,
+    "y": 4408
+  },
+  {
+    "route": "",
+    "width": 390,
+    "bottom": -0.5,
+    "top": 0,
+    "y": 4423.5
+  },
+  {
+    "route": "",
+    "width": 430,
+    "bottom": 0,
+    "top": 0,
+    "y": 4353
+  },
+  {
+    "route": "sales/",
+    "width": 1440,
+    "bottom": 0,
+    "top": 0,
+    "y": 2800
+  },
+  {
+    "route": "sales/",
+    "width": 375,
+    "bottom": 0,
+    "top": 0,
+    "y": 3454
+  },
+  {
+    "route": "sales/",
+    "width": 390,
+    "bottom": 0,
+    "top": 0,
+    "y": 3296
+  },
+  {
+    "route": "sales/",
+    "width": 430,
+    "bottom": 0,
+    "top": 0,
+    "y": 3266
+  },
+  {
+    "route": "hr/",
+    "width": 1440,
+    "bottom": 0,
+    "top": 0,
+    "y": 2915
+  },
+  {
+    "route": "hr/",
+    "width": 375,
+    "bottom": -0.5,
+    "top": 0,
+    "y": 3684.5
+  },
+  {
+    "route": "hr/",
+    "width": 390,
+    "bottom": 0,
+    "top": 0,
+    "y": 3623
+  },
+  {
+    "route": "hr/",
+    "width": 430,
+    "bottom": -0.5,
+    "top": 0,
+    "y": 3664.5
+  },
+  {
+    "route": "engineer/",
+    "width": 1440,
+    "bottom": -0.5,
+    "top": 0,
+    "y": 4176.5
+  },
+  {
+    "route": "engineer/",
+    "width": 375,
+    "bottom": 0,
+    "top": 0,
+    "y": 4827
+  },
+  {
+    "route": "engineer/",
+    "width": 390,
+    "bottom": -0.5,
+    "top": 0,
+    "y": 4850.5
+  },
+  {
+    "route": "engineer/",
+    "width": 430,
+    "bottom": -0.5,
+    "top": 0,
+    "y": 4885.5
+  }
+]

@@ -1,0 +1,464 @@
+[
+  {
+    "role": "overview",
+    "width": 1440,
+    "top": {
+      "badImages": [],
+      "header": {
+        "bottom": 102,
+        "height": 102,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "hrClip": null,
+      "links": [
+        "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "bottom": {
+      "headerTop": 0,
+      "scrollY": 3183.5,
+      "shadow": "rgba(12, 16, 21, 0.1) 0px 1px 0px 0px"
+    }
+  },
+  {
+    "role": "hr",
+    "width": 1440,
+    "top": {
+      "badImages": [],
+      "header": {
+        "bottom": 102,
+        "height": 102,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "hrClip": "shape(from 0px 0px, line to 17% 0px, curve to 58% 28% with 58% 0px / 58% 10%, line to 58% 48%, curve to 82% 70% with 58% 63% / 72% 65%, curve to 100% 100% with 110% 75% / 100% 100%, line to 0px 100%, close)",
+      "links": [
+        "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu",
+        "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu",
+        "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu"
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "bottom": {
+      "headerTop": 0,
+      "scrollY": 3011.5,
+      "shadow": "rgba(12, 16, 21, 0.1) 0px 1px 0px 0px"
+    }
+  },
+  {
+    "role": "sales",
+    "width": 1440,
+    "top": {
+      "badImages": [],
+      "header": {
+        "bottom": 102,
+        "height": 102,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "hrClip": null,
+      "links": [
+        "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl",
+        "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl",
+        "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl"
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "bottom": {
+      "headerTop": 0,
+      "scrollY": 2754,
+      "shadow": "rgba(12, 16, 21, 0.1) 0px 1px 0px 0px"
+    }
+  },
+  {
+    "role": "engineer",
+    "width": 1440,
+    "top": {
+      "badImages": [],
+      "header": {
+        "bottom": 102,
+        "height": 102,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "hrClip": null,
+      "links": [
+        "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt",
+        "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt",
+        "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+      ],
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "bottom": {
+      "headerTop": 0,
+      "scrollY": 4156,
+      "shadow": "rgba(12, 16, 21, 0.1) 0px 1px 0px 0px"
+    }
+  },
+  {
+    "role": "overview",
+    "width": 390,
+    "top": {
+      "badImages": [],
+      "header": {
+        "bottom": 96,
+        "height": 96,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "scrollWidth": 390,
+      "targets": [
+        {
+          "height": 44,
+          "text": ""
+        },
+        {
+          "height": 44,
+          "text": "事業・会社情報"
+        },
+        {
+          "height": 44,
+          "text": "人を育てる"
+        },
+        {
+          "height": 44,
+          "text": "働く人"
+        },
+        {
+          "height": 44,
+          "text": "3つの仕事"
+        }
+      ],
+      "width": 390
+    },
+    "bottom": {
+      "headerTop": 0,
+      "scrollY": 4649
+    }
+  },
+  {
+    "role": "hr",
+    "width": 390,
+    "top": {
+      "badImages": [],
+      "header": {
+        "bottom": 96,
+        "height": 96,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "scrollWidth": 390,
+      "targets": [
+        {
+          "height": 44,
+          "text": ""
+        },
+        {
+          "height": 44,
+          "text": "人事の仕事"
+        },
+        {
+          "height": 44,
+          "text": "仕事の魅力"
+        },
+        {
+          "height": 44,
+          "text": "チームで支える"
+        },
+        {
+          "height": 44,
+          "text": "まずは話を聞く↗"
+        }
+      ],
+      "width": 390
+    },
+    "bottom": {
+      "headerTop": 0,
+      "scrollY": 3897.5
+    }
+  },
+  {
+    "role": "sales",
+    "width": 390,
+    "top": {
+      "badImages": [],
+      "header": {
+        "bottom": 96,
+        "height": 96,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "scrollWidth": 390,
+      "targets": [
+        {
+          "height": 44,
+          "text": ""
+        },
+        {
+          "height": 44,
+          "text": "営業の仕事"
+        },
+        {
+          "height": 44,
+          "text": "働く魅力"
+        },
+        {
+          "height": 44,
+          "text": "仲間と環境"
+        },
+        {
+          "height": 44,
+          "text": "まずは話を聞く↗"
+        }
+      ],
+      "width": 390
+    },
+    "bottom": {
+      "headerTop": 0,
+      "scrollY": 3471
+    }
+  },
+  {
+    "role": "engineer",
+    "width": 390,
+    "top": {
+      "badImages": [],
+      "header": {
+        "bottom": 96,
+        "height": 96,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "scrollWidth": 390,
+      "targets": [
+        {
+          "height": 44,
+          "text": ""
+        },
+        {
+          "height": 44,
+          "text": "仕事と技術"
+        },
+        {
+          "height": 44,
+          "text": "学びとキャリア"
+        },
+        {
+          "height": 44,
+          "text": "仲間と環境"
+        },
+        {
+          "height": 44,
+          "text": "まずは話を聞く↗"
+        }
+      ],
+      "width": 390
+    },
+    "bottom": {
+      "headerTop": 0,
+      "scrollY": 5067.5
+    }
+  },
+  {
+    "role": "overview",
+    "width": 375,
+    "top": {
+      "badImages": 0,
+      "headerHeight": 96,
+      "phrases": [],
+      "scrollWidth": 375,
+      "width": 375
+    },
+    "anchor": {
+      "headerBottom": 96,
+      "targetTop": 1559.234375
+    }
+  },
+  {
+    "role": "hr",
+    "width": 375,
+    "top": {
+      "badImages": 0,
+      "headerHeight": 96,
+      "phrases": [
+        {
+          "text": "次の一歩",
+          "width": 95.5
+        },
+        {
+          "text": "チームで振り返り、",
+          "width": 151.8125
+        },
+        {
+          "text": "一人で抱えず、",
+          "width": 323
+        },
+        {
+          "text": "チームで考える。",
+          "width": 323
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375
+    },
+    "anchor": {
+      "headerBottom": 96,
+      "targetTop": 922.625
+    }
+  },
+  {
+    "role": "sales",
+    "width": 375,
+    "top": {
+      "badImages": 0,
+      "headerHeight": 96,
+      "phrases": [
+        {
+          "text": "一緒に考える",
+          "width": 165.3046875
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375
+    },
+    "anchor": {
+      "headerBottom": 96,
+      "targetTop": 717.84375
+    }
+  },
+  {
+    "role": "engineer",
+    "width": 375,
+    "top": {
+      "badImages": 0,
+      "headerHeight": 96,
+      "phrases": [],
+      "scrollWidth": 375,
+      "width": 375
+    },
+    "anchor": {
+      "headerBottom": 96,
+      "targetTop": 1001.8125
+    }
+  },
+  {
+    "role": "overview",
+    "width": 430,
+    "top": {
+      "badImages": 0,
+      "headerHeight": 96,
+      "phrases": [],
+      "scrollWidth": 430,
+      "width": 430
+    },
+    "anchor": {
+      "headerBottom": 96,
+      "targetTop": 1611.8046875
+    }
+  },
+  {
+    "role": "hr",
+    "width": 430,
+    "top": {
+      "badImages": 0,
+      "headerHeight": 96,
+      "phrases": [
+        {
+          "text": "次の一歩",
+          "width": 95.5
+        },
+        {
+          "text": "チームで振り返り、",
+          "width": 151.8125
+        },
+        {
+          "text": "一人で抱えず、",
+          "width": 378
+        },
+        {
+          "text": "チームで考える。",
+          "width": 378
+        }
+      ],
+      "scrollWidth": 430,
+      "width": 430
+    },
+    "anchor": {
+      "headerBottom": 96,
+      "targetTop": 968.828125
+    }
+  },
+  {
+    "role": "sales",
+    "width": 430,
+    "top": {
+      "badImages": 0,
+      "headerHeight": 96,
+      "phrases": [
+        {
+          "text": "一緒に考える",
+          "width": 165.3046875
+        }
+      ],
+      "scrollWidth": 430,
+      "width": 430
+    },
+    "anchor": {
+      "headerBottom": 96,
+      "targetTop": 646.4140625
+    }
+  },
+  {
+    "role": "engineer",
+    "width": 430,
+    "top": {
+      "badImages": 0,
+      "headerHeight": 96,
+      "phrases": [],
+      "scrollWidth": 430,
+      "width": 430
+    },
+    "anchor": {
+      "headerBottom": 96,
+      "targetTop": 1030
+    }
+  }
+]

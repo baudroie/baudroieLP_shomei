@@ -1,0 +1,7664 @@
+[
+  {
+    "version": "after",
+    "page": "sales",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            33.875,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            755.8359375,
+            232.28125,
+            620.1640625,
+            413.4375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            68,
+            1227,
+            1304,
+            430
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-map.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            2292.84375,
+            1440,
+            562
+          ],
+          "loaded": true,
+          "natural": [
+            750,
+            500
+          ],
+          "opacity": "1",
+          "src": "/assets/office_lounge.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            741.59765625,
+            2947.59375,
+            229.1796875,
+            195
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-research.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            949.65625,
+            2941.59375,
+            225.65625,
+            195
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-sales-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1167.4140625,
+            2929.59375,
+            202.734375,
+            195
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            824.3125,
+            3305.84375,
+            547.6796875,
+            290
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-phone.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            3741.34375,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "overview",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            651.875,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            663.5,
+            157,
+            712.5,
+            520
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            112.0390625,
+            861.17578125,
+            912.7265625,
+            304.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            304.15625,
+            874.8515625,
+            830.671875,
+            276.890625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            412.8125,
+            860.79296875,
+            915.0234375,
+            305.0078125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            72,
+            2030.640625,
+            112,
+            112
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            372,
+            2006.640625,
+            160,
+            160
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            714,
+            2022.640625,
+            128,
+            128
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1020,
+            2002.640625,
+            168,
+            168
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-wireless.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            2700.15625,
+            792,
+            460.4609375
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            898.3203125,
+            2985.71875,
+            104,
+            104
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-mentor.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1086,
+            2985.71875,
+            104,
+            104
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1274.1796875,
+            2985.71875,
+            104,
+            104
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-growth.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            839,
+            3213.390625,
+            601,
+            340
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            4016.9453125,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        }
+      ]
+    }
+  },
+  {
+    "version": "after",
+    "page": "hr",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            33.875,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -56.921875,
+            323.03125,
+            426.921875,
+            284.609375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-interview-oct18.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1046,
+            342,
+            370,
+            246.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            167.7578125,
+            1106.2890625,
+            465.5234375,
+            250
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            714.9236450195312,
+            1325.2890625,
+            657.9887084960938,
+            391
+          ],
+          "loaded": true,
+          "natural": [
+            1774,
+            887
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-planning-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            68,
+            2021.59375,
+            1304,
+            395.1484375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            3077.5,
+            630.1953125,
+            235
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1096,
+            3591.03125,
+            200,
+            180
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-notebook-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            3819.453125,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "engineer",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            33.875,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            769.9140625,
+            242.5234375,
+            622.0859375,
+            414.71875
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            685.7734375,
+            1440,
+            480
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-panorama.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            48,
+            1446.84375,
+            96,
+            96
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            366.640625,
+            1431.484375,
+            126.71875,
+            126.71875
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            706.40625,
+            1437.25,
+            115.1953125,
+            115.1953125
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            260,
+            1718.4375,
+            920,
+            306.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-infrastructure.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            64,
+            2653.2734375,
+            592,
+            444
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-beginner-transparent.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            784,
+            2687.46875,
+            592,
+            444
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-experienced.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            685.1953125,
+            3381.859375,
+            690.8046875,
+            518.21875
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            580.953125,
+            4629.46875,
+            505.6015625,
+            210.40625
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            57.59375,
+            5317.578125,
+            170,
+            113.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            5479.328125,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "sales",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            33.875,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            755.8359375,
+            248.28125,
+            620.1640625,
+            413.4375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            68,
+            1227,
+            1304,
+            430
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-map.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            2292.84375,
+            1440,
+            562
+          ],
+          "loaded": true,
+          "natural": [
+            750,
+            500
+          ],
+          "opacity": "1",
+          "src": "/assets/office_lounge.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            741.59765625,
+            2947.59375,
+            229.1796875,
+            195
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-research.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            949.65625,
+            2941.59375,
+            225.65625,
+            195
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-sales-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1167.4140625,
+            2929.59375,
+            202.734375,
+            195
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            824.3125,
+            3305.84375,
+            547.6796875,
+            290
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-phone.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            3741.34375,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "overview",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            33.875,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            663.5,
+            173,
+            712.5,
+            520
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "0",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            112.0390625,
+            877.17578125,
+            912.7265625,
+            304.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            304.15625,
+            890.8515625,
+            830.671875,
+            276.890625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            412.8125,
+            876.79296875,
+            915.0234375,
+            305.0078125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            72,
+            2030.640625,
+            112,
+            112
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            372,
+            2006.640625,
+            160,
+            160
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            714,
+            2022.640625,
+            128,
+            128
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1020,
+            2002.640625,
+            168,
+            168
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-wireless.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            2700.15625,
+            792,
+            460.4609375
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            898.3203125,
+            2985.71875,
+            104,
+            104
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-mentor.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1086,
+            2985.71875,
+            104,
+            104
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1274.1796875,
+            2985.71875,
+            104,
+            104
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-growth.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            839,
+            3213.390625,
+            601,
+            340
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            4016.9453125,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        }
+      ]
+    }
+  },
+  {
+    "version": "after",
+    "page": "sales",
+    "width": 390,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3466.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            489.25,
+            342,
+            228
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            980.734375,
+            338,
+            112.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-map.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            2325.0546875,
+            342,
+            330
+          ],
+          "loaded": true,
+          "natural": [
+            750,
+            500
+          ],
+          "opacity": "1",
+          "src": "/assets/office_lounge.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            36,
+            3297.4921875,
+            94.6484375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-research.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            148.6484375,
+            3315.9921875,
+            94.6484375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-sales-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            261.296875,
+            3315.9921875,
+            94.6484375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            3831.859375,
+            338,
+            260
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-phone.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4186.6796875,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 390,
+      "width": 390,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "overview",
+    "width": 390,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3799.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            545.6015625,
+            342,
+            228
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            30.84375,
+            1049.0703125,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -69.46875,
+            1250.953125,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -169.78125,
+            1452.8359375,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            16,
+            2287.46875,
+            100,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            183,
+            2267.46875,
+            140,
+            140
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            10,
+            2594.65625,
+            112,
+            112
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            179,
+            2576.65625,
+            148,
+            148
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-wireless.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            3689.296875,
+            390,
+            292.5625
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            38.8203125,
+            4219.9375,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-mentor.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            151.5,
+            4219.9375,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            264.671875,
+            4219.9375,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-growth.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            4656.4609375,
+            338,
+            225.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            5411.9375,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 390,
+      "width": 390,
+      "wrappers": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        }
+      ]
+    }
+  },
+  {
+    "version": "after",
+    "page": "hr",
+    "width": 390,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3579.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -28.609375,
+            479.609375,
+            394.609375,
+            263.0703125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-interview-oct18.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            92.40625,
+            739.140625,
+            273.59375,
+            182.390625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            86.84375,
+            1100.8671875,
+            216.3125,
+            144.203125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            71,
+            1730.4765625,
+            271,
+            135.5
+          ],
+          "loaded": true,
+          "natural": [
+            1774,
+            887
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-planning-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            2116.90625,
+            338,
+            225.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            3468.5,
+            338,
+            240
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            135,
+            3992.875,
+            120,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-notebook-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4488.0625,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 390,
+      "width": 390,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "engineer",
+    "width": 390,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            5119.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            664.7890625,
+            342,
+            228
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            910.7890625,
+            390,
+            130
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-panorama.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            12,
+            1335.4765625,
+            72,
+            72
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            179.484375,
+            1323.9609375,
+            95.0390625,
+            95.0390625
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            4.8046875,
+            1588.8671875,
+            86.3984375,
+            86.3984375
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            44.5234375,
+            1819.453125,
+            300.953125,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-infrastructure.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            2520.15625,
+            342,
+            256.5
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-beginner-transparent.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            3248.84375,
+            342,
+            256.5
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-experienced.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4016.125,
+            342,
+            256.5546875
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            5171.7578125,
+            342,
+            142.3203125
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            125,
+            5536.46875,
+            140,
+            93.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            6096.296875,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 390,
+      "width": 390,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "sales",
+    "width": 375,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3624.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            519.84375,
+            327,
+            218
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            1079.625,
+            323,
+            107.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-map.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            2483.2890625,
+            327,
+            330
+          ],
+          "loaded": true,
+          "natural": [
+            750,
+            500
+          ],
+          "opacity": "1",
+          "src": "/assets/office_lounge.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            36,
+            3455.7265625,
+            89.6484375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-research.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            143.6484375,
+            3455.7265625,
+            89.6484375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-sales-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            251.296875,
+            3474.2265625,
+            89.6484375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            3990.09375,
+            323,
+            260
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-phone.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4344.9140625,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "overview",
+    "width": 375,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3794.0390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            545.6015625,
+            327,
+            218
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            30.84375,
+            1037.8203125,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -69.46875,
+            1239.703125,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -169.78125,
+            1441.5859375,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            16,
+            2293.4375,
+            100,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            175.5,
+            2273.4375,
+            140,
+            140
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            10,
+            2600.625,
+            112,
+            112
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            171.5,
+            2582.625,
+            148,
+            148
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-wireless.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            3695.265625,
+            375,
+            281.3125
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            36.3203125,
+            4214.65625,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-mentor.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            144,
+            4214.65625,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            252.171875,
+            4214.65625,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-growth.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            4651.1796875,
+            323,
+            215.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            5396.65625,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375,
+      "wrappers": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        }
+      ]
+    }
+  },
+  {
+    "version": "after",
+    "page": "hr",
+    "width": 375,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3641.0390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -26.3046875,
+            480.375,
+            377.3046875,
+            251.53125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-interview-oct18.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            89.40625,
+            729.140625,
+            261.59375,
+            174.390625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            84.140625,
+            1122.015625,
+            206.71875,
+            137.8125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            71,
+            1778.984375,
+            256,
+            128
+          ],
+          "loaded": true,
+          "natural": [
+            1774,
+            887
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-planning-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            2157.9140625,
+            323,
+            215.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            3530.1015625,
+            323,
+            240
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            127.5,
+            4054.4765625,
+            120,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-notebook-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4549.6640625,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "engineer",
+    "width": 375,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            5096.0390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            660.71875,
+            327,
+            218
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            896.71875,
+            375,
+            125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-panorama.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            12,
+            1316.40625,
+            72,
+            72
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            171.984375,
+            1304.890625,
+            95.0390625,
+            95.0390625
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            4.8046875,
+            1569.796875,
+            86.3984375,
+            86.3984375
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            43.6171875,
+            1800.3828125,
+            287.7578125,
+            95.9140625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-infrastructure.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            2536.6875,
+            327,
+            245.25
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-beginner-transparent.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            3254.125,
+            327,
+            245.25
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-experienced.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4010.15625,
+            327,
+            245.3046875
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            5154.5390625,
+            327,
+            136.078125
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            117.5,
+            5513.0078125,
+            140,
+            93.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            6072.8359375,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "sales",
+    "width": 430,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3436.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            489.25,
+            382,
+            254.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            1007.3984375,
+            378,
+            126
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-map.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            2334.4609375,
+            382,
+            330
+          ],
+          "loaded": true,
+          "natural": [
+            750,
+            500
+          ],
+          "opacity": "1",
+          "src": "/assets/office_lounge.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            36,
+            3267.75,
+            107.984375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-research.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            161.984375,
+            3286.25,
+            107.984375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-sales-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            287.96875,
+            3286.25,
+            107.984375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            3802.1171875,
+            378,
+            260
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-phone.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4156.9375,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 430,
+      "width": 430,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "overview",
+    "width": 430,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3702.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            515.0078125,
+            382,
+            254.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            30.84375,
+            1048.4765625,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -69.46875,
+            1250.359375,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -169.78125,
+            1452.2421875,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            16,
+            2250.53125,
+            100,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            203,
+            2230.53125,
+            140,
+            140
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            10,
+            2557.71875,
+            112,
+            112
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            199,
+            2539.71875,
+            148,
+            148
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-wireless.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            3592.96875,
+            430,
+            322.5703125
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            45.4921875,
+            4123.0234375,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-mentor.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            171.5,
+            4123.0234375,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            298.0078125,
+            4123.0234375,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-growth.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            4559.546875,
+            378,
+            252
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            5341.6953125,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 430,
+      "width": 430,
+      "wrappers": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        }
+      ]
+    }
+  },
+  {
+    "version": "after",
+    "page": "hr",
+    "width": 430,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3621.0390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -34.765625,
+            477.5546875,
+            440.765625,
+            293.8359375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-interview-oct18.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            100.40625,
+            765.8046875,
+            305.59375,
+            203.7265625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            94.0390625,
+            1148.8671875,
+            241.9140625,
+            161.2734375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            71,
+            1795.546875,
+            311,
+            155.5
+          ],
+          "loaded": true,
+          "natural": [
+            1774,
+            887
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-planning-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            2201.9765625,
+            378,
+            252
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            3510.0546875,
+            378,
+            240
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            155,
+            4034.4296875,
+            120,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-notebook-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4529.6171875,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 430,
+      "width": 430,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "engineer",
+    "width": 430,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            5150.0390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            675.7109375,
+            382,
+            254.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            948.375,
+            430,
+            143.328125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-panorama.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            12,
+            1357.59375,
+            72,
+            72
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            199.484375,
+            1346.078125,
+            95.0390625,
+            95.0390625
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            4.8046875,
+            1585.7890625,
+            86.3984375,
+            86.3984375
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            46.921875,
+            1816.375,
+            336.15625,
+            112.046875
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-infrastructure.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            2504.3125,
+            382,
+            286.5
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-beginner-transparent.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            3234.203125,
+            382,
+            286.5
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-experienced.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4031.484375,
+            382,
+            286.5625
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            5185.625,
+            382,
+            158.96875
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            145,
+            5566.984375,
+            140,
+            93.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            6126.8125,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 430,
+      "width": 430,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "before",
+    "page": "sales",
+    "width": 375,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3624.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            519.84375,
+            327,
+            218
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-hero.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            26,
+            1079.625,
+            323,
+            107.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-map.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            2483.2890625,
+            327,
+            330
+          ],
+          "loaded": true,
+          "natural": [
+            750,
+            500
+          ],
+          "opacity": "1",
+          "src": "/assets/office_lounge.jpg"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            36,
+            3455.7265625,
+            89.6484375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-research.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            143.6484375,
+            3455.7265625,
+            89.6484375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-sales-cloud.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            251.296875,
+            3474.2265625,
+            89.6484375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            3990.09375,
+            323,
+            260
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-phone.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4344.9140625,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "before",
+    "page": "overview",
+    "width": 375,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3794.0390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            545.6015625,
+            327,
+            218
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            30.84375,
+            1037.8203125,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -69.46875,
+            1239.703125,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -169.78125,
+            1441.5859375,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            16,
+            2293.4375,
+            100,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            175.5,
+            2273.4375,
+            140,
+            140
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            10,
+            2600.625,
+            112,
+            112
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            171.5,
+            2582.625,
+            148,
+            148
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-wireless.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            3695.265625,
+            375,
+            281.3125
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            36.3203125,
+            4214.65625,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-mentor.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            144,
+            4214.65625,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-laptop.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            252.171875,
+            4214.65625,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-growth.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            4651.1796875,
+            323,
+            215.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            5396.65625,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375,
+      "wrappers": [
+        {
+          "after": "none",
+          "background": "rgb(255, 255, 255)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgb(255, 255, 255)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgb(255, 255, 255)",
+          "before": "none"
+        }
+      ]
+    }
+  },
+  {
+    "version": "before",
+    "page": "hr",
+    "width": 375,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3641.0390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -26.3046875,
+            480.375,
+            377.3046875,
+            251.53125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-interview-oct18.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            89.40625,
+            729.140625,
+            261.59375,
+            174.390625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            84.140625,
+            1122.015625,
+            206.71875,
+            137.8125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            71,
+            1778.984375,
+            256,
+            128
+          ],
+          "loaded": true,
+          "natural": [
+            1774,
+            887
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-planning-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            2157.9140625,
+            323,
+            215.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            3530.1015625,
+            323,
+            240
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            127.5,
+            4054.4765625,
+            120,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-notebook-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4549.6640625,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "before",
+    "page": "engineer",
+    "width": 375,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            5096.0390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            660.71875,
+            327,
+            218
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            896.71875,
+            375,
+            125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-panorama.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            12,
+            1316.40625,
+            72,
+            72
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            171.984375,
+            1304.890625,
+            95.0390625,
+            95.0390625
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            4.8046875,
+            1569.796875,
+            86.3984375,
+            86.3984375
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            43.6171875,
+            1800.3828125,
+            287.7578125,
+            95.9140625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-infrastructure.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            2536.6875,
+            327,
+            245.25
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-beginner-transparent.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            3254.125,
+            327,
+            245.25
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-experienced.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4010.15625,
+            327,
+            245.3046875
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            5154.5390625,
+            327,
+            136.078125
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            117.5,
+            5513.0078125,
+            140,
+            93.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            6072.8359375,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 375,
+      "width": 375,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "before",
+    "page": "sales",
+    "width": 390,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3466.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            489.25,
+            342,
+            228
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-hero.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            26,
+            980.734375,
+            338,
+            112.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-map.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            2325.0546875,
+            342,
+            330
+          ],
+          "loaded": true,
+          "natural": [
+            750,
+            500
+          ],
+          "opacity": "1",
+          "src": "/assets/office_lounge.jpg"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            36,
+            3297.4921875,
+            94.6484375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-research.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            148.6484375,
+            3315.9921875,
+            94.6484375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-sales-cloud.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            261.296875,
+            3315.9921875,
+            94.6484375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            3831.859375,
+            338,
+            260
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-phone.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4186.6796875,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 390,
+      "width": 390,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "before",
+    "page": "overview",
+    "width": 390,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3799.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            545.6015625,
+            342,
+            228
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            30.84375,
+            1049.0703125,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -69.46875,
+            1250.953125,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -169.78125,
+            1452.8359375,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            16,
+            2287.46875,
+            100,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            183,
+            2267.46875,
+            140,
+            140
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            10,
+            2594.65625,
+            112,
+            112
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            179,
+            2576.65625,
+            148,
+            148
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-wireless.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            3689.296875,
+            390,
+            292.5625
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            38.8203125,
+            4219.9375,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-mentor.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            151.5,
+            4219.9375,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-laptop.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            264.671875,
+            4219.9375,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-growth.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            4656.4609375,
+            338,
+            225.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            5411.9375,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 390,
+      "width": 390,
+      "wrappers": [
+        {
+          "after": "none",
+          "background": "rgb(255, 255, 255)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgb(255, 255, 255)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgb(255, 255, 255)",
+          "before": "none"
+        }
+      ]
+    }
+  },
+  {
+    "version": "before",
+    "page": "hr",
+    "width": 390,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3579.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -28.609375,
+            479.609375,
+            394.609375,
+            263.0703125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-interview-oct18.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            92.40625,
+            739.140625,
+            273.59375,
+            182.390625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            86.84375,
+            1100.8671875,
+            216.3125,
+            144.203125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            71,
+            1730.4765625,
+            271,
+            135.5
+          ],
+          "loaded": true,
+          "natural": [
+            1774,
+            887
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-planning-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            2116.90625,
+            338,
+            225.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            3468.5,
+            338,
+            240
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            135,
+            3992.875,
+            120,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-notebook-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4488.0625,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 390,
+      "width": 390,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "before",
+    "page": "engineer",
+    "width": 390,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            5119.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            664.7890625,
+            342,
+            228
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            910.7890625,
+            390,
+            130
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-panorama.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            12,
+            1335.4765625,
+            72,
+            72
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            179.484375,
+            1323.9609375,
+            95.0390625,
+            95.0390625
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            4.8046875,
+            1588.8671875,
+            86.3984375,
+            86.3984375
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            44.5234375,
+            1819.453125,
+            300.953125,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-infrastructure.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            2520.15625,
+            342,
+            256.5
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-beginner-transparent.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            3248.84375,
+            342,
+            256.5
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-experienced.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4016.125,
+            342,
+            256.5546875
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            5171.7578125,
+            342,
+            142.3203125
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            125,
+            5536.46875,
+            140,
+            93.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            6096.296875,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 390,
+      "width": 390,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "before",
+    "page": "sales",
+    "width": 430,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3436.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            489.25,
+            382,
+            254.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-hero.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            26,
+            1007.3984375,
+            378,
+            126
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-map.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            2334.4609375,
+            382,
+            330
+          ],
+          "loaded": true,
+          "natural": [
+            750,
+            500
+          ],
+          "opacity": "1",
+          "src": "/assets/office_lounge.jpg"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            36,
+            3267.75,
+            107.984375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-research.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            161.984375,
+            3286.25,
+            107.984375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-sales-cloud.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            287.96875,
+            3286.25,
+            107.984375,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            3802.1171875,
+            378,
+            260
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-phone.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4156.9375,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 430,
+      "width": 430,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "before",
+    "page": "overview",
+    "width": 430,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3702.5390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            515.0078125,
+            382,
+            254.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            30.84375,
+            1048.4765625,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -69.46875,
+            1250.359375,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -169.78125,
+            1452.2421875,
+            300.9375,
+            100.3125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            16,
+            2250.53125,
+            100,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            203,
+            2230.53125,
+            140,
+            140
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            10,
+            2557.71875,
+            112,
+            112
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            199,
+            2539.71875,
+            148,
+            148
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-wireless.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            3592.96875,
+            430,
+            322.5703125
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            45.4921875,
+            4123.0234375,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-mentor.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            171.5,
+            4123.0234375,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-laptop.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            298.0078125,
+            4123.0234375,
+            86,
+            86
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-growth.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            4559.546875,
+            378,
+            252
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            5341.6953125,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 430,
+      "width": 430,
+      "wrappers": [
+        {
+          "after": "none",
+          "background": "rgb(255, 255, 255)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgb(255, 255, 255)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgb(255, 255, 255)",
+          "before": "none"
+        }
+      ]
+    }
+  },
+  {
+    "version": "before",
+    "page": "hr",
+    "width": 430,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            3621.0390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -34.765625,
+            477.5546875,
+            440.765625,
+            293.8359375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-interview-oct18.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            100.40625,
+            765.8046875,
+            305.59375,
+            203.7265625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            94.0390625,
+            1148.8671875,
+            241.9140625,
+            161.2734375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            71,
+            1795.546875,
+            311,
+            155.5
+          ],
+          "loaded": true,
+          "natural": [
+            1774,
+            887
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-planning-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            2201.9765625,
+            378,
+            252
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            26,
+            3510.0546875,
+            378,
+            240
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            155,
+            4034.4296875,
+            120,
+            100
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-notebook-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4529.6171875,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 430,
+      "width": 430,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "before",
+    "page": "engineer",
+    "width": 430,
+    "data": {
+      "height": 844,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            20,
+            5150.0390625,
+            164,
+            22.921875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            675.7109375,
+            382,
+            254.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            948.375,
+            430,
+            143.328125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-panorama.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            12,
+            1357.59375,
+            72,
+            72
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            199.484375,
+            1346.078125,
+            95.0390625,
+            95.0390625
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            4.8046875,
+            1585.7890625,
+            86.3984375,
+            86.3984375
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            46.921875,
+            1816.375,
+            336.15625,
+            112.046875
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-infrastructure.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            2504.3125,
+            382,
+            286.5
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-beginner-transparent.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            3234.203125,
+            382,
+            286.5
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-experienced.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            4031.484375,
+            382,
+            286.5625
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            5185.625,
+            382,
+            158.96875
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            145,
+            5566.984375,
+            140,
+            93.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            24,
+            6126.8125,
+            160,
+            22.359375
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 430,
+      "width": 430,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "before",
+    "page": "sales",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            2833.875,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            755.8359375,
+            232.28125,
+            620.1640625,
+            413.4375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-hero.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            68,
+            1227,
+            1304,
+            430
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-map.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            2292.84375,
+            1440,
+            562
+          ],
+          "loaded": true,
+          "natural": [
+            750,
+            500
+          ],
+          "opacity": "1",
+          "src": "/assets/office_lounge.jpg"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            741.59765625,
+            2947.59375,
+            229.1796875,
+            195
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-research.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            949.65625,
+            2941.59375,
+            225.65625,
+            195
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-sales-cloud.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            1167.4140625,
+            2929.59375,
+            202.734375,
+            195
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            824.3125,
+            3305.84375,
+            547.6796875,
+            290
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-phone.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            3741.34375,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "before",
+    "page": "overview",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            2512.375,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            663.5,
+            157,
+            712.5,
+            520
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            112.0390625,
+            861.17578125,
+            912.7265625,
+            304.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            304.15625,
+            874.8515625,
+            830.671875,
+            276.890625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            412.8125,
+            860.79296875,
+            915.0234375,
+            305.0078125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            72,
+            2030.640625,
+            112,
+            112
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            372,
+            2006.640625,
+            160,
+            160
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            714,
+            2022.640625,
+            128,
+            128
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1020,
+            2002.640625,
+            168,
+            168
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-wireless.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            2700.15625,
+            792,
+            460.4609375
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            898.3203125,
+            2985.71875,
+            104,
+            104
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-mentor.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            1086,
+            2985.71875,
+            104,
+            104
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-laptop.png"
+        },
+        {
+          "blend": "multiply",
+          "box": [
+            1274.1796875,
+            2985.71875,
+            104,
+            104
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-growth.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            839,
+            3213.390625,
+            601,
+            340
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            4016.9453125,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": [
+        {
+          "after": "none",
+          "background": "rgb(255, 255, 255)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgb(255, 255, 255)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgb(255, 255, 255)",
+          "before": "none"
+        }
+      ]
+    }
+  },
+  {
+    "version": "before",
+    "page": "hr",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            2948.875,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -56.921875,
+            323.03125,
+            426.921875,
+            284.609375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-interview-oct18.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1046,
+            342,
+            370,
+            246.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            167.7578125,
+            1106.2890625,
+            465.5234375,
+            250
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            713.9236450195312,
+            1325.2890625,
+            657.9887084960938,
+            391
+          ],
+          "loaded": true,
+          "natural": [
+            1774,
+            887
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-planning-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            68,
+            2021.59375,
+            1304,
+            395.1484375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            3077.5,
+            630.1953125,
+            235
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1096,
+            3591.03125,
+            200,
+            180
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-notebook-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            3819.453125,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "before",
+    "page": "engineer",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            4574.875,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            769.9140625,
+            226.5234375,
+            622.0859375,
+            414.71875
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            685.7734375,
+            1440,
+            480
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-panorama.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            48,
+            1446.84375,
+            96,
+            96
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            366.640625,
+            1431.484375,
+            126.71875,
+            126.71875
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            706.40625,
+            1437.25,
+            115.1953125,
+            115.1953125
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            260,
+            1718.4375,
+            920,
+            306.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-infrastructure.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            64,
+            2653.2734375,
+            592,
+            444
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-beginner-transparent.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            784,
+            2687.46875,
+            592,
+            444
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-experienced.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            685.1953125,
+            3381.859375,
+            690.8046875,
+            518.21875
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            580.953125,
+            4629.46875,
+            505.6015625,
+            210.40625
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            57.59375,
+            5317.578125,
+            170,
+            113.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            5479.328125,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "sales",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            2833.875,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            755.8359375,
+            232.28125,
+            620.1640625,
+            413.4375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            68,
+            1227,
+            1304,
+            430
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-map.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            2292.84375,
+            1440,
+            562
+          ],
+          "loaded": true,
+          "natural": [
+            750,
+            500
+          ],
+          "opacity": "1",
+          "src": "/assets/office_lounge.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            741.59765625,
+            2947.59375,
+            229.1796875,
+            195
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-research.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            949.65625,
+            2941.59375,
+            225.65625,
+            195
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-sales-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1167.4140625,
+            2929.59375,
+            202.734375,
+            195
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            824.3125,
+            3305.84375,
+            547.6796875,
+            290
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/sales-phone.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            3741.34375,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "overview",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            2512.375,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            663.5,
+            157,
+            712.5,
+            520
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            112.0390625,
+            861.17578125,
+            912.7265625,
+            304.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            304.15625,
+            874.8515625,
+            830.671875,
+            276.890625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            412.8125,
+            860.79296875,
+            915.0234375,
+            305.0078125
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/overview-role-illustrations.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            72,
+            2030.640625,
+            112,
+            112
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            372,
+            2006.640625,
+            160,
+            160
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            714,
+            2022.640625,
+            128,
+            128
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1020,
+            2002.640625,
+            168,
+            168
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-wireless.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            2700.15625,
+            792,
+            460.4609375
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            898.3203125,
+            2985.71875,
+            104,
+            104
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-mentor.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1086,
+            2985.71875,
+            104,
+            104
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1274.1796875,
+            2985.71875,
+            104,
+            104
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-growth.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            839,
+            3213.390625,
+            601,
+            340
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            4016.9453125,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": [
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        },
+        {
+          "after": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "none"
+        }
+      ]
+    }
+  },
+  {
+    "version": "after",
+    "page": "hr",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            2948.875,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            -56.921875,
+            323.03125,
+            426.921875,
+            284.609375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-interview-oct18.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1046,
+            342,
+            370,
+            246.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            167.7578125,
+            1106.2890625,
+            465.5234375,
+            250
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-hero-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            713.9236450195312,
+            1325.2890625,
+            657.9887084960938,
+            391
+          ],
+          "loaded": true,
+          "natural": [
+            1774,
+            887
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-planning-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            68,
+            2021.59375,
+            1304,
+            395.1484375
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/support-conversation-approved.webp"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            3077.5,
+            630.1953125,
+            235
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            1096,
+            3591.03125,
+            200,
+            180
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-notebook-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            3819.453125,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": []
+    }
+  },
+  {
+    "version": "after",
+    "page": "engineer",
+    "width": 1440,
+    "data": {
+      "height": 1000,
+      "images": [
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            4574.875,
+            245,
+            34.2421875
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            769.9140625,
+            226.5234375,
+            622.0859375,
+            414.71875
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            0,
+            685.7734375,
+            1440,
+            480
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-panorama.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            48,
+            1446.84375,
+            96,
+            96
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-network.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            366.640625,
+            1431.484375,
+            126.71875,
+            126.71875
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-cloud.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            706.40625,
+            1437.25,
+            115.1953125,
+            115.1953125
+          ],
+          "loaded": true,
+          "natural": [
+            1254,
+            1254
+          ],
+          "opacity": "1",
+          "src": "/assets/icon-security.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            260,
+            1718.4375,
+            920,
+            306.6640625
+          ],
+          "loaded": true,
+          "natural": [
+            2172,
+            724
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-infrastructure.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            64,
+            2653.2734375,
+            592,
+            444
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-beginner-transparent.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            784,
+            2687.46875,
+            592,
+            444
+          ],
+          "loaded": true,
+          "natural": [
+            1448,
+            1086
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-experienced.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            685.1953125,
+            3381.859375,
+            690.8046875,
+            518.21875
+          ],
+          "loaded": true,
+          "natural": [
+            1477,
+            1108
+          ],
+          "opacity": "1",
+          "src": "/assets/college_training.jpg"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            580.953125,
+            4629.46875,
+            505.6015625,
+            210.40625
+          ],
+          "loaded": true,
+          "natural": [
+            1944,
+            809
+          ],
+          "opacity": "1",
+          "src": "/assets/hr-team-white.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            57.59375,
+            5317.578125,
+            170,
+            113.328125
+          ],
+          "loaded": true,
+          "natural": [
+            1536,
+            1024
+          ],
+          "opacity": "1",
+          "src": "/assets/engineer-laptop.png"
+        },
+        {
+          "blend": "normal",
+          "box": [
+            58,
+            5479.328125,
+            180,
+            25.15625
+          ],
+          "loaded": true,
+          "natural": [
+            300,
+            42
+          ],
+          "opacity": "1",
+          "src": "/assets/baudroie_logo.svg"
+        }
+      ],
+      "scrollWidth": 1440,
+      "width": 1440,
+      "wrappers": []
+    }
+  }
+]

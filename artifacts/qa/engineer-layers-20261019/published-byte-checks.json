@@ -1,0 +1,30 @@
+[
+  {
+    "path": "index.html",
+    "matches": true
+  },
+  {
+    "path": "hr/index.html",
+    "matches": true
+  },
+  {
+    "path": "sales/index.html",
+    "matches": true
+  },
+  {
+    "path": "engineer/index.html",
+    "matches": true
+  },
+  {
+    "path": "assets/index-B43WP30C.css",
+    "matches": true
+  },
+  {
+    "path": "assets/index-DEareOG4.js",
+    "matches": true
+  },
+  {
+    "path": "deployment.json",
+    "matches": true
+  }
+]

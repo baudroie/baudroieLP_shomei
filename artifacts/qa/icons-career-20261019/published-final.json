@@ -1,0 +1,134 @@
+[
+  {
+    "route": "overview",
+    "broken": [],
+    "css": "https://baudroie.github.io/baudroieLP_shomei/assets/index-DsPFFcUp.css",
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+    ],
+    "header": "sticky",
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "route": "engineer/",
+    "broken": [],
+    "css": "https://baudroie.github.io/baudroieLP_shomei/assets/index-DsPFFcUp.css",
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+    ],
+    "header": "sticky",
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "route": "sales/",
+    "broken": [],
+    "css": "https://baudroie.github.io/baudroieLP_shomei/assets/index-DsPFFcUp.css",
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl"
+    ],
+    "header": "sticky",
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "route": "hr/",
+    "broken": [],
+    "css": "https://baudroie.github.io/baudroieLP_shomei/assets/index-DsPFFcUp.css",
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu"
+    ],
+    "header": "sticky",
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "route": "overview",
+    "broken": [],
+    "css": "https://baudroie.github.io/baudroieLP_shomei/assets/index-DsPFFcUp.css",
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+    ],
+    "header": "sticky",
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "route": "engineer/",
+    "broken": [],
+    "css": "https://baudroie.github.io/baudroieLP_shomei/assets/index-DsPFFcUp.css",
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+    ],
+    "header": "sticky",
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "route": "overview",
+    "broken": [],
+    "css": "https://baudroie.github.io/baudroieLP_shomei/assets/index-DsPFFcUp.css",
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+    ],
+    "header": "sticky",
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "engineer/",
+    "broken": [],
+    "css": "https://baudroie.github.io/baudroieLP_shomei/assets/index-DsPFFcUp.css",
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+    ],
+    "header": "sticky",
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "sales/",
+    "broken": [],
+    "css": "https://baudroie.github.io/baudroieLP_shomei/assets/index-DsPFFcUp.css",
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=nRXMPl"
+    ],
+    "header": "sticky",
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "hr/",
+    "broken": [],
+    "css": "https://baudroie.github.io/baudroieLP_shomei/assets/index-DsPFFcUp.css",
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=XJFhyu"
+    ],
+    "header": "sticky",
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "overview",
+    "broken": [],
+    "css": "https://baudroie.github.io/baudroieLP_shomei/assets/index-DsPFFcUp.css",
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=DEUpQ8"
+    ],
+    "header": "sticky",
+    "overflow": false,
+    "width": 430
+  },
+  {
+    "route": "engineer/",
+    "broken": [],
+    "css": "https://baudroie.github.io/baudroieLP_shomei/assets/index-DsPFFcUp.css",
+    "cta": [
+      "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=WxzOIt"
+    ],
+    "header": "sticky",
+    "overflow": false,
+    "width": 430
+  }
+]

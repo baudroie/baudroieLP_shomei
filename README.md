@@ -11,7 +11,7 @@
 
 対象: /、/sales/、/hr/、/engineer/。
 
-React + TypeScript + Viteで4ページを実装中です。最新の視覚QA判定はdesign-qa.md、進捗はdocs/orchestrator-status.mdを確認してください。LINEの正式URLは未提供です。
+React + TypeScript + Viteで4ページを実装中です。最新の視覚QA判定はdesign-qa.md、進捗はdocs/orchestrator-status.mdを確認してください。LINEの正式URLは2026-10-19に4流入元分を設定済みです。検証内容と公開状況はdocs/line-url-verification-20261019.mdを参照してください。
 
 本番公開や自動マージは含みません。文字と導線は編集可能なHTMLで実装します。
 
@@ -38,7 +38,7 @@ python3 scripts/functional_qa.py
 
 Viteを起動した状態で実行。1440・390・768 CSS px/DPR1で全ページを撮影し、1440pxでは各セクションも撮影。横並び・50%overlay・差分と検証レポートを `artifacts/qa/round-N/` に保存します。Chromiumがサンドボックスのソケット制限で起動できない場合は正規の実行承認経路を使います。TLS検証や画像ハッシュは無効化しません。
 
-`src/config.ts` に職種別LINE URLを設定できます。未設定時は「LINEリンクは設定待ちです」のダイアログを表示し、Escapeで閉じて操作元へフォーカスを戻します。
+`src/config.ts` にまとめ・営業・人事・エンジニアの流入元別LINE URLを一元管理しています。未設定時は「LINEリンクは設定待ちです」のダイアログを表示し、Escapeで閉じて操作元へフォーカスを戻します。
 
 公式写真の出典・AI生成素材は `docs/asset-manifest.json`、原稿補正は `docs/content-corrections.md`。生成素材はマスターとの完全一致ではなく、公式写真との構図差を含めQAで継続確認します。
 
@@ -59,3 +59,21 @@ Viteを起動した状態で実行。1440・390・768 CSS px/DPR1で全ページ
 中間幅の検査: `python3 scripts/responsive_qa.py --round 35`、境界検査: `python3 scripts/layout_bounds_qa.py --round 35`。人物見切れ・重なりを含む目視レビューと機械検査を区別します。写真選定待ちはdocs/photo-replacement-pending.md。
 
 round31以降の新規比較・QA画像はユーザー指示によりローカル保持のみ。画像の公開追加は行わず、測定JSONとレビュー記録をPRへ保存します。
+
+
+## 承認済み4ページ・2026-10-19更新
+
+まとめ・人事・営業・エンジニアの選定済み背景と、人事FVの曲線切り抜き最終調整を反映。既存の機能修正と確定オレンジを維持。
+
+```sh
+npm ci
+npm run build:approved-preview
+npm run preview:approved
+```
+
+プレビュー: http://127.0.0.1:4192/approved-four-pages/ （人事は末尾に `hr/`、営業は `sales/`、エンジニアは `engineer/`）。ビルドのみで公開はしません。
+
+- 人事の最終比較はローカル `artifacts/hr-mask/`。新規の比較画像・動画はGitHubへ公開せず、`docs/local-evidence-approved-20261019.json` にファイル名・SHA-256・サイズを記録。
+- 全4ページの比較一覧: `artifacts/approved/review.html`（画像を保持した元のローカル作業環境で開く）
+- 動作動画: ローカル `artifacts/approved/motion-preview.mp4`
+- 詳細: [GitHub反映記録](docs/github-approved-update-20261019.md)

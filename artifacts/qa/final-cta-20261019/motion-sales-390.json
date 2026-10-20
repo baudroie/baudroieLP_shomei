@@ -1,0 +1,303 @@
+{
+  "frames": [
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "顧客を知る。仲間を知る。そこから、提案が始まる。",
+      "top": 775.25
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 43,
+      "text": "顧客を知る。仲間を知る。そこから、提案が始まる。",
+      "top": 775.25
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 48,
+      "text": "顧客を知る。仲間を知る。そこから、提案が始まる。",
+      "top": 775.25
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 265,
+      "text": "顧客を知る。仲間を知る。そこから、提案が始まる。",
+      "top": 775.25
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 275,
+      "text": "顧客を知る。仲間を知る。そこから、提案が始まる。",
+      "top": 775.25
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        },
+        {
+          "delay": 80,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 281,
+      "text": "顧客を知る。仲間を知る。そこから、提案が始まる。",
+      "top": 775.25
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        },
+        {
+          "delay": 80,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 292,
+      "text": "顧客を知る。仲間を知る。そこから、提案が始まる。",
+      "top": 775.25
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        },
+        {
+          "delay": 80,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 308,
+      "text": "顧客を知る。仲間を知る。そこから、提案が始まる。",
+      "top": 724.25
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        },
+        {
+          "delay": 80,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 339,
+      "text": "顧客を知る。仲間を知る。そこから、提案が始まる。",
+      "top": 506.25
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        },
+        {
+          "delay": 80,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 358,
+      "text": "顧客を知る。仲間を知る。そこから、提案が始まる。",
+      "top": 111.25
+    },
+    {
+      "animations": [],
+      "final": false,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "営業経験に、ITインフラの知識を。",
+      "top": 625.2265625
+    },
+    {
+      "animations": [
+        {
+          "delay": 0,
+          "duration": 600,
+          "target": "motion-line"
+        },
+        {
+          "delay": 80,
+          "duration": 600,
+          "target": "motion-line"
+        }
+      ],
+      "final": false,
+      "minOpacity": 0,
+      "ms": 21,
+      "text": "営業経験に、ITインフラの知識を。",
+      "top": 162.7265625
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 0,
+      "text": "まずは、仕事の話から。",
+      "top": 646.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 28,
+      "text": "まずは、仕事の話から。",
+      "top": 242.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 35,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 61,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 75,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 85,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 102,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 118,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 135,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 151,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 168,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 185,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 202,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 218,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 234,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 252,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    },
+    {
+      "animations": [],
+      "final": true,
+      "minOpacity": 1,
+      "ms": 268,
+      "text": "まずは、仕事の話から。",
+      "top": 239.4921875
+    }
+  ],
+  "reduce": false
+}
